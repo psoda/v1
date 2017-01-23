@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util
+END
+UrlLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/UrlLink.java
+END
+ImageMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/ImageMaker.java
+END
+DBRefUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/DBRefUtils.java
+END
+Platform.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/Platform.java
+END
+QuickSort.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/QuickSort.java
+END
+BrowserLauncher.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/BrowserLauncher.java
+END
+TableSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/TableSorter.java
+END
+Format.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/Format.java
+END
+MapList.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/MapList.java
+END
+ShiftList.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/ShiftList.java
+END
+Comparison.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/util/Comparison.java
+END

@@ -1,0 +1,14 @@
+\section{GetTrees}
+
+The GetTrees instruction loads trees from a specified file into the current tree repository.
+
+\subsection{Options}
+\begin{description}
+\item[file]
+\end{description}
+
+\subsection{Option Descriptions}
+
+\begin{description}
+\item[file] The name of the file to be read.  The path is relative to the nexus file that is being executed.
+\end{description}

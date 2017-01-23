@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands
+END
+ChangeCaseCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/ChangeCaseCommand.java
+END
+RemoveGapColCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/RemoveGapColCommand.java
+END
+EditCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/EditCommand.java
+END
+CommandI.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/CommandI.java
+END
+RemoveGapsCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/RemoveGapsCommand.java
+END
+OrderCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/OrderCommand.java
+END
+SlideSequencesCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/SlideSequencesCommand.java
+END
+TrimRegionCommand.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/commands/TrimRegionCommand.java
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap/Data/CRITICAL_VALUES
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Z_CriticalValues.txt
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+aea6bd694170ecbbac6783c95759f685
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+GF_CriticalValues.txt
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+e4b65a756b27f64b2a147dc7214c023d
+2008-08-19T16:42:26.660001Z
+605
+clement
+

@@ -1,0 +1,139 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-09-04T16:43:51.020359Z
+876
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+LICENSE
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+d42e6c20b87b06c08d96327f9764cd76
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+schemas
+dir
+
+ChangeLog
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+75a02e7cdebeb7e292559ed4fb28cda2
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+src
+dir
+
+help
+dir
+
+JalviewX.jpx
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+39dce9e9e6ee8fd86bd6caf665554ee0
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+jalview-jalopy.xml
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+cc026a9665754ac61a3ab0f62adbb4a4
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+README
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+46ebef8a9bd4d45f493d3e2047d73478
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+classes
+dir
+
+build.xml
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+7bd4cc94ed0530eba562b1aad82bc53a
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+utils
+dir
+
+dist
+dir
+
+doc
+dir
+
+lib
+dir
+
+JalviewApplet.jpx
+file
+
+
+
+
+2017-01-23T03:55:17.000000Z
+83b5b82c4ce038d9469093b0b4a4e2c0
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+resources
+dir
+

@@ -1,0 +1,15 @@
+#!/usr/bin/python
+
+import SodaSconsUtil
+
+Import ( 'env', 'soda' )
+
+EXCLUSIONS      = []
+LIBRARY_NAME    = soda['FRONTENDS_LIB_NAME']
+
+SOURCELIST      = SodaSconsUtil.listCPPFilesWithExcludes ( ".", EXCLUSIONS )
+INCLUDEFILELIST = SodaSconsUtil.listIncludeFiles ( "." )
+LIBS            = soda['FRONTENDS_LIB_DEPENDENCIES']
+
+env.SharedLibrary ( target = LIBRARY_NAME , source = SOURCELIST , LIBS = LIBS )
+

@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon
+END
+PositiveSitesBS.exe
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/PositiveSitesBS.exe
+END
+PositiveSitesNEB.exe
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/PositiveSitesNEB.exe
+END
+MCcodonNSbranches.dat
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/MCcodonNSbranches.dat
+END
+MCcodonNSbranchsites.dat
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/MCcodonNSbranchsites.dat
+END
+MCcodonNSsites.dat
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/MCcodonNSsites.dat
+END
+PositiveSitesBEB.exe
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/PositiveSitesBEB.exe
+END
+CodonSimulation.txt
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/CodonSimulation.txt
+END
+evolverNSbranches.exe
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/evolverNSbranches.exe
+END
+evolverNSbranchsites.exe
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/evolverNSbranchsites.exe
+END
+PositiveSites.c
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/PositiveSites.c
+END
+evolverNSsites.exe
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/Technical/Simulation/Codon/evolverNSsites.exe
+END

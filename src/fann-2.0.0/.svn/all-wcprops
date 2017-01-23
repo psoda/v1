@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0
+END
+mkinstalldirs
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/mkinstalldirs
+END
+fann.spec.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/fann.spec.in
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0/configure
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0/Makefile.in
+END
+fann.pc
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/fann.pc
+END
+AUTHORS
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/AUTHORS
+END
+configure.in
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/configure.in
+END
+depcomp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/depcomp
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/ChangeLog
+END
+fann.pc.in
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/fann.pc.in
+END
+config.guess
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/config.guess
+END
+config.sub
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/config.sub
+END
+ltmain.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/ltmain.sh
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/README
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/TODO
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/INSTALL
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/Makefile.am
+END
+missing
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/missing
+END
+config.in
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/config.in
+END
+fann.spec
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/fann.spec
+END
+NEWS
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/NEWS
+END
+aclocal.m4
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/aclocal.m4
+END
+install-sh
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/install-sh
+END

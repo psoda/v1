@@ -1,0 +1,591 @@
+## GetTrees Completed Successfully
+	1 2 3 4 5 6 7 8 9 10 
+1	-
+2	2 -
+3	6 6 -
+4	4 4 2 -
+5	6 6 2 4 -
+6	8 8 4 6 2 -
+7	8 8 4 6 2 2 -
+8	6 6 2 4 2 4 4 -
+9	6 6 4 6 4 6 6 2 -
+10	6 6 4 6 4 6 6 2 2 -
+Calculating strain . . . Strain 170.87
+Calculating strain . . . Strain 4.89
+Calculating strain . . . Strain 0.63
+Calculating strain . . . Strain 0.63
+Calculating strain . . . Strain 0.63
+New best mapping found Strain = 0.630
+Jittering 52.00000
+Calculating strain . . . Strain 614.26
+Calculating strain . . . Strain 44.03
+Calculating strain . . . Strain 8.70
+Calculating strain . . . Strain 1.00
+Calculating strain . . . Strain 0.29
+Calculating strain . . . Strain 0.29
+Calculating strain . . . Strain 0.29
+New best mapping found Strain = 0.292
+Jittering 31.20000
+Calculating strain . . . Strain 221.17
+Calculating strain . . . Strain 8.26
+Calculating strain . . . Strain 1.99
+Calculating strain . . . Strain 1.21
+Calculating strain . . . Strain 1.20
+Calculating strain . . . Strain 1.20
+Calculating strain . . . Strain 1.20
+Jittering 18.72000
+Calculating strain . . . Strain 50.74
+Calculating strain . . . Strain 1.26
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 11.23200
+Calculating strain . . . Strain 18.46
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Jittering 6.73920
+Calculating strain . . . Strain 3.06
+Calculating strain . . . Strain 0.99
+Calculating strain . . . Strain 0.98
+Calculating strain . . . Strain 0.98
+Calculating strain . . . Strain 0.98
+Jittering 4.04352
+Calculating strain . . . Strain 2.68
+Calculating strain . . . Strain 0.98
+Calculating strain . . . Strain 0.97
+Calculating strain . . . Strain 0.97
+Calculating strain . . . Strain 0.97
+Jittering 2.42611
+Calculating strain . . . Strain 1.44
+Calculating strain . . . Strain 1.05
+Calculating strain . . . Strain 1.05
+Calculating strain . . . Strain 1.05
+Jittering 1.45567
+Calculating strain . . . Strain 1.06
+Calculating strain . . . Strain 1.06
+Calculating strain . . . Strain 1.06
+Jittering 0.87340
+Calculating strain . . . Strain 1.11
+Calculating strain . . . Strain 1.10
+Calculating strain . . . Strain 1.10
+Jittering 0.52404
+Calculating strain . . . Strain 1.24
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.31442
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Jittering 0.18865
+Calculating strain . . . Strain 1.20
+Calculating strain . . . Strain 1.20
+Calculating strain . . . Strain 1.20
+Jittering 0.11319
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Jittering 0.06792
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Calculating strain . . . Strain 1.22
+Jittering 0.04075
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.02445
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.01467
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00880
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00528
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00317
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00190
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00114
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00068
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00041
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00025
+Calculating strain . . . Strain 1.23
+Calculating strain . . . Strain 1.23
+Jittering 0.00015
+Calculating strain . . . Strain 123.75
+Calculating strain . . . Strain 1.90
+Calculating strain . . . Strain 0.54
+Calculating strain . . . Strain 0.53
+Calculating strain . . . Strain 0.53
+Jittering 52.00000
+Calculating strain . . . Strain 485.33
+Calculating strain . . . Strain 44.67
+Calculating strain . . . Strain 8.93
+Calculating strain . . . Strain 1.58
+Calculating strain . . . Strain 0.21
+Calculating strain . . . Strain 0.20
+Calculating strain . . . Strain 0.20
+New best mapping found Strain = 0.204
+Jittering 31.20000
+Calculating strain . . . Strain 162.13
+Calculating strain . . . Strain 10.68
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 18.72000
+Calculating strain . . . Strain 81.15
+Calculating strain . . . Strain 2.33
+Calculating strain . . . Strain 0.71
+Calculating strain . . . Strain 0.71
+Calculating strain . . . Strain 0.71
+Jittering 11.23200
+Calculating strain . . . Strain 25.78
+Calculating strain . . . Strain 1.25
+Calculating strain . . . Strain 0.50
+Calculating strain . . . Strain 0.50
+Calculating strain . . . Strain 0.50
+Jittering 6.73920
+Calculating strain . . . Strain 8.12
+Calculating strain . . . Strain 1.17
+Calculating strain . . . Strain 1.16
+Calculating strain . . . Strain 1.16
+Calculating strain . . . Strain 1.16
+Jittering 4.04352
+Calculating strain . . . Strain 2.97
+Calculating strain . . . Strain 0.47
+Calculating strain . . . Strain 0.47
+Calculating strain . . . Strain 0.47
+Jittering 2.42611
+Calculating strain . . . Strain 1.33
+Calculating strain . . . Strain 0.41
+Calculating strain . . . Strain 0.41
+Calculating strain . . . Strain 0.41
+Jittering 1.45567
+Calculating strain . . . Strain 0.68
+Calculating strain . . . Strain 0.68
+Calculating strain . . . Strain 0.68
+Jittering 0.87340
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.52404
+Calculating strain . . . Strain 0.82
+Calculating strain . . . Strain 0.82
+Jittering 0.31442
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.18865
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Jittering 0.11319
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.06792
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.04075
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.02445
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.01467
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00880
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00528
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00317
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00190
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00114
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00068
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00041
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00025
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 0.00015
+Calculating strain . . . Strain 195.76
+Calculating strain . . . Strain 4.64
+Calculating strain . . . Strain 0.66
+Calculating strain . . . Strain 0.66
+Calculating strain . . . Strain 0.66
+Jittering 52.00000
+Calculating strain . . . Strain 780.84
+Calculating strain . . . Strain 48.80
+Calculating strain . . . Strain 5.75
+Calculating strain . . . Strain 0.58
+Calculating strain . . . Strain 0.52
+Calculating strain . . . Strain 0.52
+Calculating strain . . . Strain 0.52
+Jittering 31.20000
+Calculating strain . . . Strain 259.11
+Calculating strain . . . Strain 12.90
+Calculating strain . . . Strain 0.62
+Calculating strain . . . Strain 0.59
+Calculating strain . . . Strain 0.59
+Calculating strain . . . Strain 0.59
+Jittering 18.72000
+Calculating strain . . . Strain 25.18
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Calculating strain . . . Strain 0.80
+Jittering 11.23200
+Calculating strain . . . Strain 11.20
+Calculating strain . . . Strain 0.69
+Calculating strain . . . Strain 0.68
+Calculating strain . . . Strain 0.68
+Calculating strain . . . Strain 0.68
+Jittering 6.73920
+Calculating strain . . . Strain 6.06
+Calculating strain . . . Strain 0.48
+Calculating strain . . . Strain 0.48
+Calculating strain . . . Strain 0.48
+Jittering 4.04352
+Calculating strain . . . Strain 2.10
+Calculating strain . . . Strain 1.17
+Calculating strain . . . Strain 1.17
+Calculating strain . . . Strain 1.17
+Calculating strain . . . Strain 1.17
+Jittering 2.42611
+Calculating strain . . . Strain 1.44
+Calculating strain . . . Strain 0.81
+Calculating strain . . . Strain 0.81
+Calculating strain . . . Strain 0.81
+Jittering 1.45567
+Calculating strain . . . Strain 0.90
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Jittering 0.87340
+Calculating strain . . . Strain 0.81
+Calculating strain . . . Strain 0.81
+Calculating strain . . . Strain 0.81
+Jittering 0.52404
+Calculating strain . . . Strain 0.91
+Calculating strain . . . Strain 0.91
+Calculating strain . . . Strain 0.91
+Jittering 0.31442
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.18865
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.11319
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.06792
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.04075
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.02445
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.01467
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00880
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00528
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00317
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00190
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.00114
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.00068
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.00041
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.00025
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.00015
+Calculating strain . . . Strain 123.10
+Calculating strain . . . Strain 3.36
+Calculating strain . . . Strain 0.74
+Calculating strain . . . Strain 0.73
+Calculating strain . . . Strain 0.73
+Calculating strain . . . Strain 0.73
+Jittering 52.00000
+Calculating strain . . . Strain 844.20
+Calculating strain . . . Strain 38.57
+Calculating strain . . . Strain 0.94
+Calculating strain . . . Strain 0.92
+Calculating strain . . . Strain 0.92
+Calculating strain . . . Strain 0.92
+Jittering 31.20000
+Calculating strain . . . Strain 203.90
+Calculating strain . . . Strain 14.64
+Calculating strain . . . Strain 1.52
+Calculating strain . . . Strain 0.51
+Calculating strain . . . Strain 0.51
+Calculating strain . . . Strain 0.51
+Jittering 18.72000
+Calculating strain . . . Strain 81.93
+Calculating strain . . . Strain 1.79
+Calculating strain . . . Strain 1.04
+Calculating strain . . . Strain 1.04
+Jittering 11.23200
+Calculating strain . . . Strain 19.48
+Calculating strain . . . Strain 1.31
+Calculating strain . . . Strain 1.31
+Calculating strain . . . Strain 1.31
+Jittering 6.73920
+Calculating strain . . . Strain 4.08
+Calculating strain . . . Strain 0.93
+Calculating strain . . . Strain 0.93
+Calculating strain . . . Strain 0.93
+Calculating strain . . . Strain 0.93
+Jittering 4.04352
+Calculating strain . . . Strain 2.30
+Calculating strain . . . Strain 1.06
+Calculating strain . . . Strain 1.06
+Calculating strain . . . Strain 1.06
+Jittering 2.42611
+Calculating strain . . . Strain 2.06
+Calculating strain . . . Strain 0.40
+Calculating strain . . . Strain 0.39
+Calculating strain . . . Strain 0.39
+Jittering 1.45567
+Calculating strain . . . Strain 0.73
+Calculating strain . . . Strain 0.65
+Calculating strain . . . Strain 0.65
+Calculating strain . . . Strain 0.65
+Jittering 0.87340
+Calculating strain . . . Strain 0.75
+Calculating strain . . . Strain 0.75
+Calculating strain . . . Strain 0.75
+Calculating strain . . . Strain 0.75
+Jittering 0.52404
+Calculating strain . . . Strain 0.84
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Jittering 0.31442
+Calculating strain . . . Strain 0.78
+Calculating strain . . . Strain 0.78
+Calculating strain . . . Strain 0.78
+Jittering 0.18865
+Calculating strain . . . Strain 0.84
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Jittering 0.11319
+Calculating strain . . . Strain 0.84
+Calculating strain . . . Strain 0.84
+Calculating strain . . . Strain 0.84
+Jittering 0.06792
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.04075
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.02445
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.01467
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Calculating strain . . . Strain 0.85
+Jittering 0.00880
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00528
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00317
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00190
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00114
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00068
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00041
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00025
+Calculating strain . . . Strain 0.86
+Calculating strain . . . Strain 0.86
+Jittering 0.00015
+Calculating strain . . . Strain 160.72
+Calculating strain . . . Strain 4.58
+Calculating strain . . . Strain 0.40
+Calculating strain . . . Strain 0.40
+Calculating strain . . . Strain 0.40
+Jittering 52.00000
+Calculating strain . . . Strain 527.64
+Calculating strain . . . Strain 8.00
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Calculating strain . . . Strain 0.83
+Jittering 31.20000
+Calculating strain . . . Strain 221.44
+Calculating strain . . . Strain 2.91
+Calculating strain . . . Strain 0.94
+Calculating strain . . . Strain 0.94
+Calculating strain . . . Strain 0.94
+Jittering 18.72000
+Calculating strain . . . Strain 94.88
+Calculating strain . . . Strain 2.36
+Calculating strain . . . Strain 0.75
+Calculating strain . . . Strain 0.75
+Calculating strain . . . Strain 0.75
+Jittering 11.23200
+Calculating strain . . . Strain 20.55
+Calculating strain . . . Strain 1.13
+Calculating strain . . . Strain 0.37
+Calculating strain . . . Strain 0.37
+Calculating strain . . . Strain 0.37
+Jittering 6.73920
+Calculating strain . . . Strain 1.68
+Calculating strain . . . Strain 0.42
+Calculating strain . . . Strain 0.42
+Calculating strain . . . Strain 0.42
+Jittering 4.04352
+Calculating strain . . . Strain 2.54
+Calculating strain . . . Strain 0.42
+Calculating strain . . . Strain 0.42
+Calculating strain . . . Strain 0.42
+Jittering 2.42611
+Calculating strain . . . Strain 1.34
+Calculating strain . . . Strain 0.26
+Calculating strain . . . Strain 0.26
+Calculating strain . . . Strain 0.26
+Jittering 1.45567
+Calculating strain . . . Strain 0.55
+Calculating strain . . . Strain 0.54
+Calculating strain . . . Strain 0.54
+Calculating strain . . . Strain 0.54
+Jittering 0.87340
+Calculating strain . . . Strain 0.71
+Calculating strain . . . Strain 0.23
+Calculating strain . . . Strain 0.23
+Calculating strain . . . Strain 0.23
+Jittering 0.52404
+Calculating strain . . . Strain 0.25
+Calculating strain . . . Strain 0.24
+Calculating strain . . . Strain 0.24
+Jittering 0.31442
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.18865
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.11319
+Calculating strain . . . Strain 0.29
+Calculating strain . . . Strain 0.29
+Calculating strain . . . Strain 0.29
+Jittering 0.06792
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.04075
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.02445
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.01467
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00880
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00528
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00317
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00190
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00114
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00068
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00041
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00025
+Calculating strain . . . Strain 0.28
+Calculating strain . . . Strain 0.28
+Jittering 0.00015
+Best mapping found Strain = 0.20353
+
+Sheppards Diagram
+
+
+Done. (at "MDS.nex" Line 46:2--46:19)

@@ -1,0 +1,3 @@
+[ GENBANKXML User Input Values ]
+
+

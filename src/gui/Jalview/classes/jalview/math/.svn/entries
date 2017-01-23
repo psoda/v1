@@ -1,0 +1,54 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/classes/jalview/math
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+RotatableMatrix.class
+file
+
+
+
+
+2017-01-23T03:55:05.000000Z
+40638424b3989ff374c76e1498c7ce7a
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+has-props
+
+Matrix.class
+file
+
+
+
+
+2017-01-23T03:55:05.000000Z
+4d02d67837463e603b4f2aa5f2d0c7d1
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+has-props
+

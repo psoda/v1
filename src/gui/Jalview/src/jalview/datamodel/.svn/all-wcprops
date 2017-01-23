@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel
+END
+Provenance.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/Provenance.java
+END
+UniprotFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/UniprotFile.java
+END
+UniprotProteinName.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/UniprotProteinName.java
+END
+ColumnSelection.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/ColumnSelection.java
+END
+HiddenSequences.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/HiddenSequences.java
+END
+GraphLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/GraphLine.java
+END
+AlignmentAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/AlignmentAnnotation.java
+END
+AlignmentOrder.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/AlignmentOrder.java
+END
+Annotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/Annotation.java
+END
+Alignment.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/Alignment.java
+END
+SequenceGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SequenceGroup.java
+END
+AlignmentI.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/AlignmentI.java
+END
+UniprotSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/UniprotSequence.java
+END
+BinaryNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/BinaryNode.java
+END
+CigarCigar.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/CigarCigar.java
+END
+CigarSimple.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/CigarSimple.java
+END
+AlignedCodonFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/AlignedCodonFrame.java
+END
+DBRefSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/DBRefSource.java
+END
+DBRefEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/DBRefEntry.java
+END
+Sequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/Sequence.java
+END
+FeatureProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/FeatureProperties.java
+END
+AlignmentView.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/AlignmentView.java
+END
+BinarySequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/BinarySequence.java
+END
+SequenceNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SequenceNode.java
+END
+CigarBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/CigarBase.java
+END
+SequenceI.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SequenceI.java
+END
+UniprotEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/UniprotEntry.java
+END
+SequencePoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SequencePoint.java
+END
+ProvenanceEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/ProvenanceEntry.java
+END
+SequenceFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SequenceFeature.java
+END
+CigarArray.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/CigarArray.java
+END
+SearchResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SearchResults.java
+END
+PDBEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/PDBEntry.java
+END
+Mapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/Mapping.java
+END
+SeqCigar.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/SeqCigar.java
+END

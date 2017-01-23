@@ -1,0 +1,25 @@
+#NEXUS
+BEGIN PSODA;
+
+  outerCounter = 0;
+
+  print "Before Loop\n";
+  print "Ounter Counter: " . outerCounter . "\n";
+  print "Inner Counter: " . innerCounter . "\n";
+
+  while (outerCounter < 5)
+    print "\tIn Loop\n";
+    outerCounter++;
+    print "\t\t> outerCounter++;\n";
+    print "\t\tInner Counter: " . innerCounter . "\n";
+    innerCounter = outerCounter;
+    print "\t\t> innerCounter = outerCounter;\n";
+    print "\t\tOuter Counter: " . outerCounter . "\n";
+    print "\t\tInner Counter: " . innerCounter . "\n";
+  endwhile;
+
+  print "Done with loop\n";
+  print "Outer Counter: " . outerCounter . "\n";
+  print "Inner Counter: " . innerCounter . "\n";
+
+END;

@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis
+END
+AlignmentSorter.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/AlignmentSorter.class
+END
+Cluster.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/Cluster.class
+END
+SequenceIdMatcher$SeqIdName.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/SequenceIdMatcher$SeqIdName.class
+END
+SeqsetUtils.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/SeqsetUtils.class
+END
+CrossRef.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/CrossRef.class
+END
+ParseProperties.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/ParseProperties.class
+END
+NJTree.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/NJTree.class
+END
+PCA$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/PCA$1.class
+END
+SequenceIdMatcher.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/SequenceIdMatcher.class
+END
+Dna.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/Dna.class
+END
+PCA.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/PCA.class
+END
+AlignSeq.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/AlignSeq.class
+END
+AAFrequency.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/AAFrequency.class
+END
+Finder.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/Finder.class
+END
+Conservation.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/analysis/Conservation.class
+END

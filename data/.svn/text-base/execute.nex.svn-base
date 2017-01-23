@@ -1,0 +1,10 @@
+#NEXUS
+
+begin psoda;
+
+  execute command = "/bin/echo \"print this\"";
+  execute command = "/bin/bash -c \"echo \\\"print this too\\\"\"";
+  execute command = "/usr/bin/perl -e \"print `echo \\\"and this too\\\"`\"";
+[  execute command = "/usr/bin/perl -e \"`echo 'hello3' > myFile3.txt`\"";]
+
+end;

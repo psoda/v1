@@ -1,0 +1,32 @@
+Amino Acid Property List: New List
+Alpha-helical tendencies
+Average number of surrounding residues
+Beta-structure tendencies
+Bulkiness
+Buriedness
+Chromatographic index
+Coil tendencies
+Composition
+Compressibility
+Equilibrium constant (ionization of COOH)
+Helical contact area
+Hydropathy
+Isoelectric point
+Long-range non-bonded energy
+Mean r.m.s. fluctuation displacement
+Molecular volume
+Molecular weight
+Normalized consensus hydrophobicity
+Partial specific volume
+Polar requirement
+Polarity
+Power to be at the C-terminal
+Power to be at the middle of alpha-helix
+Power to be at the N-terminal
+Refractive index
+Short and medium range non-bonded energy
+Solvent accessible reduction ratio
+Surrounding hydrophobicity
+Thermodynamic transfer hydrohphobicity
+Total non-bonded energy
+Turn tendencies

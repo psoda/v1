@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/916/src/parsers/paupParser
+END
+ParsingInfo.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/593/src/parsers/paupParser/ParsingInfo.cpp
+END
+PaupParser.yy
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/916/src/parsers/paupParser/PaupParser.yy
+END
+PaupLexicalAnalyzer.ll
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/859/src/parsers/paupParser/PaupLexicalAnalyzer.ll
+END
+PaupParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/916/src/parsers/paupParser/PaupParser.cpp
+END
+ParsingInfo.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/593/src/parsers/paupParser/ParsingInfo.h
+END
+PsodaSourceParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/593/src/parsers/paupParser/PsodaSourceParser.cpp
+END
+PaupParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/593/src/parsers/paupParser/PaupParser.h
+END
+PaupParser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/916/src/parsers/paupParser/PaupParser.hpp
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/270/src/parsers/paupParser/Makefile.am
+END
+PsodaSourceParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/593/src/parsers/paupParser/PsodaSourceParser.h
+END
+PaupLexicalAnalyzer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/916/src/parsers/paupParser/PaupLexicalAnalyzer.cpp
+END

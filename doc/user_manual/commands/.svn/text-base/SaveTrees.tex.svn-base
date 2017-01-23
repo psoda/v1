@@ -1,0 +1,13 @@
+\section{SaveTrees}
+
+The SaveTrees command outputs the current tree repository to a file.
+
+\subsection{Options}
+\begin{description}
+\item[file] = psoda.out.tre
+\end{description}
+
+\subsection{Option Descriptions}
+\begin{description}
+\item[file] The name of the file to which the trees should be written.
+\end{description}

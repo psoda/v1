@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io
+END
+AppletFormatAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/AppletFormatAdapter.java
+END
+ClansFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/ClansFile.java
+END
+BLCFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/BLCFile.java
+END
+VamsasAppDatastore.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/VamsasAppDatastore.java
+END
+StockholmFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/StockholmFile.java
+END
+JPredFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/JPredFile.java
+END
+MatrixFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/MatrixFile.java
+END
+FileLoader.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/FileLoader.java
+END
+ClustalFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/ClustalFile.java
+END
+JalviewFileFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/JalviewFileFilter.java
+END
+ModellerDescription.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/ModellerDescription.java
+END
+FileParse.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/FileParse.java
+END
+AnnotationFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/AnnotationFile.java
+END
+IdentifyFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/IdentifyFile.java
+END
+JnetAnnotationMaker.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/JnetAnnotationMaker.java
+END
+FeaturesFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/FeaturesFile.java
+END
+NewickFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/NewickFile.java
+END
+AMSAFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/AMSAFile.java
+END
+DBRefFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/DBRefFile.java
+END
+PfamFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/PfamFile.java
+END
+JalviewFileChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/JalviewFileChooser.java
+END
+HTMLOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/HTMLOutput.java
+END
+MSFfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/MSFfile.java
+END
+FormatAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/FormatAdapter.java
+END
+AlignFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/AlignFile.java
+END
+PIRFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/PIRFile.java
+END
+WSWUBlastClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/WSWUBlastClient.java
+END
+JalviewFileView.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/JalviewFileView.java
+END
+FastaFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/FastaFile.java
+END
+PileUpfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/io/PileUpfile.java
+END

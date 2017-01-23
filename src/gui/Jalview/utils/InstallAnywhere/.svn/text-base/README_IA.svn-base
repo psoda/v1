@@ -1,0 +1,24 @@
+Jalview Readme
+--------------
+
+
+##################
+
+To run application:
+
+java -Djava.ext.dirs=JALVIEW_HOME/lib -cp JALVIEW_HOME/jalview.jar jalview.bin.Jalview
+
+Replace JALVIEW_HOME with the full path to Jalview Installation Directory.
+
+##################
+
+
+
+
+If you use a proxy server add 
+
+-Dhttp.proxyServer=YOUR.SERVER -Dhttp.proxyPort=YOURPORT
+
+If the proxy server requires authentication, add
+
+-Dhttp.proxyUser=USERNAME -Dhttp.proxyPassword=PASSWORD

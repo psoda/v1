@@ -1,0 +1,34 @@
+#NEXUS
+
+
+begin data;
+	dimensions ntax=5 nchar=759;
+	format datatype=dna gap=- matchchar=. ;
+matrix
+
+Nicotiana  GTTGACAATTTAGCAATGCTTTTTGAGCCAAACCAAGGATTTTATGAACCAGAACTCTACTATACTAAGCAGGCCGCGAGCTGCATTTTAAACTACCGTACCAGCCTGTTCAGCGACCCGCACGCGTGTGTTAAAAAAGATAATATGCTTATCTTACTTAATTTCCAGTTTCTTATACATGCAGCCGCGCGTCATCGATCGCAACTCCTGCTATGTTATCCAATGCTCTGGTCAGTTAAATAATGCGTGTTCCCGTGATTTATATGGTATTACCTAACGTTATATCTCTATTTTATTGCGGCAAATTAATTCTTATTGTGCCACACTTTATAGAGGCTAATACAGTCTGATTTGCAGTCATGCAAATCAAACTGTATTGTAGAATGGCGTTCGCGATCCTAGGACCGATTAGCTGGTCATCCATTGTCTATTCCCTATGGTATGTAAGAGATCTTCCACCGATTAGCAAGCGTATAGTTATTATCTCTTCCGAATACTTATAAAGACATAATTGCTTTTTACTGCTGATGATTTTGTTGAACATCGAAGTGCGTATATCACTAGATCTTTACATTCACCTGGCTAATTCGTTCTTCGACCGCTGTTTCACAGCTGAATTAAATTGTTCCGAGTGCCTAGCTTCAAGTCTAAATAAAATTTGAAGTGTTTCAGGATAATGAAATATCGCGAGGCTTGCAAACCCGGACAGTGTTTGTGAAGTATAGAGCGTATAATTTTGCAGCAGTGGACGTTTTGGAT
+Galphimia  .......G....TT......C.....CTGG......A......C...................G..G....A..T........T..........G.........T.....T........A.....CC...C....G..A..............C..........T.........G..T...........A.......G.T..............ACG......C......C......G............C...A..C.............GT....T.......TA......C.CC.....C......C..............CA...........G.G......T.......................G........C.......A.CC.T........A......................C..T...G..TC...A.......A.......G...TT.C....T...C...C.........G.G..T...G.....C.....G..C...AT..A.................A.....A..A....C...G.............CC......A....A......................A.......A.C.....GG.C..A.G.AT.......................C......G........GT.G..........C..T......A.....T..T..T..............G.G..ATAA..G.A..CC.....A....TAC....T.A
+Oenothera  ........CC..TT............A.G.......A......C.....A.............G..G.......T..A...........C....G....G..........T.AA.....A.....C....CG...G.GA......ATG.....C......G...TT........G..T...........T.......G...A....A....A...........C....C.C......G....G......C....A....C..G..A...C.G.....T.........T.....CG..A..A........C...............A......A......T...............G...........G..G..A.....C.......A....C........A...T..................C..............A.........A.....A...TT.C....T...C...............A............A.....T..T...A...A.....A...........A.....A.C.....C..................C...T..TG.T......G....G.........A..A.......A...T......C..A.G.AG....T....G...........C.C..C...GG...A...GT.G..........A..G............T...........................AG..G.A..C?????????????????????
+Victoria   ............T..G.....C....TTG.....CTT.C....C...................G..G....A..T...G.......C.......G.................A......A.....C....C.G.GG..A................G........T.........G..T........A..A.......G...A..T.........TC......GCA.....A......G................A.......A.......AG.TG..G.....G..CT.....CG..A....C.G....C........CA....TA.......G........T.A................C........G.G..GG..CC..G...A....T........A.....................C..C........C...A........G......T....T.C....T.....G....AG..................G.G.C...TG.C.......A.....A...........A.....A.C..G...................A.A.G....TG.......TG........C......A......G.....?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????
+Cypirapea  ??????????..T.............CTG.......A......C................G..G..........T...................G.T.......T.......A......A....GCC.....G.GG..A.............T...........T.........G..T..T........A..............TC...T....TCC......C......C................C......A.......A...A..CA......G........AG......G..A...........................A.......GA..C.G....A......A...G......T....A..G.G......C.......A....T........T.G..................CCC.........TC...A.........A.....G..TTT.C....T...A..................A.......GGG.CT..G..G..C.T..A..GT.A...........A.....A.........T....T...........A.T.....G.......GG..T.....C.A...A...................G.C..A.G.AC....A........G..T......C......G........GT........T......T..A...A.....???????????????????????????????????????????????????????????
+;
+end;
+BEGIN PAUP;
+	set nowarnreset 
+	autoclose;
+	set 
+		maxtrees = 1000
+		increase = auto
+		autoinc = 100;
+	hsearch 
+		start = stepwise
+		swap = tbr
+		iterations=2000
+		addseq = random
+		nreps = 1
+		hold = 1;
+	savetrees file = stepmid.tre;
+		 
+[This block will estimate a maximum parsimony tree assuming equal weights and save the results of the search to a log file.]
+  quit warntsave=no;
+end;

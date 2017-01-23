@@ -1,0 +1,46 @@
+ #NEXUS
+
+begin data;
+	dimensions ntax=26 nchar=31;
+	format datatype=dna gap=- matchchar=. ;
+
+matrix
+
+Nicotiana  GTTGACAATTTAGCAATGCTTTTTGAGCCAA
+Galphimia  .......G....TT......C.....CTGG.
+Oenothera  ........CC..TT............A.G..
+Victoria   ............T..G.....C....TTG..
+Cypirapea  ??????????..T.............CTG..
+Barclaya   ............T..G.....C....TTG..
+Hydrophyl  ..........................A.G..
+Eriodicty  ..........................A.G..
+Digitalis  ........G.................A.S..
+Jasminum   .......GG.................A.A..
+Adoxa      .C..........T.............CTG..
+Lamiumpur  ........G....T........C...A.G..
+Utricular  ........GC................A.G..
+Byblis     ........G....T............A.G..
+Pinguicul  ........G.................A.G..
+Pterost    .........A..T.............CT...
+Vahlia     ..........................ATG..
+Salvia     ........G.................A.G..
+Scutellar  ........G...........C.CC.????..
+Valeriana  .C......GC..T.............CT...
+Dipsacus   .C......GC..T.............CTG..
+Boopis     .....T.G....TT............CTG..
+Lobelia    .....A..G...TT...A........CTG..
+Cornuskou  ........................ACCTG..
+Hedera     ............T..G..........CT...
+Viburnum   .C..........T.............ATG..
+
+;
+end;
+
+BEGIN PAUP;
+
+   gettrees file=consensusInput.tre;
+   contree all/majrule=yes percent=60 indices=yes showtree=yes;
+   [contree all/strict=yes indices=yes;]
+   [contree all/treefile=con.tre replace=yes;]
+
+end;

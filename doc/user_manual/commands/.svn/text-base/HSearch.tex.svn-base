@@ -1,0 +1,38 @@
+\section{HSearch}
+
+The HSearch instruction runs a heuristic phylogenetic search, results are placed in to the tree repository.
+
+\subsection{Options}
+\begin{description}
+\item[start] = stepwise
+\item[criterion] = parsimony
+\item[nreps] = 1
+\item[swap] = TBR
+\item[maxTrees] = INT\_MAX
+\item[iterations] = INT\_MAX
+\item[aligned] = FALSE
+\end{description}
+
+\subsection{Option Descriptions}
+
+\begin{description}
+\item[start] Indicates the method that should be used to determine the initial tree or trees to search.
+	\begin{description}
+	\item[stepwise] Builds a stepwise maximum parsimony tree
+	\item[nj] Builds a neighbor joining tree
+	\item[upgma] Builds a UPGMA tree
+	\item[current] Starts from the current tree repository
+	\end{description}
+
+\item[criterion] Indicates whether the search should optimize based on parsimony or on maximum likelihood
+	\begin{description}
+	\item[parsimony] Use maximum parsimony as the optimality criterion
+	\item[likelihood] Use maximum likelihood as the optimality criterion (see RAxMLSearch)
+	\end{description}
+\item[nreps] Indicates the number of starting trees to build
+\item[swap] Indicates the tree rearrangement method used to improve trees during the search
+\item[maxTrees] Indicates the maximum number of equivalent trees to store
+\item[iterations] Indicates the number of iterations to allow the search to complete
+\item[aligned] Indicates whether the data file is aligned. Use this for fasta files that are aligned.
+               Otherwise, fasta files are assumed to be unaligned.
+\end{description}

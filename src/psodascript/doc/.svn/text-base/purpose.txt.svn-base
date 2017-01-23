@@ -1,0 +1,4 @@
+Extending the Phylogenetic Sequencing Open-source Data Application (PSODA) Language
+
+Phylogenetic trees describe the evolutionary relationships between species.  PSODA is an open-source project similar to PAUP which analyzes molecular data in an effort to produce the most likely phylogenetic tree for a given dataset.  However, because exhaustively searching tree space is an NP-complete problem, PSODA uses heuristics to find the most likely species relationships.  Being able to dynamically change search types and parameters based on the current state of an analysis—a feature which neither PSODA nor PAUP currently provide—would significantly speed up tree searches.  Thus, the PSODA language is being extended to incorporate looping and conditional structures.
+

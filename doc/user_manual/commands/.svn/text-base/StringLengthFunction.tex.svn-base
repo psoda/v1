@@ -1,0 +1,16 @@
+\section{StringLengthFunction}
+
+String Length Function Instruction 
+
+\subsection{Options}
+\begin{description}
+\item[string] = " " 
+\end{description}
+
+\subsection{Option Descriptions}
+\begin{description}
+\item[string] = " " 
+	\begin{description}
+	\item[" "] = The string to be tested for length
+	\end{description}
+\end{description} 

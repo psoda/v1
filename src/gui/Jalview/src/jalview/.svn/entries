@@ -1,0 +1,73 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/src/jalview
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-07-06T22:52:45.976713Z
+840
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+analysis
+dir
+
+gui
+dir
+
+schemes
+dir
+
+ws
+dir
+
+math
+dir
+
+datamodel
+dir
+
+appletgui
+dir
+
+schemabinding
+dir
+
+structure
+dir
+
+jbgui
+dir
+
+commands
+dir
+
+io
+dir
+
+bin
+dir
+
+binding
+dir
+
+util
+dir
+

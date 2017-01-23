@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/884/test/TreeResolution
+END
+treeresolve.goal
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/861/test/TreeResolution/treeresolve.goal
+END
+psoda.out.tre
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/809/test/TreeResolution/psoda.out.tre
+END
+test.out
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/884/test/TreeResolution/test.out
+END
+treeresolve.nex
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/809/test/TreeResolution/treeresolve.nex
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/809/test/TreeResolution/test.pl
+END
+trees_to_resolve_1.tre
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/809/test/TreeResolution/trees_to_resolve_1.tre
+END

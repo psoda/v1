@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian
+END
+control
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/control
+END
+libfann2-py.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-py.dirs
+END
+libfann2-py.files
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-py.files
+END
+compat
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/compat
+END
+libfann2-dev.examples
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-dev.examples
+END
+libfann2-py.install
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-py.install
+END
+changelog
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/changelog
+END
+docs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/docs
+END
+rules
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/rules
+END
+libfann2.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2.dirs
+END
+libfann2.files
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2.files
+END
+libfann2.install
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2.install
+END
+libfann2-dev.dirs
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-dev.dirs
+END
+libfann2-dev.files
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-dev.files
+END
+copyright
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/copyright
+END
+libfann2-dev.install
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/debian/libfann2-dev.install
+END

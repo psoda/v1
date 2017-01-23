@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui
+END
+GFontChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GFontChooser.java
+END
+GDasSourceBrowser.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GDasSourceBrowser.java
+END
+GAlignmentPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GAlignmentPanel.java
+END
+GPreferences.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GPreferences.java
+END
+GSliderPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GSliderPanel.java
+END
+GUserDefinedColours.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GUserDefinedColours.java
+END
+GAlignFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GAlignFrame.java
+END
+GFinder.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GFinder.java
+END
+GDesktop.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GDesktop.java
+END
+GWebserviceInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GWebserviceInfo.java
+END
+GPairwiseAlignPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GPairwiseAlignPanel.java
+END
+GTreePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GTreePanel.java
+END
+GCutAndPasteTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GCutAndPasteTransfer.java
+END
+GStructureViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GStructureViewer.java
+END
+GPCAPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GPCAPanel.java
+END
+GSequenceLink.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/jbgui/GSequenceLink.java
+END

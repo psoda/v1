@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/718/src/treesaap/Weka
+END
+wekasim.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/628/src/treesaap/Weka/wekasim.java
+END
+ChemicalPropertiesException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/ChemicalPropertiesException.java
+END
+weka-sim-doc.html
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/weka-sim-doc.html
+END
+Edge.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/Edge.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/Node.java
+END
+WekaFileReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/WekaFileReader.java
+END
+TestDriver.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/TestDriver.java
+END
+InvalidWekaFileException.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/InvalidWekaFileException.java
+END
+DiGraph.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/605/src/treesaap/Weka/DiGraph.java
+END

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl
+END
+BasePosition.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/BasePosition.java
+END
+EmblFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblFile.java
+END
+EmblEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblEntry.java
+END
+Qualifier.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/Qualifier.java
+END
+EmblFeatureLocElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblFeatureLocElement.java
+END
+EmblFeatureLocations.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblFeatureLocations.java
+END
+EmblSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblSequence.java
+END
+EmblError.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblError.java
+END
+EmblFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/datamodel/xdb/embl/EmblFeature.java
+END

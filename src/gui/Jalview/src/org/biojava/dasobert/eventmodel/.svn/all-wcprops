@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel
+END
+FeatureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel/FeatureListener.java
+END
+SequenceEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel/SequenceEvent.java
+END
+ObjectListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel/ObjectListener.java
+END
+AbstractDasEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel/AbstractDasEvent.java
+END
+FeatureEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel/FeatureEvent.java
+END
+SequenceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/eventmodel/SequenceListener.java
+END

@@ -1,0 +1,18 @@
+#NEXUS 
+
+Begin trees; 
+	Translate
+		1 Nicotiana,
+		2 Galphimia,
+		3 Oenothera,
+		4 Victoria,
+		5 Cypirapea,
+		6 Barclaya,
+		7 Guber,
+		8 Gomer,
+		9 Guck,
+		10 Gomer,
+		11 Gunck
+		;
+tree PAUP_1 = [&U] (1,((((2,4),3),5),(6,(7,(8,((9,10),11))))));
+End;

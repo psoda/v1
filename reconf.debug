@@ -1,0 +1,19 @@
+#!/bin/sh
+
+CMD="aclocal"
+echo $CMD
+$CMD
+
+CMD="autoconf"
+echo $CMD
+$CMD
+
+CMD="automake -ac"
+echo $CMD
+$CMD
+
+CMD="./configure -C --enable-profile --enable-debug"
+echo $CMD
+$CMD
+
+exit

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src
+END
+paml.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/paml.h
+END
+mcmctree.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/mcmctree.c
+END
+mcmctree.ctl
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/mcmctree.ctl
+END
+tools.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/tools.c
+END
+evolver
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/evolver
+END
+codeml.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/codeml.c
+END
+baseml.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/baseml.c
+END
+Makefile.MSVC
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/Makefile.MSVC
+END
+chi2
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/chi2
+END
+yn00
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/yn00
+END
+TreeTimeJeff.c
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/TreeTimeJeff.c
+END
+treesub.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/treesub.c
+END
+basemlg.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/basemlg.c
+END
+treespace.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/treespace.c
+END
+pamp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/pamp
+END
+mcmctree
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/mcmctree
+END
+Makefile.UNIX
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/Makefile.UNIX
+END
+evolver.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/evolver.c
+END
+codeml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/codeml
+END
+baseml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/baseml
+END
+chi2.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/chi2.c
+END
+yn00.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/yn00.c
+END
+basemlg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/basemlg
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/README.txt
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/Makefile
+END
+pamp.c
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/src/pamp.c
+END

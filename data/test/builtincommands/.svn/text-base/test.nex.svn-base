@@ -1,0 +1,6 @@
+#NEXUS
+BEGIN PSODA;
+
+ source file="test_set.nex";
+
+END;

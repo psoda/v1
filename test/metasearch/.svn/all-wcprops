@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/opensvn/psoda/!svn/ver/874/test/metasearch
+END
+metasearch.nex
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/873/test/metasearch/metasearch.nex
+END
+test.out
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/874/test/metasearch/test.out
+END
+consensus.tre
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/873/test/metasearch/consensus.tre
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/873/test/metasearch/test.pl
+END
+metasearch.goal
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/873/test/metasearch/metasearch.goal
+END
+alignHIV.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/873/test/metasearch/alignHIV.fasta
+END

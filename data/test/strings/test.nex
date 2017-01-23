@@ -1,0 +1,6 @@
+#NEXUS
+BEGIN PSODA;
+
+  source file="test_concat.nex";
+
+END;

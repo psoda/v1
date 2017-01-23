@@ -1,0 +1,16 @@
+[ Evpthwy User Input Values ]
+
+[ Category-Totals File ]
+1.	codonTally	true	[ Whether to print tallied codons to file ]
+2.	observedChart	true	[ Whether to print observed pathways to file ]
+3.	pthwyChart	true	[ Whether to print possible pathways to file ]
+4.	header	true	[ Whether to print several analysis variables to file ]
+
+[ Significant Property files ]
+5.	.05Conf	true	[ Whether to print values at the .05 confidence level to file ]
+6.	.01Conf	true	[ Whether to print values at the .01 confidence level to file ]
+7.	.001Conf	true	[ Whether to print values at the .001 confidence level to file ]
+8.	category	all	[ Which categories (specifically) to file ]
+
+[ Calculations ]
+9.	numberOfCategories	8	[ The number of categories ]

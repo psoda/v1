@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2
+END
+mb.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mb.c
+END
+doit.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/doit.cpp
+END
+mb.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mb.h
+END
+adh.nex
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/adh.nex
+END
+mbmath.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mbmath.c
+END
+macmpi.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/macmpi.h
+END
+mbmath.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mbmath.h
+END
+avian_ovomucoids.nex
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/avian_ovomucoids.nex
+END
+input
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/input
+END
+gpl.txt
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/gpl.txt
+END
+sump.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/sump.c
+END
+bglobin.nex
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/bglobin.nex
+END
+carb.r
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/carb.r
+END
+sumt.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/sumt.c
+END
+sump.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/sump.h
+END
+primates.nex
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/primates.nex
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/Makefile
+END
+MacMPI_X.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/MacMPI_X.c
+END
+sumt.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/sumt.h
+END
+model.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/model.c
+END
+bayes.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/bayes.c
+END
+model.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/model.h
+END
+bayes.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/bayes.h
+END
+plot.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/plot.c
+END
+command.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/command.c
+END
+replicase.nex
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/replicase.nex
+END
+mcmc.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mcmc.c
+END
+cynmix.nex
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/cynmix.nex
+END
+plot.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/plot.h
+END
+mrbayes.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mrbayes.vcproj
+END
+command.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/command.h
+END
+mcmc.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/mcmc.h
+END
+kim.nex
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/kim.nex
+END
+globals.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/globals.h
+END
+anolis.nex
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/675/src/mrbayes-3.1.2/anolis.nex
+END

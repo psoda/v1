@@ -1,0 +1,20 @@
+<html>
+<head><title>Pairwise Alignment</title></head>
+<body>
+<p><strong>Pairwise alignment (Proteins only)</strong></p>
+<p>This calculation is performed on the selected sequences only. Java is not the
+  fastest language in the world and aligning more than a handful of sequences
+  will take a fair amount of time. <br>
+  For each pair of sequences the best global alignment is found using BLOSUM62
+  as the scoring matrix. The scores reported are the raw scores. The sequences
+  are aligned using a dynamic programming technique and using the following gap
+  penalties : </p>
+<p>Gap open : 12 <br>
+  Gap extend : 2 </p>
+<p>When you select the pairwise alignment option a new window will come up which
+  will display the alignments in a text format as they are calculated. Also displayed
+  is information about the alignment such as alignment score, length and percentage
+  identity between the sequences.</p>
+<p>&nbsp; </p>
+</body>
+</html>

@@ -1,0 +1,44 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/classes/vamsas
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+IMsaWS.class
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+43137c26c48fd98fd7923eec5604918b
+2008-12-19T21:34:51.583063Z
+753
+clement
+has-props
+
+objects
+dir
+

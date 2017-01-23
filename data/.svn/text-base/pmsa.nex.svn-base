@@ -1,0 +1,33 @@
+#NEXUS
+
+begin data;
+	format datatype=dna ;
+
+sequences
+
+>Nicotiana
+GTTGACAATT
+>Galphimia
+ATGCAGGGG
+>Oenothera
+TTTCCCGGGA
+>Victoria
+GTAGTAGTAG
+>Cypirapea
+ATGCAATGA
+>Barclaya
+AATTGGCCAA
+>Test1
+AATCCC
+>Test2
+AACCC
+>Test3
+AAGC
+>Test4
+TTCCC
+;
+end;
+
+BEGIN PAUP;
+	align( outfile="pmsa.afa" );
+end;

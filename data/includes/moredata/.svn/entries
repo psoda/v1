@@ -1,0 +1,43 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/data/includes/moredata
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-07-05T17:35:38.890316Z
+531
+adamteic
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+evenmoredata
+dir
+
+finaldata.nex
+file
+
+
+
+
+2017-01-23T03:55:35.000000Z
+fb134f8bc8f71918b2ab2bb7d2159bba
+2008-07-05T17:35:38.890316Z
+531
+adamteic
+

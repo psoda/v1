@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas
+END
+castor-mapping.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/castor-mapping.xsd
+END
+JalviewUserColours.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/JalviewUserColours.xsd
+END
+jalviewJvV1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/jalviewJvV1.xsd
+END
+jalview.nodesc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/jalview.nodesc.properties
+END
+vamsas.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/vamsas.xsd
+END
+jalview.properties
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/jalview.properties
+END
+jalview.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/jalview.xsd
+END
+vamsasJvV1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/schemas/vamsasJvV1.xsd
+END

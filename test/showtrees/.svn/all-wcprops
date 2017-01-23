@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/opensvn/psoda/!svn/ver/873/test/showtrees
+END
+ShowTrees.goal
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/873/test/showtrees/ShowTrees.goal
+END
+test.out
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/710/test/showtrees/test.out
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/710/test/showtrees/test.pl
+END
+ShowTrees.nex
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/716/test/showtrees/ShowTrees.nex
+END
+ShowTrees.tre
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/726/test/showtrees/ShowTrees.tre
+END

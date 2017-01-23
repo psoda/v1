@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/405/src/perl/Soda/Tools
+END
+Dataset.pm
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/1/src/perl/Soda/Tools/Dataset.pm
+END
+Parser.pm
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/1/src/perl/Soda/Tools/Parser.pm
+END
+genDatasets.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/1/src/perl/Soda/Tools/genDatasets.pl
+END

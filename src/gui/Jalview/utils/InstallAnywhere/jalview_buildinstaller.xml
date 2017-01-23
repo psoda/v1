@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<project name="jalviewInstallAnywhere" default="build" basedir=".">
+  <property name="IA_LOCATION" value="/homes/ws-dev1/Macrovision/InstallAnywhere_2008_VP1_Standard"/>
+  <property name="IA_PROJECT" location="Jalview.iap_xml"/>
+  <property name="ABS_PATH" value="/homes/ws-dev1/jalview"/> <!-- \/utils\/InstallAnywhere"/> --> <!--/homes/ws-dev1/jalview"/> -->
+  <!-- location of top level of jalview distribution directory -->
+  <property name="CUR_PATH" location="../../." />
+  <property name="USER_HOME" location="~" />
+  <property name="DEST_IADIR" location="${CUR_PATH}/JalviewBuild" />
+  <property name="java.awt.headless" value="true"/>
+  <taskdef name="buildinstaller" classname="com.zerog.ia.integration.ant.InstallAnywhereAntTask">
+  <classpath>
+    <fileset dir="${IA_LOCATION}/resource/build">
+      <include name="iaant.jar" />
+    </fileset>
+  </classpath>
+  </taskdef>
+  <target name="build">
+    <copy file="mac_logo.icns" tofile="${CUR_PATH}/mac_logo.icns"/>
+  <copy file="${IA_PROJECT}" tofile="${IA_PROJECT}_reloc.iap_xml"/>
+  <replace
+    token="${ABS_PATH}"
+    value="${CUR_PATH}"
+   file="${IA_PROJECT}_reloc.iap_xml" />
+  <buildinstaller 
+     IAlocation="${IA_LOCATION}"
+     IAProjectFile="${IA_PROJECT}_reloc.iap_xml"
+     BuildOutputLocation="${DEST_IADIR}"
+     
+/>
+ <delete>
+ 	<fileset dir="${CUR_PATH}">
+ 		<include name="mac_logo.icns"/>
+	</fileset>
+ <fileset dir=".">
+   <include name="${IA_PROJECT}_reloc*"/>
+   <include name="iabuild.xml" />
+   <include name="*locales" />
+</fileset>
+ </delete>
+</target>
+</project>

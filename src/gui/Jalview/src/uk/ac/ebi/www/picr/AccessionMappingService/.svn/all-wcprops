@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/uk/ac/ebi/www/picr/AccessionMappingService
+END
+AccessionMapperServiceLocator.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperServiceLocator.java
+END
+AccessionMapperBindingStub.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperBindingStub.java
+END
+AccessionMapperInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperInterface.java
+END
+AccessionMapperService.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperService.java
+END

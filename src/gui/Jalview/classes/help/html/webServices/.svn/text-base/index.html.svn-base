@@ -1,0 +1,70 @@
+        <html>
+        <head><title>Web Services</title></head>
+        <body>
+        <p><strong>Web services</strong></p>
+        
+        <p>Jalview includes clients for a variety of web services for both bioinformatic data retrieval and analysis.
+<ul>
+<li>The <a href="../features/seqfetcher.html">Sequence Fetcher</a> utilises web services for sequence, alignment and structure retrieval provided by the European Bioinformatics Institute (EBI) and Distributed Annotation System servers that are capable of serving sequences.</li>
+<li>The DAS Feature Fetcher enables the retrieval and visualization of features from DAS annotation sources</li>
+<li>Jalview SOAP Web Services for sequence and alignment analysis are provided by the University of Dundee, and are available from the Alignment window's <strong> 
+  Web Service</strong> menu.</li></ul>
+</p>
+            <p>Jalview's distributed computations are SOAP based services exposing
+              protein sequence alignment and secondary structure prediction programs. These services actually run
+                on the cluster based in the School of Life Sciences, University of
+                  Dundee, and are maintained by the Barton group.
+                  </p>
+                  <p><strong>Web Service Dialog Box</strong></p>
+<img src="clwqueued.gif">
+<p>
+                  This dialog box is displayed when a web service job
+                  is submitted. It gives the name of the service and
+                  any method citation information, and monitors the
+                  progress of the calculation. The cancel button will
+                  permanently cancel the job, but this is only
+                  possible for some services.
+                  </p>
+                  <p>Current services:
+                  <ul><a href="msaclient.html"><strong>Multiple
+                  Sequence Alignment Services</strong></a><ul>
+                  <li><a href="clustalw.html">ClustalW Multiple Alignment and re-alignment</a><br>
+                  The clustal W service remains one of the more
+                  popular Jalview features.
+                  </li>
+                  <li><a href="muscle.html">Muscle Multiple Alignment</a><br>
+                  High Quality and High Throughput multiple alignments of proteins. This
+                  method can sometimes be more accurate than ClustalW when dealing with
+                  diverse sets of sequences.
+                  </li>
+                  <li><a href="mafft.html">MAFFT</a><br>
+                  Multiple Alignment with Fast Fourier Transforms -
+                  a highly accurate and high throughput dna and amino
+                  acid alignment method, performing at least as well
+                  as ClustalW and Muscle.
+                  </li>
+                  </ul>                  
+                  </li>
+                  <li><strong>Secondary Structure Prediction</strong>
+                  <ul>
+                  <li><a href="jnet.html">JNet</a><br>This is a front end to the existing <a
+                  href="http://www.compbio.dundee.ac.uk/www-jpred/">JNet
+                  www server</a> allowing single sequence or profile
+                  based prediction.
+                  </li>
+                  </ul>
+                  </li>
+                  </ul>
+                  </p>
+                  <p>Watch this space! These are some of the services
+                  planned to be released soon:<ul>
+                  <li>Repeat analysis
+                  </li>
+                  <li>Remote Homology Detection<br>
+                  </li>
+                  </ul>
+                  In the future, Jalview will also be able to new discover services
+                  dynamically, and distribute expensive analysis functions like <a
+                  href="../calculations/pca.html">PCA</a> to the Dundee machines.</p>
+</body>
+</html>

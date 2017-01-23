@@ -1,0 +1,39 @@
+#NEXUS
+BEGIN PSODA;
+  print ( "Testing casting operations ...");
+
+  begin test_casting;
+    $i = "";
+    $j = $i.$i.$i.$i;
+    if ($j != $i.$i.$i.$i)
+      return "Error on concatenation\n";
+    endif;
+    [empty string should evaluate to false]
+    if ($j)
+      return "Error on bool cast\n";
+    endif;
+    $boolJ = bool($j);
+    if ($boolJ)
+      return "Error on bool cast2\n";
+    endif;
+
+    [$boolJ and $j should both be valid 0 numbers]
+    if ($boolJ != string($j))
+      return "Error on comparison\n";
+    endif;
+
+    [as strings, $boolJ should be 'false' but $j should be '']
+    if (string($boolJ) == string($j))
+      return "Error on string cast\n";
+    endif;
+
+  end;
+
+  $returnVal = test_casting();
+  if ($returnVal)
+    return $returnVal;
+  endif;
+
+  print ( "\t\t\t\t...PASSED\n");
+
+END;

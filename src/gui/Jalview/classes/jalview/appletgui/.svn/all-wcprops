@@ -1,0 +1,401 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui
+END
+RedundancyPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/RedundancyPanel.class
+END
+PaintRefresher.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/PaintRefresher.class
+END
+AlignViewport$ConservationThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignViewport$ConservationThread.class
+END
+SeqPanel$ScrollThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SeqPanel$ScrollThread.class
+END
+SliderPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SliderPanel$2.class
+END
+IdCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/IdCanvas.class
+END
+AnnotationPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AnnotationPanel.class
+END
+AnnotationLabels.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AnnotationLabels.class
+END
+SequenceRenderer.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SequenceRenderer.class
+END
+JVDialog.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/JVDialog.class
+END
+FeatureSettings$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureSettings$1.class
+END
+UserDefinedColours.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/UserDefinedColours.class
+END
+AlignFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignFrame.class
+END
+Finder.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/Finder.class
+END
+FeatureRenderer$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureRenderer$1.class
+END
+AlignFrame$1$AboutPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignFrame$1$AboutPanel.class
+END
+FeatureRenderer$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureRenderer$3.class
+END
+PairwiseAlignPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/PairwiseAlignPanel.class
+END
+CutAndPasteTransfer.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/CutAndPasteTransfer.class
+END
+AnnotationColourChooser.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AnnotationColourChooser.class
+END
+AnnotationLabels$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AnnotationLabels$1.class
+END
+AlignmentPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignmentPanel$1.class
+END
+FontChooser.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FontChooser.class
+END
+TreePanel$TreeLoader.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/TreePanel$TreeLoader.class
+END
+AlignFrame$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignFrame$1.class
+END
+AlignFrame$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignFrame$3.class
+END
+Finder$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/Finder$1.class
+END
+ScalePanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/ScalePanel$2.class
+END
+AppletJmol.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AppletJmol.class
+END
+OverviewPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/OverviewPanel$1.class
+END
+IdPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/IdPanel.class
+END
+FeatureSettings.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureSettings.class
+END
+TreePanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/TreePanel.class
+END
+FeatureRenderer.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureRenderer.class
+END
+PCAPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/PCAPanel.class
+END
+SeqCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SeqCanvas.class
+END
+SliderPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SliderPanel$1.class
+END
+IdPanel$ScrollThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/IdPanel$ScrollThread.class
+END
+APopupMenu.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/APopupMenu.class
+END
+Tooltip.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/Tooltip.class
+END
+AppletJmol$RenderPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AppletJmol$RenderPanel.class
+END
+AppletJmol$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AppletJmol$1.class
+END
+FeatureSettings$MyCheckbox.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureSettings$MyCheckbox.class
+END
+AlignmentPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignmentPanel.class
+END
+RedundancyPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/RedundancyPanel$1.class
+END
+EmbmenuFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/EmbmenuFrame.class
+END
+EditNameDialog.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/EditNameDialog.class
+END
+ScalePanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/ScalePanel.class
+END
+FeatureRenderer$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/FeatureRenderer$2.class
+END
+APopupMenu$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/APopupMenu$1.class
+END
+AlignmentPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignmentPanel$2.class
+END
+OverviewPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/OverviewPanel.class
+END
+AlignViewport$ConsensusThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignViewport$ConsensusThread.class
+END
+UserDefinedColours$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/UserDefinedColours$1.class
+END
+AlignViewport.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignViewport.class
+END
+TreeCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/TreeCanvas.class
+END
+AlignFrame$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignFrame$2.class
+END
+ScalePanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/ScalePanel$1.class
+END
+Finder$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/Finder$2.class
+END
+AlignFrame$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/AlignFrame$4.class
+END
+ScalePanel$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/ScalePanel$3.class
+END
+IdwidthAdjuster.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/IdwidthAdjuster.class
+END
+TransparencySetter.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/TransparencySetter.class
+END
+SliderPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SliderPanel.class
+END
+SeqPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/SeqPanel.class
+END
+RotatableCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/appletgui/RotatableCanvas.class
+END

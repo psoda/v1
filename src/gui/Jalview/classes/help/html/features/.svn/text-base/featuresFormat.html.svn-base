@@ -1,0 +1,85 @@
+<html>
+
+<head>
+<title>Sequence Features File</title>
+</head>
+
+<body>
+<p><strong>Sequence Features File</strong></p>
+<p>The Sequence features file (which used to be known as the
+&quot;Groups file&quot; prior to version 2.08) is a simple way of
+getting your own sequence annotations into Jalview. It was introduced to
+allow sequence features to be rendered in the Jalview applet, and so is
+intentionally lightweight and minimal because the applet is often used
+in situations where data file size must be kept to a minimum, and no XML
+parser is available.</p>
+<p>Features files are imported into Jalview in the following ways:<br>
+<ul>
+	<li>from the command line<strong><pre>
+ -features &lt;<em>Features filename</em>&gt;</pre></strong></li>
+	<li>Dragging a features file onto an alignment window</li>
+	<li>Via the &quot;Load Features / Annotations&quot; entry in the <strong>File</strong>
+	menu of an alignment window.</li>
+</ul>
+</p>
+<p><strong>Sequence Features File Format</strong></p>
+<p>A features file is a simple ASCII text file, where each line
+contains tab separated text fields. <strong>No comments are
+allowed</strong>.</p>
+<p>The first set of lines contain type definitions:<strong>
+<pre><em>Feature label</em>&#9;<em>Feature Colour</em></pre> </strong>A feature
+type has a text label, and a colour (specified as a red,green,blue 24
+bit triplet either in hexadecimal (eg. 00ff00) or as comma separated
+numbers (ranging from 0 to 255)). The text label may contain simple HTML
+document body tags if enclosed by &quot;&lt;html&gt;&lt;/html&gt;&quot;
+and will be rendered as formatted tooltips in the Jalview Application
+(the Jalview applet is not capable of rendering HTML tooltips, so all
+formatting tags will be removed.</p>
+<p>The remaining lines in the file are the sequence annotation
+definitions, where the now defined features are attached to regions on
+particular sequences, optionally with some descriptive text (displayed
+in a tooltip when the mouse is near the feature on that sequence). There
+are two alternate ways of referring to a sequence, either by its text
+ID, or its index in an associated alignment.
+<pre>
+<em>description</em>&#9;<em>sequenceId</em>&#9;<em>sequenceIndex</em>&#9;<em>start</em>&#9;<em>end</em>&#9;<em>featureType</em></pre>
+Normally, sequence features are associated with sequences rather than
+alignments, and the sequenceIndex field is given as &quot;-1&quot;. In
+order to specify a sequence by its index in a particular alignment, the
+sequenceId should be given as &quot;ID_NOT_SPECIFIED&quot;, otherwise
+the sequenceId field will be used in preference to the sequenceIndex
+field.
+</p>
+<p>Feature annotations can be collected into named groups by
+prefixing definitions with lines of the form:<strong><pre>startgroup&#9;groupname</pre></strong>..
+and subsequently post-fixing the group with:<strong><pre>endgroup&#9;groupname</pre></strong>Feature
+grouping was introduced in version 2.08, and used to control whether a
+set of features are either hidden or shown together in the <a
+	href="seqfeatures.html">sequence Feature settings dialog box</a>.</p>
+<p>A complete example is shown below :
+<pre>
+domain&#9;red
+metal ion-binding site&#9;00ff00
+transit peptide&#9;0,105,215
+chain&#9;225,105,0
+modified residue&#9;105,225,35
+signal peptide&#9;0,155,165
+helix&#9;ff0000
+strand&#9;00ff00
+coil&#9;cccccc
+Your Own description here&#9;FER_CAPAA&#9;-1&#9;3&#9;93&#9;domain
+Your Own description here&#9;FER_CAPAN&#9;-1&#9;48&#9;144&#9;chain
+Your Own description here&#9;FER_CAPAN&#9;-1&#9;50&#9;140&#9;domain
+Your Own description here&#9;FER_CAPAN&#9;-1&#9;136&#9;136&#9;modified residue
+Your Own description here&#9;FER1_LYCES&#9;-1&#9;1&#9;47&#9;transit peptide
+Your Own description here&#9;Q93XJ9_SOLTU&#9;-1&#9;1&#9;48&#9;signal peptide
+Your Own description here&#9;Q93XJ9_SOLTU&#9;-1&#9;49&#9;144&#9;chain
+startgroup&#9;secondarystucture
+PDB secondary structure annotation&#9;FER1_SPIOL&#9;-1&#9;52&#9;59&#9;strand
+PDB secondary structure annotation&#9;FER1_SPIOL&#9;-1&#9;74&#9;80&#9;helix
+endgroup&#9;secondarystructure
+</pre>
+</li>
+</p>
+</body>
+</html>

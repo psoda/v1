@@ -1,0 +1,7 @@
+#NEXUS
+
+BEGIN PAUP;
+loaddata file="../data/alignHIV.fasta";
+align (classic="", endgap="yes", gapdist=4, gapext="", gapopen="", guidetree="", name="", outfile="", output="fasta", prog="default", submat="");
+raxmlsearch raxargs="-m GTRGAMMA";
+end;

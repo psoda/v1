@@ -1,0 +1,22 @@
+#NEXUS
+BEGIN PAUP;
+
+  begin* assert(statement = "", message = "");
+    if (statement == "")
+      return true;
+    else
+      stringToRun = "return (" . statement . ");";
+      result = interactive(code = stringToRun, echocode = false);
+      if (!result)
+        toPrint = "Assertion failed \"" . statement . "\"";
+        if (message != "")
+          toPrint = toPrint . ": " . message;
+        endif;
+        print endl . toPrint . endl;
+        stacktrace;
+        quit;
+      endif;
+    endif;
+  end;
+
+END;

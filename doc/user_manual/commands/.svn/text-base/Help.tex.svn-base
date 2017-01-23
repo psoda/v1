@@ -1,0 +1,16 @@
+\section{Help} 
+
+Help Instruction
+
+\subsection{Options}
+\begin{description}
+ \item[HELP\_NAME\_PARAM] = help
+ \end{description}
+ 
+ \subsection{Option Description}
+\begin{description}
+ \item[HELP\_NAME\_PARAM] = help
+ 	\begin{description}
+	\item[help] = the name (as a string) of the command for which to print the usage information
+	\end{description} 
+ \end{description}

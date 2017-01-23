@@ -1,0 +1,1376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install4j version="4.2.3" transformSequenceNumber="2">
+  <directoryPresets config="/Users/clement/src/psoda" />
+  <application name="psoda" distributionSourceDir="" applicationId="2576-2801-9945-6182" mediaDir="/Users/clement/src/psodainstall" mediaFilePattern="${compiler:sys.shortName}_${compiler:sys.platform}_${compiler:sys.version}" compression="6" lzmaCompression="false" pack200Compression="false" excludeSignedFromPacking="true" keepModificationTimes="false" missingFilesStrategy="warn" shortName="psoda" publisher="Brigham Young University" publisherWeb="http://dna.cs.byu.edu/psoda" version="0.96" allPathsRelative="false" backupOnSave="false" autoSave="false" convertDotsToUnderscores="true" macSignature="????" installerName="" javaMinVersion="1.5" javaMaxVersion="" allowBetaVM="true" jdkMode="runtimeJre" jdkName="">
+    <languages skipLanguageSelection="false" languageSelectionInPrincipalLanguage="false">
+      <principalLanguage id="en" customLocalizationFile="" />
+      <additionalLanguages />
+    </languages>
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <variables />
+  </application>
+  <files>
+    <filesets />
+    <roots />
+    <mountPoints>
+      <mountPoint id="18" root="" location="" mode="755" />
+    </mountPoints>
+    <entries>
+      <dirEntry mountPoint="18" file="/Users/clement/src/psoda" overwrite="4" shared="false" mode="644" uninstallMode="0" excludeSuffixes="&quot;.svn, *.svn, *.java&quot;" dirMode="755">
+        <exclude />
+      </dirEntry>
+    </entries>
+    <components />
+  </files>
+  <launchers>
+    <launcher name="psoda" id="19" external="false" excludeFromMenu="false" menuName="" icnsFile="/Users/clement/src/psoda/PSODAicon_NO_Background.icns" pngIcon16File="/Users/clement/src/psoda/PSODAicon_NO_Background.png" pngIcon32File="/Users/clement/src/psoda/PSODAicon_NO_Background.png" macServiceDependencies="" swtApp="false" fileset="">
+      <executable name="psoda" type="1" iconSet="true" iconFile="" executableDir="src" redirectStderr="true" stderrFile="error.log" redirectStdout="true" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="./" singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false">
+        <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" />
+      </executable>
+      <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="" java6SplashScreen="false">
+        <text>
+          <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+          <versionLine x="20" y="40" text="version ${compiler:sys.version}" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+        </text>
+      </splashScreen>
+      <java mainClass="OneJar" vmParameters="" arguments="-Xdock:name=&quot;PSODA&quot; -jar psoda.jar" allowVMPassthroughParameters="true" preferredVM="" bundleRuntime="true">
+        <classPath>
+          <archive location="src/psoda.jar" failOnError="false" />
+          <directory location="src" failOnError="false" />
+          <directory location="src/lib" failOnError="false" />
+          <archive location="src/lib/byu.jar" failOnError="false" />
+          <archive location="src/lib/EDU.jar" failOnError="false" />
+          <archive location="src/lib/jxl.jar" failOnError="false" />
+          <archive location="src/lib/swing-layout-1.0.3.jar" failOnError="false" />
+          <directory location="src/gui/Jalview/classes" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/log4j-1.2.8.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/axis.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/activation.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/castor-1.1-cycle-xml.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/commons-discovery.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/commons-logging.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/jaxrpc.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/jhall.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/Jmol-11.0.2.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/mail.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/regex.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/saaj.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/vamsas-client.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/wsdl4j.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/xercesImpl.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/xml-apis.jar" failOnError="false" />
+        </classPath>
+        <nativeLibraryDirectories>
+          <directory name="src/gui" />
+          <directory name="src/lib" />
+          <directory name="src/gui/Jalview/lib" />
+        </nativeLibraryDirectories>
+      </java>
+      <includedFiles />
+      <unextractableFiles />
+      <customScript mode="1" file="">
+        <scriptLines />
+      </customScript>
+    </launcher>
+  </launchers>
+  <installerGui installerType="1" suggestPreviousProgramGroup="false" addOnAppId="" suggestPreviousLocations="true">
+    <customCode useInstalledFiles="false" />
+    <applications>
+      <application name="" id="installer" beanClass="com.install4j.runtime.beans.applications.InstallerApplication" enabled="true" commentSet="false" comment="" customIcnsFile="/Users/clement/src/psoda/PSODAicon_NO_Background.icns" customIcoFile="">
+        <serializedBean>
+          <java class="java.beans.XMLDecoder">
+            <object class="com.install4j.runtime.beans.applications.InstallerApplication">
+              <void property="customPngIcon16File">
+                <object class="com.install4j.api.beans.ExternalFile">
+                  <string>/Users/clement/src/psoda/PSODAicon_NO_Background.png</string>
+                </object>
+              </void>
+              <void property="customPngIcon32File">
+                <object class="com.install4j.api.beans.ExternalFile">
+                  <string>/Users/clement/src/psoda/PSODAicon_NO_Background.png</string>
+                </object>
+              </void>
+              <void property="useCustomIcon">
+                <boolean>true</boolean>
+              </void>
+            </object>
+          </java>
+        </serializedBean>
+        <startup>
+          <screen name="" id="1" beanClass="com.install4j.runtime.beans.screens.StartupScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.StartupScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </startup>
+        <screens>
+          <screen name="" id="2" beanClass="com.install4j.runtime.beans.screens.WelcomeScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.WelcomeScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="3" beanClass="com.install4j.runtime.beans.screens.InstallationDirectoryScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.InstallationDirectoryScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="4" beanClass="com.install4j.runtime.beans.screens.ComponentsScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.ComponentsScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="5" beanClass="com.install4j.runtime.beans.screens.StandardProgramGroupScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.StandardProgramGroupScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="6" beanClass="com.install4j.runtime.beans.screens.InstallationScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="true" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.InstallationScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions>
+              <action name="" id="7" beanClass="com.install4j.runtime.beans.actions.InstallFilesAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.InstallFilesAction" />
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="8" beanClass="com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction">
+                      <void property="programGroupName">
+                        <string>${compiler:sys.fullName}</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="9" beanClass="com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction">
+                      <void property="itemName">
+                        <string>${compiler:sys.fullName} ${compiler:sys.version}</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="59" beanClass="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction">
+                      <void property="all">
+                        <boolean>false</boolean>
+                      </void>
+                      <void property="execute">
+                        <boolean>true</boolean>
+                      </void>
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/RAxML-7.0.4/raxmlHPC</string>
+                        </object>
+                      </void>
+                      <void property="group">
+                        <object class="com.install4j.runtime.beans.actions.files.WindowsGroup" field="WORLD" />
+                      </void>
+                      <void property="read">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="60" beanClass="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction">
+                      <void property="all">
+                        <boolean>false</boolean>
+                      </void>
+                      <void property="execute">
+                        <boolean>true</boolean>
+                      </void>
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/mrbayes-3.1.2/mb</string>
+                        </object>
+                      </void>
+                      <void property="group">
+                        <object class="com.install4j.runtime.beans.actions.files.WindowsGroup" field="WORLD" />
+                      </void>
+                      <void property="read">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="62" beanClass="com.install4j.runtime.beans.actions.files.SetModeAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.SetModeAction">
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/mrbayes-3.1.2/mb</string>
+                        </object>
+                      </void>
+                      <void property="mode">
+                        <string>0755</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="63" beanClass="com.install4j.runtime.beans.actions.files.SetModeAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.SetModeAction">
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/RAxML-7.0.4/raxmlHPC</string>
+                        </object>
+                      </void>
+                      <void property="mode">
+                        <string>0755</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="64" beanClass="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction">
+                      <void property="all">
+                        <boolean>false</boolean>
+                      </void>
+                      <void property="execute">
+                        <boolean>true</boolean>
+                      </void>
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/treesaap/BASEML/baseml.exe</string>
+                        </object>
+                      </void>
+                      <void property="group">
+                        <object class="com.install4j.runtime.beans.actions.files.WindowsGroup" field="WORLD" />
+                      </void>
+                      <void property="read">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="65" beanClass="com.install4j.runtime.beans.actions.files.SetModeAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.SetModeAction">
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/treesaap/BASEML</string>
+                        </object>
+                      </void>
+                      <void property="mode">
+                        <string>0755</string>
+                      </void>
+                      <void property="recursive">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+            </actions>
+            <formComponents />
+          </screen>
+          <screen name="" id="10" beanClass="com.install4j.runtime.beans.screens.FinishedScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="true">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.FinishedScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </screens>
+      </application>
+      <application name="" id="uninstaller" beanClass="com.install4j.runtime.beans.applications.UninstallerApplication" enabled="true" commentSet="false" comment="" customIcnsFile="" customIcoFile="">
+        <serializedBean>
+          <java class="java.beans.XMLDecoder">
+            <object class="com.install4j.runtime.beans.applications.UninstallerApplication" />
+          </java>
+        </serializedBean>
+        <startup>
+          <screen name="" id="11" beanClass="com.install4j.runtime.beans.screens.StartupScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.StartupScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </startup>
+        <screens>
+          <screen name="" id="12" beanClass="com.install4j.runtime.beans.screens.UninstallWelcomeScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallWelcomeScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="13" beanClass="com.install4j.runtime.beans.screens.UninstallationScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallationScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions>
+              <action name="" id="14" beanClass="com.install4j.runtime.beans.actions.UninstallFilesAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.UninstallFilesAction" />
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+            </actions>
+            <formComponents />
+          </screen>
+          <screen name="" id="16" beanClass="com.install4j.runtime.beans.screens.UninstallFailureScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="true">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallFailureScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="15" beanClass="com.install4j.runtime.beans.screens.UninstallSuccessScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="true">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallSuccessScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </screens>
+      </application>
+    </applications>
+  </installerGui>
+  <mediaSets>
+    <macos name="Mac OS X Single Bundle" id="20" mediaFileName="" installDir="psoda" overridePrincipalLanguage="false" requires64bit="false" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" customInstallBaseDir="" createUninstallIcon="true" contentFilesType="1" downloadURL="" launcherId="19">
+      <excludedComponents />
+      <excludedBeans />
+      <overriddenPrincipalLanguage id="en" customLocalizationFile="" />
+      <exclude>
+        <entry location=".svn" fileType="regular" />
+        <entry location="aclocal.m4" fileType="regular" />
+        <entry location="autom4te.cache" fileType="regular" />
+        <entry location="CODING_STANDARDS" fileType="regular" />
+        <entry location="config.cache" fileType="regular" />
+        <entry location="config.guess" fileType="regular" />
+        <entry location="config.log" fileType="regular" />
+        <entry location="config.status" fileType="regular" />
+        <entry location="config.sub" fileType="regular" />
+        <entry location="configure" fileType="regular" />
+        <entry location="configure.ac" fileType="regular" />
+        <entry location="configure.windows.ac" fileType="regular" />
+        <entry location="COPYING" fileType="regular" />
+        <entry location="data/.svn" fileType="regular" />
+        <entry location="data/16218.tre.in" fileType="regular" />
+        <entry location="data/200HIValign-tree.nex" fileType="regular" />
+        <entry location="data/200HIValign.neighborJoining.new" fileType="regular" />
+        <entry location="data/200HIValign.nex" fileType="regular" />
+        <entry location="data/200HIValign.nums.names" fileType="regular" />
+        <entry location="data/200HIValign.tre" fileType="regular" />
+        <entry location="data/200HIValigntest.nex.copy" fileType="regular" />
+        <entry location="data/4HIValign.neighborJoining.tre" fileType="regular" />
+        <entry location="data/4HIValigntest.nex" fileType="regular" />
+        <entry location="data/align.nex" fileType="regular" />
+        <entry location="data/bayes.nex" fileType="regular" />
+        <entry location="data/bayesbig.nex" fileType="regular" />
+        <entry location="data/bayesin.tre" fileType="regular" />
+        <entry location="data/bootstrap.nex" fileType="regular" />
+        <entry location="data/casting.nex" fileType="regular" />
+        <entry location="data/commands.nex" fileType="regular" />
+        <entry location="data/consensus.nex" fileType="regular" />
+        <entry location="data/consensus.tre" fileType="regular" />
+        <entry location="data/consensus_example.nex" fileType="regular" />
+        <entry location="data/consensus_zilla.nex" fileType="regular" />
+        <entry location="data/consensusFull.nex" fileType="regular" />
+        <entry location="data/consensusInput.tre" fileType="regular" />
+        <entry location="data/ConstructAncestorStates.nex" fileType="regular" />
+        <entry location="data/constructs.nex" fileType="regular" />
+        <entry location="data/dascore.nex" fileType="regular" />
+        <entry location="data/defense_double.nex" fileType="regular" />
+        <entry location="data/defense_ratchet_plus.nex" fileType="regular" />
+        <entry location="data/defense_ratchet_simple.nex" fileType="regular" />
+        <entry location="data/defense_recursion.nex" fileType="regular" />
+        <entry location="data/defense_scope.nex" fileType="regular" />
+        <entry location="data/double.nex" fileType="regular" />
+        <entry location="data/dptbr.nex" fileType="regular" />
+        <entry location="data/dptbr_small.nex" fileType="regular" />
+        <entry location="data/execute.nex" fileType="regular" />
+        <entry location="data/fibinacci.nex" fileType="regular" />
+        <entry location="data/functions.nex" fileType="regular" />
+        <entry location="data/functions2.nex" fileType="regular" />
+        <entry location="data/functions3.nex" fileType="regular" />
+        <entry location="data/functions4.nex" fileType="regular" />
+        <entry location="data/gap.nex" fileType="regular" />
+        <entry location="data/gap.tre.in" fileType="regular" />
+        <entry location="data/gapscore.nex" fileType="regular" />
+        <entry location="data/include1.nex" fileType="regular" />
+        <entry location="data/include2.nex" fileType="regular" />
+        <entry location="data/include3.nex" fileType="regular" />
+        <entry location="data/includes" fileType="regular" />
+        <entry location="data/interactive.nex" fileType="regular" />
+        <entry location="data/loopnew.nex" fileType="regular" />
+        <entry location="data/loopRatchet.nex" fileType="regular" />
+        <entry location="data/loopRatchet2.nex" fileType="regular" />
+        <entry location="data/mds_small.nex" fileType="regular" />
+        <entry location="data/mlmid.nex" fileType="regular" />
+        <entry location="data/mlmidscore.nex" fileType="regular" />
+        <entry location="data/mlmidscore.tre" fileType="regular" />
+        <entry location="data/mlscore.fast" fileType="regular" />
+        <entry location="data/mlscore.intree" fileType="regular" />
+        <entry location="data/mlscore.nex" fileType="regular" />
+        <entry location="data/mlscore.phy" fileType="regular" />
+        <entry location="data/mlscore.tre" fileType="regular" />
+        <entry location="data/mlscore2.nex" fileType="regular" />
+        <entry location="data/mlsearch.nex" fileType="regular" />
+        <entry location="data/mlstep.nex" fileType="regular" />
+        <entry location="data/mlzilla.nex" fileType="regular" />
+        <entry location="data/morph.nex" fileType="regular" />
+        <entry location="data/nj.nex" fileType="regular" />
+        <entry location="data/njinstr.nex" fileType="regular" />
+        <entry location="data/parsimonyscore.nex" fileType="regular" />
+        <entry location="data/parsimonyscore.tre" fileType="regular" />
+        <entry location="data/percentIdentity.nex" fileType="regular" />
+        <entry location="data/pmsa-codon.nex" fileType="regular" />
+        <entry location="data/pmsa-endgapsA.nex" fileType="regular" />
+        <entry location="data/pmsa-IUB.nex" fileType="regular" />
+        <entry location="data/pmsa.nex" fileType="regular" />
+        <entry location="data/pmsatest.nex" fileType="regular" />
+        <entry location="data/random.nex" fileType="regular" />
+        <entry location="data/ratchet.nex" fileType="regular" />
+        <entry location="data/ratchet1.nex" fileType="regular" />
+        <entry location="data/ratchet2.nex" fileType="regular" />
+        <entry location="data/ratchet3.nex" fileType="regular" />
+        <entry location="data/ratchet4.nex" fileType="regular" />
+        <entry location="data/rtbr.nex" fileType="regular" />
+        <entry location="data/rtbr_small.nex" fileType="regular" />
+        <entry location="data/RV12_BBS12039.cheapgaps.nex" fileType="regular" />
+        <entry location="data/RV12_BBS12039.cheapgaps.noendgaps.nex" fileType="regular" />
+        <entry location="data/RV12_BBS12039.nex" fileType="regular" />
+        <entry location="data/RV12_BBS12039.noendgaps.nex" fileType="regular" />
+        <entry location="data/score.nex" fileType="regular" />
+        <entry location="data/score.tre" fileType="regular" />
+        <entry location="data/score.tre.in" fileType="regular" />
+        <entry location="data/scoretree.nex" fileType="regular" />
+        <entry location="data/sequences.nex" fileType="regular" />
+        <entry location="data/ShowTrees.nex" fileType="regular" />
+        <entry location="data/ShowTrees.tre" fileType="regular" />
+        <entry location="data/step1.nex" fileType="regular" />
+        <entry location="data/step1.tre.in" fileType="regular" />
+        <entry location="data/step2.nex" fileType="regular" />
+        <entry location="data/step2.tre" fileType="regular" />
+        <entry location="data/step2.tre.in" fileType="regular" />
+        <entry location="data/stepmid.nex" fileType="regular" />
+        <entry location="data/stepscore.nex" fileType="regular" />
+        <entry location="data/stepshort.nex" fileType="regular" />
+        <entry location="data/stepshorter.nex" fileType="regular" />
+        <entry location="data/stepsmall.tre" fileType="regular" />
+        <entry location="data/tbronly1.nex" fileType="regular" />
+        <entry location="data/tbronly16218.nex" fileType="regular" />
+        <entry location="data/tbronly2.nex" fileType="regular" />
+        <entry location="data/tbronlysmall.nex" fileType="regular" />
+        <entry location="data/tbronlysmall.tre.in" fileType="regular" />
+        <entry location="data/tbronlysmaller.nex" fileType="regular" />
+        <entry location="data/tbronlysmaller.tre.in" fileType="regular" />
+        <entry location="data/tbrsmall.nex" fileType="regular" />
+        <entry location="data/test" fileType="regular" />
+        <entry location="data/test.nex" fileType="regular" />
+        <entry location="data/test2.nex" fileType="regular" />
+        <entry location="data/test2.tre" fileType="regular" />
+        <entry location="data/test3.nex" fileType="regular" />
+        <entry location="data/test4.nex" fileType="regular" />
+        <entry location="data/test5.nex" fileType="regular" />
+        <entry location="data/testloop.nex" fileType="regular" />
+        <entry location="data/testRefData.afa" fileType="regular" />
+        <entry location="data/testRefData.nex" fileType="regular" />
+        <entry location="data/testRefDataSSData.nex" fileType="regular" />
+        <entry location="data/testSSData.nex" fileType="regular" />
+        <entry location="data/update.nex" fileType="regular" />
+        <entry location="data/upgma.nex" fileType="regular" />
+        <entry location="data/upgmainstr.nex" fileType="regular" />
+        <entry location="data/zilla" fileType="regular" />
+        <entry location="data/zilla.CIPRES" fileType="regular" />
+        <entry location="data/zilla.phy" fileType="regular" />
+        <entry location="data/zilla.tre" fileType="regular" />
+        <entry location="data/zilla_stepwise.nex" fileType="regular" />
+        <entry location="data/zillamid.nex" fileType="regular" />
+        <entry location="data/zillamorph.nex" fileType="regular" />
+        <entry location="data/zillasmall.nex" fileType="regular" />
+        <entry location="data/zillatbr.nex" fileType="regular" />
+        <entry location="data/zillatree.tre" fileType="regular" />
+        <entry location="debugconf" fileType="regular" />
+        <entry location="depcomp" fileType="regular" />
+        <entry location="doc/.svn" fileType="regular" />
+        <entry location="doc/teichert_honors_thesis/.svn" fileType="regular" />
+        <entry location="doc/user_manual/.svn" fileType="regular" />
+        <entry location="doc/user_manual/commands/.svn" fileType="regular" />
+        <entry location="Doxyfile" fileType="regular" />
+        <entry location="INSTALL" fileType="regular" />
+        <entry location="install-sh" fileType="regular" />
+        <entry location="jaritall.sh" fileType="regular" />
+        <entry location="libtool" fileType="regular" />
+        <entry location="ltmain.sh" fileType="regular" />
+        <entry location="Makefile" fileType="regular" />
+        <entry location="Makefile.am" fileType="regular" />
+        <entry location="Makefile.in" fileType="regular" />
+        <entry location="missing" fileType="regular" />
+        <entry location="NEWS" fileType="regular" />
+        <entry location="one-jar/.svn" fileType="regular" />
+        <entry location="psodainstall.install4j" fileType="regular" />
+        <entry location="psodaMac.install4j" fileType="regular" />
+        <entry location="reconf" fileType="regular" />
+        <entry location="reconf.debug" fileType="regular" />
+        <entry location="runpsodagui" fileType="regular" />
+        <entry location="runsamples.sh" fileType="regular" />
+        <entry location="src/.deps" fileType="regular" />
+        <entry location="src/.svn" fileType="regular" />
+        <entry location="src/algorithms" fileType="regular" />
+        <entry location="src/AlignInstr.o" fileType="regular" />
+        <entry location="src/alignment" fileType="regular" />
+        <entry location="src/AlignmentCommand.o" fileType="regular" />
+        <entry location="src/AnalysisTerminal.o" fileType="regular" />
+        <entry location="src/BackupRepositoryInstr.o" fileType="regular" />
+        <entry location="src/BandBInstr.o" fileType="regular" />
+        <entry location="src/bases" fileType="regular" />
+        <entry location="src/bayes.cpp" fileType="regular" />
+        <entry location="src/bayes.h" fileType="regular" />
+        <entry location="src/bayes.o" fileType="regular" />
+        <entry location="src/BayesSearchInstr.o" fileType="regular" />
+        <entry location="src/BibliographyInstr.o" fileType="regular" />
+        <entry location="src/bindings" fileType="regular" />
+        <entry location="src/Block.o" fileType="regular" />
+        <entry location="src/blocks" fileType="regular" />
+        <entry location="src/BoolCastOp.o" fileType="regular" />
+        <entry location="src/BoolLiteral.o" fileType="regular" />
+        <entry location="src/BootstrapInstr.o" fileType="regular" />
+        <entry location="src/BreakInstr.o" fileType="regular" />
+        <entry location="src/Buffer.cpp" fileType="regular" />
+        <entry location="src/Buffer.h" fileType="regular" />
+        <entry location="src/Buffer.o" fileType="regular" />
+        <entry location="src/BuiltInCommand.o" fileType="regular" />
+        <entry location="src/CallExpression.o" fileType="regular" />
+        <entry location="src/CarbonCopyBuffer.cpp" fileType="regular" />
+        <entry location="src/CarbonCopyBuffer.h" fileType="regular" />
+        <entry location="src/CarbonCopyBuffer.o" fileType="regular" />
+        <entry location="src/CatOp.o" fileType="regular" />
+        <entry location="src/CheckParsimonyInstr.o" fileType="regular" />
+        <entry location="src/Codeable.cpp" fileType="regular" />
+        <entry location="src/Codeable.h" fileType="regular" />
+        <entry location="src/Codeable.o" fileType="regular" />
+        <entry location="src/CombineRepositoriesInstr.o" fileType="regular" />
+        <entry location="src/CommandNode.o" fileType="regular" />
+        <entry location="src/CommandRegister.cpp" fileType="regular" />
+        <entry location="src/CommandRegister.h" fileType="regular" />
+        <entry location="src/CommandRegister.o" fileType="regular" />
+        <entry location="src/Commands.am" fileType="regular" />
+        <entry location="src/Conditional.o" fileType="regular" />
+        <entry location="src/ConsensusTreeREADME.txt" fileType="regular" />
+        <entry location="src/ConsolePrintBuffer.cpp" fileType="regular" />
+        <entry location="src/ConsolePrintBuffer.h" fileType="regular" />
+        <entry location="src/ConsolePrintBuffer.o" fileType="regular" />
+        <entry location="src/ConstructAncestorStatesInstr.o" fileType="regular" />
+        <entry location="src/ConTreeInstr.o" fileType="regular" />
+        <entry location="src/Data.o" fileType="regular" />
+        <entry location="src/DataBlock.o" fileType="regular" />
+        <entry location="src/DataConvert" fileType="regular" />
+        <entry location="src/Dataset.cpp" fileType="regular" />
+        <entry location="src/Dataset.h" fileType="regular" />
+        <entry location="src/Dataset.o" fileType="regular" />
+        <entry location="src/DatasetMap.cpp" fileType="regular" />
+        <entry location="src/DatasetMap.h" fileType="regular" />
+        <entry location="src/DatasetMap.o" fileType="regular" />
+        <entry location="src/DatasetReference.o" fileType="regular" />
+        <entry location="src/DataUnit.cpp" fileType="regular" />
+        <entry location="src/DataUnit.h" fileType="regular" />
+        <entry location="src/DataUnit.o" fileType="regular" />
+        <entry location="src/debugmake" fileType="regular" />
+        <entry location="src/DeclareVarInstr.o" fileType="regular" />
+        <entry location="src/DecrementInstr.o" fileType="regular" />
+        <entry location="src/DeleteDataInstr.o" fileType="regular" />
+        <entry location="src/DeleteTreeInstr.o" fileType="regular" />
+        <entry location="src/DisplayInstr.o" fileType="regular" />
+        <entry location="src/Dist.o" fileType="regular" />
+        <entry location="src/distances" fileType="regular" />
+        <entry location="src/DivisionOp.o" fileType="regular" />
+        <entry location="src/DPTBR.o" fileType="regular" />
+        <entry location="src/DSetInstr.o" fileType="regular" />
+        <entry location="src/EmptyInstr.o" fileType="regular" />
+        <entry location="src/Environment.cpp" fileType="regular" />
+        <entry location="src/Environment.h" fileType="regular" />
+        <entry location="src/Environment.o" fileType="regular" />
+        <entry location="src/EqualityOp.o" fileType="regular" />
+        <entry location="src/EvaluatorBase.o" fileType="regular" />
+        <entry location="src/evaluators" fileType="regular" />
+        <entry location="src/ExecuteInstr.o" fileType="regular" />
+        <entry location="src/ExportInstr.o" fileType="regular" />
+        <entry location="src/Expression.o" fileType="regular" />
+        <entry location="src/expressions" fileType="regular" />
+        <entry location="src/fann-2.0.0" fileType="regular" />
+        <entry location="src/FilePrintBuffer.cpp" fileType="regular" />
+        <entry location="src/FilePrintBuffer.h" fileType="regular" />
+        <entry location="src/FilePrintBuffer.o" fileType="regular" />
+        <entry location="src/FileTools.cpp" fileType="regular" />
+        <entry location="src/FileTools.h" fileType="regular" />
+        <entry location="src/FileTools.o" fileType="regular" />
+        <entry location="src/forester/.svn" fileType="regular" />
+        <entry location="src/forester/atv/.svn" fileType="regular" />
+        <entry location="src/forester/atv_awt/.svn" fileType="regular" />
+        <entry location="src/forester/datastructures/.svn" fileType="regular" />
+        <entry location="src/forester/tools/.svn" fileType="regular" />
+        <entry location="src/forester/tree/.svn" fileType="regular" />
+        <entry location="src/frontends" fileType="regular" />
+        <entry location="src/GetBestScoreFunction.o" fileType="regular" />
+        <entry location="src/GetNumCharsFunction.o" fileType="regular" />
+        <entry location="src/GetTreesInstr.o" fileType="regular" />
+        <entry location="src/GetWeightsLengthFunction.o" fileType="regular" />
+        <entry location="src/Globals.cpp" fileType="regular" />
+        <entry location="src/Globals.h" fileType="regular" />
+        <entry location="src/Globals.o" fileType="regular" />
+        <entry location="src/gnuPlotTerminal.o" fileType="regular" />
+        <entry location="src/GradDescInstr.o" fileType="regular" />
+        <entry location="src/GradientDescent.o" fileType="regular" />
+        <entry location="src/GraphInstr.o" fileType="regular" />
+        <entry location="src/GreaterThanOp.o" fileType="regular" />
+        <entry location="src/GreaterThanOrEqualOp.o" fileType="regular" />
+        <entry location="src/gui/.deps/.svn" fileType="regular" />
+        <entry location="src/gui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/com/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/com/stevesoft/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/com/stevesoft/pat/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/com/stevesoft/pat/wrap/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/doc/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/ext/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/ext/vamsas/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/calculations/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/colourSchemes/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/editing/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/features/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/io/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/menus/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/misc/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/vamsas/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/html/webServices/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/icons/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/help/JavaHelpSearch/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/images/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/analysis/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/appletgui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/bin/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/binding/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/commands/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/datamodel/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/gui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/io/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/jbgui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/math/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/schemabinding/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/schemabinding/version2/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/schemes/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/structure/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/util/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/jalview/ws/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/lib/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/MCview/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/dasobert/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/dasobert/das/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/dasobert/das2/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/dasobert/dasregistry/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/dasobert/eventmodel/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/biojava/dasobert/feature/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/jibble/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/org/jibble/epsgraphics/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/uk/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/uk/ac/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/uk/ac/ebi/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/uk/ac/ebi/picr/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/uk/ac/ebi/picr/model/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/uk/ac/ebi/www/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/vamsas/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/vamsas/objects/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/classes/vamsas/objects/simple/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/dist/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/doc/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/help/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/resources/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/resources/images/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/schemas/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/com/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/com/stevesoft/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/ext/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/ext/vamsas/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/analysis/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/appletgui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/bin/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/binding/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/commands/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/datamodel/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/gui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/io/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/jbgui/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/math/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/schemabinding/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/schemabinding/version2/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/schemes/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/structure/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/util/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/jalview/ws/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/MCview/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/dasobert/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/dasobert/das/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/dasobert/das2/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/dasobert/dasregistry/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/dasobert/eventmodel/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/biojava/dasobert/feature/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/jibble/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/org/jibble/epsgraphics/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/ebi/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/ebi/picr/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/ebi/picr/model/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/ebi/www/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/ebi/www/picr/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/uk/ac/ebi/www/picr/AccessionMappingService/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/vamsas/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/vamsas/objects/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/src/vamsas/objects/simple/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/utils/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/utils/InstallAnywhere/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/utils/jalopy/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/utils/jalopy/bin/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/utils/jalopy/docs/.svn" fileType="regular" />
+        <entry location="src/gui/Jalview/utils/jalopy/lib/.svn" fileType="regular" />
+        <entry location="src/GuiCommandNode.o" fileType="regular" />
+        <entry location="src/GuiPrintBuffer.cpp" fileType="regular" />
+        <entry location="src/GuiPrintBuffer.h" fileType="regular" />
+        <entry location="src/GuiPrintBuffer.o" fileType="regular" />
+        <entry location="src/HelpInstr.o" fileType="regular" />
+        <entry location="src/HSearchInstr.o" fileType="regular" />
+        <entry location="src/Hypersphere.o" fileType="regular" />
+        <entry location="src/IdentExpression.o" fileType="regular" />
+        <entry location="src/IdentReference.o" fileType="regular" />
+        <entry location="src/IfElse.o" fileType="regular" />
+        <entry location="src/IfThenPair.o" fileType="regular" />
+        <entry location="src/IncrementInstr.o" fileType="regular" />
+        <entry location="src/InequalityOp.o" fileType="regular" />
+        <entry location="src/InlineUserDefinedCommand.o" fileType="regular" />
+        <entry location="src/Instructions.h" fileType="regular" />
+        <entry location="src/IntCastOp.o" fileType="regular" />
+        <entry location="src/InteractiveInstr.o" fileType="regular" />
+        <entry location="src/Interpreter.cpp" fileType="regular" />
+        <entry location="src/Interpreter.h" fileType="regular" />
+        <entry location="src/Interpreter.o" fileType="regular" />
+        <entry location="src/IntLiteral.o" fileType="regular" />
+        <entry location="src/InvalidCastException.cpp" fileType="regular" />
+        <entry location="src/InvalidCastException.h" fileType="regular" />
+        <entry location="src/InvalidCastException.o" fileType="regular" />
+        <entry location="src/InvalidParameterListException.cpp" fileType="regular" />
+        <entry location="src/InvalidParameterListException.h" fileType="regular" />
+        <entry location="src/InvalidParameterListException.o" fileType="regular" />
+        <entry location="src/LBSTestInstr.o" fileType="regular" />
+        <entry location="src/LessThanOp.o" fileType="regular" />
+        <entry location="src/LessThanOrEqualOp.o" fileType="regular" />
+        <entry location="src/lib/.svn" fileType="regular" />
+        <entry location="src/Likelihood.o" fileType="regular" />
+        <entry location="src/LikelihoodNodeData.o" fileType="regular" />
+        <entry location="src/LimitsFunction.o" fileType="regular" />
+        <entry location="src/listPsodaFiles.sh" fileType="regular" />
+        <entry location="src/Literal.o" fileType="regular" />
+        <entry location="src/LiteralExpression.o" fileType="regular" />
+        <entry location="src/LoadDataInstr.o" fileType="regular" />
+        <entry location="src/LocatableObject.cpp" fileType="regular" />
+        <entry location="src/LocatableObject.h" fileType="regular" />
+        <entry location="src/LocatableObject.o" fileType="regular" />
+        <entry location="src/Location.cpp" fileType="regular" />
+        <entry location="src/Location.h" fileType="regular" />
+        <entry location="src/Location.o" fileType="regular" />
+        <entry location="src/LogicalAndOp.o" fileType="regular" />
+        <entry location="src/LogicalNotOp.o" fileType="regular" />
+        <entry location="src/LogicalOrOp.o" fileType="regular" />
+        <entry location="src/LogInstr.o" fileType="regular" />
+        <entry location="src/LScoresInstr.o" fileType="regular" />
+        <entry location="src/LSetInstr.o" fileType="regular" />
+        <entry location="src/main.cpp" fileType="regular" />
+        <entry location="src/main.o" fileType="regular" />
+        <entry location="src/makeClass.pl" fileType="regular" />
+        <entry location="src/Makefile" fileType="regular" />
+        <entry location="src/Makefile.am" fileType="regular" />
+        <entry location="src/Makefile.in" fileType="regular" />
+        <entry location="src/makeProject.pl" fileType="regular" />
+        <entry location="src/MDS.o" fileType="regular" />
+        <entry location="src/ModOp.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/.svn" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/adh.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/anolis.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/avian_ovomucoids.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/bayes.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/bayes.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/bayes.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/bglobin.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/carb.r" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/command.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/command.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/command.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/cynmix.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/doit.cpp" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/globals.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/gpl.txt" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/input" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/kim.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/macmpi.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/MacMPI_X.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/Makefile" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mb.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mb.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mb.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mbmath.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mbmath.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mbmath.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mcmc.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mcmc.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mcmc.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/model.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/model.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/model.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mrbayes.vcproj" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/plot.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/plot.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/plot.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/primates.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/replicase.nex" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sump.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sump.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sump.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sumt.c" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sumt.h" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sumt.o" fileType="regular" />
+        <entry location="src/MRPInstr.o" fileType="regular" />
+        <entry location="src/MultChar.o" fileType="regular" />
+        <entry location="src/MultiplicationOp.o" fileType="regular" />
+        <entry location="src/NameExpression.o" fileType="regular" />
+        <entry location="src/NegationOp.o" fileType="regular" />
+        <entry location="src/NeighborTestInstr.o" fileType="regular" />
+        <entry location="src/NewickLexicalAnalyzer.o" fileType="regular" />
+        <entry location="src/NewickParser.o" fileType="regular" />
+        <entry location="src/NewickTreeParser.o" fileType="regular" />
+        <entry location="src/NJ.o" fileType="regular" />
+        <entry location="src/NJInstr.o" fileType="regular" />
+        <entry location="src/OperationExpression.o" fileType="regular" />
+        <entry location="src/Operator.o" fileType="regular" />
+        <entry location="src/org" fileType="regular" />
+        <entry location="src/ParenthesesOp.o" fileType="regular" />
+        <entry location="src/parsers" fileType="regular" />
+        <entry location="src/Parsimony.o" fileType="regular" />
+        <entry location="src/ParsimonyNodeData.o" fileType="regular" />
+        <entry location="src/ParsingInfo.o" fileType="regular" />
+        <entry location="src/Partition.o" fileType="regular" />
+        <entry location="src/PartitionTree.o" fileType="regular" />
+        <entry location="src/PaupLexicalAnalyzer.o" fileType="regular" />
+        <entry location="src/PaupParser.o" fileType="regular" />
+        <entry location="src/PercentIdentityInstr.o" fileType="regular" />
+        <entry location="src/perl" fileType="regular" />
+        <entry location="src/PostDecrOp.o" fileType="regular" />
+        <entry location="src/PostIncrOp.o" fileType="regular" />
+        <entry location="src/PreDecrOp.o" fileType="regular" />
+        <entry location="src/PreIncrOp.o" fileType="regular" />
+        <entry location="src/PrintBuffer.o" fileType="regular" />
+        <entry location="src/PrintInstr.o" fileType="regular" />
+        <entry location="src/PrintMatrixInstr.o" fileType="regular" />
+        <entry location="src/ProgramBlock.o" fileType="regular" />
+        <entry location="src/ProgramGraphNode.o" fileType="regular" />
+        <entry location="src/ProjectedTree.o" fileType="regular" />
+        <entry location="src/PScoresInstr.o" fileType="regular" />
+        <entry location="src/PSODA.o" fileType="regular" />
+        <entry location="src/PsodaBlocks.o" fileType="regular" />
+        <entry location="src/PsodaBreak.cpp" fileType="regular" />
+        <entry location="src/PsodaBreak.h" fileType="regular" />
+        <entry location="src/PsodaBreak.o" fileType="regular" />
+        <entry location="src/PsodaCommand.o" fileType="regular" />
+        <entry location="src/PsodaConstruct.o" fileType="regular" />
+        <entry location="src/PsodaElement.o" fileType="regular" />
+        <entry location="src/PsodaError.cpp" fileType="regular" />
+        <entry location="src/PsodaError.h" fileType="regular" />
+        <entry location="src/PsodaError.o" fileType="regular" />
+        <entry location="src/PsodaException.cpp" fileType="regular" />
+        <entry location="src/PsodaException.h" fileType="regular" />
+        <entry location="src/PsodaException.o" fileType="regular" />
+        <entry location="src/psodaFile.nex" fileType="regular" />
+        <entry location="src/psodaguijarfiles.txt" fileType="regular" />
+        <entry location="src/PsodaPrinter.cpp" fileType="regular" />
+        <entry location="src/PsodaPrinter.h" fileType="regular" />
+        <entry location="src/PsodaPrinter.o" fileType="regular" />
+        <entry location="src/PsodaProgram.o" fileType="regular" />
+        <entry location="src/PsodaReturn.cpp" fileType="regular" />
+        <entry location="src/PsodaReturn.h" fileType="regular" />
+        <entry location="src/PsodaReturn.o" fileType="regular" />
+        <entry location="src/PsodaRunner.cpp" fileType="regular" />
+        <entry location="src/PsodaRunner.h" fileType="regular" />
+        <entry location="src/PsodaRunner.o" fileType="regular" />
+        <entry location="src/psodascript" fileType="regular" />
+        <entry location="src/PsodaSourceParser.o" fileType="regular" />
+        <entry location="src/PsodaStopException.cpp" fileType="regular" />
+        <entry location="src/PsodaStopException.h" fileType="regular" />
+        <entry location="src/PsodaStopException.o" fileType="regular" />
+        <entry location="src/PsodaWarning.cpp" fileType="regular" />
+        <entry location="src/PsodaWarning.h" fileType="regular" />
+        <entry location="src/PsodaWarning.o" fileType="regular" />
+        <entry location="src/QAlgorithmBase.o" fileType="regular" />
+        <entry location="src/QAlign.o" fileType="regular" />
+        <entry location="src/QAlignBase.o" fileType="regular" />
+        <entry location="src/QDeque.cpp" fileType="regular" />
+        <entry location="src/QDeque.h" fileType="regular" />
+        <entry location="src/QDeque.o" fileType="regular" />
+        <entry location="src/QNode.cpp" fileType="regular" />
+        <entry location="src/QNode.h" fileType="regular" />
+        <entry location="src/QNode.o" fileType="regular" />
+        <entry location="src/QNodeInfo.cpp" fileType="regular" />
+        <entry location="src/QNodeInfo.h" fileType="regular" />
+        <entry location="src/QNodeInfo.o" fileType="regular" />
+        <entry location="src/QRetainedResultSearch.o" fileType="regular" />
+        <entry location="src/QSearchBase.o" fileType="regular" />
+        <entry location="src/QSSAlign.o" fileType="regular" />
+        <entry location="src/QSSPredict.o" fileType="regular" />
+        <entry location="src/QStep.o" fileType="regular" />
+        <entry location="src/QSumOfPairs.o" fileType="regular" />
+        <entry location="src/QTBR.o" fileType="regular" />
+        <entry location="src/QTree.cpp" fileType="regular" />
+        <entry location="src/QTree.h" fileType="regular" />
+        <entry location="src/QTree.o" fileType="regular" />
+        <entry location="src/QTreeRepository.cpp" fileType="regular" />
+        <entry location="src/QTreeRepository.h" fileType="regular" />
+        <entry location="src/QTreeRepository.o" fileType="regular" />
+        <entry location="src/QuitInstr.o" fileType="regular" />
+        <entry location="src/RandomFunction.o" fileType="regular" />
+        <entry location="src/RandomMorphInstr.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/.svn" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/axml.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/axml.h" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/axml.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/bipartitionList.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/bipartitionList.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/categorizeGeneric.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/categorizeGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluateGeneric.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluateGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluateGenericVector.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluateGenericVector.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluatePartialGeneric.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluatePartialGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/globalVariables.h" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/Makefile" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/Makefile.gcc" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/Makefile.MPI" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/Makefile.PTHREADS" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/Makefile.PTHREADS.MAC" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/makenewzGeneric.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/makenewzGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/models.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/models.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/multiple.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/multiple.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/newviewGeneric.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/newviewGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/optimizeModel.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/optimizeModel.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/parsePartitions.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/parsePartitions.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/rapidBootstrap.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/rapidBootstrap.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/RAxML-Manual.7.0.4.pdf" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/raxmlParsimony.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/raxmlParsimony.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/rev_functions.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/rev_functions.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/searchAlgo.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/searchAlgo.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/topologies.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/topologies.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/treeIO.c" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/treeIO.o" fileType="regular" />
+        <entry location="src/raxml.cpp" fileType="regular" />
+        <entry location="src/raxml.h" fileType="regular" />
+        <entry location="src/raxml.o" fileType="regular" />
+        <entry location="src/RAxMLSearchInstr.o" fileType="regular" />
+        <entry location="src/README.txt" fileType="regular" />
+        <entry location="src/ReadOnlyEnvironment.cpp" fileType="regular" />
+        <entry location="src/ReadOnlyEnvironment.h" fileType="regular" />
+        <entry location="src/ReadOnlyEnvironment.o" fileType="regular" />
+        <entry location="src/RealNumberCastOp.o" fileType="regular" />
+        <entry location="src/RealNumberLiteral.o" fileType="regular" />
+        <entry location="src/RegisterInstructions.h" fileType="regular" />
+        <entry location="src/RegistryBuilder" fileType="regular" />
+        <entry location="src/RegistryBuilder.cpp" fileType="regular" />
+        <entry location="src/RegistryBuilder.h" fileType="regular" />
+        <entry location="src/ResolutionTree.o" fileType="regular" />
+        <entry location="src/ResolveTreesInstr.o" fileType="regular" />
+        <entry location="src/ReturnInstr.o" fileType="regular" />
+        <entry location="src/RF.o" fileType="regular" />
+        <entry location="src/RSearchInstr.o" fileType="regular" />
+        <entry location="src/rst" fileType="regular" />
+        <entry location="src/RTBR.o" fileType="regular" />
+        <entry location="src/SaveTreesInstr.o" fileType="regular" />
+        <entry location="src/sconsx" fileType="regular" />
+        <entry location="src/searches" fileType="regular" />
+        <entry location="src/SetInstr.o" fileType="regular" />
+        <entry location="src/ShowTreesInstr.o" fileType="regular" />
+        <entry location="src/SignalHandlers.cpp" fileType="regular" />
+        <entry location="src/SignalHandlers.h" fileType="regular" />
+        <entry location="src/SignalHandlers.o" fileType="regular" />
+        <entry location="src/soda.doxygen" fileType="regular" />
+        <entry location="src/soda.gdb" fileType="regular" />
+        <entry location="src/Soda.i" fileType="regular" />
+        <entry location="src/SodaRoot.py" fileType="regular" />
+        <entry location="src/SourceInstr.o" fileType="regular" />
+        <entry location="src/SRandomInstr.o" fileType="regular" />
+        <entry location="src/SSAlignInstr.o" fileType="regular" />
+        <entry location="src/SSDataset.cpp" fileType="regular" />
+        <entry location="src/SSDataset.h" fileType="regular" />
+        <entry location="src/SSDataset.o" fileType="regular" />
+        <entry location="src/SSPredictInstr.o" fileType="regular" />
+        <entry location="src/StackTraceInstr.o" fileType="regular" />
+        <entry location="src/StoreTreeInstr.o" fileType="regular" />
+        <entry location="src/StringCastOp.o" fileType="regular" />
+        <entry location="src/StringLengthFunction.o" fileType="regular" />
+        <entry location="src/StringLiteral.o" fileType="regular" />
+        <entry location="src/SubMat.o" fileType="regular" />
+        <entry location="src/SubStringFunction.o" fileType="regular" />
+        <entry location="src/SubtractionOp.o" fileType="regular" />
+        <entry location="src/SumOfPairsInstr.o" fileType="regular" />
+        <entry location="src/TimeFunction.o" fileType="regular" />
+        <entry location="src/Timer.o" fileType="regular" />
+        <entry location="src/TreeBlock.o" fileType="regular" />
+        <entry location="src/TreeDistInstr.o" fileType="regular" />
+        <entry location="src/TreeField.o" fileType="regular" />
+        <entry location="src/TreeInfoInstr.o" fileType="regular" />
+        <entry location="src/TreeLiteral.o" fileType="regular" />
+        <entry location="src/TreeMap.cpp" fileType="regular" />
+        <entry location="src/TreeMap.h" fileType="regular" />
+        <entry location="src/TreeMap.o" fileType="regular" />
+        <entry location="src/TreeReader.cpp" fileType="regular" />
+        <entry location="src/TreeReader.h" fileType="regular" />
+        <entry location="src/TreeReader.o" fileType="regular" />
+        <entry location="src/TreeResolve.o" fileType="regular" />
+        <entry location="src/treesaap/.svn" fileType="regular" />
+        <entry location="src/treesaap/BASEML/.svn" fileType="regular" />
+        <entry location="src/treesaap/BASEML/About/.svn" fileType="regular" />
+        <entry location="src/treesaap/BASEML/About/Source Code/.svn" fileType="regular" />
+        <entry location="src/treesaap/BASEML/BASEML.java" fileType="regular" />
+        <entry location="src/treesaap/BASEML/BASEMLStub.java" fileType="regular" />
+        <entry location="src/treesaap/BASEML/BASEMLTreeBean.java" fileType="regular" />
+        <entry location="src/treesaap/BASEML/BASEMLUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/BASEML/ExecBaseml.java" fileType="regular" />
+        <entry location="src/treesaap/Block/.svn" fileType="regular" />
+        <entry location="src/treesaap/Block/Block.java" fileType="regular" />
+        <entry location="src/treesaap/Block/BlockStub.java" fileType="regular" />
+        <entry location="src/treesaap/Block/BlockUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/CDM/.svn" fileType="regular" />
+        <entry location="src/treesaap/CDM/CDM.java" fileType="regular" />
+        <entry location="src/treesaap/CDM/CDMPrint.java" fileType="regular" />
+        <entry location="src/treesaap/CDM/CDMResultBean.java" fileType="regular" />
+        <entry location="src/treesaap/CDM/CDMStub.java" fileType="regular" />
+        <entry location="src/treesaap/CDM/CDMUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/clad/.svn" fileType="regular" />
+        <entry location="src/treesaap/CommandLine/.svn" fileType="regular" />
+        <entry location="src/treesaap/CommandLine/CommandLine.java" fileType="regular" />
+        <entry location="src/treesaap/CommandLine/CommandLineStub.java" fileType="regular" />
+        <entry location="src/treesaap/CommandLine/CommandLineUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/Data/.svn" fileType="regular" />
+        <entry location="src/treesaap/Data/CriticalValueBean.java" fileType="regular" />
+        <entry location="src/treesaap/Data/CriticalValueControl.java" fileType="regular" />
+        <entry location="src/treesaap/Data/Data.java" fileType="regular" />
+        <entry location="src/treesaap/Data/DataStub.java" fileType="regular" />
+        <entry location="src/treesaap/Data/DataUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/Data/GENETIC_CODES/.svn" fileType="regular" />
+        <entry location="src/treesaap/Data/GeneticCodeBean.java" fileType="regular" />
+        <entry location="src/treesaap/Data/GeneticCodeControl.java" fileType="regular" />
+        <entry location="src/treesaap/Data/PROTEIN_PROPERTIES/.svn" fileType="regular" />
+        <entry location="src/treesaap/Data/ProteinBean.java" fileType="regular" />
+        <entry location="src/treesaap/Data/ProteinControl.java" fileType="regular" />
+        <entry location="src/treesaap/Data/SECONDARY_STRUCTURES/.svn" fileType="regular" />
+        <entry location="src/treesaap/Data/TableBean.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/.svn" fileType="regular" />
+        <entry location="src/treesaap/Driver/Driver.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverForPsoda.copy" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverForPsoda.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverPrint.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverPrintStub.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverPrintUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverStub.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/DriverUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/Driver/TestPsodaPanelJFrame.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/.svn" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/About/.svn" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/About/Source Code/.svn" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/Evpthwy.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/EvpthwyBean.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/EvpthwyControl.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/EvpthwyPrint.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/EvpthwyResultBean.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/EvpthwyStub.java" fileType="regular" />
+        <entry location="src/treesaap/Evpthwy/EvpthwyUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/.svn" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/DNAFileParserPrint.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/DNAFileParserProgressWindow.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/DNAFileParserStub.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/DNAFileParserUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/GeneralDNAFileParser.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/TaxaBean.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/TaxaControl.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/TreeBean.java" fileType="regular" />
+        <entry location="src/treesaap/GeneralDNAFileParser/TreeControl.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/.svn" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/About/.svn" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/About/Source Code/.svn" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/ActionControl.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/GraphicInterface.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/GraphicInterfaceStub.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/GraphicInterfaceUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/ICONS/.svn" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/ObjectControl.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Objects/.svn" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Objects/ActionComponent.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Objects/ActionMenuItem.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Objects/ActionPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Objects/ToolTipButton.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/.svn" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/AnalysisPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/BasemlPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/bean.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/BranchesPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/CDMPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/CorrelatePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/EvpthwyPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/FilePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/MainPanel.java_old" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/MainPanel5.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/OperationPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/ParserPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/PropertyPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/PropListCreatePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/PropListDeletePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/PropListDisplayPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/PropListSelectPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/RunPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/RunSettingsPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/RunTreePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/TaxaChoosePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/TaxaDisplayPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/TaxaPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/TreeChoosePanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/TreeDisplayPanel.java" fileType="regular" />
+        <entry location="src/treesaap/GraphicInterface/Panels/TreePanel.java" fileType="regular" />
+        <entry location="src/treesaap/Objects/.svn" fileType="regular" />
+        <entry location="src/treesaap/Objects/Stub.java" fileType="regular" />
+        <entry location="src/treesaap/Objects/UsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/Output/.svn" fileType="regular" />
+        <entry location="src/treesaap/Output/PSODAtree_Un8" fileType="regular" />
+        <entry location="src/treesaap/paml4/.svn" fileType="regular" />
+        <entry location="src/treesaap/paml4/bin/.svn" fileType="regular" />
+        <entry location="src/treesaap/paml4/dat/.svn" fileType="regular" />
+        <entry location="src/treesaap/paml4/doc" fileType="regular" />
+        <entry location="src/treesaap/paml4/examples" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/.svn" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/baseml.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/basemlg.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/chi2.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/codeml.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/evolver.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/Makefile" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/Makefile.MSVC" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/Makefile.UNIX" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/mcmctree.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/paml.h" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/pamp.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/tools.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/treespace.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/treesub.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/TreeTimeJeff.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/src/yn00.c" fileType="regular" />
+        <entry location="src/treesaap/paml4/Technical" fileType="regular" />
+        <entry location="src/treesaap/Run/.svn" fileType="regular" />
+        <entry location="src/treesaap/Run/About/.svn" fileType="regular" />
+        <entry location="src/treesaap/Run/About/Source Code/.svn" fileType="regular" />
+        <entry location="src/treesaap/Run/Run.java" fileType="regular" />
+        <entry location="src/treesaap/Run/RunStub.java" fileType="regular" />
+        <entry location="src/treesaap/Run/RunUsageBean.java" fileType="regular" />
+        <entry location="src/treesaap/Run/SubstsCDMProgressWindow.java" fileType="regular" />
+        <entry location="src/treesaap/Run/SubstsEvpthwyProgressWindow.java" fileType="regular" />
+        <entry location="src/treesaap/SampleData/.svn" fileType="regular" />
+        <entry location="src/treesaap/Settings/.svn" fileType="regular" />
+        <entry location="src/treesaap/Substs/.svn" fileType="regular" />
+        <entry location="src/treesaap/Substs/About/.svn" fileType="regular" />
+        <entry location="src/treesaap/Substs/About/Source Code/.svn" fileType="regular" />
+        <entry location="src/treesaap/Tree/.svn" fileType="regular" />
+        <entry location="src/treesaap/Weka/.svn" fileType="regular" />
+        <entry location="src/treesaap/Weka/ChemicalPropertiesException.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/DiGraph.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/Edge.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/InvalidWekaFileException.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/New Folder" fileType="regular" />
+        <entry location="src/treesaap/Weka/Node.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/TestDriver.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/weka-sim-doc.html" fileType="regular" />
+        <entry location="src/treesaap/Weka/WekaFileReader.java" fileType="regular" />
+        <entry location="src/treesaap/Weka/wekasim.java" fileType="regular" />
+        <entry location="src/UndefinedLiteral.o" fileType="regular" />
+        <entry location="src/UndefinedVariableException.cpp" fileType="regular" />
+        <entry location="src/UndefinedVariableException.h" fileType="regular" />
+        <entry location="src/UndefinedVariableException.o" fileType="regular" />
+        <entry location="src/UpdateInstr.o" fileType="regular" />
+        <entry location="src/UPGMAInstr.o" fileType="regular" />
+        <entry location="src/UseDataInstr.o" fileType="regular" />
+        <entry location="src/UserDefinedCommand.o" fileType="regular" />
+        <entry location="src/UseTreeInstr.o" fileType="regular" />
+        <entry location="src/utility" fileType="regular" />
+        <entry location="src/Validatable.cpp" fileType="regular" />
+        <entry location="src/Validatable.h" fileType="regular" />
+        <entry location="src/Validatable.o" fileType="regular" />
+        <entry location="src/VariableRedeclarationException.cpp" fileType="regular" />
+        <entry location="src/VariableRedeclarationException.h" fileType="regular" />
+        <entry location="src/VariableRedeclarationException.o" fileType="regular" />
+        <entry location="src/VisualizationBase.o" fileType="regular" />
+        <entry location="src/visualizations" fileType="regular" />
+        <entry location="src/VisualizationTerminal.o" fileType="regular" />
+        <entry location="src/WeightsData.o" fileType="regular" />
+        <entry location="src/WeightsInstr.o" fileType="regular" />
+        <entry location="src/WeightsResetInstr.o" fileType="regular" />
+        <entry location="src/WhileLoop.o" fileType="regular" />
+        <entry location="test" fileType="regular" />
+        <entry location="userDocs/.svn" fileType="regular" />
+        <entry location="userDocs/images/.svn" fileType="regular" />
+        <entry location="valgrind.howto" fileType="regular" />
+        <entry location="windowsinstall.install4j" fileType="regular" />
+      </exclude>
+      <variables />
+    </macos>
+    <win32 name="Windows" id="92" mediaFileName="" installDir="biosuite" overridePrincipalLanguage="false" requires64bit="false" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" includedJRE="" manualJREEntry="false" bundleType="1" jreURL="" jreFtpURL="" jreShared="false" customInstallBaseDir="" createUninstallIcon="true" contentFilesType="1" downloadURL="" runAsAdmin="false">
+      <excludedLaunchers />
+      <excludedComponents />
+      <excludedBeans />
+      <overriddenPrincipalLanguage id="en" customLocalizationFile="" />
+      <exclude />
+      <variables />
+    </win32>
+  </mediaSets>
+  <buildIds buildAll="false">
+    <mediaSet refId="20" />
+  </buildIds>
+</install4j>
+

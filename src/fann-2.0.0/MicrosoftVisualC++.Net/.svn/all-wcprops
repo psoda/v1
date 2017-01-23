@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net
+END
+xor.data
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/xor.data
+END
+all.sln
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/all.sln
+END
+xor_train.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/xor_train.vcproj
+END
+simple_train.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/simple_train.vcproj
+END
+steepness_train.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/steepness_train.vcproj
+END
+all.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/all.ncb
+END
+xor_test.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/xor_test.vcproj
+END
+simple_test.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/simple_test.vcproj
+END
+libfann.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/libfann.vcproj
+END
+all.suo
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftVisualC++.Net/all.suo
+END

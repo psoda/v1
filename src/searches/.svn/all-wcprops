@@ -1,0 +1,293 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/opensvn/psoda/!svn/ver/919/src/searches
+END
+AlternatingSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/877/src/searches/AlternatingSearch.cpp
+END
+TreeResolve.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/814/src/searches/TreeResolve.cpp
+END
+SectorStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/912/src/searches/SectorStep.h
+END
+OrthoSectorSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/913/src/searches/OrthoSectorSearch.cpp
+END
+QRetainedResultSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/903/src/searches/QRetainedResultSearch.cpp
+END
+QStep.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/opensvn/psoda/!svn/ver/814/src/searches/QStep.h
+END
+CommonCladeRefinement.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/872/src/searches/CommonCladeRefinement.h
+END
+GradientDescent.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/830/src/searches/GradientDescent.cpp
+END
+NoneSectorSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/906/src/searches/NoneSectorSearch.cpp
+END
+PartialTreeSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/911/src/searches/PartialTreeSearch.h
+END
+NJ.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/814/src/searches/NJ.cpp
+END
+Dist.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/814/src/searches/Dist.h
+END
+TreeField.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/830/src/searches/TreeField.h
+END
+PartitionSectorSearchBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/913/src/searches/PartitionSectorSearchBase.cpp
+END
+DPTBR.h
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/opensvn/psoda/!svn/ver/814/src/searches/DPTBR.h
+END
+PartialTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/911/src/searches/PartialTree.h
+END
+ResolutionTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/883/src/searches/ResolutionTree.cpp
+END
+TreeFusion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/883/src/searches/TreeFusion.cpp
+END
+PartitionSectorSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/907/src/searches/PartitionSectorSearch.h
+END
+PostOrderSectorSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/913/src/searches/PostOrderSectorSearch.cpp
+END
+ParticleTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/861/src/searches/ParticleTree.h
+END
+RandomSectorSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/903/src/searches/RandomSectorSearch.h
+END
+SectorStep.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/912/src/searches/SectorStep.cpp
+END
+QStep.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/871/src/searches/QStep.cpp
+END
+PartitionSector.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/908/src/searches/PartitionSector.h
+END
+CommonCladeRefinement.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/903/src/searches/CommonCladeRefinement.cpp
+END
+PartitionSpaceSectorSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/913/src/searches/PartitionSpaceSectorSearch.h
+END
+PartialTreeSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/911/src/searches/PartialTreeSearch.cpp
+END
+AlternatingSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/867/src/searches/AlternatingSearch.h
+END
+Dist.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/814/src/searches/Dist.cpp
+END
+TreeField.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/830/src/searches/TreeField.cpp
+END
+TreeResolve.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/814/src/searches/TreeResolve.h
+END
+OrthoSectorSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/913/src/searches/OrthoSectorSearch.h
+END
+QRetainedResultSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/814/src/searches/QRetainedResultSearch.h
+END
+GradientDescent.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/830/src/searches/GradientDescent.h
+END
+NoneSectorSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/906/src/searches/NoneSectorSearch.h
+END
+DPTBR.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/814/src/searches/DPTBR.cpp
+END
+PartialTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/915/src/searches/PartialTree.cpp
+END
+NJ.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/814/src/searches/NJ.h
+END
+PartitionSectorSearchBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/913/src/searches/PartitionSectorSearchBase.h
+END
+PartitionSectorSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/907/src/searches/PartitionSectorSearch.cpp
+END
+ParticleTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/861/src/searches/ParticleTree.cpp
+END
+RandomSectorSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/903/src/searches/RandomSectorSearch.cpp
+END
+ResolutionTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/814/src/searches/ResolutionTree.h
+END
+TreeFusion.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/883/src/searches/TreeFusion.h
+END
+PartitionSector.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/904/src/searches/PartitionSector.cpp
+END
+PartitionSpaceSectorSearch.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/919/src/searches/PartitionSpaceSectorSearch.cpp
+END
+PostOrderSectorSearch.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/913/src/searches/PostOrderSectorSearch.h
+END

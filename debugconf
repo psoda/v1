@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "- aclocal."
+aclocal 
+echo "- autoconf."
+autoconf
+echo "- automake."
+automake -ac
+./configure --disable-shared --enable-debug --enable-profile
+exit

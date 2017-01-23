@@ -1,0 +1,1361 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors
+END
+MapListToDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListToDescriptor.class
+END
+AnnotationElementDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor$5.class
+END
+SequenceSetDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor$5.class
+END
+AlcodonDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonDescriptor.class
+END
+ViewportDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor.class
+END
+AnnotationDescriptor$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$12.class
+END
+FeatureDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$2.class
+END
+JalviewModelDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelDescriptor.class
+END
+GroupDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/GroupDescriptor$2.class
+END
+MapListFromDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListFromDescriptor$2.class
+END
+ViewportDescriptor$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$10.class
+END
+FeatureDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$6.class
+END
+TreeDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$3.class
+END
+SequenceSetPropertiesDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetPropertiesDescriptor$2.class
+END
+ColourDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ColourDescriptor$1.class
+END
+ViewportDescriptor$14.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$14.class
+END
+TreeDescriptor$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$7.class
+END
+JGroupDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$2.class
+END
+ViewportDescriptor$18.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$18.class
+END
+SequenceDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceDescriptor$1.class
+END
+JGroupDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$6.class
+END
+JalviewModelSequenceDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor$4.class
+END
+SettingDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SettingDescriptor$3.class
+END
+AlcodonDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonDescriptor$2.class
+END
+ViewportDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$2.class
+END
+PdbentryItemDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryItemDescriptor.class
+END
+JalviewModelDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelDescriptor$1.class
+END
+DBRefDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/DBRefDescriptor$3.class
+END
+ViewportDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$6.class
+END
+JGroupDescriptor$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$13.class
+END
+PdbentryDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryDescriptor$4.class
+END
+AlcodMapDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodMapDescriptor.class
+END
+HiddenColumnsDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/HiddenColumnsDescriptor$2.class
+END
+PropertyDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PropertyDescriptor.class
+END
+StructureStateDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor$3.class
+END
+ViewportDescriptor$23.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$23.class
+END
+JSeqDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$3.class
+END
+ThresholdLineDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ThresholdLineDescriptor$1.class
+END
+MappingDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MappingDescriptor.class
+END
+PdbentryItemDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryItemDescriptor$1.class
+END
+ViewportDescriptor$27.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$27.class
+END
+JSeqDescriptor$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$7.class
+END
+TreeDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor.class
+END
+AnnotationDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$2.class
+END
+SequenceTypeDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceTypeDescriptor$2.class
+END
+FeatureSettingsDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureSettingsDescriptor$2.class
+END
+MapListTypeDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListTypeDescriptor$4.class
+END
+AnnotationDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$6.class
+END
+TreeDescriptor$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$10.class
+END
+JGroupDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor.class
+END
+AnnotationColoursDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor$2.class
+END
+TreeDescriptor$14.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$14.class
+END
+AnnotationColoursDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor$6.class
+END
+UserColoursDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/UserColoursDescriptor$2.class
+END
+AnnotationElementDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor$4.class
+END
+SequenceSetDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor$4.class
+END
+AnnotationDescriptor$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$11.class
+END
+FeatureDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$1.class
+END
+GroupDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/GroupDescriptor$1.class
+END
+MapListFromDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListFromDescriptor$1.class
+END
+FeatureDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$5.class
+END
+TreeDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$2.class
+END
+SequenceSetPropertiesDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetPropertiesDescriptor$1.class
+END
+ViewportDescriptor$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$13.class
+END
+ViewportDescriptor$32.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$32.class
+END
+TreeDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$6.class
+END
+JGroupDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$1.class
+END
+ViewportDescriptor$17.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$17.class
+END
+JGroupDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$5.class
+END
+MapListToDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListToDescriptor$2.class
+END
+JalviewModelSequenceDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor$3.class
+END
+JGroupDescriptor$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$9.class
+END
+SettingDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SettingDescriptor$2.class
+END
+AlcodonDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonDescriptor$1.class
+END
+ViewportDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$1.class
+END
+DBRefDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/DBRefDescriptor$2.class
+END
+ViewportDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$5.class
+END
+JalviewModelDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelDescriptor$4.class
+END
+AnnotationDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor.class
+END
+SequenceTypeDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceTypeDescriptor.class
+END
+OtherDataDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/OtherDataDescriptor.class
+END
+ViewportDescriptor$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$9.class
+END
+JGroupDescriptor$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$12.class
+END
+PdbentryDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryDescriptor$3.class
+END
+AlcodonFrameDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonFrameDescriptor$2.class
+END
+HiddenColumnsDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/HiddenColumnsDescriptor$1.class
+END
+AnnotationElementDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor.class
+END
+SequenceSetDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor.class
+END
+StructureStateDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor$2.class
+END
+ViewportDescriptor$22.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$22.class
+END
+JSeqDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$2.class
+END
+StructureStateDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor$6.class
+END
+ViewportDescriptor$26.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$26.class
+END
+MappingChoiceDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MappingChoiceDescriptor$2.class
+END
+JSeqDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$6.class
+END
+MapListFromDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListFromDescriptor.class
+END
+AnnotationDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$1.class
+END
+SequenceTypeDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceTypeDescriptor$1.class
+END
+OtherDataDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/OtherDataDescriptor$2.class
+END
+FeatureSettingsDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureSettingsDescriptor$1.class
+END
+SequenceSetPropertiesDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetPropertiesDescriptor.class
+END
+MapListTypeDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListTypeDescriptor$3.class
+END
+AnnotationDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$5.class
+END
+AlcodMapDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodMapDescriptor$2.class
+END
+AnnotationColoursDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor$1.class
+END
+JalviewUserColoursDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewUserColoursDescriptor.class
+END
+AnnotationDescriptor$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$9.class
+END
+TreeDescriptor$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$13.class
+END
+SequenceDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceDescriptor.class
+END
+AnnotationColoursDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor$5.class
+END
+PropertyDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PropertyDescriptor$2.class
+END
+UserColoursDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/UserColoursDescriptor$1.class
+END
+JalviewModelSequenceDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor.class
+END
+AnnotationElementDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor$3.class
+END
+SequenceSetDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor$3.class
+END
+AnnotationDescriptor$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$10.class
+END
+MappingDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MappingDescriptor$1.class
+END
+DBRefDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/DBRefDescriptor.class
+END
+FeatureDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$4.class
+END
+TreeDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$1.class
+END
+ViewportDescriptor$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$12.class
+END
+PdbentryDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryDescriptor.class
+END
+FeatureDescriptor$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$8.class
+END
+ViewportDescriptor$31.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$31.class
+END
+TreeDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$5.class
+END
+AlcodonFrameDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonFrameDescriptor.class
+END
+ViewportDescriptor$16.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$16.class
+END
+TreeDescriptor$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$9.class
+END
+JalviewUserColoursDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewUserColoursDescriptor$2.class
+END
+JGroupDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$4.class
+END
+MapListToDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListToDescriptor$1.class
+END
+JalviewModelSequenceDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor$2.class
+END
+JSeqDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor.class
+END
+JGroupDescriptor$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$8.class
+END
+SettingDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SettingDescriptor$1.class
+END
+ThresholdLineDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ThresholdLineDescriptor.class
+END
+JalviewModelSequenceDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor$6.class
+END
+MappingChoiceDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MappingChoiceDescriptor.class
+END
+DBRefDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/DBRefDescriptor$1.class
+END
+ViewportDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$4.class
+END
+JalviewModelDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelDescriptor$3.class
+END
+MapListTypeDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListTypeDescriptor.class
+END
+ViewportDescriptor$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$8.class
+END
+JGroupDescriptor$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$11.class
+END
+PdbentryDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryDescriptor$2.class
+END
+AlcodonFrameDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonFrameDescriptor$1.class
+END
+VAMSASDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/VAMSASDescriptor$2.class
+END
+AnnotationColoursDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor.class
+END
+UserColoursDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/UserColoursDescriptor.class
+END
+StructureStateDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor$1.class
+END
+ViewportDescriptor$21.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$21.class
+END
+JSeqDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$1.class
+END
+UserColourSchemeDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/UserColourSchemeDescriptor.class
+END
+PdbidsDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbidsDescriptor$1.class
+END
+StructureStateDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor$5.class
+END
+ViewportDescriptor$25.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$25.class
+END
+MappingChoiceDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MappingChoiceDescriptor$1.class
+END
+JSeqDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$5.class
+END
+ThresholdLineDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ThresholdLineDescriptor$3.class
+END
+GroupDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/GroupDescriptor.class
+END
+ViewportDescriptor$29.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$29.class
+END
+OtherDataDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/OtherDataDescriptor$1.class
+END
+MapListTypeDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListTypeDescriptor$2.class
+END
+AnnotationDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$4.class
+END
+SequenceTypeDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceTypeDescriptor$4.class
+END
+ColourDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ColourDescriptor.class
+END
+AlcodMapDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodMapDescriptor$1.class
+END
+AnnotationDescriptor$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$8.class
+END
+TreeDescriptor$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$12.class
+END
+AnnotationColoursDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor$4.class
+END
+PropertyDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PropertyDescriptor$1.class
+END
+AnnotationElementDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor$2.class
+END
+SequenceSetDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor$2.class
+END
+SettingDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SettingDescriptor.class
+END
+AnnotationElementDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor$6.class
+END
+SequenceSetDescriptor$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor$6.class
+END
+AnnotationDescriptor$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$13.class
+END
+FeatureDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$3.class
+END
+ViewportDescriptor$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$11.class
+END
+FeatureDescriptor$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor$7.class
+END
+ViewportDescriptor$30.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$30.class
+END
+TreeDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$4.class
+END
+ColourDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ColourDescriptor$2.class
+END
+ViewportDescriptor$15.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$15.class
+END
+VAMSASDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/VAMSASDescriptor.class
+END
+TreeDescriptor$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$8.class
+END
+JalviewUserColoursDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewUserColoursDescriptor$1.class
+END
+HiddenColumnsDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/HiddenColumnsDescriptor.class
+END
+JGroupDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$3.class
+END
+ViewportDescriptor$19.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$19.class
+END
+SequenceDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceDescriptor$2.class
+END
+JalviewModelSequenceDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor$1.class
+END
+JGroupDescriptor$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$7.class
+END
+StructureStateDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor.class
+END
+JalviewModelSequenceDescriptor$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelSequenceDescriptor$5.class
+END
+PdbidsDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbidsDescriptor.class
+END
+SettingDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SettingDescriptor$4.class
+END
+AlcodonDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AlcodonDescriptor$3.class
+END
+ViewportDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$3.class
+END
+JalviewModelDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JalviewModelDescriptor$2.class
+END
+DBRefDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/DBRefDescriptor$4.class
+END
+ViewportDescriptor$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$7.class
+END
+JGroupDescriptor$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$10.class
+END
+PdbentryDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/PdbentryDescriptor$1.class
+END
+FeatureSettingsDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureSettingsDescriptor.class
+END
+FeaturesDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeaturesDescriptor.class
+END
+JGroupDescriptor$14.class
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JGroupDescriptor$14.class
+END
+VAMSASDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/VAMSASDescriptor$1.class
+END
+ViewportDescriptor$20.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$20.class
+END
+StructureStateDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/StructureStateDescriptor$4.class
+END
+ViewportDescriptor$24.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$24.class
+END
+JSeqDescriptor$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$4.class
+END
+ThresholdLineDescriptor$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ThresholdLineDescriptor$2.class
+END
+FeatureDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/FeatureDescriptor.class
+END
+ViewportDescriptor$28.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/ViewportDescriptor$28.class
+END
+JSeqDescriptor$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/JSeqDescriptor$8.class
+END
+MapListTypeDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/MapListTypeDescriptor$1.class
+END
+AnnotationDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$3.class
+END
+SequenceTypeDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceTypeDescriptor$3.class
+END
+AnnotationDescriptor$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationDescriptor$7.class
+END
+TreeDescriptor$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$11.class
+END
+AnnotationColoursDescriptor$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationColoursDescriptor$3.class
+END
+AnnotationElementDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/AnnotationElementDescriptor$1.class
+END
+SequenceSetDescriptor$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/SequenceSetDescriptor$1.class
+END
+TreeDescriptor$15.class
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/TreeDescriptor$15.class
+END
+VamsasModelDescriptor.class
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/schemabinding/version2/descriptors/VamsasModelDescriptor.class
+END

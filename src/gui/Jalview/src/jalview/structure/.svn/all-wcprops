@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/structure
+END
+VamsasListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/structure/VamsasListener.java
+END
+StructureSelectionManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/structure/StructureSelectionManager.java
+END
+StructureListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/structure/StructureListener.java
+END
+StructureMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/structure/StructureMapping.java
+END
+SequenceListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/structure/SequenceListener.java
+END

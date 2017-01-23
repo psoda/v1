@@ -1,0 +1,67 @@
+Rule 1) THERE IS ALMOST NEVER A GOOD REASON TO USE A GLOBAL VARIABLE.
+Rule 2) When in doubt refer back to rule #1
+If you need a global look at the Timer and Counter classes for examples
+
+GENERAL ITEMS
+- Use the makeClass.pl script to generate initial stub classes
+- Use NULL do not use 0 for setting pointers to NULL. 0 is a integer constant.
+
+-2) Classes
+-2.0) Member function names are ClassNameFunctionName ie setGapCharacter would be MatrixSetGapCharacter
+-2.1) Use the makeClass.pl script to generate initial stub classes
+-2.2) Define Default Constructor, Copy Constructor, operator=, and Desctructor.
+-2.3) Copy Constructor and operator= should allways be defined, but are often marked private to prevent implicit copies of the object
+-2.3.1) if a parent class has private Copy Constructor and operator= methods, call them in your derived Copy Constructor and operator= methods but comment out the calls.
+private:
+B::B( const B& otherB )
+// : A(otherB)
+{
+}
+-2.4) clone methods are preferred when a class is going to make a deep copy of itself on the heap and return it to the caller.
+
+-1) Comments
+-1.0) Use c++ style comments //. /* */ is ok.  Use #ifdef 0 #endif to comment out large sections of code that contian /* */ comments.
+-1.1) we use the doxygen commenting convention, much like javadoc
+-1.2) Every function should be commented following the doxygen format right before the beginning of the function
+-1.3) #ifdef 0 #endif can be used to comment out large blocks of code for debugging
+-1.4) Comment often and clearly each section of a function
+-1.5) Provide a comment for each membe of a struct during definition
+-1.6) Use /*****************************************/
+          /** DESCRIPTION                          */
+          /*****************************************/
+          to break up large sections of code.
+-1.7) Whenever a file gets close to long ( > 1000 lines ) break it up into multiple files.  ( Use good judgement here )
+
+0) Identifier Naming it is almost like java except functions somehow ended up with the first word, wordcapped too.
+0.1) Functions - all words wordcapped
+0.2) Variables - all words wordcapped except the first word.
+0.3) don't use _ ( underscores ), if you do see or use then they indicated low level utility routines such as members of the kpr ( kevin portable runtime)
+
+1) use full word descriptive variable names interpreter vs interp.  I often use variable names that are identical to the type name except for case ( were appropriate ) ie Interpreter
+2) if should always have braces on their own lines unless it is a short repetative if,elseif,else.  I almost always use the first method unless the if body block is short usually, one statement.
+if ( )
+{
+}
+
+if ( a = 1 ) { i = 10; }
+else if ( a = 2 ) { i = 12; }
+else if ( a = 3 ) { i = 13; }
+else {}
+
+3) Use white space. 
+3.1 parenthesis should be surrounded with spaces.
+3.2 function arguments should have a space after the comma, the space before the comma is my old style lets rip it out.
+functionName ( arg1, arg2, arg4 ) ;
+3.3 space before the ending semi-colon is optional ( I like it though )
+3.4 operators get spaces between them and their operands ( +, -, =, +=, etc )
+int i = j + k + l;
+3 OLD STYLE LETS RIP IT OUT )
+3.10 space before the opening paren of a function call is my old style, lets rip it out
+3.11 space between the last token and the ; is my old style, lets rip it out
+
+4) Variable Decleration
+4.1 each variable gets its own line 
+int i;
+int j;
+
+

@@ -1,0 +1,568 @@
+<html>
+<head>
+<title>Release History</title>
+</head>
+<body>
+<p><strong>Release History</strong></p>
+<table border="1">
+	<tr>
+		<td width="60" nowrap>
+		<div align="center"><em><strong>Release</strong></em></div>
+		</td>
+		<td>
+		<div align="center"><em><strong>New Features</strong></em></div>
+		</td>
+		<td>
+		<div align="center"><em><strong>Issues Resolved</strong></em></div>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.4</strong><br>
+		27/8//2008</div>
+		</td>
+		<td>
+			<em>User Interface</em>
+			<ul>
+			<li>Linked highlighting of codon and amino acid from translation
+			and protein products</li>
+			<li>Linked highlighting of structure associated with residue mapping to codon position</li>
+			<li>Sequence Fetcher provides example accession numbers and 'clear' button</li>
+			<li>MemoryMonitor added as an option under Desktop's Tools menu</li>
+			<li>Extract score function to parse whitespace separated numeric data in description line</li>
+			<li>Column labels in alignment annotation can be centred.</li>
+			<li>Tooltip for sequence associated annotation give name of sequence</li>
+			</ul>
+			<em>Web Services and URL fetching</em>
+			<ul>
+			<li>JPred3 web service</li>
+			<li>Prototype sequence search client (no public services available yet)</li>
+			<li>Fetch either seed alignment or full alignment from PFAM</li>
+			<li>URL Links created for matching database cross references as well as sequence ID</li> 
+			<li>URL Links can be created using regular-expressions</li>
+			</ul>
+		<em>Sequence Database Connectivity</em>
+			<ul>
+			<li>Retrieval of cross-referenced sequences from other databases
+			</li>
+			<li>Generalised database reference retrieval and validation to
+			all fetchable databases</li>
+			<li>Fetch sequences from DAS sources supporting the sequence command</li>
+			</ul>
+			<em>Import and Export</em>
+			<li>export annotation rows as CSV for spreadsheet import</li>
+			<li>Jalview projects record alignment dataset associations, EMBL
+			products, and cDNA sequence mappings</li>
+			<li>Sequence Group colour can be specified in Annotation File</li>
+			<li>Ad-hoc colouring of group in Annotation File using RGB triplet as name of colourscheme</li>
+			</ul>
+		<em>VAMSAS Client capabilities (Experimental)</em>
+			<ul>
+				<li>treenode binding for VAMSAS tree exchange</li>
+				<li>local editing and update of sequences in VAMSAS alignments
+				(experimental)</li>
+				<li>Create new or select existing session to join</li>
+				<li>load and save of vamsas documents</li>
+			</ul>
+	<em>Application command line</em>
+			<ul>
+				<li>-tree parameter to open trees (introduced for passing from
+				applet)</li>
+				<li>-fetchfrom command line argument to specify nicknames of
+				DAS servers to query for alignment features</li>
+				<li>-dasserver command line argument to add new servers that
+				are also automatically queried for features</li>
+				<li>-groovy command line argument executes a given groovy
+				script after all input data has been loaded and parsed</li>
+			</ul>
+	<em>Applet-Application data exchange</em>	
+		<ul>
+		<li>Trees passed as applet parameters can be passed to
+			application (when using &quot;View in full application&quot;)</li>
+		</ul>
+	<em>Applet Parameters</em>
+			<ul>
+				<li>feature group display control parameter</li>
+				<li>debug parameter</li>
+				<li>showbutton parameter</li>
+			</ul>
+	<em>Applet API methods</em>
+			<ul>
+				<li>newView public method</li>
+				<li>Window (current view) specific get/set public methods</li>
+				<li>Feature display control methods</li>
+				<li>get list of currently selected sequences</li>
+			</ul>
+	<em>New Jalview distribution features</em>
+		<ul>
+			<li>InstallAnywhere Installer upgraded to IA 2008 VP1</li> 
+			<li>RELEASE file gives build properties for the latest Jalview
+			release.</li>
+			<li>Java 1.1 Applet build made easier and donotobfuscate
+			property controls execution of obfuscator</li>
+			<li>Build target for generating source distribution</li>
+			<li>Debug flag for javacc</li>
+			<li>.jalview_properties file is documented (slightly) in
+			jalview.bin.Cache</li>
+	    <li>Continuous Build Integration for stable and development version of Application, Applet and source distribution</li>		
+		</ul>
+		
+		</td>
+		<td>
+		<ul>
+			<li>selected region output includes visible annotations (for
+			certain formats)</li>
+			<li>edit label/displaychar contains existing label/char for
+			editing</li>
+			<li>update PDBEntries when DBRefEntries change (vamsas)</li>
+			<li>shorter peptide product names from EMBL records</li>
+			<li>Newick string generator makes compact representations</li>
+			<li>bootstrap values parsed correctly for tree files with
+			comments</li>
+			<li>pathological filechooser bug avoided by not allowing
+			filenames containing a ':'</li>
+			<li>Fixed exception when parsing GFF files containing global
+			sequence features</li>
+			<li>Alignment datasets are finalized only when number of
+			references from alignment sequences goes to zero</li>
+			<li>Close of tree branch colour box without colour selection
+			causes cascading exceptions</li>
+			<li>occasional negative imgwidth exceptions</li>
+			<li>better reporting of non-fatal warnings to user when file
+			parsing fails.</li>
+			<li>Save works when Jalview project is default format</li>
+			<li>Save as dialog opened if current alignment format is not a valid output format</li>
+			<li>Uniprot canonical names introduced for both das and vamsas</li>
+			<li>Histidine should be midblue (not pink!) in Zappo</li>
+			<li>error messages passed up and output when data read fails</li>
+			<li>edit undo recovers previous dataset sequence when sequence
+			is edited</li>
+			<li>allow PDB files without pdb ID HEADER lines (like those
+			generated by MODELLER) to be read in properly</li>
+			<li>allow reading of JPred concise files as a normal filetype</li>
+			<li>Stockholm annotation parsing and alignment properties import fixed for PFAM records
+			</li>
+			<li>Structure view windows have correct name in Desktop window list</li>
+			<li>annotation consisting of sequence associated scores can be
+			read and written correctly to annotation file</li>
+			<li>Aligned cDNA translation to aligned peptide works correctly
+			</li>
+			<li>Fixed display of hidden sequence markers and non-italic font
+			for representatives in Applet</li>
+			<li>Applet Menus are always embedded in applet window on Macs.</li>
+			<li>Newly shown features appear at top of stack (in Applet)</li>
+			<li>Annotations added via parameter not drawn properly due to
+			null pointer exceptions</li>
+			<li>Secondary structure lines are drawn starting from first
+			column of alignment</li>
+			<li>Uniprot XML import updated for new schema release in July 2008</li>
+			<li>Sequence feature to sequence ID match for Features file is case-insensitive</li>
+			<li>Sequence features read from Features file appended to all sequences with matching IDs</li>
+			<li>PDB structure coloured correctly for associated views containing a sub-sequence</li>
+			<li>PDB files can be retrieved by applet from Jar files</li>
+			<li>feature and annotation file applet parameters referring to different directories are retrieved correctly</li>   
+			<!--<li>DAS Histogram Features display ( (Prlic et al) </li>-->
+			<li>Fixed application hang whilst waiting for splash-screen version check to complete</li>
+			<li>Applet properly URLencodes input parameter values when passing them to the launchApp service</li>
+			<li>display name and local features preserved in results retrieved from web service</li> 
+			<li>Visual delay indication for sequence retrieval and sequence fetcher initialisation</li>
+			<li>updated Application to use DAS 1.53e version of dasobert DAS client</li>
+			<li>Re-instated Full AMSA support and .amsa file association</li>
+			<li>Fixed parsing of JNet Concise annotation <em>sans</em> sequences</li>  
+			
+		</ul>
+		</td>
+	</tr>
+	<tr>
+	<td>
+		<div align="center"><strong>2.3</strong><br>
+		9/5/07</div>
+		</td>
+		<td>
+		<ul>
+			<li>Jmol 11.0.2 integration</li>
+			<li>PDB views stored in Jalview XML files</li>
+			<li>Slide sequences</li>
+			<li>Edit sequence in place</li>
+			<li>EMBL CDS features</li>
+			<li>DAS Feature mapping</li>
+			<li>Feature ordering</li>
+			<li>Alignment Properties</li>
+			<li>Annotation Scores</li>
+			<li>Sort by scores</li>
+			<li>Feature/annotation editing in applet</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Headless state operation in 2.2.1</li>
+			<li>Incorrect and unstable DNA pairwise alignment</li>
+			<li>Cut and paste of sequences with annotation</li>
+			<li>Feature group display state in XML</li>
+			<li>Feature ordering in XML</li>
+			<li>blc file iteration selection using filename # suffix</li>
+			<li>Stockholm alignment properties</li>
+			<li>Stockhom alignment secondary structure annotation</li>
+			<li>2.2.1 applet had no feature transparency</li>
+			<li>Number pad keys can be used in cursor mode</li>
+			<li>Structure Viewer mirror image resolved</li>
+		</ul>
+		</td>
+
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.2.1</strong><br>
+		12/2/07</div>
+		</td>
+		<td>
+		<ul>
+			<li>Non standard characters can be read and displayed
+			<li>Annotations/Features can be imported/exported to the applet
+			via textbox
+			<li>Applet allows editing of sequence/annotation/group name
+			&amp; description
+			<li>Preference setting to display sequence name in italics
+			<li>Annotation file format extended to allow Sequence_groups to
+			be defined
+			<li>Default opening of alignment overview panel can be specified
+			in preferences
+			<li>PDB residue numbering annotation added to associated
+			sequences
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Applet crash under certain Linux OS with Java 1.6 installed
+			<li>Annotation file export / import bugs fixed
+			<li>PNG / EPS image output bugs fixed
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.2</strong><br>
+		27/11/06</div>
+		</td>
+		<td>
+		<ul>
+			<li>Multiple views on alignment
+			<li>Sequence feature editing
+			<li>&quot;Reload&quot; alignment
+			<li>&quot;Save&quot; to current filename
+			<li>Background dependent text colour
+			<li>Right align sequence ids
+			<li>User-defined lower case residue colours
+			<li>Format Menu
+			<li>Select Menu
+			<li>Menu item accelerator keys
+			<li>Control-V pastes to current alignment
+			<li>Cancel button for DAS Feature Fetching
+			<li>PCA and PDB Viewers zoom via mouse roller
+			<li>User-defined sub-tree colours and sub-tree selection
+			<li>'New Window' button on the 'Output to Text box'
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>New memory efficient Undo/Redo System
+			<li>Optimised symbol lookups and conservation/consensus
+			calculations
+			<li>Region Conservation/Consensus recalculated after edits
+			<li>Fixed Remove Empty Columns Bug (empty columns at end of
+			alignment)
+			<li>Slowed DAS Feature Fetching for increased robustness.
+			<li>Made angle brackets in ASCII feature descriptions display
+			correctly
+			<li>Re-instated Zoom function for PCA
+			<li>Sequence descriptions conserved in web service analysis
+			results
+			<li>Uniprot ID discoverer uses any word separated by &#8739;
+			<li>WsDbFetch query/result association resolved
+			<li>Tree leaf to sequence mapping improved
+			<li>Smooth fonts switch moved to FontChooser dialog box.
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.1.1</strong><br>
+		12/9/06</div>
+		</td>
+		<td>
+		<ul>
+			<li>Copy consensus sequence to clipboard</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Image output - rightmost residues are rendered if sequence
+			id panel has been resized</li>
+			<li>Image output - all offscreen group boundaries are rendered</li>
+			<li>Annotation files with sequence references - all elements in
+			file are relative to sequence position</li>
+			<li>Mac Applet users can use Alt key for group editing</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.1</strong><br>
+		22/8/06</div>
+		</td>
+		<td>
+		<ul>
+			<li>MAFFT Multiple Alignment in default Web Service list</li>
+			<li>DAS Feature fetching</li>
+			<li>Hide sequences and columns</li>
+			<li>Export Annotations and Features</li>
+			<li>GFF file reading / writing</li>
+			<li>Associate structures with sequences from local PDB files</li>
+			<li>Add sequences to exisiting alignment</li>
+			<li>Recently opened files / URL lists</li>
+			<li>Applet can launch the full application</li>
+			<li>Applet has transparency for features (Java 1.2 required)</li>
+			<li>Applet has user defined colours parameter</li>
+			<li>Applet can load sequences from parameter &quot;sequence<em>x</em>&quot;</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Redundancy Panel reinstalled in the Applet</li>
+			<li>Monospaced font - EPS / rescaling bug fixed</li>
+			<li>Annotation files with sequence references bug fixed</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.08.1</strong><br>
+		2/5/06</div>
+		</td>
+		<td>
+		<ul>
+			<li>Change case of selected region from Popup menu</li>
+			<li>Choose to match case when searching</li>
+			<li>Middle mouse button and mouse movement can compress / expand
+			the visible width and height of the alignment</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Annotation Panel displays complete JNet results</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.08b</strong><br>
+		18/4/06</div>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+		<ul>
+			<li>Java 1.5 bug - InternalMessageDialog fix for threads</li>
+			<li>Righthand label on wrapped alignments shows correct value</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.08</strong><br>
+		10/4/06</div>
+		</td>
+		<td>
+		<ul>
+			<li>Editing can be locked to the selection area</li>
+			<li>Keyboard editing</li>
+			<li>Create sequence features from searches</li>
+			<li>Precalculated annotations can be loaded onto alignments</li>
+			<li>Features file allows grouping of features</li>
+			<li>Annotation Colouring scheme added</li>
+			<li>Smooth fonts off by default - Faster rendering</li>
+			<li>Choose to toggle Autocalculate Consensus On/Off</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Drag &amp; Drop fixed on Linux</li>
+			<li>Jalview Archive file faster to load/save, sequence
+			descriptions saved.</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.07</strong><br>
+		12/12/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>PDB Structure Viewer enhanced</li>
+			<li>Sequence Feature retrieval and display enhanced</li>
+			<li>Choose to output sequence start-end after sequence name for
+			file output</li>
+			<li>Sequence Fetcher WSDBFetch@EBI</li>
+			<li>Applet can read feature files, PDB files and can be used for
+			HTML form input</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>HTML output writes groups and features</li>
+			<li>Group editing is Control and mouse click</li>
+			<li>File IO bugs</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.06</strong><br>
+		28/9/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>View annotations in wrapped mode</li>
+			<li>More options for PCA viewer</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>GUI bugs resolved</li>
+			<li>Runs with -nodisplay from command line</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td height="63">
+		<div align="center"><strong>2.05b</strong><br>
+		15/9/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>Choose EPS export as lineart or text</li>
+			<li>Jar files are executable</li>
+			<li>Can read in Uracil - maps to unknown residue</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Known OutOfMemory errors give warning message</li>
+			<li>Overview window calculated more efficiently</li>
+			<li>Several GUI bugs resolved</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.05</strong><br>
+		30/8/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>Edit and annotate in &quot;Wrapped&quot; view</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Several GUI bugs resolved</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.04</strong><br>
+		24/8/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>Hold down mouse wheel &amp; scroll to change font size</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Improved JPred client reliability</li>
+			<li>Improved loading of Jalview files</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.03</strong><br>
+		18/8/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>Set Proxy server name and port in preferences</li>
+			<li>Multiple URL links from sequence ids</li>
+			<li>User Defined Colours can have a scheme name and added to
+			Colour Menu</li>
+			<li>Choose to ignore gaps in consensus calculation</li>
+			<li>Unix users can set default web browser</li>
+			<li>Runs without GUI for batch processing</li>
+			<li>Dynamically generated Web Service Menus</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>InstallAnywhere download for Sparc Solaris</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.02</strong><br>
+		18/7/05</div>
+		</td>
+		<td>&nbsp;</td>
+		<td>
+		<ul>
+			<li>Copy &amp; Paste order of sequences maintains alignment
+			order.</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.01</strong><br>
+		12/7/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>Use delete key for deleting selection.</li>
+			<li>Use Mouse wheel to scroll sequences.</li>
+			<li>Help file updated to describe how to add alignment
+			annotations.</li>
+			<li>Version and build date written to build properties file.</li>
+			<li>InstallAnywhere installation will check for updates at
+			launch of Jalview.</li>
+		</ul>
+		</td>
+		<td>
+		<ul>
+			<li>Delete gaps bug fixed.</li>
+			<li>FileChooser sorts columns.</li>
+			<li>Can remove groups one by one.</li>
+			<li>Filechooser icons installed.</li>
+			<li>Finder ignores return character when searching. Return key
+			will initiate a search.<br>
+			</li>
+		</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		<div align="center"><strong>2.0</strong><br>
+		20/6/05</div>
+		</td>
+		<td>
+		<ul>
+			<li>New codebase</li>
+		</ul>
+		</td>
+		<td>&nbsp;</td>
+	</tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>

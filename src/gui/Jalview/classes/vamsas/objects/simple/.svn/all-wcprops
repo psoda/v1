@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple
+END
+SeqSearchResult_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/SeqSearchResult_Helper.class
+END
+SeqSearchResult.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/SeqSearchResult.class
+END
+Result_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/Result_Helper.class
+END
+Alignment_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/Alignment_Helper.class
+END
+Result.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/Result.class
+END
+MsaResult_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/MsaResult_Helper.class
+END
+Alignment.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/Alignment.class
+END
+MsaResult.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/MsaResult.class
+END
+Msfalignment_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/Msfalignment_Helper.class
+END
+SequenceSet_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/SequenceSet_Helper.class
+END
+Msfalignment.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/Msfalignment.class
+END
+SequenceSet.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/SequenceSet.class
+END
+Secstructpred_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/Secstructpred_Helper.class
+END
+Secstructpred.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/Secstructpred.class
+END
+WsJobId_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/WsJobId_Helper.class
+END
+WsJobId.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/WsJobId.class
+END
+JpredResult_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/JpredResult_Helper.class
+END
+JpredResult.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/JpredResult.class
+END
+Object_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/Object_Helper.class
+END
+Object.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/Object.class
+END
+Sequence_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/vamsas/objects/simple/Sequence_Helper.class
+END
+Sequence.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/vamsas/objects/simple/Sequence.class
+END

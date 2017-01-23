@@ -1,0 +1,28 @@
+#NEXUS
+
+begin data;
+	dimensions ntax=5 nchar=46;
+	format datatype=dna gap=- matchchar=. ;
+matrix
+
+Nicotiana GTTGACAATTTAGCAATGCTTTTTGAGCCAAACCAAGGATTTTATG
+Galphimia .......G....TT......C.....CTGG......A......C..
+Oenothera ........CC..TT............A.G.......A......C..
+Victoria ............T..G.....C....TTG.....CTT.C....C..
+Cypirapea ??????????..T.............CTG.......A......C..
+;
+end;
+
+BEGIN PAUP;
+	set nowarnreset 
+	autoclose;
+	set 
+    increase = no
+		maxtrees = 10000;
+	hsearch 
+		start = stepwise
+		swap = tbr
+        ;
+  pscores;
+  quit warntsave=no;
+end;

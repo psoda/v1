@@ -1,0 +1,15 @@
+#NEXUS
+BEGIN PSODA;
+
+ 
+ begin myRand;
+   return 10;
+ end;
+
+[ myvar = myRand();]
+ print ( random() . endl);
+
+ 
+
+
+end;

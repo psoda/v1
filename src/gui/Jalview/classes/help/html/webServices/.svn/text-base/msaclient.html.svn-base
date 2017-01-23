@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Multiple Sequence Alignment Web Service</title>
+</head>
+<body>
+<strong>Multiple Sequence Alignment Web Services</strong>
+<p>
+Multiple sequence alignment services are accessed from the <strong>Web
+Service&#8594;Alignment</strong> menu. When an entry from this menu is
+selected, either the currently selected residues, or the whole
+sequence set (if there is no selection or only one sequence is
+selected) will be submitted for multiple sequence alignment.
+</p>
+<p>There are two kinds of multiple sequence alignment operations
+available:<ul>
+<li><em>alignment</em> - where a new alignment is constructed from the input
+</li>
+<li><em>realignment</em> -
+where any existing alignments in the input are passed to the service
+for profile based alignment.
+</li>
+</ul>
+</p>
+<p>
+<strong>Multiple Alignments of Sequences with hidden columns</strong><br>
+Multiple alignment services are 'column separable' analysis
+operations. If the input contains <a
+href="../features/hiddenRegions.html">hidden columns</a> then each
+visible segment of the input sequence set will be submitted for
+alignment separately, and the results concatenated (with the hidden
+regions preserved) once all alignment functions have completed. Each
+sub-job's state is reported in its own tab:
+<p><center><strong>Multiple Multiple Sequence Alignment sub jobs running at
+once</strong><center></p>
+<center><img src="multimafftjbs.gif" align="centre"></center>
+</p>
+</body>
+</html>

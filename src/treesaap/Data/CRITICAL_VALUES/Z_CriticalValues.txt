@@ -1,0 +1,3 @@
+/* Critical Values for Z-Score analysis */						
+/*0.05		0.01		0.001*/	
+1.644854	2.326348	3.090232

@@ -1,0 +1,1054 @@
+/*
+ * MainPanel.java
+ *
+ * Created on March 7, 2008, 10:12 AM
+ */
+
+package GraphicInterface.Panels;
+
+import Driver.DriverForPsoda;
+import Run.RunUsageBean;
+import Weka.ChemicalPropertiesException;
+import Weka.InvalidWekaFileException;
+import Weka.wekasim;
+import java.awt.event.KeyEvent;
+
+import java.util.Date;
+import java.util.Vector;
+import java.io.File;
+import java.io.IOException;
+import java.text.DateFormat;
+
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.TreeMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import javax.swing.AbstractListModel;
+import javax.swing.JPanel;
+import javax.swing.ListModel;
+import javax.swing.UIManager;
+import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.plaf.metal.MetalLookAndFeel;
+
+/**
+ * Based on the Driver class of the original TreeSAAP
+ * @author  Jay
+ */
+public class MainPanel extends JPanel {// extends ActionPanel {
+    
+        // Global
+    	public String title = "TreeSAAP 3.2 for PSODA";		//Allows version iteration to be viewed across entire program
+        private DriverForPsoda driver;						//Allows indirect instantiation of this class
+
+        private RunUsageBean runBean;
+                
+        // variables to store data from PSODA
+        private String fileName;
+    private Vector currentPropertyList;
+    
+    // properties are stored in data structure as strings, so through this lookup table, you can find what the index is (to highlight it in the JList)
+    private TreeMap<String, Integer> propertyLookup;
+
+    
+    // relating to run parameters
+    int slidingWindowSize;
+    int slidingWindowIncrement;
+    int numProcessors;
+   
+    public String getFileName() {
+        return fileName;
+    }
+
+    public void setFileName(String fileName) {
+        this.fileName = fileName;
+    }
+        
+    /** Creates new form MainPanel */
+    /**
+     * Based on Main.Driver
+     */
+    public MainPanel(String filename) {
+        //main(new String[] {""});
+          driver = DriverForPsoda.getDriver();
+
+          runBean = driver.getRun().getBean(); // helps us set the parameters for run
+          
+          // load the default values from the bean
+          slidingWindowIncrement = runBean.getIncrement();
+          slidingWindowSize = runBean.getSlidingWindowSize();
+          if(slidingWindowSize == -1)
+              slidingWindowSize = 15;
+          numProcessors = runBean.getProcessors();
+          
+
+          // THis initializes the delete List of the data usage bean.  I don't know why this is so clunky...
+          driver.getData().getBean().setDeletePropLists(new Vector());
+          
+
+  propertyLookup = new TreeMap<String, Integer>();
+  this.fileName = filename;
+  parseTree(filename);
+
+        initComponents();
+        
+
+        
+        
+    }
+
+    /**
+     * Assumes that the items in both the selectedList and the List model are sorted
+     * @param selectedList
+     * @return
+     */
+    private int[] ConvertToSelectedIndices(Vector selectedList) {
+        int[] selectedIndices = new int[selectedList.size()];
+        int index = 0;
+        for (int i = 0; i < propertyList.getModel().getSize() && index < selectedList.size() ; i++) {
+            if(propertyList.getModel().getElementAt(i).equals(selectedList.get(index))) {
+                selectedIndices[index++] = i;
+            }
+        }
+        
+        return selectedIndices;
+
+    }
+
+
+    private Vector ReadInSelectedProperties() {
+       Vector propertyNames = new Vector();
+       
+        for (Object name : propertyList.getSelectedValues()) {
+            propertyNames.addElement(name);
+        }
+        
+        return propertyNames;
+
+       
+    }
+
+    private void RefreshCurrentPropertyList() {
+        Object currentProperty = propertyListComboBox.getSelectedItem();
+        if(currentProperty == null || ((String)currentProperty).equals("")) return;
+        
+        Vector propList = ((Vector)driver.getData().getPropertyLists().get(currentProperty));
+        driver.getBean().setProperties((String)currentProperty);
+        
+        if(propList != null ){
+            
+            propertyListSelectNone();
+            
+            int[] propIndices = new int[propList.size()];
+            
+            int i = 0;
+            for (Object prop : propList) {
+                propIndices[i++] = propertyLookup.get(prop).intValue();
+            }
+            
+            propertyList.setSelectedIndices(propIndices);
+
+        }
+    }
+
+    private void RefreshSelectedProperties() {
+        Vector selectedList = (Vector)driver.getData().getPropertyLists().get(propertyListComboBox.getSelectedItem());
+        
+        int[] something = ConvertToSelectedIndices(selectedList);
+        propertyList.setSelectedIndices(something);
+        
+        
+        
+    }
+
+    
+    /**
+     * Patterned after the function Driver.main
+     * @param args
+     */
+    private void main(String[] args) {
+        		try
+		{	
+			//check the parameters
+			boolean commandLine = getCommandLine(args);
+			boolean exit = getExit(args);
+			String logFile = getLogFile(args);
+			String fileName = getFile(args);
+
+			//create driver
+			driver = new DriverForPsoda((!commandLine && !exit), logFile);
+			driver.initialize();
+			
+			//open file if given
+			if(fileName != null && !fileName.equals(""))
+				autoFile(fileName);
+			
+			//exit program
+			if(exit)
+				System.exit(0);
+                        }		catch(IOException e)
+		{
+			System.out.println("There were problems starting the program.\n  Please verify settings files are located in the correct location.");
+		}
+		catch(OutOfMemoryError e)
+		{
+			driver.getBean().errorMessage("\nThe file is too big.\n     Increase Memory allocation or contact David_McClellan@byu.edu");
+		}
+    }
+    
+	/**
+	 *  Determines if user specified commandLine use
+	 *	@param String[] args - the arguments passed into main
+	 */
+	private boolean getCommandLine(String[] args)
+	{
+		//Method var
+		String param;
+		
+		//run through all args
+		for(int i=0;i<args.length;i++)
+		{
+			param = args[i];
+			
+			//check for a "-"
+			if(param.indexOf("-") == 0 && param.indexOf("c") != -1)
+				return true;
+		}
+		
+		//default
+		return false;
+	}
+    
+        	/**
+	 *  Determines if user specified exit immediately after a run
+	 *	@param String[] args - the arguments passed into main
+	 */
+	private boolean getExit(String[] args)
+	{
+		//Method var
+		String param;
+		
+		//run through all args
+		for(int i=0;i<args.length;i++)
+		{
+			param = args[i];
+			
+			//check for a "-"
+			if(param.indexOf("-") == 0 && param.indexOf("x") != -1)
+				return true;
+		}
+		
+		//default
+		return false;
+	}
+        
+        	/**
+	 *  Determines the path to logFile, given by user
+	 *	@param String[] args - the arguments passed into main
+	 */
+	private String getLogFile(String[] args)
+	{
+		//Method var
+		String param, fileName = "";
+		
+		try
+		{
+			//run through all args
+			for(int i=0;i<args.length;i++)
+			{
+				param = args[i];
+				
+				//check for a "-" and a "l"
+				if(param.indexOf("-") == 0 && param.indexOf("l") != -1)
+				{
+					//get fileName
+					for(int j=i+1;j<args.length;j++)
+					{
+						param = args[j];
+						
+						//read all file until next parameter
+						if(param.indexOf("-") == -1)
+							fileName += " " + param;
+						else
+							break;
+					}
+
+					//return compiled fileName
+					return fileName;		
+				}
+			}
+		}
+		catch(Exception e)
+		{
+			usage();
+		}
+		
+		//default
+		return fileName;
+	}
+        
+        	
+	/**
+	 *  Determines the path and File given by user
+	 *	@param String[] args - the arguments passed into main
+	 */
+	private String getFile(String[] args)
+	{
+		//Method var
+		String param, fileName = "";
+		
+		try
+		{
+			//run through all args
+			for(int i=0;i<args.length;i++)
+			{
+				param = args[i];
+				
+				//check for a "-" and a "l"
+				if(param.indexOf("-") == 0 && param.indexOf("f") != -1)
+				{
+					//get fileName
+					for(int j=i+1;j<args.length;j++)
+					{
+						param = args[j];
+						
+						//read all file until next parameter
+						if(param.indexOf("-") == -1)
+							fileName += param;
+						else
+							break;
+					}
+					
+					//return compiled fileName
+					return fileName;		
+				}
+			}
+		}
+		catch(Exception e)
+		{
+			usage();
+		}
+		
+		//default
+		return fileName;
+	}
+
+        /**
+         * Loads the tree into memory, mostly ported over from Driver.open(boolean newFile)
+         * @param filename
+         */
+    private void parseTree(String filename) {
+        
+        long startTime = new Date().getTime();
+        driver.getBean().logMessage("\nTime Started: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		
+        
+        // should I get the gui settings?
+//        driver.getSettings();
+ 
+        if(filename != null && !filename.equals("")) {
+            driver.getGDFP().openNewFile(fileName);
+        }
+        		//Time
+		long endTime = new Date().getTime();
+		driver.getBean().logMessage("Time Ended: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		driver.getBean().logMessage("Run Time(s): "+ ((endTime - startTime)/(double)1000) +"\n");
+        
+    }
+    
+        
+        	/**
+	 *  Displays to user the proper usage of treeSAAP start-up
+	 */
+	private void usage()
+	{
+		System.out.println("Proper CommandLine Arguments for "+ title);
+		System.out.println("-c		specifies Commandline interface.  Default = GUI");
+		System.out.println("-l	name.txt	specifies the location of the Logfile.  Default = \"\"");
+		System.out.println("-f	name.txt	specifies a file to be ran immediately.");
+		System.out.println("-x		exit TreeSAAP immediately after a file is ran.");
+	}
+        
+        	
+	/**
+	 *  Immediately opens files specified by user, each must contain a block
+	 *	@param String fileName - the name (or containing names) of the file(s) to be opened
+	 */
+	private void autoFile(String fileName)
+	{
+	}
+    /*
+    public MainPanel(Object driver, ActionControl action) {
+        setDriver(driver);
+        setAction(action);
+        initComponents();
+    }*/
+    
+    
+    /** This method is called from within the constructor to
+     * initialize the form.
+     * WARNING: Do NOT modify this code. The content of this method is
+     * always regenerated by the Form Editor.
+     */
+    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+    private void initComponents() {
+
+        createListDialog = new javax.swing.JDialog();
+        createListJButton = new javax.swing.JButton();
+        createListField = new javax.swing.JTextField();
+        jLabel1 = new javax.swing.JLabel();
+        fileNameExistsDialog = new javax.swing.JDialog();
+        jLabel6 = new javax.swing.JLabel();
+        fileNameExistsDialogOK = new javax.swing.JButton();
+        jPanel3 = new javax.swing.JPanel();
+        slidingWindowSizeSlider = new javax.swing.JSlider();
+        jLabel2 = new javax.swing.JLabel();
+        slidingWindowSizeBox = new javax.swing.JTextField();
+        jLabel3 = new javax.swing.JLabel();
+        slidingWindowIncrementSlider = new javax.swing.JSlider();
+        slidingWindowIncrementBox = new javax.swing.JTextField();
+        processorCountSpinner = new javax.swing.JSpinner();
+        jLabel5 = new javax.swing.JLabel();
+        advancedOptionsButton = new javax.swing.JButton();
+        jPanel1 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        propertyList = new javax.swing.JList();
+        saveListButton = new javax.swing.JButton();
+        propertyListComboBox = new javax.swing.JComboBox();
+        createListButton = new javax.swing.JButton();
+        selectAllPropButton = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        selectNonePropButton = new javax.swing.JButton();
+        deleteListButton = new javax.swing.JButton();
+        selectInvertPropButton = new javax.swing.JButton();
+        runTreeButton = new javax.swing.JButton();
+        treeListComboBox = new javax.swing.JComboBox();
+
+        createListDialog.setTitle("Enter New Property List Name");
+        createListDialog.setName("createPropListDialog"); // NOI18N
+
+        createListJButton.setText("Create List");
+        createListJButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                createListJButtonActionPerformed(evt);
+            }
+        });
+
+        createListField.setText("New List");
+        createListField.addKeyListener(new java.awt.event.KeyAdapter() {
+            public void keyTyped(java.awt.event.KeyEvent evt) {
+                createListFieldKeyTyped(evt);
+            }
+        });
+
+        jLabel1.setText("Name of new list:");
+
+        javax.swing.GroupLayout createListDialogLayout = new javax.swing.GroupLayout(createListDialog.getContentPane());
+        createListDialog.getContentPane().setLayout(createListDialogLayout);
+        createListDialogLayout.setHorizontalGroup(
+            createListDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, createListDialogLayout.createSequentialGroup()
+                .addContainerGap(61, Short.MAX_VALUE)
+                .addComponent(createListField, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(createListJButton)
+                .addContainerGap())
+            .addGroup(createListDialogLayout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(307, Short.MAX_VALUE))
+        );
+        createListDialogLayout.setVerticalGroup(
+            createListDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(createListDialogLayout.createSequentialGroup()
+                .addGap(57, 57, 57)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(createListDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(createListJButton)
+                    .addComponent(createListField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(95, Short.MAX_VALUE))
+        );
+
+        jLabel6.setText("You already have a list by that name");
+
+        fileNameExistsDialogOK.setText("OK");
+        fileNameExistsDialogOK.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fileNameExistsDialogOKActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout fileNameExistsDialogLayout = new javax.swing.GroupLayout(fileNameExistsDialog.getContentPane());
+        fileNameExistsDialog.getContentPane().setLayout(fileNameExistsDialogLayout);
+        fileNameExistsDialogLayout.setHorizontalGroup(
+            fileNameExistsDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(fileNameExistsDialogLayout.createSequentialGroup()
+                .addGroup(fileNameExistsDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(fileNameExistsDialogLayout.createSequentialGroup()
+                        .addGap(100, 100, 100)
+                        .addComponent(jLabel6))
+                    .addGroup(fileNameExistsDialogLayout.createSequentialGroup()
+                        .addGap(165, 165, 165)
+                        .addComponent(fileNameExistsDialogOK)))
+                .addContainerGap(134, Short.MAX_VALUE))
+        );
+        fileNameExistsDialogLayout.setVerticalGroup(
+            fileNameExistsDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(fileNameExistsDialogLayout.createSequentialGroup()
+                .addGap(39, 39, 39)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(fileNameExistsDialogOK)
+                .addContainerGap(23, Short.MAX_VALUE))
+        );
+
+        jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder("Process"));
+
+        slidingWindowSizeSlider.setMaximum(15);
+        slidingWindowSizeSlider.setMinimum(1);
+        slidingWindowSizeSlider.setPaintLabels(true);
+        slidingWindowSizeSlider.setPaintTicks(true);
+        slidingWindowSizeSlider.setSnapToTicks(true);
+        slidingWindowSizeSlider.setAutoscrolls(true);
+        slidingWindowSizeSlider.setValue(slidingWindowSize);
+
+        slidingWindowSizeSlider.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                slidingWindowSizeSliderStateChanged(evt);
+            }
+        });
+
+        jLabel2.setText("Sliding Window Size");
+
+        slidingWindowSizeBox.setText("15");
+        slidingWindowSizeBox.setText(slidingWindowSize+ "");
+        slidingWindowSizeBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                slidingWindowSizeBoxActionPerformed(evt);
+            }
+        });
+
+        jLabel3.setText("Increment of Sliding Window");
+
+        slidingWindowIncrementSlider.setMinimum(1);
+        slidingWindowIncrementSlider.setPaintLabels(true);
+        slidingWindowIncrementSlider.setPaintTicks(true);
+        slidingWindowIncrementSlider.setValue(1);
+        slidingWindowIncrementSlider.setAutoscrolls(true);
+        slidingWindowIncrementSlider.setValue(slidingWindowIncrement);
+
+        slidingWindowIncrementSlider.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                slidingWindowIncrementSliderStateChanged(evt);
+            }
+        });
+
+        slidingWindowIncrementBox.setText("1");
+        slidingWindowIncrementBox.setText(slidingWindowIncrement + "");
+        slidingWindowIncrementBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                slidingWindowIncrementBoxActionPerformed(evt);
+            }
+        });
+
+        processorCountSpinner.setModel(new javax.swing.SpinnerNumberModel(Integer.valueOf(1), Integer.valueOf(1), null, Integer.valueOf(1)));
+        processorCountSpinner.setValue(new Integer(numProcessors));
+        processorCountSpinner.addChangeListener(new javax.swing.event.ChangeListener() {
+            public void stateChanged(javax.swing.event.ChangeEvent evt) {
+                processorCountSpinnerStateChanged(evt);
+            }
+        });
+        processorCountSpinner.addInputMethodListener(new java.awt.event.InputMethodListener() {
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
+                processorCountSpinnerCaretPositionChanged(evt);
+            }
+            public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
+            }
+        });
+
+        jLabel5.setText("Processors");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2)
+                    .addComponent(slidingWindowSizeSlider, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(slidingWindowSizeBox, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(25, 25, 25)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(slidingWindowIncrementSlider, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(slidingWindowIncrementBox, javax.swing.GroupLayout.PREFERRED_SIZE, 49, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 99, Short.MAX_VALUE)
+                        .addComponent(processorCountSpinner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 131, Short.MAX_VALUE)
+                        .addComponent(jLabel5)))
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addGap(8, 8, 8)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(jLabel3)
+                    .addComponent(jLabel5))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(slidingWindowSizeSlider, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(slidingWindowIncrementSlider, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(slidingWindowIncrementBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(processorCountSpinner, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(slidingWindowSizeBox, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        advancedOptionsButton.setText("Advanced Options");
+        advancedOptionsButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                advancedOptionsButtonActionPerformed(evt);
+            }
+        });
+
+        jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder("Properties"));
+
+        propertyList.setModel(new javax.swing.AbstractListModel() {
+            String[] strings = { "Alpha-helical tendencies", "Average number of surrounding residues", "Beta-structure tendencies", "Bulkiness", "Buriedness", "Chromatographic index", "Coil tendencies", "Composition", "Compressibility" };
+            public int getSize() { return strings.length; }
+            public Object getElementAt(int i) { return strings[i]; }
+        });
+        propertyList.setToolTipText("hold down Ctrl to add");
+        PopulatePropertyListItems();
+        propertyList.setSelectionInterval(0, propertyList.getModel().getSize() -1);
+        jScrollPane1.setViewportView(propertyList);
+
+        saveListButton.setText("Save List");
+        saveListButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                saveListButtonActionPerformed(evt);
+            }
+        });
+
+        propertyListComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "" }));
+        PopulatePropertyListNames();
+        propertyListComboBox.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseReleased(java.awt.event.MouseEvent evt) {
+                propertyListComboBoxMouseReleased(evt);
+            }
+        });
+        propertyListComboBox.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                propertyListComboBoxActionPerformed(evt);
+            }
+        });
+
+        createListButton.setText("New List");
+        createListButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                createListButtonActionPerformed(evt);
+            }
+        });
+
+        selectAllPropButton.setFont(new java.awt.Font("Tahoma", 0, 10));
+        selectAllPropButton.setText("All");
+        selectAllPropButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                selectAllPropButtonActionPerformed(evt);
+            }
+        });
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 10));
+        jLabel4.setText("Select");
+
+        selectNonePropButton.setFont(new java.awt.Font("Tahoma", 0, 10));
+        selectNonePropButton.setText("None");
+        selectNonePropButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                selectNonePropButtonActionPerformed(evt);
+            }
+        });
+
+        deleteListButton.setText("Delete List");
+        deleteListButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                deleteListButtonActionPerformed(evt);
+            }
+        });
+
+        selectInvertPropButton.setFont(new java.awt.Font("Tahoma", 0, 10));
+        selectInvertPropButton.setText("Inverse");
+        selectInvertPropButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                selectInvertPropButtonActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(selectInvertPropButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(selectAllPropButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(selectNonePropButton))
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 527, Short.MAX_VALUE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(createListButton, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(propertyListComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 229, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(saveListButton)
+                        .addGap(47, 47, 47)
+                        .addComponent(deleteListButton)))
+                .addGap(16, 16, 16))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(propertyListComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(createListButton)
+                    .addComponent(deleteListButton)
+                    .addComponent(saveListButton))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 144, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(selectAllPropButton)
+                    .addComponent(selectNonePropButton)
+                    .addComponent(jLabel4)
+                    .addComponent(selectInvertPropButton))
+                .addContainerGap())
+        );
+
+        runTreeButton.setFont(new java.awt.Font("Tahoma", 1, 12));
+        runTreeButton.setText("RUN");
+        runTreeButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                runTreeButtonActionPerformed(evt);
+            }
+        });
+
+        treeListComboBox.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "(none loaded)" }));
+        PopulateTreeNames();
+
+        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
+        this.setLayout(layout);
+        layout.setHorizontalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(advancedOptionsButton)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 289, Short.MAX_VALUE)
+                        .addComponent(treeListComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(runTreeButton))
+                    .addComponent(jPanel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap())
+        );
+        layout.setVerticalGroup(
+            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(28, 28, 28)
+                .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(advancedOptionsButton)
+                    .addComponent(runTreeButton)
+                    .addComponent(treeListComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(13, Short.MAX_VALUE))
+        );
+    }// </editor-fold>//GEN-END:initComponents
+
+    private void slidingWindowSizeBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_slidingWindowSizeBoxActionPerformed
+        slidingWindowSize = Integer.parseInt(slidingWindowSizeBox.getText());
+        slidingWindowSizeSlider.setValue(slidingWindowSize);
+}//GEN-LAST:event_slidingWindowSizeBoxActionPerformed
+
+    private void slidingWindowIncrementBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_slidingWindowIncrementBoxActionPerformed
+        slidingWindowIncrement = Integer.parseInt(slidingWindowIncrementBox.getText());
+        slidingWindowIncrementSlider.setValue(slidingWindowIncrement);
+}//GEN-LAST:event_slidingWindowIncrementBoxActionPerformed
+
+    private void runTreeButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_runTreeButtonActionPerformed
+        try {
+
+            runBean.setSlidingWindowSize(slidingWindowSize);
+            runBean.setProcessors(numProcessors);
+            runBean.setIncrement(slidingWindowIncrement);
+            
+ 
+
+            
+            driver.run((String) treeListComboBox.getSelectedItem());
+
+            String outputDir = driver.getBean().getOutputDirectory();
+            wekasim weka = new wekasim("Data"+File.separator+"SECONDARY_STRUCTURES"+File.separator+"secondarystructure.txt", driver.getData().getProperties());
+
+            String secondStruct = weka.Simulate("ATGACCAACATCCGAAAAACACACCCACTAATAAAAATCCTCAATGATGCGTTCATCGACCTACCCACTCCATCTAATATCTCCTCTTGATGAAATTTTGGTTCCTTACTAGGCCTCTGCCTAATTATACAAATCCTAACAGGATTATTCCTAGCAATACATTACACGCCAGACACCTCAACTGCTTTCTCATCAGTCGCACACATCTGCCGAGACGTCAACTATGGCTGATTCATCCGCTATCTACACGCAAACGGAGCCTCTATATTCTTCATCTGTCTATATGCCCACATTGGACGTGGCCTATACTATGGTTCTTATATATTCCAAGAAACATGAAACATTGGTGTACTCTTACTATTAACAGTCATAGCTACTGCATTCGTAGGTTACGTCCTGCCCTGAGGACAAATATCATTCTGAGGCGCAACCGTCATCACCAACCTCTTATCAGCAATCCCTTATATCGGCACTACCTTAGTCGAATGAATCTGAGGTGGATTTTCCGTAGACAAAGCAACATTAACACGCTTTTTCGCCTTCCACTTTATTCTTCCATTCATCATCACAGCATTGGCAGCCGTTCACCTACTATTCCTACACGAAACAGGATCCAACAACCCCACAGGAATCCCATCCAATATAGACATAATCCCATTCCACCCTTATTATACAATCAAAGACATCCTAGGCGCCTTACTCTTAATCTTAACCTTACTAGCATTAACCCTATTCGCCCCCGACCTACTAGGAGACCCTGATAACTACACCCCAGCAAACCCACTAAGCACCCCTGCACACATCAAACCAGAATGATACTTTCTATTCGCATACGCAATCTTACGATCAATCCCTAATAAGCTCGGAGGAGTCCTAGCGCTATTACTCTCCATCCTTGTCCTAATCTTTATCCCAATACTTCAGACATCCAAACAACGAAGCATAATATTCCGACCCTTCAGCCAATTCCTATTTTGAACCCTAATCGCTGACCTCTTAACCTTAACATGAATTGGAGGCCAACCTGTAGAACACCCATATATCATTGTAGGCCAATTAGCATCTATTCTATACTTCCTCCTAATCCTAGTGCTAATACCAACAGCCGGCCTTATTGAAAATAAACTTCTAAAATGAAGA"); // todo: put correct directory
+
+            
+             //System.out.println("Second struct: " + secondStruct);
+
+            AnalysisPanel ap = new AnalysisPanel(outputDir + File.separator, secondStruct); 
+            ap.showPanel();
+        } catch (InvalidWekaFileException ex) {
+            Logger.getLogger(MainPanel.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (ChemicalPropertiesException ex) {
+            Logger.getLogger(MainPanel.class.getName()).log(Level.SEVERE, null, ex);
+        } 
+
+}//GEN-LAST:event_runTreeButtonActionPerformed
+
+    private void selectNonePropButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selectNonePropButtonActionPerformed
+        propertyListSelectNone();
+    }//GEN-LAST:event_selectNonePropButtonActionPerformed
+
+    private void propertyListSelectNone() {
+        propertyList.removeSelectionInterval(0, propertyList.getModel().getSize() -1);
+    }
+    private void advancedOptionsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_advancedOptionsButtonActionPerformed
+      driver.DisplayGui();
+    }//GEN-LAST:event_advancedOptionsButtonActionPerformed
+
+    private void propertyListComboBoxActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_propertyListComboBoxActionPerformed
+        
+
+        RefreshCurrentPropertyList();
+
+        Object selectedPropertyList = propertyListComboBox.getSelectedItem(); 
+        if(selectedPropertyList != null) {
+            driver.getBean().setProperties(selectedPropertyList.toString());
+        }
+        else {
+            driver.getBean().setProperties("fromPsoda");
+            driver.getData().getPropertyLists().put("fromPsoda", ReadInSelectedProperties());
+        }
+        
+    }//GEN-LAST:event_propertyListComboBoxActionPerformed
+
+    private void createListButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createListButtonActionPerformed
+        createListDialog.pack();
+        createListDialog.setVisible(true);
+    }//GEN-LAST:event_createListButtonActionPerformed
+
+    private void selectAllPropButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selectAllPropButtonActionPerformed
+        propertyList.setSelectionInterval(0, propertyList.getModel().getSize()-1);
+    }//GEN-LAST:event_selectAllPropButtonActionPerformed
+
+    private void propertyListComboBoxMouseReleased(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_propertyListComboBoxMouseReleased
+ RefreshCurrentPropertyList();
+    }//GEN-LAST:event_propertyListComboBoxMouseReleased
+
+    private void createListJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createListJButtonActionPerformed
+        String name = createListField.getText();
+        
+            if(driver.getData().getPropertyListNames().contains(name)) {
+            fileNameExistsDialog.pack();
+        fileNameExistsDialog.setVisible(true);
+        }
+        else {
+            driver.getData().createLists(name, ReadInSelectedProperties());
+            createListDialog.dispose();
+            
+            PopulatePropertyListNames();
+            
+            propertyListComboBox.setSelectedItem(name);
+            
+        }
+}//GEN-LAST:event_createListJButtonActionPerformed
+
+    private void createListFieldKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_createListFieldKeyTyped
+        if(evt.isActionKey() && evt.getKeyCode() == KeyEvent.VK_ENTER) {
+//            CreateteNewList(createListField.getText());
+        }
+    }//GEN-LAST:event_createListFieldKeyTyped
+
+    private void fileNameExistsDialogOKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fileNameExistsDialogOKActionPerformed
+        fileNameExistsDialog.dispose();
+    }//GEN-LAST:event_fileNameExistsDialogOKActionPerformed
+
+    private void processorCountSpinnerCaretPositionChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_processorCountSpinnerCaretPositionChanged
+        
+    }//GEN-LAST:event_processorCountSpinnerCaretPositionChanged
+
+    private void slidingWindowSizeSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_slidingWindowSizeSliderStateChanged
+        slidingWindowSize = slidingWindowSizeSlider.getValue();
+        slidingWindowSizeBox.setText(slidingWindowSize + "");
+    }//GEN-LAST:event_slidingWindowSizeSliderStateChanged
+
+    private void slidingWindowIncrementSliderStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_slidingWindowIncrementSliderStateChanged
+        slidingWindowIncrement = slidingWindowIncrementSlider.getValue();
+        slidingWindowIncrementBox.setText(slidingWindowIncrement + "");
+    }//GEN-LAST:event_slidingWindowIncrementSliderStateChanged
+
+    private void processorCountSpinnerStateChanged(javax.swing.event.ChangeEvent evt) {//GEN-FIRST:event_processorCountSpinnerStateChanged
+numProcessors = ((Integer)processorCountSpinner.getValue()).intValue();
+    }//GEN-LAST:event_processorCountSpinnerStateChanged
+
+    private void deleteListButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_deleteListButtonActionPerformed
+       
+        
+        Object deleted = propertyListComboBox.getSelectedItem();
+        driver.getData().getBean().getDeletePropLists().add(deleted);
+        
+        // reflect that in the GUI
+        propertyListComboBox.removeItem(deleted);
+        driver.deletePropLists();
+//        propertyListComboBox.setSelectedIndex(0);
+    }//GEN-LAST:event_deleteListButtonActionPerformed
+
+    private void saveListButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_saveListButtonActionPerformed
+        Hashtable lookup = driver.getData().getPropertyLists();
+        lookup.put(propertyListComboBox.getSelectedItem(), ReadInSelectedProperties());
+    }//GEN-LAST:event_saveListButtonActionPerformed
+
+    private void selectInvertPropButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_selectInvertPropButtonActionPerformed
+        
+        
+        int[] currentlySelected = propertyList.getSelectedIndices();
+        
+        if(currentlySelected.length == 0) {
+            selectAllPropButtonActionPerformed(evt);
+            return;
+        }
+        int max = propertyList.getModel().getSize();
+        int[] toBeSelected = new int[max - currentlySelected.length];
+        
+        if(toBeSelected.length == 0) {
+            selectNonePropButtonActionPerformed(evt);
+            return;
+        }
+        
+        HashSet currentlySelectedSet = new HashSet();
+        for (int i = 0; i < currentlySelected.length; i++) {
+            currentlySelectedSet.add(new Integer(currentlySelected[i]));
+
+        }
+        
+        int index = 0;
+        for (int i = 0; i < max; i++) {
+            if(!currentlySelectedSet.contains(new Integer(i)))
+            toBeSelected[index++] = i;
+        }
+
+
+
+        
+        propertyList.setSelectedIndices(toBeSelected);
+    }//GEN-LAST:event_selectInvertPropButtonActionPerformed
+    
+    
+    private void PopulatePropertyListItems() {
+        
+        
+        propertyList.removeAll();
+        
+        
+        Vector properties = driver.getData().getPropertyNames();
+                int counter = 0;
+        for (Object prop : properties) {
+
+            propertyLookup.put((String)prop, new Integer(counter++));
+        }
+
+        ListModel newModel = new AbstractListModel() {
+Vector propList = driver.getData().getPropertyNames();
+            public int getSize() {
+                return propList.size();
+            }
+
+            public Object getElementAt(int index) {
+                
+                return propList.elementAt(index);
+            }
+        };
+            
+        propertyList.setModel(newModel);
+        
+    }
+    
+    private void PopulatePropertyListNames() {
+        
+        propertyListComboBox.removeAllItems();
+        
+        Vector propListNames = driver.getData().getPropertyListNames();
+
+        for (Object listName : propListNames) {
+            propertyListComboBox.addItem(listName);
+
+        }
+    } 
+    
+    private void PopulateTreeNames() {
+
+        treeListComboBox.removeAllItems();
+        
+        Vector treeListNames = driver.getGDFP().getTreeNames();
+        
+        for (Object treeName : treeListNames) {
+            treeListComboBox.addItem(treeName);
+        }
+
+    }
+
+    
+    
+    
+    
+    // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton advancedOptionsButton;
+    private javax.swing.JButton createListButton;
+    private javax.swing.JDialog createListDialog;
+    private javax.swing.JTextField createListField;
+    private javax.swing.JButton createListJButton;
+    private javax.swing.JButton deleteListButton;
+    private javax.swing.JDialog fileNameExistsDialog;
+    private javax.swing.JButton fileNameExistsDialogOK;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JSpinner processorCountSpinner;
+    private javax.swing.JList propertyList;
+    private javax.swing.JComboBox propertyListComboBox;
+    private javax.swing.JButton runTreeButton;
+    private javax.swing.JButton saveListButton;
+    private javax.swing.JButton selectAllPropButton;
+    private javax.swing.JButton selectInvertPropButton;
+    private javax.swing.JButton selectNonePropButton;
+    private javax.swing.JTextField slidingWindowIncrementBox;
+    private javax.swing.JSlider slidingWindowIncrementSlider;
+    private javax.swing.JTextField slidingWindowSizeBox;
+    private javax.swing.JSlider slidingWindowSizeSlider;
+    private javax.swing.JComboBox treeListComboBox;
+    // End of variables declaration//GEN-END:variables
+    
+}

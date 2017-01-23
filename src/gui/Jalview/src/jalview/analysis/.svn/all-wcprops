@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis
+END
+Dna.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/Dna.java
+END
+AAFrequency.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/AAFrequency.java
+END
+AlignSeq.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/AlignSeq.java
+END
+PCA.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/PCA.java
+END
+SeqsetUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/SeqsetUtils.java
+END
+CrossRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/CrossRef.java
+END
+Finder.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/Finder.java
+END
+NJTree.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/NJTree.java
+END
+ParseProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/ParseProperties.java
+END
+SequenceIdMatcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/SequenceIdMatcher.java
+END
+Conservation.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/Conservation.java
+END
+AlignmentSorter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/analysis/AlignmentSorter.java
+END

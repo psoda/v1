@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/opensvn/psoda/!svn/ver/716/test/ssalign
+END
+align-ssdata.nex
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/716/test/ssalign/align-ssdata.nex
+END
+standardsChecker.pl
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/492/test/ssalign/standardsChecker.pl
+END
+align-refdata-ssdata.nex
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/716/test/ssalign/align-refdata-ssdata.nex
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/opensvn/psoda/!svn/ver/434/test/ssalign/test.pl
+END

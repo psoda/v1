@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/www/picr/AccessionMappingService
+END
+AccessionMapperInterface.class
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperInterface.class
+END
+AccessionMapperService.class
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperService.class
+END
+AccessionMapperServiceLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperServiceLocator.class
+END
+AccessionMapperBindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/www/picr/AccessionMappingService/AccessionMapperBindingStub.class
+END

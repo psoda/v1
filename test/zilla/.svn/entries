@@ -1,0 +1,52 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/test/zilla
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-07-28T18:03:13.934582Z
+861
+kasundberg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+zilla.nex
+file
+
+
+
+
+2017-01-23T03:56:10.000000Z
+b51bf899f7e374ee3f5c62fe8348e80c
+2009-07-28T18:03:13.934582Z
+861
+kasundberg
+
+test.pl
+file
+
+
+
+
+2017-01-23T03:56:10.000000Z
+13936d4bc1829017c17927da83a81352
+2008-06-13T17:02:19.741284Z
+473
+hyrum
+

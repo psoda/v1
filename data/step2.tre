@@ -1,0 +1,1005 @@
+#NEXUS
+begin trees;
+Translate
+1 Nicotiana,
+
+2 Galphimia,
+
+3 Oenothera,
+
+4 Victoria,
+
+5 Cypirapea,
+
+6 Barclaya,
+
+7 Petunia,
+
+8 Lycopersi,
+
+9 Convolvul,
+
+10 Ipomoea,
+
+11 Borago,
+
+12 Heliotrop,
+
+13 Hydrophyl,
+
+14 Eriodicty,
+
+15 Digitalis,
+
+16 Buddleja,
+
+17 Callitric,
+
+18 Jasminum,
+
+19 Adoxa,
+
+20 Lamiumpur,
+
+21 Streptoca,
+
+22 Catalpa,
+
+23 Sesamum,
+
+24 Utricular,
+
+25 Byblis,
+
+26 Pinguicul,
+
+27 Pterost,
+
+28 Vahlia,
+
+29 Antirrhin,
+
+30 Verbena,
+
+31 Teucrium,
+
+32 Prostanth,
+
+33 Clerodend,
+
+34 Salvia,
+
+35 Ligustrum,
+
+36 Scutellar,
+
+37 Physosteg,
+
+38 Callicarp,
+
+39 Pogostemo,
+
+40 Symphoric,
+
+41 Valeriana,
+
+42 Dipsacus,
+
+43 Boopis,
+
+44 Menyanthe,
+
+45 Villarsia,
+
+46 Lobelia,
+
+47 Gentiana,
+
+48 Cornuskou,
+
+49 Hedera,
+
+50 Coriandru,
+
+51 Viburnum,
+
+52 Sambucus,
+
+53 Exacum,
+
+54 Apocynum,
+
+55 Asclepias,
+
+56 Gelsemium,
+
+57 Spigelia,
+
+58 Pentas,
+
+59 Acuba,
+
+60 Nyssa,
+
+61 Cornuscan,
+
+62 Cornuswal,
+
+63 Diplopana,
+
+64 Helwingia,
+
+65 Davidia,
+
+66 Alangium,
+
+67 Camptoth,
+
+68 Boykinia,
+
+69 Tetracarp,
+
+70 Gunnera,
+
+71 Phyllonom,
+
+72 Griselin,
+
+73 Corokia,
+
+74 Apiumgrav,
+
+75 Saniculgr,
+
+76 Araliaspi,
+
+77 Justicodo,
+
+78 Aphelandr,
+
+79 Thunbergi,
+
+80 Nelsonia,
+
+81 Barleria,
+
+82 Ruttya,
+
+83 Proboscid,
+
+84 Lepidagat,
+
+85 Ruellia,
+
+86 Acanthus,
+
+87 Harpogoph,
+
+88 Hypoxstes,
+
+89 Montinia,
+
+90 Ilexcrena,
+
+91 Eucommia,
+
+92 Berzelia,
+
+93 Campanula,
+
+94 Scaevola,
+
+95 Dimorphot,
+
+96 Tagetes,
+
+97 Felicia,
+
+98 Chromolae,
+
+99 Achillea,
+
+100 Gerbera,
+
+101 Cacosmia,
+
+102 Vernonia,
+
+103 Tragopogo,
+
+104 Eupatoriu,
+
+105 Piptocarp,
+
+106 Cichorium,
+
+107 Senecio,
+
+108 Carthamnu,
+
+109 Nuphar,
+
+110 Nymphaea,
+
+111 Brasenia,
+
+112 Cabomba,
+
+113 Ceratophy,
+
+114 CanellaB,
+
+115 CanellaA,
+
+116 Magnsalic,
+
+117 Michelia,
+
+118 Manglieti,
+
+119 Magnhypol,
+
+120 Liriodtul,
+
+121 Liriodchi,
+
+122 Eupomatia,
+
+123 Degeneria,
+
+124 Amborella,
+
+125 Knema,
+
+126 Talauma,
+
+127 Talasinga,
+
+128 Drimys,
+
+129 Belliolum,
+
+130 Tasmannia,
+
+131 Cinnamomu,
+
+132 Persea,
+
+133 Hernandia,
+
+134 Idiosperm,
+
+135 Calycchin,
+
+136 Chimonant,
+
+137 Hedycarya,
+
+138 Annona,
+
+139 Gyrocarpu,
+
+140 Asimina,
+
+141 Cananga,
+
+142 Galbulimi,
+
+143 Asarum,
+
+144 Saururus,
+
+145 Schisandr,
+
+146 Illicium,
+
+147 Austrobai,
+
+148 Piper,
+
+149 Lactoris,
+
+150 Peperomia,
+
+151 Houttuyni,
+
+152 Aristoloc,
+
+153 Saruma,
+
+154 Hedyosmum,
+
+155 Chloranth,
+
+156 Sarcandra,
+
+157 Sabia,
+
+158 Akebia,
+
+159 Euptelea,
+
+160 Mahonia,
+
+161 Caulophyl,
+
+162 Ranunculu,
+
+163 Caltha,
+
+164 Xanthorhi,
+
+165 Dicentra,
+
+166 Sanguinar,
+
+167 Papaver,
+
+168 Cocculus,
+
+169 Trochoden,
+
+170 Sargentod,
+
+171 Coriaria,
+
+172 Nelumbo,
+
+173 Cercidiph,
+
+174 Tetracent,
+
+175 Platanus,
+
+176 Daphniphy,
+
+177 Altingia,
+
+178 Liquidori,
+
+179 Rhodoleia,
+
+180 Hamamelis,
+
+181 Celtis,
+
+182 Myrica,
+
+183 Betula,
+
+184 Carya,
+
+185 Casuarina,
+
+186 Chrysolep,
+
+187 Trigonoba,
+
+188 NothofBal,
+
+189 NothoDom,
+
+190 FagusAm,
+
+191 Humulus,
+
+192 Boehmeria,
+
+193 Pachysand,
+
+194 Ficustrig,
+
+195 Trema,
+
+196 Photinia,
+
+197 Geum,
+
+198 Prunus,
+
+199 Morus,
+
+200 Clavija,
+
+201 Anagallis,
+
+202 Symplocus,
+
+203 Styrax,
+
+204 Manilkara,
+
+205 Chrysophy,
+
+206 Camellia,
+
+207 Impatiens,
+
+208 Diospyros,
+
+209 Ardisia,
+
+210 Cassiope,
+
+211 Chamaedap,
+
+212 Gaultheri,
+
+213 Pentachon,
+
+214 Daboecia,
+
+215 Pyrola,
+
+216 Befaria,
+
+217 Arbutus,
+
+218 Epacris,
+
+219 Clethra,
+
+220 Ceratiola,
+
+221 Actinidia,
+
+222 Erica,
+
+223 Rhododend,
+
+224 Cyrilla,
+
+225 Enkianthu,
+
+226 Vaccinium,
+
+227 Sarraceni,
+
+228 Heliampho,
+
+229 Diapensia,
+
+230 Fouquieri,
+
+231 Polemoniu,
+
+232 Dillenia,
+
+233 Avena,
+
+234 Triticum,
+
+235 Cenchrus,
+
+236 Neurachne,
+
+237 Oryza,
+
+238 Aegilops,
+
+239 Commelina,
+
+240 Lomandra,
+
+241 Bambusa,
+
+242 Pandanus,
+
+243 Scilla,
+
+244 Hemerocal,
+
+245 Tradesca,
+
+246 Juncus,
+
+247 Oxychloe,
+
+248 Prionium,
+
+249 Elegia,
+
+250 Zebrina,
+
+251 Flagellar,
+
+252 Cyperus,
+
+253 Carex,
+
+254 Xanthorrh,
+
+255 Pontederi,
+
+256 Lachnocau,
+
+257 Ravenala,
+
+258 Hedychium,
+
+259 Maranta,
+
+260 Campelia,
+
+261 Musa,
+
+262 Strelitzi,
+
+263 Phenakosp,
+
+264 Orchidant,
+
+265 Heliconia,
+
+266 Costus,
+
+267 Tapeinoch,
+
+268 Zingiber,
+
+269 Globba,
+
+270 Riedelea,
+
+271 Calathea,
+
+272 Stegolepi,
+
+273 Tillandsi,
+
+274 Philydrum,
+
+275 Ananas,
+
+276 Puya,
+
+277 Chamaedor,
+
+278 Drymophlo,
+
+279 Nypa,
+
+280 Serenoa,
+
+281 Sparganiu,
+
+282 Typha,
+
+283 Anigozant,
+
+284 Pleea,
+
+285 Bowiea,
+
+286 Curculigo,
+
+287 Hypoxis,
+
+288 Aletris,
+
+289 Sansevier,
+
+290 Kniphofia,
+
+291 Danae,
+
+292 Clivia,
+
+293 Chlorophy,
+
+294 Neuwiedia,
+
+295 Oncidium,
+
+296 Nolinalin,
+
+297 Dioscorea,
+
+298 Spathiphy,
+
+299 Acorus,
+
+300 Gymnostac,
+
+301 Pistia,
+
+302 Lemna,
+
+303 Tacca,
+
+304 Smilax,
+
+305 Calochort,
+
+306 Colchicum,
+
+307 Burchardi,
+
+308 Lilium,
+
+309 Alstroeme,
+
+310 Veratrum,
+
+311 Aloe,
+
+312 Haworthia,
+
+313 Iris,
+
+314 Anomathec,
+
+315 Medeola,
+
+316 Cyanastru,
+
+317 Chamaelir,
+
+318 Vellozia,
+
+319 Freycinet,
+
+320 Sphaerade,
+
+321 Sagittari,
+
+322 Alisma,
+
+323 Sagittlat,
+
+324 Potamoget,
+
+325 Dianthus,
+
+326 Basella,
+
+327 Mollugo,
+
+328 Phytolacc,
+
+329 Trianthem,
+
+330 Portulaca,
+
+331 Mirabilus,
+
+332 Rivina,
+
+333 Alluaudia,
+
+334 Stegonosp,
+
+335 Atriplex,
+
+336 Amaranthu,
+
+337 Spinacia,
+
+338 Plumbago,
+
+339 Rheum,
+
+340 Nepenthes,
+
+341 D.filifor,
+
+342 D.petiola,
+
+343 D.spathul,
+
+344 Dionaea,
+
+345 Trigonia,
+
+346 Pisum,
+
+347 Medicago,
+
+348 Bauhinia,
+
+349 Albizzia,
+
+350 Cephalot,
+
+351 Erythroxy,
+
+352 Rheinward,
+
+353 Humiria,
+
+354 Ochna,
+
+355 Paeonia,
+
+356 Rhamnus,
+
+357 Krameria,
+
+358 Qualea,
+
+359 Securidac,
+
+360 Polygala,
+
+361 Platythec,
+
+362 Leitneria,
+
+363 Bursera,
+
+364 Acer,
+
+365 Schinus,
+
+366 Cupaniops,
+
+367 Ailanthus,
+
+368 Vitis,
+
+369 Viola,
+
+370 Euphorbia,
+
+371 Drypetes,
+
+372 Euonymus,
+
+373 Decumaria,
+
+374 Poncirus,
+
+375 Guaicum,
+
+376 Passiflor,
+
+377 Acridocar,
+
+378 Thryallis,
+
+379 Mascagnia,
+
+380 Dicella,
+
+381 Byrsonima,
+
+382 Sedum,
+
+383 Spirea,
+
+384 Octomeles,
+
+385 Tetramele,
+
+386 Dcannabin,
+
+387 Datglomer,
+
+388 Luffa,
+
+389 Cucurbita,
+
+390 Cucumis,
+
+391 Begonia,
+
+392 Lambertia,
+
+393 Crassula,
+
+394 Liccania,
+
+395 Bauera,
+
+396 Escalloni,
+
+397 Ceratopet,
+
+398 Eucryphia,
+
+399 Pittospor,
+
+400 Lepuropet,
+
+401 Crossosom,
+
+402 Ribes,
+
+403 Myriophyl,
+
+404 Greyia,
+
+405 Cornusflo,
+
+406 Francoa,
+
+407 Itea,
+
+408 Carpenter,
+
+409 Brexia,
+
+410 Parnassia,
+
+411 Penthorum,
+
+412 Heuchera,
+
+413 Kalanchoe,
+
+414 Chrysobal,
+
+415 Garrya,
+
+416 Deutzia,
+
+417 Phoradend,
+
+418 Hydrangm,
+
+419 Osyris,
+
+420 Schoepfia,
+
+421 Dudleya,
+
+422 Saxifrag,
+
+423 Philadel,
+
+424 Roridula,
+
+425 Bombax,
+
+426 Tilia,
+
+427 Theobroma,
+
+428 Gossrobin,
+
+429 Thespesia,
+
+430 Shoreazel,
+
+431 Shoreasti,
+
+432 Quisquali,
+
+433 Lythrum,
+
+434 Mouriri,
+
+435 Heteropyx,
+
+436 Terminali,
+
+437 Osbeckia,
+
+438 Ludwigia2,
+
+439 Trapa,
+
+440 Punica,
+
+441 Clarkia,
+
+442 Epilobium,
+
+443 Hauya,
+
+444 Circaea,
+
+445 Lopezia2,
+
+446 Viviania,
+
+447 Pelargoni,
+
+448 Geranium,
+
+449 Monsonia,
+
+450 Wendtiagr,
+
+451 Hypseocha,
+
+452 Oxalisdil,
+
+453 Averrhoa,
+
+454 Moringa,
+
+455 Bretschne,
+
+456 Stanleya,
+
+457 Cleome,
+
+458 Setchella,
+
+459 Capparis,
+
+460 Tropaeolu,
+
+461 Reseda,
+
+462 Tovaria,
+
+463 Koeberlin,
+
+464 Carica,
+
+465 Akania,
+
+466 Brassica,
+
+467 Limnanthe,
+
+468 Floerkea,
+
+469 Batis,
+
+470 Cycas,
+
+471 Bowenia,
+
+472 Zamia,
+
+473 Chigua,
+
+474 Dioon,
+
+475 Stangeria,
+
+476 Encephala,
+
+477 Sciadopit,
+
+478 Ginkgobil,
+
+479 Taxusbrev,
+
+480 Cephalota,
+
+481 Athrotaxi,
+
+482 Taxodium,
+
+483 Callitris,
+
+484 Widdringt,
+
+485 Metasequo,
+
+486 Abies,
+
+487 Pseudolar,
+
+488 Pseudotsu,
+
+489 Sequoiade,
+
+490 Tsuga,
+
+491 Podocarpu,
+
+492 Keteleeri,
+
+493 Cedrus,
+
+494 Larix,
+
+495 Picea_pun,
+
+496 Pinus_gri,
+
+497 Pinus_rad,
+
+498 Gnetum,
+
+499 Ephedra,
+
+500 Welwitsch
+;
+tree treeName1 = [&U] ((1,((((((((((((((((((((((2,(377,(378,(379,380)))),381),(370,376)),(353,(354,371))),(352,369)),((345,(394,414)),351)),((372,409),(400,410))),(((454,464),((((((((456,466),457),459),461),462),(463,469)),(467,468)),458)),((455,465),460))),((((((((((((3,441),442),444),443),445),438),((433,439),440)),(432,436)),((358,(434,437)),435)),((((69,411),403),(((382,421),413),393)),375)),(((((((((170,(346,347)),349),(359,360)),348),357),((((181,191),195),(192,(194,199))),356)),((350,(361,((395,397),398))),(452,453))),((171,(((384,385),((388,(389,390)),391)),(386,387))),((((((182,184),(183,185)),(186,187)),190),(188,189)),(((196,198),383),197)))),(355,((447,(448,449)),451)))),(((((362,367),374),(363,((364,366),365))),((425,(426,(427,(428,429)))),(430,431))),((404,406),(446,450))))),401),((417,420),419)),((((((((((((((4,110),(109,(111,112))),6),124),((145,146),147)),(154,(155,156))),((((131,132),137),(134,(135,136))),(133,139))),((((((((((5,295),294),288),((((257,(262,263)),271),((261,264),(265,(266,267)))),(((258,270),(268,269)),259))),((((251,272),(281,282)),(273,(275,276))),(((277,278),280),279))),(297,303)),((((((((((((233,(234,238)),((235,236),(237,241))),((247,252),253)),(249,256)),(246,248)),255),(274,283)),(239,((245,250),260))),(((240,(((243,285),(((244,293),(290,(311,312))),254)),(((289,291),296),292))),((313,314),316)),(286,287))),((306,307),309)),((304,(305,(308,315))),(310,317))),(((242,319),320),318))),(284,300)),299),(((114,115),((128,129),130)),((((((((116,(117,126)),(118,127)),119),(120,121)),142),(123,((138,140),141))),122),125)))),((((113,(((((((470,((471,((472,473),476)),(474,475))),478),(((((((486,492),490),487),493),(488,494)),(496,497)),495)),477),((479,480),((481,((483,484),(485,489))),482))),491),((498,500),499))),((144,151),(148,150))),(((298,301),302),(((321,323),322),324))),((143,153),(149,152)))),(((158,(165,166)),(159,(160,(161,((162,164),163))))),(167,168))),((157,392),(172,175))),((169,174),193)),70),((232,368),(((325,(335,(336,337))),(((326,(330,333)),(327,((328,(331,332)),329))),334)),(((338,339),340),(((341,343),342),344)))))),((((((27,407),((68,(412,422)),402)),179),(177,178)),180),(173,176))),(((((48,61),(62,405)),66),(((373,416),(408,423)),418)),(((60,65),67),63))),((59,415),91)),(((((((200,(201,209)),(203,219)),(((227,228),424),(229,231))),(((202,208),((((((210,(((216,220),223),222)),(((211,212),(214,226)),(213,218))),217),215),225),221)),(206,224))),(204,205)),230),207)),((((((19,52),51),((((49,76),((50,74),75)),399),72)),92),(((40,(41,42)),396),((((((43,94),((((95,99),(97,107)),(((100,(102,105)),103),106)),((96,(98,104)),(101,108)))),73),45),44),(46,93)))),((64,71),90))),((47,53),(((54,55),58),(56,57)))),(((11,(12,(13,14))),28),((((((15,17),29),(((((((77,88),82),85),79),(78,86)),(81,84)),80)),(((16,21),(((((((20,(37,39)),36),((31,33),32)),(34,38)),30),(23,87)),83)),22)),((24,26),25)),(18,35)))),89),(9,10)),7)),8);
+end;

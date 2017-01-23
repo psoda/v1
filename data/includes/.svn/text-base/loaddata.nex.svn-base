@@ -1,0 +1,6 @@
+#NEXUS
+BEGIN PSODA;
+
+  source file="moredata/finaldata.nex";
+
+END;

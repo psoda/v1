@@ -1,0 +1,5 @@
+[ GUI User Input Values ]
+1.	fullScreen	false	[ Whether the GUI is full-screen or not ]
+2.	height	600	[ Height of the GUI frame ]
+3.	length	900	[ Length of the GUI frame ]
+4.	iconPath	"./GraphicInterface/ICONS"	[ The full path to the location of the icons for this program ]

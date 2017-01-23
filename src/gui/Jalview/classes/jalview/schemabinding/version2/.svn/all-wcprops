@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2
+END
+OtherData.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/OtherData.class
+END
+MapListType.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/MapListType.class
+END
+FeatureSettings.class
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/FeatureSettings.class
+END
+Features.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Features.class
+END
+AlcodMap.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/AlcodMap.class
+END
+AnnotationColours.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/AnnotationColours.class
+END
+SequenceSet.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/SequenceSet.class
+END
+Property.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Property.class
+END
+AnnotationElement.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/AnnotationElement.class
+END
+UserColours.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/UserColours.class
+END
+UserColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/UserColourScheme.class
+END
+Mapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Mapping.class
+END
+Feature.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Feature.class
+END
+Group.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Group.class
+END
+MapListFrom.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/MapListFrom.class
+END
+Tree.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Tree.class
+END
+SequenceSetProperties.class
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/SequenceSetProperties.class
+END
+Colour.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Colour.class
+END
+JGroup.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/JGroup.class
+END
+JalviewUserColours.class
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/JalviewUserColours.class
+END
+Sequence.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Sequence.class
+END
+JalviewModelSequence.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/JalviewModelSequence.class
+END
+VamsasModel.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/VamsasModel.class
+END
+MapListTo.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/MapListTo.class
+END
+Setting.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Setting.class
+END
+Alcodon.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Alcodon.class
+END
+Viewport.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Viewport.class
+END
+DBRef.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/DBRef.class
+END
+JalviewModel.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/JalviewModel.class
+END
+Pdbentry.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Pdbentry.class
+END
+VAMSAS.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/VAMSAS.class
+END
+AlcodonFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/AlcodonFrame.class
+END
+HiddenColumns.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/HiddenColumns.class
+END
+StructureState.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/StructureState.class
+END
+JSeq.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/JSeq.class
+END
+ThresholdLine.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/ThresholdLine.class
+END
+Pdbids.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Pdbids.class
+END
+PdbentryItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/PdbentryItem.class
+END
+MappingChoice.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/MappingChoice.class
+END
+SequenceType.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/SequenceType.class
+END
+Annotation.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemabinding/version2/Annotation.class
+END

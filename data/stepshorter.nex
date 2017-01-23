@@ -1,0 +1,35 @@
+#NEXUS
+
+
+begin data;
+	dimensions ntax=10 nchar=31;
+	format datatype=dna gap=- matchchar=. ;
+matrix
+
+Nicotiana  GTTGACAATTTAGCAATGCTTTTTGAGCCAA
+Galphimia  ATGCAGGGGTACCCCTTGCCCCAAAATTTTT
+Oenothera  TTTCCCGGGAAAAAACCCGGGTTTAAGGCCT
+Victoria   GTAGTAGTAGTAGTAGTAGTAGTAGTAGTAG
+Cypirapea  ATGCAATGACATGCAATGACATGCAATGACA
+Barclaya   AATTGGCCAATTCCGGAATTGGCCAATTCCG
+Hydrophyl  ATGGGGAAAAGACATGGGGAAAAGACCCATG
+Eriodicty  AAATTTTTTTTTGGGGGGGGGGCCCCCCCCC
+Digitalis  GGGGGGGGGGGGGGTTTTTTTTTTTTTAAAA
+Digitalks  GGGGGGGCCCCCCCCTTTTTTTTTTTTAAAA
+;
+end;
+BEGIN PAUP;
+	set nowarnreset 
+	autoclose;
+	set 
+		maxtrees = 1;
+	hsearch 
+		start = stepwise
+		swap = none
+		addseq = random
+		nreps = 1
+		hold = 1;
+		 
+[This block will estimate a maximum parsimony tree assuming equal weights and save the results of the search to a log file.]
+  quit warntsave=no;
+end;

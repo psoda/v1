@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>Popup Menu</title>
+</head>
+
+<body>
+<p><strong>Popup Menu</strong><br>
+<em>This menu is visible when right clicking either within a
+selected region on the alignment or on a selected sequence name. It may
+not be accessible when in 'Cursor Mode' (toggled with the F2 key).</em></p>
+<ul>
+  <li><strong>Selection</strong> 
+    <ul>
+      <li><strong>Edit </strong> 
+        <ul>
+          <li><strong>Copy</strong><br>
+            <em>Copys the selected region. In the applet version, the copied sequences 
+            are not available to the system clipboard.</em></li>
+          <li><strong>Cut<br>
+            </strong><em>Cuts the selected region from the alignment. In the applet 
+            version, the copied sequences are not available to the system clipboard.</em></li>
+          <li><strong>Edit Sequence</strong><br>
+            <em>Edit the selected sequence(s) directly. Spaces will be converted 
+            to the current gap character.</em></li>
+          <li><strong>To Upper Case</strong><em><strong><br>
+            </strong><em>Changes the case of selected region to lower case.</em> 
+            </em></li>
+          <li><strong>To Lower Case<br>
+            </strong><em>Changes the case of selected region to upper case.</em><strong> 
+            </strong></li>
+          <li><strong>Toggle Case</strong><br>
+            <em>Switches the case of all residues within the selected region.</em></li>
+        </ul>
+      </li>
+      <li><strong>Output to Textbox<br>
+        </strong><em>The selection area will be output to a a text window in the 
+        selected alignment format. </em></li>
+      <li><strong><a href="../features/creatinFeatures.html">Create Sequence Feature...</a></strong><br>
+        <em>Opens the dialog box for creating sequence features over the currently 
+        selected region on each selected sequence.</em></li>
+      <li><strong>Group</strong><br>
+        <em>Group Operations</em> 
+        <ul>
+          <li><strong>Group</strong><em>This is the first entry in the
+	  menu, and will display the currently selected group's
+	  name. Selecting it displays a window allowing the name and
+	  description for this group to be edited. Click OK to set the
+	  new name and decription, and cancel to leave the existing
+	  name and description unchanged.</em></li>
+          <li><strong>Remove Group<br>
+            </strong><em>This will undefine the selected group. </em><strong> 
+            </strong></li>
+          <li><strong>Group Colour<br>
+            </strong><em>Sets the <a href="../colourSchemes/index.html">colour</a> 
+            of the group.</em><strong> </strong></li>
+          <li><strong>Boxes<br>
+            </strong><em>If selected the background of a residue within the selected 
+            group will be coloured according to the assigned colour scheme.</em><strong> 
+            </strong></li>
+          <li><strong>Text<br>
+            </strong><em>If selected the selected group will display text. </em></li>
+          <li><strong>Colour Text<br>
+            </strong><em>If selected the selected group will display text in a 
+            colour slightly darker than the background colour of that residue.</em></li>
+          <li><strong>Border Colour <br>
+            </strong><em>Selecting this will display a &quot;Colour Chooser&quot; 
+            window. Select a colour than press OK to set the border colour of 
+            a group.</em></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Sequence Id<br>
+    </strong><em>This menu is only visible if you right-click on a sequence name. 
+    </em> 
+    <ul>
+      <li><strong>Edit Name/Description<br>
+        </strong><em>You may edit the name and description of each sequence. A 
+        window will be displayed asking for a new sequence name and sequence description 
+        to be entered. Press OK to accept your edit. To save sequence descriptions, 
+        you must save in Fasta, PIR or Jalview File format.</em></li>
+      <li><em> </em></li>
+      <li><strong>Represent Group With (Sequence Id)</strong><br>
+        <em>All sequences in the current selection group will be hidden, apart 
+        from (Sequence Id). Any edits performed on the visible representative 
+        sequence will be propagated to the hidden sequences. </em></li>
+      <li><strong>Link</strong><br>
+        <em>This menu item lists all links which have been set up in the <a href="../features/preferences.html">Preferences</a> 
+        Connections tab.<br>
+        Since Jalview 2.4, links will also be made for database cross 
+        references (where the database name exactly matches the link name set up in <a href="../features/preferences.html">Preferences</a>).
+        </em><strong><br>
+        </strong></li>
+    </ul>
+  </li>
+  <li><strong>Structure</strong> 
+    </strong><em>This menu is only visible if you right-click on a sequence name. 
+    </em> 
+    <ul>
+      <li><strong>Associate Structure with Sequence</strong> 
+        <ul>
+          <li><strong>From File<br>
+            </strong><em>Load a PDB file from local disk which will be associated 
+            with this sequence. This file will be used if the user subsequently 
+            clicks on &quot;View PDB Structure&quot; menu item.</em></li>
+          <li><strong>Enter PDB id<br>
+            </strong><em>Enter the PDB id from an input window. This PDB id will 
+            be used by the service WSDBFetch, provided by the EBI, to fetch the 
+            PDB file if the user subsequently clicks on &quot;View PDB Structure&quot; 
+            menu item. </em></li>
+          <li><strong>Discover PDB ids<br>
+            </strong><em>This will use the service WSDBFetch, provided by the 
+            EBI, to retrieve all PDB ids associated with the sequences in the 
+            alignment if the sequences have valid Uniprot names or accession ids. 
+            </em></li>
+        </ul>
+      </li>
+      <li><strong>View Structure<br>
+        </strong><em> If the sequence has an associated PDB file added by one 
+        of the methods described above, Jalview will display a 3D interactive 
+        viewer of the file.<br>
+        These entries will only be present if the sequence has <a
+			href="../features/viewingpdbs.html">associated PDB structures</a>.</em><br>
+      </li>
+    </ul>
+  </li>
+  <li><strong>Hide Sequences</strong><br>
+    <em>Hides the currently selected sequences in this alignment view.</em><strong><br>
+    <br>
+    </strong></li>
+</ul>
+</body>
+</html>

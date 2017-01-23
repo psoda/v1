@@ -1,0 +1,16 @@
+#NEXUS
+BEGIN PSODA;
+
+begin myFunc;
+
+end;
+
+myFunc;
+
+  set nreps = 5;
+  set (nreps = 5, iterations = 10);
+  set (nreps = 5 iterations = 10);
+  set nreps = 5 iterations = 10;
+
+
+end;

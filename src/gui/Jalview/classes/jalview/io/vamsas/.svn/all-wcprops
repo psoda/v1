@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/io/vamsas
+END
+Rangetype.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/io/vamsas/Rangetype.class
+END
+Tree.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/io/vamsas/Tree.class
+END
+Dbref.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/io/vamsas/Dbref.class
+END
+LocalDocSyncObject.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/io/vamsas/LocalDocSyncObject.class
+END
+Sequencemapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/io/vamsas/Sequencemapping.class
+END
+DatastoreItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/io/vamsas/DatastoreItem.class
+END

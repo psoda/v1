@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws
+END
+SeqSearchWSThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/SeqSearchWSThread.java
+END
+WSClientI.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/WSClientI.java
+END
+WSThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/WSThread.java
+END
+MsaWSThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/MsaWSThread.java
+END
+JPredClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/JPredClient.java
+END
+DBRefFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/DBRefFetcher.java
+END
+Discoverer.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/Discoverer.java
+END
+SeqSearchWSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/SeqSearchWSClient.java
+END
+WSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/WSClient.java
+END
+SequenceFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/SequenceFetcher.java
+END
+MsaWSClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/MsaWSClient.java
+END
+JPredThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/JPredThread.java
+END
+DasSequenceFeatureFetcher.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/DasSequenceFeatureFetcher.java
+END

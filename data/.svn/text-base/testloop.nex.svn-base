@@ -1,0 +1,18 @@
+#NEXUS
+BEGIN PSODA;
+
+$i = 0;
+$j = 3;
+while ($i < 5)
+  var $j = $j;
+  $j++;
+  print "$i: " . $i . "\t" . "$j: " . $j . endl;
+  $i++;
+endwhile;
+
+while ($j < 7)
+  print "$i: " . $i . "\t" . "$j: " . $j . endl;
+  $j++;
+endwhile;
+
+end;

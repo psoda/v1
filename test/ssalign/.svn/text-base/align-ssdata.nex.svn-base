@@ -1,0 +1,35 @@
+#NEXUS
+
+begin data;
+	format datatype=proteins ;
+sequences
+
+>2pna_
+lqdaewywgdisreevneklrdtadgtflvrdastkmhgdytltlrkggnnklikifhrdgkygfsdpltfnsvvelinhyrneslaqynpkldvkll
+>1mw4_A
+hrtqlwfhgrisreesqrligqqglvdglflvresqrnpqgfvlslchlqkvkhylilpseeegrlyfsmddgqtrftdllqlvefhqlnrgilpcllrhc
+>1uur_A
+lwqegiiygymgrqevndalqnqdpgtfiirfsernpgqfgiayigvemparikhylvqpndtaaakktfpdflsehsqfvnllqwtkdtngaprflklhkdtalgsfapkrtapvpvggx
+;
+end;
+
+begin SSData;
+	format datatype=proteins ;
+sequences
+
+>2pna_
+llSlSSllSSllHHHHHHHHTTSSSSEEEEElllTTTSSllEEEEElSSSEEEEElllSSSlllSSSSSllllHHHHHHHHHTSlBlTTSTTllBlll
+>1mw4_A
+lSSSllEESlllHHHHHHHGGGllSlTTllEEEElSSSTTlEEEEEElSSlEEEEESBlSlSSlSlBlllTTllllSllHHHHHHHTSSSllSTTSlllll
+>1uur_A
+HHHHTSSlBSllHHHHHHTTSSllTTlEEEEElSSSTTlEEEEEElSSSSllEEEEEllGGGSBTTTBlHHHHHTTlTTllSBEEEEElTTSlEEEEEllHHHHTGGGSlllSSllllSSl
+;
+end;
+
+BEGIN PAUP;
+	set nowarnreset
+	autoclose;
+	ssalign( submat="BLOSUM62" outfile="align-ssdata.afa" output="fasta" endgap="yes");
+    quit;
+
+end;

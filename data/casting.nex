@@ -1,0 +1,8 @@
+#NEXUS
+BEGIN PSODA;
+
+  myInt = 4;
+  doubleResult = double(myInt) / 7;
+  print ( "Result: " . doubleResult . "\n");
+
+END;

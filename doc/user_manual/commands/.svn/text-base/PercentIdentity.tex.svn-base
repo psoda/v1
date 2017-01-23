@@ -1,0 +1,21 @@
+\section(PercentIdentity}
+
+Percent Identity Instruction
+
+\subsection{Options}
+\begin{description}
+\item[gapopen] = " " 
+\item[gapext] = " "
+\item[endgap] = yes
+\item[submat] = " " 
+\item[counts]  = " " 
+\end{description}
+
+\subsection{Option Descriptions}
+\begin{description}
+\item[gapopen] = " " 
+\item[gapext] = " "
+\item[endgap] = yes
+\item[submat] = " " 
+\item[counts]  = " " 
+\end{description}

@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0/src/include
+END
+fann_error.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_error.h
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0/src/include/Makefile.in
+END
+compat_time.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/compat_time.h
+END
+fixedfann.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fixedfann.h
+END
+fann_activation.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_activation.h
+END
+stamp-h1
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/stamp-h1
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/833/src/fann-2.0.0/src/include/config.h
+END
+floatfann.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/floatfann.h
+END
+fann_io.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_io.h
+END
+fann_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_data.h
+END
+doublefann.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/doublefann.h
+END
+fann_internal.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_internal.h
+END
+fann_train.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_train.h
+END
+fann.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann.h
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/Makefile.am
+END
+fann_cascade.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/include/fann_cascade.h
+END

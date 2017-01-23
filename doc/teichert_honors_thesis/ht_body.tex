@@ -1,0 +1,30 @@
+\documentclass[12pt, twoside, openany]{book}
+\linespread{1.6}
+\raggedright
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{booktabs}
+\usepackage{float}
+\newcommand{\ras}[1]{\renewcommand{\arraystretch}{#1}}
+\parindent .4in
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength\topmargin{0in}
+\setlength\textheight{8.5in}
+\setlength\evensidemargin{0in}
+\setlength\oddsidemargin{.5in}
+\setlength\textwidth{6in}
+\pagestyle{fancy}
+\fancyhead{}
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{#1}{}}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LE]{\thepage}
+\fancyhead[LO]{\rightmark}
+\fancyhead[RO]{\thepage}
+\fancyfoot{}
+\newfloat{code}{h}{cod}
+\floatname{code}{Sample}
+\input{ht_content}

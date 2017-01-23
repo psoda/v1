@@ -1,0 +1,52 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/test/sectarian
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-07-28T18:03:13.934582Z
+861
+kasundberg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+sectarian.nex
+file
+
+
+
+
+2017-01-23T03:56:10.000000Z
+3821dcc05c758e6cf871ccc1c83327f8
+2009-07-28T18:03:13.934582Z
+861
+kasundberg
+
+test.pl
+file
+
+
+
+
+2017-01-23T03:56:10.000000Z
+30ebb66430c66615eb456a91f26510af
+2009-07-28T18:03:13.934582Z
+861
+kasundberg
+

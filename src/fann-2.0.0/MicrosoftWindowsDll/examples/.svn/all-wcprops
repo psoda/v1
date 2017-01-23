@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples
+END
+examples.ncb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/examples.ncb
+END
+examples.suo
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/examples.suo
+END
+xor_train.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/xor_train.vcproj
+END
+simple_train.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/simple_train.vcproj
+END
+examples.sln
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/examples.sln
+END
+xor_test.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/xor_test.vcproj
+END
+simple_test.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/MicrosoftWindowsDll/examples/simple_test.vcproj
+END

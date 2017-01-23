@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann
+END
+fann_helper.c
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann/fann_helper.c
+END
+pyfann.i
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann/pyfann.i
+END
+makefile.msvc
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann/makefile.msvc
+END
+__init__.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann/__init__.py
+END
+fann.py
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann/fann.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/pyfann/Makefile
+END

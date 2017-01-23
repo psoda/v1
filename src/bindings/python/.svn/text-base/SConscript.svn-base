@@ -1,0 +1,32 @@
+#!/usr/bin/python
+
+import SodaSconsUtil
+import os
+import shutil
+import glob
+
+Import ( 'env', 'soda' )
+
+#SWIG BINDINGS
+SWIGEXTENSION  = '_wrap.cpp'
+
+for x in glob.glob("../../*.i"):
+  shutil.copy( x, ".")
+
+SWIG_SOURCES_LIST         = SodaSconsUtil.listOfRelativeFilesWithExcludes( ".", "*.i", [ 'kpr_swig.i'] )
+SWIG_WRAPPER_SOURCE_LIST  = SodaSconsUtil.convertFileExtensions( SWIG_SOURCES_LIST, '.i', SWIGEXTENSION )
+EXECUTABLE_LIBS = soda['EXECUTABLE_LIB_DEPENDENCIES'] 
+
+
+SWIGIPATH = " "
+for x in env['CPPPATH']:
+  SWIGIPATH += "-I" + x + " "
+
+swigenv = env.Copy()
+swigenv.CXXFile( SWIG_SOURCES_LIST )
+swigenv["SWIGFLAGS"] += ' -python '
+swigenv["SWIGFLAGS"] += SWIGIPATH
+swigenv.Append( CPPPATH = [ '/usr/include/python2.3/' ] )
+x = swigenv.SharedLibrary ( target = 'Soda', source = SWIG_WRAPPER_SOURCE_LIST, LIBS = EXECUTABLE_LIBS )
+
+Default(x)

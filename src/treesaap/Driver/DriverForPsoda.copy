@@ -1,0 +1,988 @@
+/**
+ *	TreeSAAP.class is the Controller.  TreeSAAP.class directs usage of requested classes from the
+ *	user (or the View classes).  It also handles control of information between Buisness Logic Classes
+ *	and Data Classes.
+ *
+ *	@author	Joshua Sailsbery
+ *	@version	3.2
+ *	@since	1.0
+ */
+package Driver;
+
+import java.awt.Toolkit;
+import java.util.Date;
+import java.util.Vector;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.io.IOException;
+import java.text.DateFormat;
+
+import BASEML.BASEML;
+import BASEML.BASEMLStub;
+import BASEML.BASEMLUsageBean;
+import BASEML.BASEMLTreeBean;
+import Block.Block;
+import Block.BlockStub;
+import Block.BlockUsageBean;
+import CDM.CDM;
+import CDM.CDMStub;
+import CDM.CDMUsageBean;
+import CommandLine.CommandLine;
+import CommandLine.CommandLineStub;
+import CommandLine.CommandLineUsageBean;
+import Data.Data;
+import Data.DataStub;
+import Data.DataUsageBean;
+import Data.GeneticCodeBean;
+import Data.TableBean;
+import Evpthwy.Evpthwy;
+import Evpthwy.EvpthwyStub;
+import Evpthwy.EvpthwyUsageBean;
+import GeneralDNAFileParser.TreeBean;
+import GeneralDNAFileParser.TaxaBean;
+import GeneralDNAFileParser.DNAFileParserStub;
+import GeneralDNAFileParser.GeneralDNAFileParser;
+import GeneralDNAFileParser.DNAFileParserUsageBean;
+import GraphicInterface.GraphicInterface;
+import GraphicInterface.GraphicInterfaceStub;
+import GraphicInterface.GraphicInterfaceUsageBean;
+import Objects.Stub;
+import Objects.UsageBean;
+import Run.Run;
+import Run.RunStub;
+import Run.RunUsageBean;
+import Substs.Substs;
+import Substs.SubstsStub;
+import Substs.SubstsUsageBean;
+import Tree.Tree;
+import Tree.TreeStub;
+import Tree.TreeUsageBean;
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Iterator;
+import javax.swing.JFrame;
+
+public class DriverForPsoda extends Driver
+{
+	//GLOBAL Variables
+	public static String title = "TreeSAAP 3.2 for PSODA";		//Allows version iteration to be viewed across entire program
+	private static DriverForPsoda driver;						//Allows indirect instantiation of this class
+
+	//CLASS Variables
+	private DriverStub stub;				//Creates the Usage Bean from user-input settings
+	private DriverUsageBean bean;			//This object contains all opeational settings needed for program
+	private DriverPrint print;				//Controls the printing of files
+	private DriverPrintStub printStub;		//Creates and maintains a printBean for the DriverPrint class
+	
+	//Control Objects - contain business logic
+	private BASEML baseml;					//Object used for accessing BASEML methods
+	private Block block;					//Object used for accessing Block methods
+	private CDM cdm;						//Object used for accessing CDM methods
+	private CommandLine commandLine;		//Object used for accessing CommandLine methods
+	private Data data;						//Object used for accessing Data methods
+	private Evpthwy evpthwy;				//Object used for accessing Evpthwy methods
+	private GeneralDNAFileParser gdfp;		//Object used for accessing GeneralDNAFileParser methods
+	private GraphicInterface gui;			//Object used for accessing GraphicInterface methods
+	private Run run;						//Object used for accessing Run methods	
+	private Substs substs;					//Object used for accessing Substs methods
+	private Tree tcsTree;					//Object used for accessing Tree methods
+
+        
+        // objects that were previously in Initialize() but now have been moved out as fields
+        private GraphicInterfaceUsageBean guiBean;
+        
+	//Contains the Stubs and Beans of each control object
+	private Vector Stubs;					//Contains the Stubs of objects
+	private Vector Beans;					//Contains the Beans of objects
+	
+	//Process Vars
+	private boolean firstTry = true;		//Whether this is the first initialization of driver class or not
+	
+         public static DriverForPsoda getDriver() {
+             if(driver == null) {      
+            try
+		{	
+                if(driver == null) {
+                       driver = new DriverForPsoda(false, ""); // "" is supposed to be a logfile
+                       driver.initialize();
+                }
+            }
+		catch(IOException e)
+		{
+			System.out.println("There were problems starting the program.\n  Please verify settings files are located in the correct location.");
+		}
+		catch(OutOfMemoryError e)
+		{
+			driver.getBean().errorMessage("\nThe file is too big.\n     Increase Memory allocation or contact David_McClellan@byu.edu");
+		}
+        }
+             return driver;
+         }
+         
+         public static void initializeDriver() {
+             driver.initialize();		
+             return;
+         }
+        
+        public static void main() {      
+            try
+		{	
+                if(driver == null) {
+                       driver = new DriverForPsoda(true, ""); // "" is supposed to be a logfile
+			driver.initialize();
+                }
+            }
+		catch(IOException e)
+		{
+			System.out.println("There were problems starting the program.\n  Please verify settings files are located in the correct location.");
+		}
+		catch(OutOfMemoryError e)
+		{
+			driver.getBean().errorMessage("\nThe file is too big.\n     Increase Memory allocation or contact David_McClellan@byu.edu");
+		}
+        }
+	
+	/**
+	 * Constructor, creates an object to be referenced and utilized.
+	 * It then calls methods to populate that object.
+	 *
+	 * @param boolean gINui - whether a gui is being used
+	 * @param String log - the log file outputted to
+	 */
+	public DriverForPsoda(boolean gui, String log) throws IOException
+	{
+            super(gui,log);
+
+            
+		//Create the stub
+		stub = new DriverStub("./Settings/driver_settings.txt", gui, log);
+		
+		//get the new usage bean
+		bean = (DriverUsageBean)stub.getBean();
+		
+		//Print vars
+		printStub = new DriverPrintStub("./Settings/print_settings.txt", gui, bean.getLogFile());
+	}//Constructor
+		
+	/**
+	 *	TreeSAAP Initialize - Instantiates Class Objects.
+	 *	
+	 *	@param String	If passed a valid file path, calls openNew()
+	 */
+    @Override
+	public void initialize()
+	{	
+		//try/catch for ioexceptions
+		try
+		{
+			//Print Vars
+			print = new DriverPrint(driver, bean, (DriverPrintUsageBean)printStub.getBean());
+			
+			//Create all the Stubs
+			Stubs = new Vector();
+			Stubs.add(new BASEMLStub("./Settings/baseml_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new BlockStub("./Settings/block_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new CDMStub("./Settings/cdm_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new CommandLineStub("./Settings/commandLine_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new DataStub("./Settings/data_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new EvpthwyStub("./Settings/evpthwy_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new DNAFileParserStub("./Settings/gdfp_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new GraphicInterfaceStub("./Settings/gui_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new RunStub("./Settings/run_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new SubstsStub("./Settings/substs_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(new TreeStub("./Settings/tree_settings.txt", bean.getErrorWindow(), bean.getLogFile()));
+			Stubs.add(stub);
+			Stubs.add(printStub);
+			
+			//Get all the beans
+			Beans = new Vector();
+			for(int i=0;i<Stubs.size();i++)
+				Beans.add(((Stub)Stubs.elementAt(i)).getBean());
+			
+			//Get Beans accessed here
+			EvpthwyUsageBean evBean = (EvpthwyUsageBean)Beans.elementAt(5);
+			DNAFileParserUsageBean gdfpBean = (DNAFileParserUsageBean)Beans.elementAt(6);
+			guiBean = (GraphicInterfaceUsageBean)Beans.elementAt(7);
+			RunUsageBean runBean = (RunUsageBean)Beans.elementAt(8);
+			
+			//Objects
+			baseml = new BASEML((BASEMLUsageBean)Beans.elementAt(0));
+			block = new Block((BlockUsageBean)Beans.elementAt(1));
+			cdm = new CDM((CDMUsageBean)Beans.elementAt(2));
+			data = new Data((DataUsageBean)Beans.elementAt(4));
+			evpthwy = new Evpthwy(evBean);
+			gdfp = new GeneralDNAFileParser(gdfpBean);
+			run = new Run(runBean);
+			substs = new Substs((SubstsUsageBean)Beans.elementAt(9));	
+			tcsTree = new Tree((TreeUsageBean)Beans.elementAt(10));
+
+			//get settings for data, run, evpthwy, gdfp
+			bean.setProperties("all");
+			data.obtainData();
+			data.setPathways();
+			runBean.setSubsts(substs);
+			runBean.setEvpthwy(evpthwy);
+			runBean.setCDM(cdm);
+			evBean.setZScore(data.getZCriticalValues());
+			gdfpBean.setVerboseFile(bean.getResultsDirectory());
+
+			//gui
+			if(bean.getErrorWindow())
+			{
+				//DisplayGui(guiBean);
+			}
+			//commandLine
+			else if(bean.getCommandLine())
+			{
+				commandLine = new CommandLine((CommandLineUsageBean)Beans.elementAt(3));
+			}
+		}
+		catch(Exception e)
+		{
+			bean.errorMessage("There was an error initializing Driver Objects.\n  Please Verify User_Input settings files.");
+			if(firstTry)
+			{
+				firstTry = false;
+				resetSettings();
+				reload();
+			}
+		}
+	}//constructor
+		
+	/**
+	 * Runs a given tree utilizing user-selections
+	 * @param String tree - the tree specified to be ran
+	 */
+    @Override
+	public void run(String tree)
+	{		
+		//Method Vars
+		BASEMLStub basemlStub;
+		BASEMLTreeBean thisTree;
+		GeneticCodeBean gcBean;
+		GeneralDNAFileParser gdfpForRST;
+		SubstsUsageBean subBean = substs.getBean();
+		EvpthwyUsageBean evBean = evpthwy.getBean();
+		TreeBean t = (TreeBean)gdfp.getTrees().get(tree);
+
+		//Time
+		long startTime = new Date().getTime();
+		bean.logMessage("\nTime Started: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		
+		//catch any problems
+		try
+		{
+			//get settings from gui
+			getSettings();
+	
+			//Watch for bad trees
+			if(t == null || t.getNodeNames() == null)
+				throw new Exception();
+			
+			//set output dir
+			print.setDirectory(tree);
+	
+			//Next check for TCS Edges
+			if(tcsTree.getBean().getSelectedTCSEdges())
+			{
+				t = tcsTree.createSubTree(t, getGDFP());
+				tree = t.getName();
+			}
+	
+			//Verify that Baseml should be ran
+			if(t.getNodeNames().size() == 0)
+			{
+				//BASEML operation
+				basemlStub = (BASEMLStub)Stubs.elementAt(0);
+				basemlStub.convert(gdfp);
+				
+				//get Choosen Tree
+				thisTree = (BASEMLTreeBean)basemlStub.getTreeData().get(tree);
+				
+				//Move Temp Files
+				if(bean.getMove())
+					baseml.getBean().setOutFilePath(bean.getOutputDirectory());
+				else
+					baseml.getBean().setOutFilePath("");
+				
+				//Run BASEML
+				baseml.run(gui, thisTree);
+		
+				//Open the RST file
+				gdfpForRST = new GeneralDNAFileParser(gdfp.getBean());
+				gdfpForRST.openNewFile("rst");
+			
+				//move data from gdfpForRST into the chosen tree
+				gdfp.copyData((TreeBean)gdfpForRST.getTrees().get((String)gdfpForRST.getTreeNames().elementAt(0)), t);
+				
+				//move RST file
+				if(bean.getMoveRst())
+					baseml.moveRST(bean.getOutputDirectory());
+			}
+	
+			//Choose Genetic Code and Properties
+			gcBean = (GeneticCodeBean)data.getGeneticCodes().get(bean.getGeneticCode());
+			if(bean.getProperties().equals("all"))
+				gcBean.setPropertyNames(data.getPropertyNames());
+			else
+				gcBean.setPropertyNames((Vector)data.getPropertyLists().get(bean.getProperties()));
+			subBean.setGCBean(gcBean);
+			evBean.setGCBean(gcBean);
+			
+			//get Choosen Tree again
+			subBean.setTree(t);
+			subBean.setTaxa(gdfp.getTaxa());	
+			
+			//Choose Number of Categories
+			subBean.setNumberOfCat(evBean.getNumberOfCat());
+			evBean.setGFScore((double[])data.getGFCriticalValues().get((evBean.getNumberOfCat()-1)+""));		
+
+			//Analysis
+			Vector cdmResults = new Vector();
+	//		if(Correlate)
+	//			cdmResults = run.runSubstsCDM();
+			Vector evResults = run.runSubstsEvpthwy();
+				
+			//Check for items to be removed
+			t.getNodes().remove("false");
+			t.getNodeNames().remove("false");
+				
+			//Print Results
+			print.printAll(t, evResults, cdmResults);
+                        printAacidToFile(subBean);
+                        printNucToFile(subBean);
+                        
+			//Place Objects
+			if(bean.getErrorWindow())
+				gui.placeObjects();
+			
+			//Display the TCS Window
+			if(bean.getErrorWindow() && tcsTree.getBean().getDisplayTCSWindow())
+				tcsTree.display(bean.getOutputDirectory()+"tree.txt", tree);
+
+			//reset ResultsDirectory
+			//bean.setResultsDirectory(dirTemp);
+		}
+		catch(Exception e)
+		{
+                    System.out.println("e: " + e.getMessage());
+			bean.errorMessage("There was a problem while running tree: "+ tree);
+		}
+
+		//Time
+		long endTime = new Date().getTime();
+		bean.logMessage("Time Ended: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		bean.logMessage("Run Time(s): "+ ((endTime - startTime)/(double)1000) +"\n");
+		
+		//beep if gui
+		//if(bean.getErrorWindow() && tcsTree.getBean().getDisplayTCSWindow())
+		//	Toolkit.getDefaultToolkit().beep();
+	}
+	
+	/**
+	 * determines branch pairwise comparisons
+	 * @param boolean all - whether to do all pair wise comparisons
+	 */
+    @Override
+	public void pairWiseComparison(boolean all)
+	{
+		//Method vars
+		String taxa1, taxa2;
+		
+		//catch any problems
+		try
+		{
+			//get settings from gui
+			getSettings();
+			
+			//get settings
+			String oldPath = bean.getOutputDirectory();
+			boolean selTCS = tcsTree.getBean().getSelectedTCSEdges();
+			boolean disTCS = tcsTree.getBean().getDisplayTCSWindow();
+			
+			//change settings & results directory
+			tcsTree.getBean().setSelectedTCSEdges(false);
+			tcsTree.getBean().setDisplayTCSWindow(false);
+			bean.setOutputDirectory(bean.getOutputDirectory() +"/pairwise");
+			if(bean.getErrorWindow())
+				gui.setObjects();
+			
+			//create compilation file
+			
+			
+			//run a selection
+			if(!all)
+			{		
+				String compare = bean.getBranchComparison();
+				
+				//Verify there is selected taxa
+				if(compare == null || compare.equals(""))
+					return;
+				
+				//break compare into taxa & tree name
+				taxa1 = compare.substring(0, compare.indexOf(" .. "));
+				taxa2 = compare.substring(compare.indexOf(" .. ")+4);
+				
+				//run comparison
+				runPairWise(taxa1, taxa2);
+			}
+			//do all pair wise comparisions
+			else
+			{
+				//cycle through taxa vector
+				Vector taxa = gdfp.getTaxaNames();
+				for(int i=0;i<taxa.size();i++)
+				{
+					//cycle through again, starting at i
+					for(int j=i+1;j<taxa.size();j++)
+					{
+						runPairWise((String)taxa.elementAt(i), (String)taxa.elementAt(j));
+					}
+				}
+			}
+			
+			//reset outfile path & settings
+			bean.setOutputDirectory(oldPath);
+			tcsTree.getBean().setSelectedTCSEdges(selTCS);
+			tcsTree.getBean().setDisplayTCSWindow(disTCS);
+			if(bean.getErrorWindow())
+			{
+				gui.setObjects();
+				gui.placeObjects();
+			}
+		}
+		catch(Exception e)
+		{
+			bean.errorMessage("There was a problem while running pair-wise comparisons");
+		}
+	}
+	
+	/**
+	 * runs branch pairwise comparisons
+	 * @param String taxa1 - the first taxa to be compared
+	 * @param String taxa2 - the second taxa to be compared
+	 */
+    @Override
+	public void runPairWise(String taxa1, String taxa2)
+	{
+		//verify taxa are same length
+		if(((TaxaBean)gdfp.getTaxa().get(taxa1)).getSequence().length() != ((TaxaBean)gdfp.getTaxa().get(taxa2)).getSequence().length())
+			return;
+			
+		//Create a new tree, add to tree
+		TreeBean t = ((DNAFileParserStub)Stubs.elementAt(6)).createTree(taxa1, taxa2);
+		gdfp.getTreeNames().add(t.getName());
+		gdfp.getTrees().put(t.getName(), t);
+	
+		//set certain vars to utilize run function
+		run(t.getName());
+		
+		//add to compilation file
+		
+		//remove tree folder
+		
+		
+		//remove trees from data struct
+		gdfp.getTrees().remove(t.getName());
+		gdfp.getTreeNames().remove(t.getName());
+	}
+	
+	/**
+	 * Gets a folder from user
+	 */
+    @Override
+	public void getFolder()
+	{
+		//Method Vars
+		String fileName = "";
+		
+		//get settings from gui
+		getSettings();
+		
+		//get fileName from gui
+		if(bean.getErrorWindow())
+			fileName = gui.getFolder();
+		
+		//Verify fileName & set bean
+		if(fileName != null && !fileName.equals(""))
+			bean.setOutputDirectory(fileName);
+		
+		//set objects
+		if(bean.getErrorWindow())
+			gui.setObjects();
+	}
+	
+	/**
+	 * Opens a file
+	 * @param boolean newFile - whether to open a new file or not
+	 */
+    @Override
+	public void open(boolean newFile)
+	{
+		//Method Vars
+		String fileName = "";
+
+		//Time
+		long startTime = new Date().getTime();
+		bean.logMessage("\nTime Started: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		
+		//get settings from gui
+		getSettings();
+		
+		//get fileName from gui
+		if(bean.getErrorWindow())
+			fileName = gui.getFileName();
+		
+		//Verify fileName
+		if(fileName != null && !fileName.equals(""))
+		{
+			//open File
+			if(newFile)
+				gdfp.openNewFile(fileName);
+			else
+				gdfp.openFile(fileName);
+
+			//Place objects
+			if(bean.getErrorWindow())
+				gui.placeObjects();
+		}
+		
+		//Time
+		long endTime = new Date().getTime();
+		bean.logMessage("Time Ended: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		bean.logMessage("Run Time(s): "+ ((endTime - startTime)/(double)1000) +"\n");
+	}	
+
+	/**
+	 * Opens a tcs treefile
+	 */
+    @Override
+	public void openTree()
+	{
+		//Method Vars
+		String fileName = "";
+		
+		//Time
+		long startTime = new Date().getTime();
+		bean.logMessage("\nTime Started: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		
+		//close other files
+		close();
+		
+		//get settings from gui
+		getSettings();
+		
+		//get fileName from gui
+		if(bean.getErrorWindow())
+			fileName = gui.getFileName();
+		
+		//Verify fileName
+		if(fileName != null && !fileName.equals(""))
+		{
+			//open File
+			tcsTree.open(fileName, gdfp);
+			
+			//open up first tree - if one exists and only one exists
+			if(gdfp.getTreeNames().size() == 1 && bean.getErrorWindow() && tcsTree.getBean().getDisplayTCSWindow())
+				tcsTree.display(fileName, (String)gdfp.getTreeNames().elementAt(0));
+			
+			//Place objects
+			if(bean.getErrorWindow())
+				gui.placeObjects();
+		}
+		
+		//Time
+		long endTime = new Date().getTime();
+		bean.logMessage("Time Ended: "+ (DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.MEDIUM)).format(new Date()));
+		bean.logMessage("Run Time(s): "+ ((endTime - startTime)/(double)1000) +"\n");
+	}	
+
+	/**
+	 * Closes any currently open files
+	 */
+        @Override
+	public void close()
+	{
+		//get rid of data
+		gdfp.initialize();
+		
+		//change gui
+		if(bean.getErrorWindow())
+		{
+			gui.placeObjects();
+			tcsTree.close();
+		}
+	}	
+	
+	/**
+	 * Reloads all Beans and entire program
+	 */
+        @Override
+	public void reload()
+	{
+		//set settings from gui
+		if(bean.getErrorWindow())
+		{
+			//Keep track of old gui
+			GraphicInterface guiTemp = gui;
+			
+			//restart everything
+			initialize();
+			
+			//dispose old gui after, to avoid System exit
+			guiTemp.dispose();
+		}
+		else
+			initialize();
+	}	
+	
+	/**
+	 * Calls GUI to reset settings to file
+	 */
+        @Override
+	public void resetSettings()
+	{
+		//write settings to file
+		String fileName = "";
+		PrintWriter settings;
+		
+		try
+		{
+			//Loop through Stubs
+			for(int i=0;i<Stubs.size();i++)
+			{
+				fileName = ((UsageBean)Beans.elementAt(i)).getInputFile();
+				settings = new PrintWriter(new FileWriter(fileName));	
+				settings.println(((Stub)Stubs.elementAt(i)).resetData());
+				settings.close();
+			}
+			
+			//reset properties
+			bean.setProperties("all");
+			
+			//set settings from gui
+			if(bean.getErrorWindow())
+				gui.setObjects();
+			else if(bean.getCommandLine())
+				commandLine.setObjects();
+		}
+		catch(Exception e)
+		{
+			bean.errorMessage("There was a problem trying to write Settings to file: "+ fileName);
+		}
+	}
+
+	/**
+	 * Calls GUI to save settings to file
+	 */
+        @Override
+	public void saveSettings()
+	{
+		//get settings from gui
+		getSettings();
+
+		//write settings to file
+		PrintWriter settings;
+
+		try
+		{			
+			//Loop through Stubs
+			for(int i=0;i<Stubs.size();i++)
+			{
+				settings = new PrintWriter(new FileWriter(((UsageBean)Beans.elementAt(i)).getInputFile()));	
+				settings.println(((Stub)Stubs.elementAt(i)).writeData());
+				settings.close();
+			}
+		}
+		catch(Exception e)
+		{
+			bean.errorMessage("There was a problem trying to write Settings to file.");
+		}
+	}
+		
+	/**
+	 * Calls Data to delete property lists and places these lists in its bean
+	 */
+        @Override
+	public void deletePropLists()
+	{
+		//get settings from gui
+		if(bean.getErrorWindow())
+			gui.getObjects();
+		
+		//set to all properties
+		bean.setProperties("all");
+		
+		//delete the lists
+		data.deletePropertyLists();
+		
+		//reset the gui
+		if(bean.getErrorWindow())
+		{
+			gui.placeObjects();
+			gui.setObjects();
+		}
+	}
+	
+	/**
+	 * Calls GUI or commandLine to get settings and place in beans
+	 */
+        @Override
+	public void getSettings()
+	{
+		//get settings from gui
+		if(bean.getErrorWindow())
+			gui.getObjects();
+		
+		//command Line
+		else if(bean.getCommandLine())
+			commandLine.getObjects();
+	}	
+
+	/**
+	 * Calls GUI to display specified object
+	 */
+        @Override
+	public void displayObject(String name)
+	{
+		gui.displayObject(name);
+	}
+
+	/**
+	 *  Get method - returns BASEML baseml
+	 */
+        @Override
+	public BASEML getBaseml()
+	{
+		return baseml;
+	}	
+	
+	/**
+	 *  Get method - returns Block block
+	 */
+        @Override
+	public Block getBlock()
+	{
+		return block;
+	}	
+
+	/**
+	 *  Get method - returns CDM cdm
+	 */
+        @Override
+	public CDM getCDM()
+	{
+		return cdm;
+	}	
+	
+	/**
+	 *  Get method - returns CommandLine commandLine
+	 */
+        @Override
+	public CommandLine getCommandLine()
+	{
+		return commandLine;
+	}	
+	
+	/**
+	 *  Get method - returns Data data
+	 */
+        @Override
+	public Data getData()
+	{
+		return data;
+	}	
+
+	/**
+	 *  Get method - returns Evpthwy evpthwy
+	 */
+        @Override
+	public Evpthwy getEvpthwy()
+	{
+		return evpthwy;
+	}	
+
+	/**
+	 *  Get method - returns GeneralDNAFileParser gdfp
+	 */
+        @Override
+	public GeneralDNAFileParser getGDFP()
+	{
+		return gdfp;
+	}
+	
+	/**
+	 *  Get method - returns GraphicInterface gui
+	 */
+        @Override
+	public GraphicInterface getGUI()
+	{
+		return gui;
+	}	
+	
+	/**
+	 *  Get method - returns Run run
+	 */
+        @Override
+	public Run getRun()
+	{
+		return run;
+	}	
+	
+	/**
+	 *  Get method - returns Substs substs
+	 */
+        @Override
+	public Substs getSubsts()
+	{
+		return substs;
+	}	
+	
+	/**
+	 *  Get method - returns Tree tree
+	 */
+        @Override
+	public Tree getTree()
+	{
+		return tcsTree;
+	}		
+	
+	/**
+	 *  Get method - returns DriverPrint print
+	 */
+        @Override
+	public DriverPrint getPrint()
+	{
+		return print;
+	}
+
+	/**
+	 *  Get method - returns DriverUsageBean bean
+	 */
+        @Override
+	public DriverUsageBean getBean()
+	{
+		return bean;
+	}
+
+
+    public void DisplayGui() {
+        
+        guiBean.setTitle(title);
+        gui = new GraphicInterface(driver, guiBean);
+        
+        gui.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        
+        gui.update(gui.getGraphics());
+        gui.repaint();
+        gui.show();
+    }
+
+    //Prints the Amnio Acid names to file for use in the Analysis Panel
+    private void printAacidToFile(SubstsUsageBean subBean) 
+    {
+        String fileName = bean.getOutputDirectory() + "TranslatedSeqs.txt";
+        try
+        {
+            PrintWriter outFile = new PrintWriter(new FileWriter(fileName));
+            
+            HashMap singleLetterAas = new HashMap();
+            singleLetterAas.put("Ala", "A");
+            singleLetterAas.put("Cys", "C");
+            singleLetterAas.put("Asp", "D");
+            singleLetterAas.put("Glu", "E");
+            singleLetterAas.put("Phe", "F");
+            singleLetterAas.put("Gly", "G");
+            singleLetterAas.put("His", "H");
+            singleLetterAas.put("Ile", "I");
+            singleLetterAas.put("Lys", "K");
+            singleLetterAas.put("Leu", "L");
+            singleLetterAas.put("Met", "M");
+            singleLetterAas.put("Asn", "N");
+            singleLetterAas.put("Pro", "P");
+            singleLetterAas.put("Gln", "Q");
+            singleLetterAas.put("Arg", "R");
+            singleLetterAas.put("Ser", "S");
+            singleLetterAas.put("Thr", "T");
+            singleLetterAas.put("Val", "V");
+            singleLetterAas.put("Trp", "W");
+            singleLetterAas.put("Tyr", "Y");
+                    
+            
+            Hashtable nodes = subBean.getTree().getNodes();
+            Hashtable taxa = subBean.getTaxa();
+            int[] AaAcid = subBean.getAAcid(); 
+            TableBean tbean = new TableBean();     
+            Vector tree = subBean.getTree().getAncestralTree();
+            
+            //Print Ancestral node
+            String node = tree.elementAt(0).toString(); //Ancestral node is in the 0 position       
+            String name = ((TaxaBean)nodes.get(node)).getName();
+            int[] codons = ((TaxaBean)nodes.get(node)).getCodon();
+            
+            outFile.println("Ancestral Node");
+            String entry = "";
+
+            for (int i = 0; i < codons.length; i++) {
+                String aaThreeLetter = tbean.getAAName(AaAcid[codons[i]]);
+                entry += singleLetterAas.get(aaThreeLetter) + " ";
+            }
+            outFile.println(entry);
+            
+            //Print each taxa node
+            Iterator taxas = taxa.keySet().iterator();
+            while(taxas.hasNext())
+            {
+                node = taxas.next().toString();            
+                name = ((TaxaBean)taxa.get(node)).getName();
+                outFile.println(name);
+                codons = ((TaxaBean)taxa.get(node)).getCodon();
+                entry = "";
+                for (int i = 0; i < codons.length; i++) {
+                    String aaThreeLetter = tbean.getAAName(AaAcid[codons[i]]);
+                    entry += singleLetterAas.get(aaThreeLetter) + " ";
+                }
+                outFile.println(entry);
+            }
+            
+            outFile.close();
+        }
+        catch (Exception e)
+        {
+            bean.errorMessage("Translated Sequence file (TranslatedSeqs.txt) could not be written. " + e.getLocalizedMessage());
+        }
+        
+    }
+    
+    //Prints the nucleotides of the ancestral state to file for the sequence analysis
+    private void printNucToFile(SubstsUsageBean subBean) 
+    {
+        String fileName = bean.getOutputDirectory() + "AncestNucSeq.txt";
+        try
+        {
+            PrintWriter outFile = new PrintWriter(new FileWriter(fileName));
+            
+            Hashtable nodes = subBean.getTree().getNodes();
+            Hashtable taxa = subBean.getTaxa();
+            int[] AaAcid = subBean.getAAcid(); 
+            TableBean tbean = new TableBean();     
+            Vector tree = subBean.getTree().getAncestralTree();
+            
+            //Print Ancestral node
+            String node = tree.elementAt(0).toString(); //Ancestral node is in the 0 position       
+            String nucs = ((TaxaBean)nodes.get(node)).getSequence();
+            
+            outFile.println("Ancestral Node");
+            outFile.println(nucs);
+            
+            outFile.close();
+        }
+        catch (Exception e)
+        {
+            bean.errorMessage("Ancestral Nucleotide file (AncestNucSeq..txt) could not be written. " + e.getLocalizedMessage());
+        }
+        
+    }
+
+
+}//DriverForPsoda

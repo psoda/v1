@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/picr/model
+END
+UPEntry_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/picr/model/UPEntry_Helper.class
+END
+UPEntry.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/picr/model/UPEntry.class
+END
+CrossReference_Helper.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/picr/model/CrossReference_Helper.class
+END
+CrossReference.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/uk/ac/ebi/picr/model/CrossReference.class
+END

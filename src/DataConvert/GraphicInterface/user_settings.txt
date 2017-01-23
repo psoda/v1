@@ -1,0 +1,9 @@
+[ GUI User Input Values ]
+
+1.	fullScreen	false	[ Whether the GUI is full-screen or not ]
+2.	height	496	[ Height of the GUI frame ]
+3.	length	733	[ Length of the GUI frame ]
+4.	iconPath	""	[ The full path to the location of the icons for this program ]
+5.	type	FASTA	[ The file type to print out ]
+
+

@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install4j version="4.2" transformSequenceNumber="2">
+  <directoryPresets config="/Users/clement/src/psodainstall" />
+  <application name="biosuite" distributionSourceDir="" applicationId="1068-2016-2784-8882" mediaDir="/Users/clement/src/psodainstall" mediaFilePattern="${compiler:sys.shortName}_${compiler:sys.platform}_${compiler:sys.version}" compression="6" lzmaCompression="false" pack200Compression="false" excludeSignedFromPacking="true" keepModificationTimes="false" missingFilesStrategy="warn" shortName="biosuite" publisher="Brigham Young University" publisherWeb="http://dna.cs.byu.edu/biosuite" version="0.9" allPathsRelative="false" backupOnSave="false" autoSave="false" convertDotsToUnderscores="true" macSignature="????" installerName="" javaMinVersion="1.5" javaMaxVersion="" allowBetaVM="true" jdkMode="runtimeJre" jdkName="">
+    <languages skipLanguageSelection="false" languageSelectionInPrincipalLanguage="false">
+      <principalLanguage id="en" customLocalizationFile="" />
+      <additionalLanguages />
+    </languages>
+    <searchSequence>
+      <registry />
+      <envVar name="JAVA_HOME" />
+      <envVar name="JDK_HOME" />
+    </searchSequence>
+    <variables />
+  </application>
+  <files>
+    <filesets />
+    <roots />
+    <mountPoints>
+      <mountPoint id="18" root="" location="" mode="755" />
+    </mountPoints>
+    <entries>
+      <dirEntry mountPoint="18" file="/Users/clement/src/psoda" overwrite="4" shared="false" mode="644" uninstallMode="0" excludeSuffixes="" dirMode="755">
+        <exclude />
+      </dirEntry>
+    </entries>
+    <components />
+  </files>
+  <launchers>
+    <launcher name="biosuite" id="19" external="false" excludeFromMenu="false" menuName="" icnsFile="" pngIcon16File="/Users/clement/Documents/dnapicts/tubes16.png" pngIcon32File="/Users/clement/Documents/dnapicts/tubes.png" macServiceDependencies="" swtApp="false" fileset="">
+      <executable name="biosuite" type="1" iconSet="false" iconFile="" executableDir="src" redirectStderr="true" stderrFile="error.log" redirectStdout="true" stdoutFile="output.log" failOnStderrOutput="true" executableMode="1" changeWorkingDirectory="true" workingDirectory="./" singleInstance="false" serviceStartType="2" serviceDependencies="" serviceDescription="" jreLocation="" executionLevel="asInvoker" checkConsoleParameter="false">
+        <versionInfo include="false" fileVersion="" fileDescription="" legalCopyright="" internalName="" />
+      </executable>
+      <splashScreen show="false" autoOff="true" alwaysOnTop="true" width="0" height="0" bitmapFile="" java6SplashScreen="false">
+        <text>
+          <statusLine x="20" y="20" text="" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+          <versionLine x="20" y="40" text="version ${compiler:sys.version}" font="Arial" fontSize="8" fontColor="0,0,0" fontWeight="500" />
+        </text>
+      </splashScreen>
+      <java mainClass="OneJar" vmParameters="" arguments="-Xdock:name=&quot;PSODA&quot; -jar psoda.jar" allowVMPassthroughParameters="true" preferredVM="">
+        <classPath>
+          <archive location="src/psoda.jar" failOnError="false" />
+          <directory location="src" failOnError="false" />
+          <directory location="src/lib" failOnError="false" />
+          <archive location="src/lib/byu.jar" failOnError="false" />
+          <archive location="src/lib/EDU.jar" failOnError="false" />
+          <archive location="src/lib/jxl.jar" failOnError="false" />
+          <archive location="src/lib/swing-layout-1.0.3.jar" failOnError="false" />
+          <directory location="src/gui/Jalview/classes" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/log4j-1.2.8.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/axis.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/activation.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/castor-1.1-cycle-xml.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/commons-discovery.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/commons-logging.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/jaxrpc.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/jhall.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/Jmol-11.0.2.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/mail.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/regex.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/saaj.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/vamsas-client.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/wsdl4j.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/xercesImpl.jar" failOnError="false" />
+          <archive location="src/gui/Jalview/lib/xml-apis.jar" failOnError="false" />
+        </classPath>
+        <nativeLibraryDirectories>
+          <directory name="src/gui" />
+          <directory name="src/lib" />
+          <directory name="src/gui/Jalview/lib" />
+        </nativeLibraryDirectories>
+      </java>
+      <includedFiles />
+      <unextractableFiles />
+      <customScript mode="1" file="">
+        <scriptLines />
+      </customScript>
+    </launcher>
+  </launchers>
+  <installerGui installerType="1" suggestPreviousProgramGroup="false" addOnAppId="" suggestPreviousLocations="true">
+    <customCode useInstalledFiles="false" />
+    <applications>
+      <application name="" id="installer" beanClass="com.install4j.runtime.beans.applications.InstallerApplication" enabled="true" commentSet="false" comment="" customIcnsFile="" customIcoFile="">
+        <serializedBean>
+          <java class="java.beans.XMLDecoder">
+            <object class="com.install4j.runtime.beans.applications.InstallerApplication" />
+          </java>
+        </serializedBean>
+        <startup>
+          <screen name="" id="1" beanClass="com.install4j.runtime.beans.screens.StartupScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.StartupScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </startup>
+        <screens>
+          <screen name="" id="2" beanClass="com.install4j.runtime.beans.screens.WelcomeScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.WelcomeScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="3" beanClass="com.install4j.runtime.beans.screens.InstallationDirectoryScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.InstallationDirectoryScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="4" beanClass="com.install4j.runtime.beans.screens.ComponentsScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.ComponentsScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="5" beanClass="com.install4j.runtime.beans.screens.StandardProgramGroupScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.StandardProgramGroupScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="6" beanClass="com.install4j.runtime.beans.screens.InstallationScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="true" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.InstallationScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions>
+              <action name="" id="7" beanClass="com.install4j.runtime.beans.actions.InstallFilesAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.InstallFilesAction" />
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="8" beanClass="com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.desktop.CreateProgramGroupAction">
+                      <void property="programGroupName">
+                        <string>${compiler:sys.fullName}</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="9" beanClass="com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.desktop.RegisterAddRemoveAction">
+                      <void property="itemName">
+                        <string>${compiler:sys.fullName} ${compiler:sys.version}</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="59" beanClass="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction">
+                      <void property="all">
+                        <boolean>false</boolean>
+                      </void>
+                      <void property="execute">
+                        <boolean>true</boolean>
+                      </void>
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/RAxML-7.0.4/raxmlHPC</string>
+                        </object>
+                      </void>
+                      <void property="group">
+                        <object class="com.install4j.runtime.beans.actions.files.WindowsGroup" field="WORLD" />
+                      </void>
+                      <void property="read">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="60" beanClass="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction">
+                      <void property="all">
+                        <boolean>false</boolean>
+                      </void>
+                      <void property="execute">
+                        <boolean>true</boolean>
+                      </void>
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/mrbayes-3.1.2/mb</string>
+                        </object>
+                      </void>
+                      <void property="group">
+                        <object class="com.install4j.runtime.beans.actions.files.WindowsGroup" field="WORLD" />
+                      </void>
+                      <void property="read">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="62" beanClass="com.install4j.runtime.beans.actions.files.SetModeAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.SetModeAction">
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/mrbayes-3.1.2/mb</string>
+                        </object>
+                      </void>
+                      <void property="mode">
+                        <string>0755</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="63" beanClass="com.install4j.runtime.beans.actions.files.SetModeAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.SetModeAction">
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/RAxML-7.0.4/raxmlHPC</string>
+                        </object>
+                      </void>
+                      <void property="mode">
+                        <string>0755</string>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="64" beanClass="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.AddWindowsFileRightsAction">
+                      <void property="all">
+                        <boolean>false</boolean>
+                      </void>
+                      <void property="execute">
+                        <boolean>true</boolean>
+                      </void>
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/treesaap/BASEML/baseml.exe</string>
+                        </object>
+                      </void>
+                      <void property="group">
+                        <object class="com.install4j.runtime.beans.actions.files.WindowsGroup" field="WORLD" />
+                      </void>
+                      <void property="read">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+              <action name="" id="65" beanClass="com.install4j.runtime.beans.actions.files.SetModeAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.files.SetModeAction">
+                      <void property="file">
+                        <object class="java.io.File">
+                          <string>src/treesaap/BASEML</string>
+                        </object>
+                      </void>
+                      <void property="mode">
+                        <string>0755</string>
+                      </void>
+                      <void property="recursive">
+                        <boolean>true</boolean>
+                      </void>
+                    </object>
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+            </actions>
+            <formComponents />
+          </screen>
+          <screen name="" id="10" beanClass="com.install4j.runtime.beans.screens.FinishedScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="true">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.FinishedScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </screens>
+      </application>
+      <application name="" id="uninstaller" beanClass="com.install4j.runtime.beans.applications.UninstallerApplication" enabled="true" commentSet="false" comment="" customIcnsFile="" customIcoFile="">
+        <serializedBean>
+          <java class="java.beans.XMLDecoder">
+            <object class="com.install4j.runtime.beans.applications.UninstallerApplication" />
+          </java>
+        </serializedBean>
+        <startup>
+          <screen name="" id="11" beanClass="com.install4j.runtime.beans.screens.StartupScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.StartupScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </startup>
+        <screens>
+          <screen name="" id="12" beanClass="com.install4j.runtime.beans.screens.UninstallWelcomeScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallWelcomeScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="13" beanClass="com.install4j.runtime.beans.screens.UninstallationScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="false">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallationScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions>
+              <action name="" id="14" beanClass="com.install4j.runtime.beans.actions.UninstallFilesAction" enabled="true" commentSet="false" comment="" rollbackBarrier="false" multiExec="false" failureStrategy="1" errorMessage="">
+                <serializedBean>
+                  <java class="java.beans.XMLDecoder">
+                    <object class="com.install4j.runtime.beans.actions.UninstallFilesAction" />
+                  </java>
+                </serializedBean>
+                <condition />
+              </action>
+            </actions>
+            <formComponents />
+          </screen>
+          <screen name="" id="16" beanClass="com.install4j.runtime.beans.screens.UninstallFailureScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="true">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallFailureScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+          <screen name="" id="15" beanClass="com.install4j.runtime.beans.screens.UninstallSuccessScreen" enabled="true" commentSet="false" comment="" rollbackBarrier="false" backButton="2" finishScreen="true">
+            <serializedBean>
+              <java class="java.beans.XMLDecoder">
+                <object class="com.install4j.runtime.beans.screens.UninstallSuccessScreen" />
+              </java>
+            </serializedBean>
+            <condition />
+            <validation />
+            <preActivation />
+            <postActivation />
+            <actions />
+            <formComponents />
+          </screen>
+        </screens>
+      </application>
+    </applications>
+  </installerGui>
+  <mediaSets>
+    <macos name="Mac OS X Single Bundle" id="20" mediaFileName="" installDir="biosuite" overridePrincipalLanguage="false" requires64bit="false" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" customInstallBaseDir="" createUninstallIcon="true" contentFilesType="1" downloadURL="" launcherId="19">
+      <excludedComponents />
+      <excludedBeans />
+      <overriddenPrincipalLanguage id="en" customLocalizationFile="" />
+      <exclude>
+        <entry location="New Folder" fileType="regular" />
+        <entry location=".svn" fileType="regular" />
+        <entry location="data/.svn" fileType="regular" />
+        <entry location="doc/.svn" fileType="regular" />
+        <entry location="src/.deps" fileType="regular" />
+        <entry location="src/.svn" fileType="regular" />
+        <entry location="src/algorithms/.svn" fileType="regular" />
+        <entry location="src/AlignInstr.o" fileType="regular" />
+        <entry location="src/alignment/.svn" fileType="regular" />
+        <entry location="src/AlignmentCommand.o" fileType="regular" />
+        <entry location="src/AnalysisTerminal.o" fileType="regular" />
+        <entry location="src/BackupRepositoryInstr.o" fileType="regular" />
+        <entry location="src/BandBInstr.o" fileType="regular" />
+        <entry location="src/bases/.svn" fileType="regular" />
+        <entry location="src/bayes.o" fileType="regular" />
+        <entry location="src/BayesSearchInstr.o" fileType="regular" />
+        <entry location="src/Block.o" fileType="regular" />
+        <entry location="src/blocks/.svn" fileType="regular" />
+        <entry location="src/BoolCastOp.o" fileType="regular" />
+        <entry location="src/BoolLiteral.o" fileType="regular" />
+        <entry location="src/BootstrapInstr.o" fileType="regular" />
+        <entry location="src/BreakInstr.o" fileType="regular" />
+        <entry location="src/Buffer.o" fileType="regular" />
+        <entry location="src/BuiltInCommand.o" fileType="regular" />
+        <entry location="src/CallExpression.o" fileType="regular" />
+        <entry location="src/CarbonCopyBuffer.o" fileType="regular" />
+        <entry location="src/CatOp.o" fileType="regular" />
+        <entry location="src/CheckParsimonyInstr.o" fileType="regular" />
+        <entry location="src/Codeable.o" fileType="regular" />
+        <entry location="src/CombineRepositoriesInstr.o" fileType="regular" />
+        <entry location="src/CommandNode.o" fileType="regular" />
+        <entry location="src/CommandRegister.o" fileType="regular" />
+        <entry location="src/Conditional.o" fileType="regular" />
+        <entry location="src/ConsolePrintBuffer.o" fileType="regular" />
+        <entry location="src/ConstructAncestorStatesInstr.o" fileType="regular" />
+        <entry location="src/ConTreeInstr.o" fileType="regular" />
+        <entry location="src/Data.o" fileType="regular" />
+        <entry location="src/DataBlock.o" fileType="regular" />
+        <entry location="src/DataConvert/.svn" fileType="regular" />
+        <entry location="src/DataConvert/CLUSTAL/.svn" fileType="regular" />
+        <entry location="src/DataConvert/Components/.svn" fileType="regular" />
+        <entry location="src/DataConvert/DataConvert/.svn" fileType="regular" />
+        <entry location="src/DataConvert/FASTA/.svn" fileType="regular" />
+        <entry location="src/DataConvert/GENBANKFLAT/.svn" fileType="regular" />
+        <entry location="src/DataConvert/GENBANKXML/.svn" fileType="regular" />
+        <entry location="src/DataConvert/GraphicInterface/.svn" fileType="regular" />
+        <entry location="src/DataConvert/MEGA/.svn" fileType="regular" />
+        <entry location="src/DataConvert/NEXUS/.svn" fileType="regular" />
+        <entry location="src/DataConvert/Objects/.svn" fileType="regular" />
+        <entry location="src/DataConvert/PHYLIP/.svn" fileType="regular" />
+        <entry location="src/DataConvert/RST/.svn" fileType="regular" />
+        <entry location="src/DataConvert/TCS/.svn" fileType="regular" />
+        <entry location="src/DataConvert/XML/.svn" fileType="regular" />
+        <entry location="src/Dataset.o" fileType="regular" />
+        <entry location="src/DatasetMap.o" fileType="regular" />
+        <entry location="src/DatasetReference.o" fileType="regular" />
+        <entry location="src/DataUnit.o" fileType="regular" />
+        <entry location="src/DeclareVarInstr.o" fileType="regular" />
+        <entry location="src/DecrementInstr.o" fileType="regular" />
+        <entry location="src/DeleteDataInstr.o" fileType="regular" />
+        <entry location="src/DeleteTreeInstr.o" fileType="regular" />
+        <entry location="src/DisplayInstr.o" fileType="regular" />
+        <entry location="src/Dist.o" fileType="regular" />
+        <entry location="src/DivisionOp.o" fileType="regular" />
+        <entry location="src/DPTBR.o" fileType="regular" />
+        <entry location="src/DSetInstr.o" fileType="regular" />
+        <entry location="src/EmptyInstr.o" fileType="regular" />
+        <entry location="src/Environment.o" fileType="regular" />
+        <entry location="src/EqualityOp.o" fileType="regular" />
+        <entry location="src/EvaluatorBase.o" fileType="regular" />
+        <entry location="src/evaluators/.svn" fileType="regular" />
+        <entry location="src/ExecuteInstr.o" fileType="regular" />
+        <entry location="src/Expression.o" fileType="regular" />
+        <entry location="src/expressions/.svn" fileType="regular" />
+        <entry location="src/FilePrintBuffer.o" fileType="regular" />
+        <entry location="src/FileTools.o" fileType="regular" />
+        <entry location="src/forester/.svn" fileType="regular" />
+        <entry location="src/frontends/.svn" fileType="regular" />
+        <entry location="src/GetBestScoreFunction.o" fileType="regular" />
+        <entry location="src/GetNumCharsFunction.o" fileType="regular" />
+        <entry location="src/GetTreesInstr.o" fileType="regular" />
+        <entry location="src/GetWeightsLengthFunction.o" fileType="regular" />
+        <entry location="src/Globals.o" fileType="regular" />
+        <entry location="src/gnuPlotTerminal.o" fileType="regular" />
+        <entry location="src/GraphInstr.o" fileType="regular" />
+        <entry location="src/GreaterThanOp.o" fileType="regular" />
+        <entry location="src/GreaterThanOrEqualOp.o" fileType="regular" />
+        <entry location="src/gui/.svn" fileType="regular" />
+        <entry location="src/GuiCommandNode.o" fileType="regular" />
+        <entry location="src/GuiPrintBuffer.o" fileType="regular" />
+        <entry location="src/HelpInstr.o" fileType="regular" />
+        <entry location="src/HSearchInstr.o" fileType="regular" />
+        <entry location="src/Hypersphere.o" fileType="regular" />
+        <entry location="src/IdentExpression.o" fileType="regular" />
+        <entry location="src/IdentReference.o" fileType="regular" />
+        <entry location="src/IfElse.o" fileType="regular" />
+        <entry location="src/IfThenPair.o" fileType="regular" />
+        <entry location="src/IncrementInstr.o" fileType="regular" />
+        <entry location="src/InequalityOp.o" fileType="regular" />
+        <entry location="src/InlineUserDefinedCommand.o" fileType="regular" />
+        <entry location="src/IntCastOp.o" fileType="regular" />
+        <entry location="src/InteractiveInstr.o" fileType="regular" />
+        <entry location="src/Interpreter.o" fileType="regular" />
+        <entry location="src/IntLiteral.o" fileType="regular" />
+        <entry location="src/InvalidCastException.o" fileType="regular" />
+        <entry location="src/InvalidParameterListException.o" fileType="regular" />
+        <entry location="src/LBSTestInstr.o" fileType="regular" />
+        <entry location="src/LessThanOp.o" fileType="regular" />
+        <entry location="src/LessThanOrEqualOp.o" fileType="regular" />
+        <entry location="src/lib/.svn" fileType="regular" />
+        <entry location="src/Likelihood.o" fileType="regular" />
+        <entry location="src/LikelihoodNodeData.o" fileType="regular" />
+        <entry location="src/LimitsFunction.o" fileType="regular" />
+        <entry location="src/Literal.o" fileType="regular" />
+        <entry location="src/LiteralExpression.o" fileType="regular" />
+        <entry location="src/LoadDataInstr.o" fileType="regular" />
+        <entry location="src/LocatableObject.o" fileType="regular" />
+        <entry location="src/Location.o" fileType="regular" />
+        <entry location="src/LogicalAndOp.o" fileType="regular" />
+        <entry location="src/LogicalNotOp.o" fileType="regular" />
+        <entry location="src/LogicalOrOp.o" fileType="regular" />
+        <entry location="src/LogInstr.o" fileType="regular" />
+        <entry location="src/LScoresInstr.o" fileType="regular" />
+        <entry location="src/LSetInstr.o" fileType="regular" />
+        <entry location="src/main.o" fileType="regular" />
+        <entry location="src/MDS.o" fileType="regular" />
+        <entry location="src/ModOp.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/.svn" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/bayes.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/command.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mb.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mbmath.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/mcmc.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/model.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/plot.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sump.o" fileType="regular" />
+        <entry location="src/mrbayes-3.1.2/sumt.o" fileType="regular" />
+        <entry location="src/MultChar.o" fileType="regular" />
+        <entry location="src/MultiplicationOp.o" fileType="regular" />
+        <entry location="src/NameExpression.o" fileType="regular" />
+        <entry location="src/NegationOp.o" fileType="regular" />
+        <entry location="src/NeighborTestInstr.o" fileType="regular" />
+        <entry location="src/NewickLexicalAnalyzer.o" fileType="regular" />
+        <entry location="src/NewickParser.o" fileType="regular" />
+        <entry location="src/NewickTreeParser.o" fileType="regular" />
+        <entry location="src/NJ.o" fileType="regular" />
+        <entry location="src/NJInstr.o" fileType="regular" />
+        <entry location="src/OperationExpression.o" fileType="regular" />
+        <entry location="src/Operator.o" fileType="regular" />
+        <entry location="src/org/.svn" fileType="regular" />
+        <entry location="src/out.new" fileType="regular" />
+        <entry location="src/out.old" fileType="regular" />
+        <entry location="src/out1" fileType="regular" />
+        <entry location="src/out2" fileType="regular" />
+        <entry location="src/ParenthesesOp.o" fileType="regular" />
+        <entry location="src/parsers/.svn" fileType="regular" />
+        <entry location="src/Parsimony.o" fileType="regular" />
+        <entry location="src/ParsimonyNodeData.o" fileType="regular" />
+        <entry location="src/ParsingInfo.o" fileType="regular" />
+        <entry location="src/Partition.o" fileType="regular" />
+        <entry location="src/PartitionTree.o" fileType="regular" />
+        <entry location="src/PaupLexicalAnalyzer.o" fileType="regular" />
+        <entry location="src/PaupParser.o" fileType="regular" />
+        <entry location="src/PercentIdentityInstr.o" fileType="regular" />
+        <entry location="src/perl" fileType="regular" />
+        <entry location="src/PostDecrOp.o" fileType="regular" />
+        <entry location="src/PostIncrOp.o" fileType="regular" />
+        <entry location="src/PreDecrOp.o" fileType="regular" />
+        <entry location="src/PreIncrOp.o" fileType="regular" />
+        <entry location="src/PrintBuffer.o" fileType="regular" />
+        <entry location="src/PrintInstr.o" fileType="regular" />
+        <entry location="src/PrintMatrixInstr.o" fileType="regular" />
+        <entry location="src/ProgramBlock.o" fileType="regular" />
+        <entry location="src/ProgramGraphNode.o" fileType="regular" />
+        <entry location="src/ProjectedTree.o" fileType="regular" />
+        <entry location="src/PScoresInstr.o" fileType="regular" />
+        <entry location="src/PSODA.o" fileType="regular" />
+        <entry location="src/PsodaBlocks.o" fileType="regular" />
+        <entry location="src/PsodaBreak.o" fileType="regular" />
+        <entry location="src/PsodaCommand.o" fileType="regular" />
+        <entry location="src/PsodaConstruct.o" fileType="regular" />
+        <entry location="src/PsodaElement.o" fileType="regular" />
+        <entry location="src/PsodaError.o" fileType="regular" />
+        <entry location="src/PsodaException.o" fileType="regular" />
+        <entry location="src/PsodaPrinter.o" fileType="regular" />
+        <entry location="src/PsodaProgram.o" fileType="regular" />
+        <entry location="src/PsodaReturn.o" fileType="regular" />
+        <entry location="src/PsodaRunner.o" fileType="regular" />
+        <entry location="src/PsodaSourceParser.o" fileType="regular" />
+        <entry location="src/PsodaStopException.o" fileType="regular" />
+        <entry location="src/PsodaWarning.o" fileType="regular" />
+        <entry location="src/QAlgorithmBase.o" fileType="regular" />
+        <entry location="src/QAlign.o" fileType="regular" />
+        <entry location="src/QAlignBase.o" fileType="regular" />
+        <entry location="src/QDeque.o" fileType="regular" />
+        <entry location="src/QNode.o" fileType="regular" />
+        <entry location="src/QNodeInfo.o" fileType="regular" />
+        <entry location="src/QRetainedResultSearch.o" fileType="regular" />
+        <entry location="src/QSearchBase.o" fileType="regular" />
+        <entry location="src/QSSAlign.o" fileType="regular" />
+        <entry location="src/QStep.o" fileType="regular" />
+        <entry location="src/QSumOfPairs.o" fileType="regular" />
+        <entry location="src/QTBR.o" fileType="regular" />
+        <entry location="src/QTree.o" fileType="regular" />
+        <entry location="src/QTreeRepository.o" fileType="regular" />
+        <entry location="src/QuitInstr.o" fileType="regular" />
+        <entry location="src/RandomFunction.o" fileType="regular" />
+        <entry location="src/RandomMorphInstr.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/.svn" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/axml.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/bipartitionList.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/categorizeGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluateGenericVector.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/evaluatePartialGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/makenewzGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/models.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/multiple.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/newviewGeneric.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/optimizeModel.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/parsePartitions.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/rapidBootstrap.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/raxmlParsimony.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/rev_functions.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/searchAlgo.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/topologies.o" fileType="regular" />
+        <entry location="src/RAxML-7.0.4/treeIO.o" fileType="regular" />
+        <entry location="src/raxml.o" fileType="regular" />
+        <entry location="src/RAxMLSearchInstr.o" fileType="regular" />
+        <entry location="src/ReadOnlyEnvironment.o" fileType="regular" />
+        <entry location="src/RealNumberCastOp.o" fileType="regular" />
+        <entry location="src/RealNumberLiteral.o" fileType="regular" />
+        <entry location="src/ReturnInstr.o" fileType="regular" />
+        <entry location="src/RSearchInstr.o" fileType="regular" />
+        <entry location="src/RTBR.o" fileType="regular" />
+        <entry location="src/SaveTreesInstr.o" fileType="regular" />
+        <entry location="src/searches/.svn" fileType="regular" />
+        <entry location="src/SetInstr.o" fileType="regular" />
+        <entry location="src/ShowTreesInstr.o" fileType="regular" />
+        <entry location="src/SignalHandlers.o" fileType="regular" />
+        <entry location="src/SourceInstr.o" fileType="regular" />
+        <entry location="src/SRandomInstr.o" fileType="regular" />
+        <entry location="src/SSAlignInstr.o" fileType="regular" />
+        <entry location="src/SSDataset.o" fileType="regular" />
+        <entry location="src/StackTraceInstr.o" fileType="regular" />
+        <entry location="src/StoreTreeInstr.o" fileType="regular" />
+        <entry location="src/StringCastOp.o" fileType="regular" />
+        <entry location="src/StringLengthFunction.o" fileType="regular" />
+        <entry location="src/StringLiteral.o" fileType="regular" />
+        <entry location="src/SubMat.o" fileType="regular" />
+        <entry location="src/SubStringFunction.o" fileType="regular" />
+        <entry location="src/SubtractionOp.o" fileType="regular" />
+        <entry location="src/SumOfPairsInstr.o" fileType="regular" />
+        <entry location="src/TimeFunction.o" fileType="regular" />
+        <entry location="src/Timer.o" fileType="regular" />
+        <entry location="src/TreeBlock.o" fileType="regular" />
+        <entry location="src/TreeDistInstr.o" fileType="regular" />
+        <entry location="src/TreeInfoInstr.o" fileType="regular" />
+        <entry location="src/TreeLiteral.o" fileType="regular" />
+        <entry location="src/TreeMap.o" fileType="regular" />
+        <entry location="src/TreeReader.o" fileType="regular" />
+        <entry location="src/treesaap/.svn" fileType="regular" />
+        <entry location="src/treesaap/BASEML/.svn" fileType="regular" />
+        <entry location="src/treesaap/paml4/.svn" fileType="regular" />
+        <entry location="src/UndefinedLiteral.o" fileType="regular" />
+        <entry location="src/UpdateInstr.o" fileType="regular" />
+        <entry location="src/UPGMAInstr.o" fileType="regular" />
+        <entry location="src/UseDataInstr.o" fileType="regular" />
+        <entry location="src/UserDefinedCommand.o" fileType="regular" />
+        <entry location="src/UseTreeInstr.o" fileType="regular" />
+        <entry location="src/utility/.svn" fileType="regular" />
+        <entry location="src/Validatable.o" fileType="regular" />
+        <entry location="src/VariableRedeclarationException.o" fileType="regular" />
+        <entry location="src/VisualizationBase.o" fileType="regular" />
+        <entry location="src/visualizations/.svn" fileType="regular" />
+        <entry location="src/VisualizationTerminal.o" fileType="regular" />
+        <entry location="src/WeightsData.o" fileType="regular" />
+        <entry location="src/WeightsInstr.o" fileType="regular" />
+        <entry location="src/WeightsResetInstr.o" fileType="regular" />
+        <entry location="src/WhileLoop.o" fileType="regular" />
+        <entry location="test/.svn" fileType="regular" />
+        <entry location="userDocs/.svn" fileType="regular" />
+      </exclude>
+      <variables />
+    </macos>
+    <win32 name="Windows" id="92" mediaFileName="" installDir="biosuite" overridePrincipalLanguage="false" requires64bit="false" runPostProcessor="false" postProcessor="" failOnPostProcessorError="false" includedJRE="" manualJREEntry="false" bundleType="1" jreURL="" jreFtpURL="" jreShared="false" customInstallBaseDir="" createUninstallIcon="true" contentFilesType="1" downloadURL="" runAsAdmin="false">
+      <excludedLaunchers />
+      <excludedComponents />
+      <excludedBeans />
+      <overriddenPrincipalLanguage id="en" customLocalizationFile="" />
+      <exclude />
+      <variables />
+    </win32>
+  </mediaSets>
+  <buildIds buildAll="false">
+    <mediaSet refId="20" />
+  </buildIds>
+</install4j>
+

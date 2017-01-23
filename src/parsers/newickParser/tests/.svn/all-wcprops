@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/405/src/parsers/newickParser/tests
+END
+testInput2.tree
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/1/src/parsers/newickParser/tests/testInput2.tree
+END
+newickTreeParserTest.pl
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/1/src/parsers/newickParser/tests/newickTreeParserTest.pl
+END
+testInput1.tree
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/1/src/parsers/newickParser/tests/testInput1.tree
+END

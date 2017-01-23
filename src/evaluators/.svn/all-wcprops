@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/opensvn/psoda/!svn/ver/910/src/evaluators
+END
+FastParsimony.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/910/src/evaluators/FastParsimony.cpp
+END
+FastParsimonyNodeData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/885/src/evaluators/FastParsimonyNodeData.cpp
+END
+Parsimony.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/910/src/evaluators/Parsimony.cpp
+END
+ParsimonyNodeData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/406/src/evaluators/ParsimonyNodeData.cpp
+END
+Likelihood.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/910/src/evaluators/Likelihood.cpp
+END
+LikelihoodNodeData.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/406/src/evaluators/LikelihoodNodeData.cpp
+END
+FastParsimony.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/910/src/evaluators/FastParsimony.h
+END
+FastParsimonyNodeData.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/885/src/evaluators/FastParsimonyNodeData.h
+END
+Parsimony.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/910/src/evaluators/Parsimony.h
+END
+ParsimonyNodeData.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/394/src/evaluators/ParsimonyNodeData.h
+END
+Likelihood.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/910/src/evaluators/Likelihood.h
+END
+LikelihoodNodeData.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/394/src/evaluators/LikelihoodNodeData.h
+END

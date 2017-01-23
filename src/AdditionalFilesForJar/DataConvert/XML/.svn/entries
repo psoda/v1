@@ -1,0 +1,40 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/AdditionalFilesForJar/DataConvert/XML
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2007-06-06T00:30:08.097898Z
+228
+mebbert
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+user_settings.txt
+file
+
+
+
+
+2017-01-23T03:54:51.000000Z
+9f99d768b1dd70c71ba1ff675ac8a47c
+2007-06-06T00:30:08.097898Z
+228
+mebbert
+

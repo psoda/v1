@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/opensvn/psoda/!svn/ver/902/src/gui
+END
+GuiCommandNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/817/src/gui/GuiCommandNode.h
+END
+Psoda.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/840/src/gui/Psoda.jpg
+END
+PSODA.java
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/857/src/gui/PSODA.java
+END
+QSoda.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/719/src/gui/QSoda.jpg
+END
+PSODA.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/840/src/gui/PSODA.cpp
+END
+QSodaModified.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/719/src/gui/QSodaModified.jpg
+END
+mainClass.txt
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/593/src/gui/mainClass.txt
+END
+MainMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/613/src/gui/MainMenu.java
+END
+Registration.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/833/src/gui/Registration.java
+END
+MyUndoableEditListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/613/src/gui/MyUndoableEditListener.java
+END
+listguiofiles.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/608/src/gui/listguiofiles.sh
+END
+PSODA.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/opensvn/psoda/!svn/ver/817/src/gui/PSODA.h
+END
+ExecutePsodaCodeThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/613/src/gui/ExecutePsodaCodeThread.java
+END
+ExecuteCommandFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/764/src/gui/ExecuteCommandFrame.java
+END
+UndoRedo.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/613/src/gui/UndoRedo.java
+END
+PSODA.pptx
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/840/src/gui/PSODA.pptx
+END
+GUIPSODA.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/840/src/gui/GUIPSODA.h
+END
+PsodaButtons.java
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/898/src/gui/PsodaButtons.java
+END
+PsodaPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/895/src/gui/PsodaPanel.java
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/opensvn/psoda/!svn/ver/848/src/gui/Makefile.am
+END
+GuiCommandNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/613/src/gui/GuiCommandNode.java
+END
+MyDocumentListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/613/src/gui/MyDocumentListener.java
+END
+GuiCommandNode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/817/src/gui/GuiCommandNode.cpp
+END
+UndoableContainer.java
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/98/src/gui/UndoableContainer.java
+END
+MainTabs.java
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/902/src/gui/MainTabs.java
+END

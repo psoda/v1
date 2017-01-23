@@ -1,0 +1,7 @@
+[ CLUSTAL User Input Values ]
+
+[ WRITER ]
+1.	interleaveSize	60	[ The size of interleave chunks to break data into, 0 puts whole sequence on one line ]
+2.	matchChar false	[The sequence uses a character as a representation of a match character]
+
+

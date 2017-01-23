@@ -1,0 +1,64 @@
+class PsodaProgram {
+  /*
+    The program must destroy all nodes in its destructor
+  */
+  
+  Map<string, PsodaElement*> definitions; //this is for the environment (variables, functions, etc...)
+  LinkedList<PsodaElement*> body;
+
+  void addElement(PsodaElement*); //adds element to the element list as if completed (thus unmodifiable)
+  void execute(Interpreter* interpreter) const; //call execute on each member of "program"
+  void clear(); //clears out the current program
+
+  //general program block elements
+  stack<PsodaElement*> elements;  //stores any program element
+  void beginElement(PsodaElement* newElement); //add element to top stack Element body if not empty; if empty add to progBody; then push ptr on stack
+  void endElement(); //pop top element
+  PsodaElement* currentElement() const; //returns reference to top element on stack
+
+  void beginDefinition(string, PsodaElement* newElement);
+}
+
+class PsodaElement (PURE VIRTUAL) {
+  virtual void execute(Interpreter* interpreter) const = 0;
+}
+
+class PsodaInstruction (PURE VIRTUAL; INHERIT PsodaElement) {
+  map<string, string> params; //store instr params, loop and branching conditions, or function args
+  void setParam(string name, string value);
+	protected void passParams(Interpreter* interpreter) const;
+ 	virtual void execute(Interpreter* interpreter) const = 0;
+}
+
+class PsodaConstruct (PURE VIRTUAL; INHERIT PsodaElement) {
+  virtual void addElement(PsodaElement* newElement) = 0; //add newElement to "Body"
+  virtual void execute(Interpreter* interpreter) const = 0;
+}
+
+class <type>Instr (INHERIT PsodaInstruction) {
+  void execute(Interpreter* interpreter) const; //functionality of instruction (e.g. set, hsearch)
+}
+
+class WhileLoop (INHERIT PsodaConstruct){
+  PsodaProgram body;
+  string condition;
+
+  void setCondition(string cond);
+  void execute(Interpreter* interpreter) const; //check condition and execute loop body while still true
+	void addElement(PsodaElement* newElement); //add element to body
+}
+
+class IfElse (INHERIT PsodaConstruct) {
+	struct IfThenPair {
+	  string condition; //if
+	  PsodaProgram body; //then
+	}
+  list<IfThenPair*> cases; //These will be checked in order first to last, execute first body whose condition holds
+  IfThenPair* currentPair; //new Pair is created on initialization and added to cases; may be cases.tail
+  void setCondition(string cond); //sets the condition of the current IfThenPair
+  void addElement(PsodaElement* newElement); //adds the element to the current IfThenPair body
+  void beginElsif(); //pushes currentPair to the end of the cases and creates new currentPair
+  void beginElse(); //alias for beginElsif
+  void execute(Interpreter* interpreter) const; //Iterate through cases and execute first cases whose condition holds
+}
+

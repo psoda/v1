@@ -1,0 +1,19 @@
+#NEXUS
+begin trees;
+Translate
+1 Nicotiana,
+
+2 Galphimia,
+
+3 Oenothera,
+
+4 Victoria,
+
+5 Cypirapea,
+
+6 Barclaya
+;
+tree treeName1 = [&U]  (((6,2),3),((4,5),1));
+tree treeName2 = [&U]  (((3,2),6),((4,5),1));
+tree treeName3 = [&U]  (((6,2),3),((1,5),4));
+end;

@@ -1,0 +1,9 @@
+To create a new psodascript command:
+1) Determine the name of the command - NewCommand
+2) Use previous commands as a template to create
+    NewCommandInstr.cpp
+    NewCommandInstr.h
+3) Edit ../Instructions.h and add in your new command appropriately
+4) Edit ../RegisterInstructions.h and add in your new command appropriately
+5) Edit ../Commands.am and add in your new command appropriately
+6) cd to the psoda directory and run ./reconf and make

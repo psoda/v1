@@ -1,0 +1,54 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/classes/com/stevesoft/pat/wrap
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+StringWrap.class
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+29d0ec9e6de7a1b290228c2f89cd7aa3
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+has-props
+
+StringBufferWrap.class
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+ff611cb17996ce6563b42fe013a5371c
+2009-08-20T07:40:03.410725Z
+870
+kasundberg
+has-props
+

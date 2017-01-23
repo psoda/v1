@@ -1,0 +1,100 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap/GraphicInterface
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-11-14T22:42:46.563261Z
+718
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Panels
+dir
+
+ObjectControl.java
+file
+
+
+
+
+2017-01-23T03:55:30.000000Z
+25eb75c59887d974807a36fbecf52a1a
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+Objects
+dir
+
+GraphicInterfaceUsageBean.java
+file
+
+
+
+
+2017-01-23T03:55:30.000000Z
+cd69bbc4e6b7c14cc5c13a6aa4e95bd0
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+About
+dir
+
+ICONS
+dir
+
+GraphicInterfaceStub.java
+file
+
+
+
+
+2017-01-23T03:55:30.000000Z
+3b31f680863927b2ea8ddf2ca1dcda9b
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+ActionControl.java
+file
+
+
+
+
+2017-01-23T03:55:30.000000Z
+21bbe795b1f448cdf246f3d15b0b751e
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+GraphicInterface.java
+file
+
+
+
+
+2017-01-23T03:55:30.000000Z
+bf5beb27c7eafb03da21b65f072432a5
+2008-08-19T16:42:26.660001Z
+605
+clement
+

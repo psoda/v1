@@ -1,0 +1,74 @@
+set
+   name1 = value1;
+hsearch;
+if (x = 5)
+  if (x < y)
+    set;
+    hsearch;
+  endif
+  while (condC)
+    set
+      name1 = value1;
+    hsearch;
+  endwhile
+  set;
+  hsearch;
+elsif (condD)
+  set;
+  hsearch;
+else
+  hsearch;
+endif
+set;
+hsearch;
+
+prog.beginElement(new SetInstr());
+((SetInstr) prog.currentElement()).setParam("name1", "value1");
+prog.endElement();
+prog.beginElement(new HsearchInstr());
+prog.endElement();
+prog.beginElement(new IfElse());
+((IfElse) prog.currentElement()).setCondition("condA");
+  prog.beginElement(new IfElse());
+  ((IfElse) prog.currentElement()).setCondition("condB");
+     prog.beginElement(new SetInstr());
+     prog.endElement();
+     prog.beginElement(new HsearchInstr());
+     prog.endElement();
+   prog.endElement();
+   prog.beginElement(new While());
+   ((IfElse) prog.currentElement()).setCondition("condC");
+      prog.beginElement(new SetInstr());
+      ((SetInstr) prog.currentElement()).setParam("name1", "value1");
+      prog.endElement();
+      prog.beginElement(new HsearchInstr());
+   prog.endElement();
+   prog.beginElement(new SetInstr());
+   prog.endElement();
+   prog.beginElement(new HsearchInstr());
+   prog.endElement();
+((IfElse) prog.currentElement()).beginElsif();
+((IfElse) prog.currentElement()).setCondition("condD");
+  prog.beginElement(new SetInstr());
+  prog.endElement();
+  prog.beginElement(new HsearchInstr());
+  prog.endElement();
+((IfElse) prog.currentElement()).beginElse();
+  prog.beginElement(new HsearchInstr());
+  prog.endElement();
+prog.endElement();
+prog.beginElement(new SetInstr());
+prog.endElement();
+prog.beginElement(new HsearchInstr());
+prog.endElement();
+
+function myFunc($valA, $valB)
+  set
+    name1 = value1;
+  hsearch
+    name2 = $valA;
+endfunc
+
+myfunc(10, 30);
+
+

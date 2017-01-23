@@ -1,0 +1,8 @@
+[ Run User Input Values ]
+
+1.	progressWindow	true	[ Whether progress window is displayed ]
+2.	slidingWindowSize	length	[ The length of the sliding window ]
+3.	increment	1	[ The amount by which to increment the sliding window ]
+4.	processors	1	[ The number of chunks to divide groups of threads into ]
+
+

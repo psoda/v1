@@ -1,0 +1,41 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/one-jar
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-11T20:45:01.459692Z
+593
+adamteic
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+one-jar-boot-0.96.jar
+file
+
+
+
+
+2017-01-23T03:56:12.000000Z
+ce2f7a06fd5dde63a9141b71cf088e95
+2008-08-11T20:45:01.459692Z
+593
+adamteic
+has-props
+

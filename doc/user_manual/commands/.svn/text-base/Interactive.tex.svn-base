@@ -1,0 +1,22 @@
+\section{Interactive}
+
+Interactive Instruction
+
+\subsection{Options]
+\begin{description}
+%\item[code] = \" \" 
+\item[echoCode] = true
+\end{description}
+
+\subsection{Option Description}
+\begin{description}
+%\item[code] = \" \" 
+	\begin{description}
+	%\item[\" \"] = The code that you pass in via this parameter will be executed by a PSODA interpreter
+	\end{description}
+\item[echoCode] = true
+	\begin {descrption}
+	\item[echoCode] = If true, the code entered throught the 'code' parameter will be echoed to the console
+	\end{description} 
+\end{description}
+\end{description}

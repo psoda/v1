@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>DNA Sequence Coding Region Definition</title>
+</head>
+<body>
+<p><strong>DNA Sequence Coding Region Definition</strong></p>
+<p>Jalview includes the standard DNA codon translation table in
+order to be able to dynamically translate cDNA to its expressed
+protein sequence. DNA Sequence Coding Regions are sequence 
+features that can be defined on any DNA sequence in order to
+mark stretches of cDNA that will be concatenated to form the
+series of codons that are translated by the <strong>&quot;
+Calculate&#8594;Translate cDNA&quot;</strong> menu function.    
+</p>
+</body>
+</html>

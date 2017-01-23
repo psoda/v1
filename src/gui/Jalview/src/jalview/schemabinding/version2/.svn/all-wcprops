@@ -1,0 +1,257 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2
+END
+Tree.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Tree.java
+END
+.castor.cdr
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/.castor.cdr
+END
+SequenceSetProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/SequenceSetProperties.java
+END
+JSeq.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/JSeq.java
+END
+Colour.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Colour.java
+END
+ThresholdLine.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/ThresholdLine.java
+END
+PdbentryItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/PdbentryItem.java
+END
+MappingChoice.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/MappingChoice.java
+END
+JalviewUserColours.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/JalviewUserColours.java
+END
+Annotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Annotation.java
+END
+SequenceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/SequenceType.java
+END
+JalviewModelSequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/JalviewModelSequence.java
+END
+VamsasModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/VamsasModel.java
+END
+FeatureSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/FeatureSettings.java
+END
+Setting.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Setting.java
+END
+Features.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Features.java
+END
+Alcodon.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Alcodon.java
+END
+Viewport.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Viewport.java
+END
+AlcodMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/AlcodMap.java
+END
+SequenceSet.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/SequenceSet.java
+END
+Property.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Property.java
+END
+AnnotationElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/AnnotationElement.java
+END
+Pdbentry.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Pdbentry.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Group.java
+END
+StructureState.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/StructureState.java
+END
+Pdbids.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Pdbids.java
+END
+JGroup.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/JGroup.java
+END
+Sequence.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Sequence.java
+END
+OtherData.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/OtherData.java
+END
+MapListType.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/MapListType.java
+END
+MapListTo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/MapListTo.java
+END
+AnnotationColours.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/AnnotationColours.java
+END
+JalviewModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/JalviewModel.java
+END
+DBRef.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/DBRef.java
+END
+UserColours.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/UserColours.java
+END
+UserColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/UserColourScheme.java
+END
+AlcodonFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/AlcodonFrame.java
+END
+VAMSAS.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/VAMSAS.java
+END
+Mapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Mapping.java
+END
+Feature.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/Feature.java
+END
+HiddenColumns.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/HiddenColumns.java
+END
+MapListFrom.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemabinding/version2/MapListFrom.java
+END

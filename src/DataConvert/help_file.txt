@@ -1,0 +1,34 @@
+DataConvert is being developed by: Matt Dyer and Joshua Sailsbery
+Under the Direction and Guidance of Dr. David A. McClellan, Integrative Biology Dept. at BYU
+	Email: david_mcclellan@byu.edu  Phone: (801) 422-1733
+	
+Data Conert may be distributed under the terms of the GNU General Public License, Version 2
+Versions for MacOS, Windows, and Linux may be downloaded at http://inbio.byu.edu/faculty/dam83/cdm
+Thanks to all users that report problems
+---------------------------------------------------------------------------------------------------
+About
+---------------------------------------------------------------------------------------------------
+DataConvert is a stand alone Java application designed to read a number of files formats such as;
+	(CLUSTAL, FASTA, MEGA, NEXUS, PHYLIP, RST, TCS, XML, GENBANKXML)
+and then write your data in any of the following formats;
+	(CLUSTAL, FASTA, MEGA, NEXUS, PHYLIP)
+Futher formats are being added for later versions. 
+---------------------------------------------------------------------------------------------------
+How To
+---------------------------------------------------------------------------------------------------
+Upon entering the program you have a very simple interface. You must first open a data set. This can
+be done any number of ways. You may open a single file by clicking the 'Open File' button or a whole 
+directory by clicking 'Open Dir'. You may also make your own file by clicking 'New File' and adding
+your own titles and sequences. At anytime you may start over by clicking 'File' then 'New File'. If you
+open a file or a directory you will be prompted to select a location. After opening your data you may
+select an output type by choosing the down arrow in the bottom left. Also in the main window you may choose 
+corresponding tab and change your output format. When you have everything ready to go click the 'Write File(s)'
+button and select a location and a name. Another option is to combine all open files into one larger file which
+is done by selecting the 'Combine Files' button. Anytime options are changed you may set them as the default
+by clicking 'Options' and then 'Save Settings'. The help file may be accessed by clicking 'Help' and then
+'Documentation'.
+---------------------------------------------------------------------------------------------------
+Other
+---------------------------------------------------------------------------------------------------
+Due to memory required in writing (CLUSTAL, NEXUS, PHYLIP) formats and making all sequences the same
+length, there can not be a difference of more that 1500 between the longest and shortest sequence.

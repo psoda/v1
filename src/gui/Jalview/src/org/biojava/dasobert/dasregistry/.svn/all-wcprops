@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry
+END
+Das2Validator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry/Das2Validator.java
+END
+DasSourceComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry/DasSourceComparator.java
+END
+DasCoordinateSystem.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry/DasCoordinateSystem.java
+END
+DasCoordSysComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry/DasCoordSysComparator.java
+END
+DasSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry/DasSource.java
+END
+Das1Source.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/dasregistry/Das1Source.java
+END

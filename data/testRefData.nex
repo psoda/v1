@@ -1,0 +1,36 @@
+#NEXUS
+
+begin RefData;
+	dimensions ntax=3 nchar=470;
+	format datatype=proteins gap=- ;
+matrix
+
+2pna_  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------lqdaewywgdisreevneklrdt--adgtflvrdastkmhgdytltlrkgg---nnklikifhrd--------------------gkygfsdp-----ltfnsvvelinhyrneslaqyn-pkldvkllypvsky
+1mw4_A ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------gspasgtslsaaihrtqlwfhgrisreesqrligqqglvdglflvresqrnp-qgfvlslchlq---kvkhylilpsee------------------egrlyfsmddgq--trftdllqlvefhqlnrg----ilpcllrhcctrval
+1uur_A sspqpildtiykllseqeqtlvqmiheqslllnrlpptldenslaplkslsqkqitlsgqmntemsaldatkkgmileptdlaklfalkqdlqiqfkqlsllhneiqsilnpqhsapkpnvalvlksqpfpvviskgkqlgenqlvvlvltgarsnfhingpvkatmicdshppttplemdsqpiypatltahfplkflagtrkcsvnlkfgvnirdldnvtttvesdasnpfvvitnecqwegsagvllkkdafdgqleitwaqfintlqrhfliatkqdpvrpkrplssydlkyiqthffgnrsiihqqdfdkfwvwfgksmqtlryqrhistlwqegiiygymgrqevndalqnq--dpgtfiirfsernp-gqfgiayigvemparikhylvqpndtaaakktfpdflsehsqfvnllqwtkdt--ngaprflklhkdtalgsfapkrta---pvpvggx------
+;
+end;
+
+
+begin data;
+	format datatype=proteins ;
+sequences
+
+>2pna_
+lqdaewywgdisreevneklrdtadgtflvrdastkmhgdytltlrkggnnklikifhrdgkygfsdpltfnsvvelinhyrneslaqynpkldvkll
+>1mw4_A
+hrtqlwfhgrisreesqrligqqglvdglflvresqrnpqgfvlslchlqkvkhylilpseeegrlyfsmddgqtrftdllqlvefhqlnrgilpcllrhc
+>1uur_A
+lwqegiiygymgrqevndalqnqdpgtfiirfsernpgqfgiayigvemparikhylvqpndtaaakktfpdflsehsqfvnllqwtkdtngaprflklhkdtalgsfapkrtapvpvggx
+;
+end;
+
+
+
+BEGIN PAUP;
+	align( submat="BLOSUM62" outfile="testRefData.afa" output="fasta" endgap="yes");
+	sumOfPairs();
+	sumOfPairs( submat="BLOSUM62");
+	sumOfPairs( ref);
+	sumOfPairs( submat="BLOSUM62" ref);
+end;

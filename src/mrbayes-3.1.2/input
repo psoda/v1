@@ -1,0 +1,25 @@
+execute ../../data/zilla.nex
+lset nst=6 rates=invgamma
+mcmc ngen=100
+n
+mcmc ngen=100
+n
+mcmc ngen=100
+n
+mcmc ngen=100
+n
+mcmc ngen=100
+n
+sumt
+
+execute primates.nex
+set nowarn=yes
+lset nst=6 rates=invgamma
+mcmcp savebrlens=yes
+mcmc ngen=100
+
+mcmcp ngen=100 samplefreq=100 printfreq=100 nruns=1 nchains=2 savebrlens=yes
+
+    fprintf (output, "execute primates.nex \n");
+    fprintf (output, "lset nst=6 rates=invgamma\n");
+    fprintf (output, "mcmcp ngen=100 samplefreq=100 printfreq=100 nruns=1 nchains=2 savebrlens=yes\n");

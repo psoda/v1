@@ -1,0 +1,34 @@
+#NEXUS
+
+begin data;
+	format datatype=dna;
+
+sequences
+
+>Nicotiana
+GTTGACAAT
+>Galphimia
+ATGCAGGGG
+>Oenothera
+TTTCCCGGG
+>Victoria
+GTAGTAGTA
+>Cypirapea
+ATGCAATGA
+>Barclaya
+AATTGGCCA
+>Test1
+AATCCC
+>Test2
+AACCCG
+>Test3
+AAGCTT
+>Test4
+TTCCCA
+;
+end;
+
+BEGIN PAUP;
+	align( outfile="align-test.afa" output="fasta" );
+    quit;
+end;

@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme
+END
+lysozymeSmall.txt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeSmall.txt
+END
+codeml.ctl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/codeml.ctl
+END
+lysozymeSmall.ctl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeSmall.ctl
+END
+lysozymeSmall.trees
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeSmall.trees
+END
+lysozymeLarge.ctl
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeLarge.ctl
+END
+lysozymeLarge.trees
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeLarge.trees
+END
+lysozymeSmall.nuc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeSmall.nuc
+END
+lysozymeLarge.nuc
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/lysozymeLarge.nuc
+END
+README.txt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/605/src/treesaap/paml4/examples/lysozyme/README.txt
+END

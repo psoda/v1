@@ -1,0 +1,18 @@
+#NEXUS
+BEGIN PSODA;
+
+source file="include2.nex";
+source file="include2.nex";
+
+print "Trying fibonacci...\n\n";
+
+i = -1.0;
+while (i < 9.5)
+  print fibinacci(index = i) . endl;
+  i++;
+endwhile;
+
+print "\nTrying count down...\n\n";
+countDown(x = 15);
+
+end;

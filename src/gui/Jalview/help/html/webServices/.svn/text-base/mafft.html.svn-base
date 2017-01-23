@@ -1,0 +1,18 @@
+<html>
+<head><title>MAFFT Multiple Sequence Alignments</title></head>
+<body>
+<p><strong>MAFFT Multiple Sequence Alignments</strong></p>
+<p> Katoh, K., K. Kuma, K., Toh, H., and Miyata, T. (2005) &quot;MAFFT version 
+  5: improvement in accuracy of multiple sequence alignment.&quot; Nucleic Acids 
+  Research, 33 511-518</p>
+<p>MAFFT is a program for the multiple alignment of nucleic acid or protein
+sequences, and is available from the <strong>Web
+Service&#8594;Alignment&#8594;MAFFT Multiple Sequence
+Alignment</strong> entry in the web services menu.</p>
+<p>MAFFT utilizes algorithms for spectral correlation to identify
+homologous regions in a fast-fourier transform representation of each
+sequence. The Jalview web service runs MAFFT using the
+'--auto' option which picks optimal parameters
+for the set of sequences to be aligned.</p>
+</body>
+</html>

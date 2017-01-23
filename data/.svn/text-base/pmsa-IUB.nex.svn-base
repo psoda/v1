@@ -1,0 +1,22 @@
+#NEXUS
+
+begin data;
+	format datatype=dna ;
+
+sequences
+
+>Test1
+  GGCCCC
+>Test2
+  GGCCCC
+>Test3
+  AGC
+>Test4
+  AGC
+;
+end;
+
+BEGIN PAUP;
+	align( submat="../matrices/IUB" outfile="pmsa-IUB.afa" output="fasta");
+end;
+

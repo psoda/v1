@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/jibble/epsgraphics
+END
+EpsDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/jibble/epsgraphics/EpsDocument.java
+END
+EpsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/jibble/epsgraphics/EpsException.java
+END
+EpsGraphics2D.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/jibble/epsgraphics/EpsGraphics2D.java
+END

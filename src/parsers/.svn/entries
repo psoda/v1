@@ -1,0 +1,34 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/parsers
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2010-06-15T20:12:25.808816Z
+916
+snell
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+paupParser
+dir
+
+newickParser
+dir
+

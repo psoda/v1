@@ -1,0 +1,8 @@
+#NEXUS
+
+BEGIN PAUP;
+    loaddata file = "50HIV.fasta";
+	align( outfile="align-fasta.afa" output="fasta");
+    quit;
+end;
+

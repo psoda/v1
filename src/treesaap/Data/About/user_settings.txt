@@ -1,0 +1,4 @@
+[ Data User Input Values ]
+1.	criticalValuePath "./Data/CRITICAL_VALUES"	[ Specified path to the genetic code files ]
+2.	geneticCodePath	"./Data/GENETIC_CODES"	[ Specified path to the amino acid property files ]
+3.	propertyPath	"./Data/PROTEIN_PROPERTIES"	[ Specified path to the critical values files ]

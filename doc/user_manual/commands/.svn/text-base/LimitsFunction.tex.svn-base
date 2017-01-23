@@ -1,0 +1,22 @@
+\section{LimitsFunction}
+
+Limits Function Instruction
+
+\subsection{Options}
+\begin{description}
+\item[bound] = max
+\item[type] = int
+\end{description}
+
+\subsection{Option Descriptions}
+\begin{description}
+\item[bound] = max
+	\begin{description}
+	\item[max] = Which bound is being requested (either \'max\' or \'min\')
+	\end{description}
+\item[type] = int
+	\begin{description}
+	\item[int] = Which data type is begin described (either \'int\' or \'double\')
+	\end{description}
+\end{description}
+

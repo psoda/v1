@@ -1,0 +1,34 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/org/math
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-11-28T17:40:04.196969Z
+896
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+io
+dir
+
+plot
+dir
+

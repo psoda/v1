@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/opensvn/psoda/!svn/ver/845/src/distances
+END
+Partition.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/830/src/distances/Partition.h
+END
+PartitionTree.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/844/src/distances/PartitionTree.h
+END
+RF.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/opensvn/psoda/!svn/ver/832/src/distances/RF.cpp
+END
+Partition.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/845/src/distances/Partition.cpp
+END
+PartitionTree.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/832/src/distances/PartitionTree.cpp
+END
+RF.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/832/src/distances/RF.h
+END

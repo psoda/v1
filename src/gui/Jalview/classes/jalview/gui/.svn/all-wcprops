@@ -1,0 +1,1361 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui
+END
+AnnotationColourChooser$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$6.class
+END
+AlignFrame$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$11.class
+END
+OverviewPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/OverviewPanel$2.class
+END
+PopupMenu$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$1.class
+END
+PaintRefresher.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PaintRefresher.class
+END
+AlignViewport$ConservationThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignViewport$ConservationThread.class
+END
+DasSourceBrowser$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$1.class
+END
+PopupMenu$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$5.class
+END
+TextColourChooser$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TextColourChooser$3.class
+END
+FeatureSettings$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$12.class
+END
+SeqPanel$ScrollThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SeqPanel$ScrollThread.class
+END
+DasSourceBrowser$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$5.class
+END
+PopupMenu$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$9.class
+END
+FeatureSettings$16.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$16.class
+END
+AnnotationColourChooser$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$11.class
+END
+AppJmol$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AppJmol$3.class
+END
+SliderPanel$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SliderPanel$4.class
+END
+RotatableCanvas$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/RotatableCanvas$1.class
+END
+Jalview2XML_V1$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Jalview2XML_V1$1.class
+END
+FeatureSettings$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$1.class
+END
+PopupMenu$23.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$23.class
+END
+PopupMenu$42.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$42.class
+END
+RedundancyPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/RedundancyPanel$2.class
+END
+FeatureSettings$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$5.class
+END
+PopupMenu$27.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$27.class
+END
+Finder.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Finder.class
+END
+PCAPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PCAPanel$2.class
+END
+FeatureSettings$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$9.class
+END
+PairwiseAlignPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PairwiseAlignPanel.class
+END
+AnnotationColourChooser.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser.class
+END
+AlignmentPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignmentPanel$1.class
+END
+ColorEditor.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ColorEditor.class
+END
+AnnotationExporter$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationExporter$1.class
+END
+PopupMenu.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu.class
+END
+FontChooser.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FontChooser.class
+END
+EPSOptions$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/EPSOptions$2.class
+END
+TreePanel$TreeLoader.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TreePanel$TreeLoader.class
+END
+AlignFrame$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$3.class
+END
+DasSourceBrowser.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser.class
+END
+Desktop$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$3.class
+END
+AlignFrame$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$7.class
+END
+PopupMenu$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$13.class
+END
+SequenceFetcher$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$3.class
+END
+ConsoleDocument.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ConsoleDocument.class
+END
+PopupMenu$32.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$32.class
+END
+Preferences.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Preferences.class
+END
+AppJmol.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AppJmol.class
+END
+Desktop$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$7.class
+END
+PopupMenu$17.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$17.class
+END
+SequenceFetcher$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$7.class
+END
+PopupMenu$36.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$36.class
+END
+VamsasApplication$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/VamsasApplication$3.class
+END
+AnnotationColourChooser$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$1.class
+END
+CutAndPasteTransfer$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/CutAndPasteTransfer$2.class
+END
+IProgressIndicator.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/IProgressIndicator.class
+END
+FeatureRenderer$FeatureRendererSettings.class
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureRenderer$FeatureRendererSettings.class
+END
+AnnotationColourChooser$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$5.class
+END
+AlignFrame$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$10.class
+END
+OverviewPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/OverviewPanel$1.class
+END
+FeatureSettings.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings.class
+END
+AnnotationColourChooser$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$9.class
+END
+AlignFrame$14.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$14.class
+END
+SplashScreen$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SplashScreen$1.class
+END
+TreePanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TreePanel.class
+END
+PopupMenu$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$4.class
+END
+DasSourceBrowser$DASTableModel.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$DASTableModel.class
+END
+TextColourChooser$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TextColourChooser$2.class
+END
+FeatureSettings$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$11.class
+END
+FeatureRenderer.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureRenderer.class
+END
+DasSourceBrowser$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$4.class
+END
+PopupMenu$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$8.class
+END
+SeqCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SeqCanvas.class
+END
+FeatureSettings$15.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$15.class
+END
+AnnotationColourChooser$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$10.class
+END
+IdPanel$ScrollThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/IdPanel$ScrollThread.class
+END
+AppJmol$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AppJmol$2.class
+END
+SliderPanel$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SliderPanel$3.class
+END
+PopupMenu$22.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$22.class
+END
+PopupMenu$41.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$41.class
+END
+RedundancyPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/RedundancyPanel$1.class
+END
+FeatureSettings$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$4.class
+END
+PopupMenu$26.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$26.class
+END
+TreePanel$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TreePanel$3.class
+END
+ScalePanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ScalePanel.class
+END
+PCAPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PCAPanel$1.class
+END
+FeatureSettings$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$8.class
+END
+FeatureRenderer$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureRenderer$2.class
+END
+VamsasApplication.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/VamsasApplication.class
+END
+Desktop$MyDesktopPane.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$MyDesktopPane.class
+END
+EnterListener.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/EnterListener.class
+END
+AlignViewport$ConsensusThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignViewport$ConsensusThread.class
+END
+EPSOptions$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/EPSOptions$1.class
+END
+UserDefinedColours$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/UserDefinedColours$1.class
+END
+AlignFrame$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$2.class
+END
+TreeCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TreeCanvas.class
+END
+ScriptWindow.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ScriptWindow.class
+END
+ScalePanel$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ScalePanel$3.class
+END
+AlignFrame$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$6.class
+END
+Desktop$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$2.class
+END
+PopupMenu$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$12.class
+END
+SequenceFetcher$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$2.class
+END
+PopupMenu$31.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$31.class
+END
+SliderPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SliderPanel.class
+END
+Desktop$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$6.class
+END
+PopupMenu$16.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$16.class
+END
+SequenceFetcher$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$6.class
+END
+PopupMenu$35.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$35.class
+END
+VamsasApplication$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/VamsasApplication$2.class
+END
+CutAndPasteTransfer$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/CutAndPasteTransfer$1.class
+END
+PopupMenu$39.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$39.class
+END
+AnnotationColourChooser$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$4.class
+END
+WebserviceInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/WebserviceInfo.class
+END
+RedundancyPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/RedundancyPanel.class
+END
+AnnotationColourChooser$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$8.class
+END
+AlignFrame$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$13.class
+END
+PopupMenu$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$3.class
+END
+OOMWarning.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/OOMWarning.class
+END
+TextColourChooser$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TextColourChooser$1.class
+END
+FeatureSettings$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$10.class
+END
+DasSourceBrowser$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$3.class
+END
+PopupMenu$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$7.class
+END
+FeatureSettings$14.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$14.class
+END
+AppJmol$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AppJmol$1.class
+END
+DasSourceBrowser$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$7.class
+END
+IdCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/IdCanvas.class
+END
+SliderPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SliderPanel$2.class
+END
+AnnotationPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationPanel.class
+END
+AnnotationLabels.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationLabels.class
+END
+Jalview2XML_V1$1$NoDescIDResolver.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Jalview2XML_V1$1$NoDescIDResolver.class
+END
+PopupMenu$21.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$21.class
+END
+SequenceRenderer.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceRenderer.class
+END
+PopupMenu$40.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$40.class
+END
+WebserviceInfo$AnimatedPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/WebserviceInfo$AnimatedPanel.class
+END
+FeatureSettings$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$3.class
+END
+AnnotationExporter.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationExporter.class
+END
+PopupMenu$25.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$25.class
+END
+UserDefinedColours.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/UserDefinedColours.class
+END
+AlignFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame.class
+END
+TreePanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TreePanel$2.class
+END
+FeatureSettings$ColorRenderer.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$ColorRenderer.class
+END
+FeatureSettings$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$7.class
+END
+FeatureRenderer$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureRenderer$1.class
+END
+PopupMenu$29.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$29.class
+END
+Desktop.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop.class
+END
+SequenceFetcher.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher.class
+END
+PCAPanel$PCAPrinter.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PCAPanel$PCAPrinter.class
+END
+CutAndPasteTransfer.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/CutAndPasteTransfer.class
+END
+AnnotationLabels$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationLabels$1.class
+END
+AlignFrame$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$1.class
+END
+AnnotationExporter$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationExporter$3.class
+END
+ScalePanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ScalePanel$2.class
+END
+AlignFrame$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$5.class
+END
+Desktop$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$1.class
+END
+PopupMenu$11.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$11.class
+END
+SequenceFetcher$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$1.class
+END
+PopupMenu$30.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$30.class
+END
+Desktop$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$5.class
+END
+AlignFrame$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$9.class
+END
+PopupMenu$15.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$15.class
+END
+SequenceFetcher$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$5.class
+END
+PopupMenu$34.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$34.class
+END
+VamsasApplication$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/VamsasApplication$1.class
+END
+Desktop$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/gui/Desktop$9.class
+END
+PopupMenu$19.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$19.class
+END
+SequenceFetcher$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$9.class
+END
+PopupMenu$38.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$38.class
+END
+VamsasApplication$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/VamsasApplication$5.class
+END
+AnnotationColourChooser$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$3.class
+END
+Jalview2XML_V1.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Jalview2XML_V1.class
+END
+IdPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/IdPanel.class
+END
+AnnotationColourChooser$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$7.class
+END
+AlignFrame$12.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$12.class
+END
+OverviewPanel$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/OverviewPanel$3.class
+END
+PopupMenu$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$2.class
+END
+DasSourceBrowser$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$2.class
+END
+PopupMenu$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$6.class
+END
+PCAPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PCAPanel.class
+END
+UserQuestionnaireCheck.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/UserQuestionnaireCheck.class
+END
+FeatureSettings$13.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$13.class
+END
+FeatureSettings$FeatureTableModel.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$FeatureTableModel.class
+END
+AppJmol$RenderPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AppJmol$RenderPanel.class
+END
+DasSourceBrowser$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/DasSourceBrowser$6.class
+END
+SliderPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SliderPanel$1.class
+END
+FeatureSettings$17.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$17.class
+END
+Jalview2XML$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Jalview2XML$1.class
+END
+AppJmol$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AppJmol$4.class
+END
+AlignmentPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignmentPanel.class
+END
+PopupMenu$20.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$20.class
+END
+WebserviceInfo$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/WebserviceInfo$1.class
+END
+Jalview2XML_V1$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Jalview2XML_V1$2.class
+END
+FeatureSettings$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$2.class
+END
+PopupMenu$24.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$24.class
+END
+EPSOptions.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/EPSOptions.class
+END
+PopupMenu$43.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$43.class
+END
+TreePanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TreePanel$1.class
+END
+FeatureSettings$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/FeatureSettings$6.class
+END
+EditNameDialog.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/EditNameDialog.class
+END
+PopupMenu$28.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$28.class
+END
+ConsoleTextPane.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ConsoleTextPane.class
+END
+AlignmentPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignmentPanel$2.class
+END
+PrintThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PrintThread.class
+END
+OverviewPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/OverviewPanel.class
+END
+AnnotationExporter$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationExporter$2.class
+END
+AlignViewport.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignViewport.class
+END
+SplashScreen.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SplashScreen.class
+END
+TextColourChooser.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/TextColourChooser.class
+END
+ScalePanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ScalePanel$1.class
+END
+PopupMenu$10.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$10.class
+END
+AlignFrame$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$4.class
+END
+IdwidthAdjuster.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/IdwidthAdjuster.class
+END
+Desktop$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$4.class
+END
+AlignFrame$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AlignFrame$8.class
+END
+PopupMenu$14.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$14.class
+END
+SequenceFetcher$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$4.class
+END
+PopupMenu$33.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$33.class
+END
+Jalview2XML.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Jalview2XML.class
+END
+Desktop$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/Desktop$8.class
+END
+PopupMenu$18.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$18.class
+END
+SequenceFetcher$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SequenceFetcher$8.class
+END
+PopupMenu$37.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/PopupMenu$37.class
+END
+VamsasApplication$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/VamsasApplication$4.class
+END
+AnnotationColourChooser$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/AnnotationColourChooser$2.class
+END
+CutAndPasteTransfer$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/CutAndPasteTransfer$3.class
+END
+SeqPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/SeqPanel.class
+END
+RotatableCanvas.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/RotatableCanvas.class
+END
+ScriptWindow$ExecuteCommandThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/gui/ScriptWindow$ExecuteCommandThread.class
+END

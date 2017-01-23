@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets
+END
+two-spiral.test
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/two-spiral.test
+END
+mushroom.train
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/mushroom.train
+END
+mushroom.test
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/mushroom.test
+END
+parity13.train
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/parity13.train
+END
+parity13.test
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/parity13.test
+END
+gene.train
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/gene.train
+END
+gene.test
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/gene.test
+END
+diabetes.train
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/diabetes.train
+END
+pumadyn-32fm.train
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/pumadyn-32fm.train
+END
+diabetes.test
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/diabetes.test
+END
+thyroid.train
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/thyroid.train
+END
+pumadyn-32fm.test
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/pumadyn-32fm.test
+END
+thyroid.test
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/thyroid.test
+END
+robot.train
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/robot.train
+END
+robot.test
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/robot.test
+END
+building.train
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/building.train
+END
+building.test
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/building.test
+END
+parity8.train
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/parity8.train
+END
+soybean.train
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/soybean.train
+END
+two-spiral.train
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/two-spiral.train
+END
+parity8.test
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/parity8.test
+END
+soybean.test
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/datasets/soybean.test
+END

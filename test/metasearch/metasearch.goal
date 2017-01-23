@@ -1,0 +1,29 @@
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+.................
+ Stepwise Complete: rearrangements 248003.000000 score 16479.000000 best 16479.000000
+retainedresults iterations 5
+
+Elapsed         Taxa       Rearr.     No. of trees       Best trees     Search Iter
+   time         added      tried   saved left-to-swap  
+-------------------------------------------------------------------------------
+00:00:00        500          995     0     0              16479           0
+Finished Iterations
+## HSearch Completed Successfully
+## LoadData Completed Successfully
+align()
+gap open: -15.000000
+gap ext: -6.660000
+sub mat: IUB
+local weight: 0.000000
+Pairwise Alignment: .....................Matrix calculation took 2.641916 seconds
+Neighbor-join tree generation took 0.661 seconds
+Progressive Alignment: 
+Progressive alignment took 0.455111 seconds
+## Align Completed Successfully
+
+Done. (at "metasearch.nex" Line 526:5--526:22)

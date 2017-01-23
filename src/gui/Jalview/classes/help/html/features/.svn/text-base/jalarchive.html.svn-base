@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Jalview Archives</title>
+</head>
+<body>
+
+<p><strong>Jalview Project Archives</strong>
+</p>
+
+<p>These are java archives of an XML file containing alignments, trees and Jalview 
+  display information. A data exchange standard is currently being developed, 
+  so there is no stable schema yet, but Jalview web services will soon make use 
+  of the same interchange format.</p>
+<p>For those who want to know...<br>
+  Jalview uses java classes automatically created using <a href="http://www.castor.org">Castor</a>. 
+  Jalview 2.08 uses descriptor classes which significantly increase the speed 
+  of marshalling / unmarshalling java objects into XML. Files created prior to 
+  Jalview 2.08 can still be read in, but they will be saved in the new format. 
+</p>
+</body>
+</html>

@@ -1,0 +1,188 @@
+SETSY set_options SEMISY
+/* SET */
+set nowarnreset 
+    autoclose;
+set
+	maxtrees = 1000
+	increase = auto
+	autoinc = 100;
+
+set nowarnreset 
+	autoclose;
+
+set
+        maxtrees = 100 
+        [increase = auto]
+        autoinc = 100;
+
+set criterion=parsimony ;
+
+set maxtrees=1;
+
+set maxtrees=1;
+
+Set Increase = No ;   Set WarnReset = No ;   Set WarnTree = No ;   Set WarnTSave = No ;   Set WarnBlkName = No ;   Set WarnRoot = No ;   Set MaxTrees = 1;     
+
+Set MaxTrees = 1 ;     
+
+Set Increase = No ;   Set WarnReset = No ;   Set WarnTree = No ;   Set WarnTSave = No ;   Set WarnBlkName = No ;   Set WarnRoot = No ;   Set Criterion = Parsimony;   Set MaxTrees= 99;   Set Increase= no;   Set AutoClose ;   
+
+Set MaxTrees=1 ;   
+
+Set MaxTrees = 100 ;
+
+	set 
+		maxtrees = 1;
+	set 
+		maxtrees = 1000
+		increase = auto
+		autoinc = 100;
+
+	set 
+		maxtrees = 1
+		increase = no;
+
+HSEARCHSY hsearch_options SEMISY { interpreter->doHeuristicSearch(); }
+/* HSEARCH */
+hsearch 
+	start = stepwise
+	swap = tbr
+	addseq = random
+	nreps = 1
+	hold = 10;
+
+[hsearch
+        start = stepwise
+        swap = none 
+        addseq = random
+        nreps = 1
+        hold = 10;]
+
+hsearch swap=TBR ;
+
+hsearch start=current swap=TBR  
+;
+
+Hsearch iterations=100 Start = Stepwise   AddSeq = Random   Swap = None   NReps = 1;   
+
+Hsearch iterations=100 Start = Current   Swap = TBR   NReps = 1;   
+
+Hsearch iterations=10 Start = Current   Swap = TBR NReps=1;
+
+Hsearch iterations=100 Start = Current   Swap = TBR   NReps = 1 ;
+
+	hsearch 
+		start = stepwise
+		swap = none
+		addseq = random
+		nreps = 1
+		hold = 10;
+
+	hsearch 
+		start = stepwise
+		swap = none
+		addseq = random
+		nreps = 1
+		hold = 1;
+	hsearch 
+		start = current
+		swap = tbr
+		nreps = 1
+		hold = 1;
+		 
+	hsearch 
+		start = stepwise
+		swap = tbr
+		iterations=2000
+		addseq = random
+		nreps = 1
+		hold = 1;
+
+QUITSY quit_options SEMISY
+/* QUIT */
+quit warntsave=no;
+
+LOGSY {/*printf ("logsy found\n");*/ } log_options SEMISY
+/* LOG */
+log file=50sim.log 
+	replace;
+log stop;
+
+ASEARCHSY SEMISY { interpreter->doDirectAlignmentSearch(); }
+/* ASEARCH */
+asearch;
+
+GETTREESSY gettrees_options SEMISY { interpreter->getTrees(); }
+/* GETTREES */
+   gettrees file=consensus.tre;
+   gettrees file=score.tre;
+   gettrees file=step2.tre.in;
+
+/* SHOWTREES */
+   [showtrees all;]
+
+CONTREESY treelist SEMISY {interpreter->doConsensusTree(); }
+CONTREESY treelist SLASHSY contree_options SEMISY {interpreter->doConsensusTree(); }
+/* CONTREE */
+   [contree all/majrule=yes percent=60;]
+   contree all/strict=yes indices=yes;
+   [contree all/treefile=con.tre replace=yes;]
+
+SAVETREESSY savetrees_options SEMISY { interpreter->saveTrees(); }
+/* SAVETREES */
+   [savetrees file=tmp.tre replace=yes;]
+   SaveTrees File = /tmp/paup47377phylo.tre Replace = yes ;
+   savetrees file = stepmid.tre;
+
+DASCORESSY SEMISY 	{ interpreter->dascores(); }
+/* DASCORES */
+    dascores;
+
+LSCORESSY lscores_tree_list SEMISY
+LSCORESSY lscores_tree_list SLASHSY lscores_options SEMISY
+LSCORESSY SEMISY 	{ interpreter->lscores(); }
+/* LSCORES */
+    lscores;
+
+WEIGHTSSY weight_pair_list SEMISY
+WEIGHTSSY RESETSY SEMISY { /*interpreter->dataset()->weights()->reset(); */ }
+/* WEIGHTS */
+weights 2 : 7 14 17 26 27 31 34 45 50 52 54 57 60 63 64 65 73 77 86 91 92 102 103 107 115 117 121 122 124 127 131 133 134 140 142 155 156 163 173 176 183 185 187 195 197 198 202 204 209 219 221 222 225 226 230 237 238 240 241 244 248 252 254 255 258 269 276 279 283 284 291 294 295 297 309 310 315 319 321 323 325 326 342 346 349 350 351 353 354 355 359 360 363 366 370 377 378 390 393 394 398 408 412 413 418 419 423 425 426 428 429 432 450 456 467 475 479 482 484 489 492 493 497 498 500;
+
+Weights 0:26 ;
+Weights 4:194 ;
+Weights 4:27 ;
+Weights 3:40 ;
+Weights 1:756 ;
+Weights 4:285 ;
+Weights 0:148 ;
+Weights 0:651 ;
+
+     weights 1:all;
+
+PSCORESSY pscores_treelist SLASHSY pscores_options_list SEMISY { interpreter->pscores(); }
+PSCORESSY pscores_treelist SEMISY 	{ interpreter->pscores(); }
+PSCORESSY SEMISY 	{ interpreter->pscores(); }
+/* PSCORES */
+ Pscores 1 /ScoreFile = /tmp/paup47377phylo.sco Replace = yes ; 
+		 
+SEMISY  //allow an empty statement
+;
+
+
+BOOTSTRAPSY bootstrap_options SEARCHSY EQSY HEURISTICSY bootstrap_options SLASHSY hsearch_options SEMISY  
+BOOTSTRAPSY bootstrap_options SEARCHSY EQSY HEURISTICSY bootstrap_options SEMISY 
+BOOTSTRAPSY bootstrap_options SEARCHSY EQSY BANDBSY bootstrap_options SLASHSY bandb_options SEMISY
+BOOTSTRAPSY bootstrap_options SEARCHSY EQSY BANDBSY bootstrap_options SEMISY
+BOOTSTRAPSY bootstrap_options SLASHSY hsearch_options SEMISY //this is because hsearch is the default!
+BOOTSTRAPSY bootstrap_options SEARCHSY EQSY bootstrap_search_option bootstrap_options SEMISY
+BOOTSTRAPSY bootstrap_options SEMISY
+BANDBSY bandb_options SEMISY
+LSETSY lset_options SEMISY
+TREEINFOSY SEMISY
+DSETSY dset_options SEMISY
+NJSY nj_options SEMISY
+RSEARCHSY rsearch_options SEMISY { interpreter->doRatchetSearch(); }
+PRINTMATRIXSY printmatrix_options SEMISY { interpreter->printMatrix(); }
+
+

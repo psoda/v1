@@ -1,0 +1,11 @@
+[ BASEML User Input Values ]
+
+1.	model	REV	[ the model that BASEML will implement ]
+2.	fix_kappa	false	[ whether kappa is fixed ]
+3.	kappa 	2.5	[ value at which kappa is fixed ]
+4.	fix_alpha 	true	[ whether alpha is fixed ]
+5.	alpha 	0.0	[ value at which alpha is fixed ]
+6.	BASEMLOutfilePath "./treesaap/" [ Specified file path for baseml files ]
+7.	BASEMLPath "./treesaap/BASEML/" [ Specified path to the baseml executable ]
+
+

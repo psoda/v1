@@ -1,0 +1,22 @@
+#NEXUS
+BEGIN PSODA;
+
+count = 0;
+
+begin printHello;
+  print "Hello (" . count . ") " . toThisPerson . "!". "\n";
+  count++;
+end;
+
+printHello (toThisPerson = "Ted");
+printHello (toThisPerson = "Fred");
+printHello (toThisPerson = "June");
+
+x = 0;
+
+while (x < 5)
+  printHello (toThisPerson = "Person #" . x);
+  x++;
+endWhile;
+
+end;

@@ -1,0 +1,11 @@
+<html>
+<head><title>Removing Redundancy</title></head>
+<body>
+<p><strong>Removing redundancy</strong></p>
+<p>Selecting this option brings up a window asking you to select a threshold.
+  If the percentage identity between two sequences exceeds this value one of the
+  sequences (the shorter) is discarded. The redundancy calculation is done when
+  the Apply button is pressed. For large numbers of sequences this can take a
+  long time as all pairs have to be compared. </p>
+</body>
+</html>

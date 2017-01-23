@@ -1,0 +1,109 @@
+Welcome to psoda!
+
+
+psoda is free software. Please see the file COPYING for details.
+For documentation, please see the files in the doc subdirectory.
+For building and installation instructions please see the INSTALL file.
+
+Requires at least version 2.59 autoconf
+Requires at least version 1.9 automake
+Requires at least version 2.5.33 of flex
+Requires at least version 2.2 Bison
+Requires at least version 1.5 Java
+Requires at least version 1.7.1 Ant
+
+Set your path to include these versions
+
+On a mac, copy /usr/share/aclocal/* /usr/local/share/aclocal
+This assumes that you installed autoconf and automake in the default
+/usr/local/bin areas.
+
+You must copy /usr/share/libtool/ltmain.sh to the psoda directory before running reconf
+
+run the following commands
+./reconf --enable-gui
+./configure --enable-gui
+make complete
+cd src
+java -jar psoda.jar
+
+*************************
+EASY DISTRIBUTION BUILD
+
+In Linux and Mac:
+  To build a complete distribution (producing both the gui version: "src/psoda.jar" and the commandline "src/psoda" executable),
+  run "make distribution" after copying ltmain.sh and running ./reconf
+  psoda.jar must be run from the src/ directory
+*************************
+
+Then run reconf and it should create all of the makefiles
+
+If things get screwed up and you want to get back to the distribution state, then "make distclean"
+
+Compiling PSODA in Windows with Cygwin:
+	In order to compile PSODA for windows you need Cygwin installed with
+	the developer package and MinGW. MinGW allows programs to be compiled
+	in a way that they are dependent on Windows libraries instead of Cygwin
+	libraries. Remember to update all of the above software to the proper
+	version if necessary.
+
+	1.) The first step is to make sure that the C:\PATH_TO_MINGW\bin is before
+	    C:\PATH_TO_CYGWIN\bin in both your Windows and Cygwin path. If this is
+	    incorrect you will be using the wrong g++ and make.
+
+	2.) The second step is to copy the 'configure.windows.ac' file into 'configure.ac'.
+
+	2.5) Edit src/gui/Makefile.am and put the correct path to the java includes in WINDOWSGUIINCLUDES
+	3.) The third step is to run 'reconf --enable-gui' after all of the above software is
+	    properly updated.
+
+	4.) Edit src/gui/Makefile and delete the .exe off of the buildgui
+
+	5.) run make gui, it should compile a few java files and start making in src
+
+	5.) Edit parsers/newickParser/NewickLexicalAnalyzer.cpp and add io.h to includes
+	#include <io.h>
+
+	4.) When you are about finished you will get an error saying that the command line is too long for jar.  You have to run the jar on a mac, then do the make gui again and it should complete.
+
+(from the src directory)
+jar cmf gui/mainClass.txt gui/psodagui.jar `find . -name "*.class"` `find . -name "*.png"` `find . -name "*.jpg"`
+	    
+
+Making the PSODA GUI:
+	(Note on Making the gui in Linux):
+		Most linux distributions are still installed with java 1.4.2 which
+		is too old for PSODA to function properly. And not all linux
+		distributions install java in the same location. For these reasons
+		it is necessary to install java 1.5 or later (if you haven't already)
+		and you may need to make a slight modification to the Makefile.am file in the 'gui/'
+		directory. Modify the first line of src/gui/Makefile.am to reflect the true path to
+		your jdk home directory.
+
+	After building psoda using the --enable-gui configure option (to start from scratch use "./configure --enable-gui" and then "make clean"),
+		run "make gui".
+
+	The "make cleangui" target will remove .o files corresponding to any .cpp or .h file that has GUI in it.
+
+Running the PSODA GUI:
+	The "make gui" process will build a single psoda.jar file which can be run using java (with the -jar option "java -jar psoda.jar").
+    (psoda.jar must be run from the src/ directory)
+    On the Macintosh, if you want the toolbar to say PSODA instead of com.blahblha... run psoda using
+    java -Xdock:name=PSODA -jar psoda.jar
+
+If you want to debug  configure --enable-debug
+If you want to profile  configure --enable-profile
+
+The Readline library:
+	If suitible versions of libreadline.a, libhistory.a and libncurses.a are on you system
+	(readline and history version 5.2 and ncurses version 5.6 or higher will most likely work
+	[and older versions may work as well]), you can use  "./configure --enable-readline"
+	which will provide nice commandline editing, some autocomplete, and command history
+	from the commandline interactive mode of PSODA.
+
+Doxygen
+	A Doxygen configuration file (Doxyfile) is included with the source.  Running "doxygen" from the top directory will produce developer documentation
+	in the form of html files.  These files are put in the developerDocs/html directory (the start page is "index.html").
+
+TODO
+Get rid of the class files

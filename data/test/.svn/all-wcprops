@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/opensvn/psoda/!svn/ver/615/data/test
+END
+testmisc.nex
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/615/data/test/testmisc.nex
+END
+testref.nex
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/554/data/test/testref.nex
+END
+test.nex
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/555/data/test/test.nex
+END
+assert.nex
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/opensvn/psoda/!svn/ver/540/data/test/assert.nex
+END

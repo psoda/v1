@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/opensvn/psoda/!svn/ver/919/src/bases
+END
+ArrayBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/819/src/bases/ArrayBase.h
+END
+MatrixBaseIterator.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/819/src/bases/MatrixBaseIterator.h
+END
+SectorSearchBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/919/src/bases/SectorSearchBase.cpp
+END
+QSearchBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/819/src/bases/QSearchBase.cpp
+END
+EvaluatorBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/910/src/bases/EvaluatorBase.h
+END
+QAlgorithmBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/819/src/bases/QAlgorithmBase.cpp
+END
+SectorSearchBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/910/src/bases/SectorSearchBase.h
+END
+PrintBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/819/src/bases/PrintBuffer.cpp
+END
+QAlignBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/819/src/bases/QAlignBase.cpp
+END
+QSearchBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/819/src/bases/QSearchBase.h
+END
+QAlgorithmBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/819/src/bases/QAlgorithmBase.h
+END
+PrintBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/819/src/bases/PrintBuffer.h
+END
+QAlignBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/819/src/bases/QAlignBase.h
+END
+EvaluatorBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/819/src/bases/EvaluatorBase.cpp
+END

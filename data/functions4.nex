@@ -1,0 +1,12 @@
+#NEXUS
+BEGIN PSODA;
+
+begin recursiveSum;
+  return 0;
+end;
+
+$i = 0;
+$j = 0;
+print recursiveSum ($from = $i $to = $j . endl);
+
+end;

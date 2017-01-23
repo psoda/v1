@@ -1,0 +1,11 @@
+#NEXUS
+Begin trees;
+    Translate
+	1 tAAB,
+	2 tAAC,
+	3 tAAD,
+	4 tAAE,
+	;
+tree tree_0 = [&U] (1,((2,3),4));
+End;
+ 

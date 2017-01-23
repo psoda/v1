@@ -1,0 +1,16 @@
+align()
+## HSearch Completed Successfully
+gap open: -15.000000
+## LoadData Completed Successfully
+gap ext: -6.660000
+align()
+sub mat: IUB
+gap open: -15.000000
+local weight: 0.000000
+gap ext: -6.660000
+Progressive Alignment: 
+Pairwise Alignment: .....................Matrix calculation took 2.641916 seconds
+
+Progressive Alignment: 
+Done. (at "metasearch.nex" Line 526:5--526:22)
+Progressive alignment took 0.455111 seconds

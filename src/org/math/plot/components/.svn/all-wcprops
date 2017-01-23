@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components
+END
+SetScalesFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/98/src/org/math/plot/components/SetScalesFrame.java
+END
+SetScalesFrame$ScalePanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel$1.class
+END
+SetScalesFrame$ScalePanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel$2.class
+END
+SetScalesFrame$ScalePanel$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel$3.class
+END
+SetScalesFrame$ScalePanel$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel$4.class
+END
+DatasFrame$DataPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DatasFrame$DataPanel.class
+END
+SetScalesFrame$ScalePanel$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel$5.class
+END
+PlotToolBar$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$1.class
+END
+SetScalesFrame$ScalePanel$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel$6.class
+END
+PlotToolBar$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$2.class
+END
+PlotToolBar$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$3.class
+END
+PlotToolBar$4.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$4.class
+END
+PlotToolBar$5.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$5.class
+END
+PlotToolBar$6.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$6.class
+END
+PlotToolBar$7.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$7.class
+END
+DataToolBar.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DataToolBar.class
+END
+PlotToolBar$8.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$8.class
+END
+PlotToolBar$9.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar$9.class
+END
+LegendPanel$Legend.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/LegendPanel$Legend.class
+END
+SetScalesFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame.class
+END
+DataToolBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/98/src/org/math/plot/components/DataToolBar.java
+END
+DatasFrame$DataPanel$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DatasFrame$DataPanel$1.class
+END
+DatasFrame$DataPanel$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DatasFrame$DataPanel$2.class
+END
+PlotToolBar.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/98/src/org/math/plot/components/PlotToolBar.java
+END
+LegendPanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/LegendPanel.class
+END
+DataToolBar$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DataToolBar$1.class
+END
+DataToolBar$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DataToolBar$2.class
+END
+DataToolBar$3.class
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DataToolBar$3.class
+END
+DatasFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/98/src/org/math/plot/components/DatasFrame.java
+END
+LegendPanel$Legend$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/LegendPanel$Legend$1.class
+END
+LegendPanel$Legend$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/LegendPanel$Legend$2.class
+END
+LegendPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/98/src/org/math/plot/components/LegendPanel.java
+END
+SetScalesFrame$ScalePanel.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/SetScalesFrame$ScalePanel.class
+END
+PlotToolBar.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/PlotToolBar.class
+END
+DatasFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/896/src/org/math/plot/components/DatasFrame.class
+END

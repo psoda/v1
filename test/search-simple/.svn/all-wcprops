@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/473/test/search-simple
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/473/test/search-simple/test.pl
+END
+search.nex
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/403/test/search-simple/search.nex
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/opensvn/psoda/!svn/ver/873/src/alignment
+END
+QSumOfPairs.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/820/src/alignment/QSumOfPairs.h
+END
+MultChar.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/841/src/alignment/MultChar.cpp
+END
+QAlign.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/820/src/alignment/QAlign.h
+END
+SubMat.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/820/src/alignment/SubMat.h
+END
+QSSAlign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/873/src/alignment/QSSAlign.cpp
+END
+QSSPredict.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/841/src/alignment/QSSPredict.cpp
+END
+MultChar.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/820/src/alignment/MultChar.h
+END
+QSSAlign.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/820/src/alignment/QSSAlign.h
+END
+QSSPredict.h
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/820/src/alignment/QSSPredict.h
+END
+defaultSubMats.h
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/820/src/alignment/defaultSubMats.h
+END
+QSumOfPairs.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/869/src/alignment/QSumOfPairs.cpp
+END
+QAlign.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/873/src/alignment/QAlign.cpp
+END
+SubMat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/841/src/alignment/SubMat.cpp
+END

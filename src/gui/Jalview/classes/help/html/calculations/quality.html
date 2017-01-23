@@ -1,0 +1,32 @@
+<html>
+<head><title>Alignment Quality Annotation</title></head>
+<body>
+<p><strong>Alignment Quality Annotation</strong></p>
+<p>Alignment Quality is one of the automatically calculated
+quantitative alignment
+annotations displayed below the columns of a multiple sequence
+alignment (and can be used to shade the alignment). It is an ad-hoc
+measure of the likelihood of observing the mutations (if any) in a
+particular column of the alignment.</p>
+<p>
+More precisely, the quality score is inversely proportional to the
+average cost of all pairs of mutations oberved in a particular column
+of the alignment - a high alignment quality score for a column would
+suggest that there are no mutations, or most mutations observed are
+favourable.
+</p>
+
+<p><em>The Algorithm</em><br>
+The quality score is calculated for each column in an alignment by
+summing, for all mutations, the ratio of the two BLOSUM 62 scores for
+a mutation pair and each residue's conservered BLOSUM62 score (which
+is higher). This valueis normalised for each column, and then plotted
+on a scale from 0 to 1.
+</p>
+<p>
+Multiple alignment algorithms using the BLOSUM 62 substition matrices
+should, in theory, maximise alignment quality for an un-gapped
+alignment, and locally maximise quality for gapped alignments.
+</p>
+</body>
+</html>

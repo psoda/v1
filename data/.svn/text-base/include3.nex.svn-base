@@ -1,0 +1,59 @@
+#NEXUS
+BEGIN PSODA;
+  source file="include1.nex";
+
+  begin pow(base = 0, exponent = 1);
+    $base = base;
+    $exponent = exponent;
+    if ($exponent == 0)
+      return 1;
+    endif;
+
+    $result = $base;
+    $i = 0;
+    while ($i < ($exponent - 1))
+      $result = $result * $base;
+      $i++;
+    endwhile;
+    return $result;
+  end;
+
+  begin doubleDiv(numerator = 0, denominator = 1, precision = 4);
+    $numerator = numerator;
+    $denominator = denominator;
+    $precision = precision;
+
+    $precisionFactor = pow(base = 10, exponent = $precision);
+    $extendedNumerator = $numerator * $precisionFactor;
+    $extendedResult = $extendedNumerator / $denominator;
+    $textResult = "";
+    $i = 0;
+    
+    $decimalDown = 0;
+    $resultLeft = $extendedResult;
+    $precisionLeft = $precisionFactor;
+    while ($i < $precision) 
+      $thisResultNum = $resultLeft / $precisionLeft;
+
+      [ Check for round on the last digit ]
+      if (($i + 1) >= $precision)
+        if ((($resultLeft % $precisionLeft) * 2) >= $precisionLeft)
+          $thisResultNum++;
+	endif;
+      endif;
+
+      $textResult = $textResult . $thisResultNum;
+      $resultLeft = $resultLeft % $precisionLeft;
+      $precisionLeft = $precisionLeft / 10;
+
+      [ Check for decimal point ]
+      if (($decimalDown == 0) && ($resultLeft / $precisionFactor) < 1)
+        $decimalDown = 1;
+        $textResult = $textResult . ".";
+      endif;
+      $i++;
+    endwhile;
+    return $textResult;
+  end;
+
+END;

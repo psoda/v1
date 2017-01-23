@@ -1,0 +1,55 @@
+#NEXUS
+BEGIN PSODA;
+
+  print ( "Testing the concatenation operator ...");
+
+  result = (double("0.".89)+0.11==1.0)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl;
+  if (result != (double("0.".89)+0.11==1.0)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 1\n");
+  endif;
+  if (result != (double("0.89")+0.11==1.0)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 2\n");
+  endif;
+  if (result != (0.89+0.11==1.0)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 3\n");
+  endif;
+  if (result != (1.0 == 1.0)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 4\n");
+  endif;
+  if (result != (true)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 5\n");
+  endif;
+  if (result != (true)."r"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 6\n");
+  endif;
+  if (result != "truer"." "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 7\n");
+  endif;
+  if (result != "truer "."w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 8\n");
+  endif;
+  if (result != "truer w".int(false)."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 9\n");
+  endif;
+  if (result != "truer w".0."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 10\n");
+  endif;
+  if (result != "truer w0"."rds"." un"."spo"."ken".endl)
+    return ("Bad concat 11\n");
+  endif;
+  if (result != "truer w0rds"." un"."spo"."ken".endl)
+    return ("Bad concat 12\n");
+  endif;
+  if (result != "truer w0rds un"."spo"."ken".endl)
+    return ("Bad concat 13\n");
+  endif;
+  if (result != "truer w0rds unspo"."ken".endl)
+    return ("Bad concat 14\n");
+  endif;
+  if (result != "truer w0rds unspoken".endl)
+    return ("Bad concat 15\n");
+  endif;
+
+  print ( "\t\t\t...PASSED\n");
+
+END;

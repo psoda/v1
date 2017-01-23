@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources
+END
+EbiFileRetrievedProxy.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/EbiFileRetrievedProxy.class
+END
+EmblSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/EmblSource.class
+END
+Uniprot.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/Uniprot.class
+END
+DasSequenceSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/DasSequenceSource.class
+END
+EmblXmlSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/EmblXmlSource.class
+END
+Pfam.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/Pfam.class
+END
+PfamSeed.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/PfamSeed.class
+END
+GeneDbSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/classes/jalview/ws/dbsources/GeneDbSource.class
+END
+Pdb.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/Pdb.class
+END
+PfamFull.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/PfamFull.class
+END
+EmblCdsSouce.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/EmblCdsSouce.class
+END
+UnprotName.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/dbsources/UnprotName.class
+END

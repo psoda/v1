@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0
+END
+mushroom.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/mushroom.bpf
+END
+libfann.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/libfann.bpf
+END
+all.bpg
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/all.bpg
+END
+simple_test.res
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/simple_test.res
+END
+cascade_train.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/cascade_train.bpf
+END
+xor_train.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/xor_train.bpr
+END
+steepness_train.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/steepness_train.bpr
+END
+xor_test.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/xor_test.bpr
+END
+momentums.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/momentums.bpf
+END
+robot.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/robot.bpf
+END
+mushroom.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/mushroom.bpr
+END
+libfann.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/libfann.bpr
+END
+simple_train.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/simple_train.bpf
+END
+xor_train.res
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/xor_train.res
+END
+simple_test.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/simple_test.bpf
+END
+steepness_train.res
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/steepness_train.res
+END
+xor_test.res
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/xor_test.res
+END
+mushroom.res
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/mushroom.res
+END
+cascade_train.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/cascade_train.bpr
+END
+momentums.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/momentums.bpr
+END
+robot.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/robot.bpr
+END
+cascade_train.res
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/cascade_train.res
+END
+simple_train.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/simple_train.bpr
+END
+simple_test.bpr
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/simple_test.bpr
+END
+xor_train.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/xor_train.bpf
+END
+momentums.res
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/momentums.res
+END
+steepness_train.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/steepness_train.bpf
+END
+robot.res
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/robot.res
+END
+xor_test.bpf
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/xor_test.bpf
+END
+simple_train.res
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/BorlandC++Builder6.0/simple_train.res
+END

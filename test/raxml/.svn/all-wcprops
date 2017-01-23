@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/opensvn/psoda/!svn/ver/726/test/raxml
+END
+raxmlsearch.nex
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/691/test/raxml/raxmlsearch.nex
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/691/test/raxml/test.pl
+END
+raxmlsearchout.tre
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/726/test/raxml/raxmlsearchout.tre
+END
+mlscore.tre
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/691/test/raxml/mlscore.tre
+END

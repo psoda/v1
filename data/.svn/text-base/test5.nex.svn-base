@@ -1,0 +1,11 @@
+#NEXUS
+BEGIN PAUP;
+
+$i = 0;
+while ($i < 10)
+ print " klsdjfklj " . endl;
+ print $undefined + 1;
+ $i++;  
+endwhile;
+
+end;

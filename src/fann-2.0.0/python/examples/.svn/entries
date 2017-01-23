@@ -1,0 +1,54 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/fann-2.0.0/python/examples
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-03-10T21:29:52.202091Z
+797
+snell
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+mushroom.py
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+d35a4473c51bb109b8f1d8639d6bd5a6
+2009-03-10T21:29:52.202091Z
+797
+snell
+has-props
+
+simple_train.py
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+5ede98b049a449c929aeb04c4d6b2020
+2009-03-10T21:29:52.202091Z
+797
+snell
+has-props
+

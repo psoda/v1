@@ -1,0 +1,52 @@
+macro=; 
+if ( !plevel ) 
+ nstates nogaps ; 
+ nstates 32 ; 
+ mxram 12000 ; 
+ taxname + 320 ; 
+ tshrink ! ; 
+end  
+rseed ! ; 
+xread 
+'Eukaryote taxa
+604 morphological characters (595 parsimony-informative). 
+The rest are sequence characters (7857 are parsimony-informative).
+' 
+10145 73060 
+& [ num ] @@ morphology.tnt initialize_morphology ; 
+& [ dna verbose nogaps     ] @@ LSU_P1.fin data ; 
+& [ dna verbose nogaps     ] @@ LSU_P2.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P3.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P4.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P7.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P8.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P9.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P10.fin  data ; 
+& [ dna verbose nogaps     ] @@ LSU_P5.fin  data ;
+& [ dna verbose nogaps     ] @@ LSU_P12.fin  data ;
+& [ dna verbose nogaps     ] @@ LSU_P13.fin  data ;
+& [ dna verbose nogaps     ] @@ MAT_K.fin  data ; 
+& [ dna verbose nogaps     ] @@ NADH.fin  data ; 
+& [ dna verbose nogaps     ] @@ RBCL.fin  data ; 
+& [ prot verbose nogaps    ] @@ COX1.fin  data ; 
+& [ prot verbose nogaps    ] @@ COX2.fin  data ; 
+& [ prot verbose nogaps    ] @@ COX3.fin  data ; 
+& [ prot verbose nogaps    ] @@ CYTB.fin  data ; 
+& [ prot verbose nogaps    ] @@ ND1.fin  data ; 
+& [ dna verbose nogaps     ] @@ SSU_1a.fin  data ; 
+& [ dna verbose nogaps     ] @@ SSU_1b.fin  data ; 
+& [ dna verbose nogaps     ] @@ SSU_4a.fin  data ; 
+& [ dna verbose nogaps     ] @@ SSU_4b.fin  data ; 
+& [ dna verbose nogaps     ] @@ SSU_3C.fin  data ;
+& [ dna verbose nogaps     ] @@ SSU_4X.fin  data ;
+& [ dna verbose nogaps     ] @@ 12S_Asco.fin  data ;
+& [ prot verbose nogaps    ] @@ RNAPII_P1.fin  data ; 
+& [ prot verbose nogaps    ] @@ RNAPII_P2.fin  data ; 
+& [ dna verbose nogaps     ] @@ 16S_H.fin  data ;
+; 
+ho 5 ; 
+
+goto morphology.tnt set_morphology ; 
+
+proc/; 
+

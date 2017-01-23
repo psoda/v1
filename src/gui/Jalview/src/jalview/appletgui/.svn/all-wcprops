@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui
+END
+SequenceRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/SequenceRenderer.java
+END
+JVDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/JVDialog.java
+END
+SliderPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/SliderPanel.java
+END
+EmbmenuFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/EmbmenuFrame.java
+END
+AlignFrame.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AlignFrame.java
+END
+ScalePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/ScalePanel.java
+END
+Finder.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/Finder.java
+END
+SeqPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/SeqPanel.java
+END
+RedundancyPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/RedundancyPanel.java
+END
+IdPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/IdPanel.java
+END
+FeatureSettings.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/FeatureSettings.java
+END
+AnnotationColourChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AnnotationColourChooser.java
+END
+FeatureRenderer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/FeatureRenderer.java
+END
+SeqCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/SeqCanvas.java
+END
+IdCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/IdCanvas.java
+END
+FontChooser.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/FontChooser.java
+END
+Tooltip.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/Tooltip.java
+END
+AnnotationPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AnnotationPanel.java
+END
+TreeCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/TreeCanvas.java
+END
+AlignmentPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AlignmentPanel.java
+END
+UserDefinedColours.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/UserDefinedColours.java
+END
+EditNameDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/EditNameDialog.java
+END
+AppletJmol.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AppletJmol.java
+END
+RotatableCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/RotatableCanvas.java
+END
+PairwiseAlignPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/PairwiseAlignPanel.java
+END
+TreePanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/TreePanel.java
+END
+CutAndPasteTransfer.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/CutAndPasteTransfer.java
+END
+PaintRefresher.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/PaintRefresher.java
+END
+PCAPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/PCAPanel.java
+END
+OverviewPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/OverviewPanel.java
+END
+APopupMenu.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/APopupMenu.java
+END
+AlignViewport.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AlignViewport.java
+END
+AnnotationLabels.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/AnnotationLabels.java
+END
+IdwidthAdjuster.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/appletgui/IdwidthAdjuster.java
+END

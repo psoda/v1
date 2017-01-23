@@ -1,0 +1,25 @@
+#NEXUS
+
+
+begin data;
+	dimensions ntax=4 nchar=4;
+	format datatype=dna gap=- matchchar=. ;
+matrix
+
+Nicotiana  GTTG
+Galphimia  ..C.
+Oenothera  .C..
+Victoria   ...T
+;
+end;
+BEGIN PAUP;
+	set nowarnreset 
+	autoclose;
+	hsearch 
+		start = stepwise
+		swap = tbr
+		addseq = random
+		nreps = 1
+  ;
+  quit warntsave=no;
+end;

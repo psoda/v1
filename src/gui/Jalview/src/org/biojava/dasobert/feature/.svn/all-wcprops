@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature
+END
+FeatureTrack.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/FeatureTrack.java
+END
+HistogramSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/HistogramSegment.java
+END
+FeatureMapComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/FeatureMapComparator.java
+END
+FeatureTrackImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/FeatureTrackImpl.java
+END
+Segment.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/Segment.java
+END
+FeatureComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/FeatureComparator.java
+END
+AbstractFeatureTrack.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/AbstractFeatureTrack.java
+END
+SegmentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/SegmentImpl.java
+END
+AbstractSegment.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/AbstractSegment.java
+END
+FeatureTrackConverter.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/FeatureTrackConverter.java
+END
+HistogramFeature.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/HistogramFeature.java
+END
+SegmentComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/org/biojava/dasobert/feature/SegmentComparator.java
+END

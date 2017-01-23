@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/555/data/test/builtincommands
+END
+test_set.nex
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/500/data/test/builtincommands/test_set.nex
+END
+test.nex
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/555/data/test/builtincommands/test.nex
+END

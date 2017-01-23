@@ -1,0 +1,85 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/classes
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-09-02T21:13:36.739349Z
+873
+snell
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+uk
+dir
+
+ext
+dir
+
+jalview
+dir
+
+doc
+dir
+
+images
+dir
+
+lib
+dir
+
+org
+dir
+
+help
+dir
+
+embl_mapping.xml
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+421417d6896bbe78ddc12348df0408ae
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+MCview
+dir
+
+vamsas
+dir
+
+uniprot_mapping.xml
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+349a720d6061d72793dd8df856ac0134
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+com
+dir
+

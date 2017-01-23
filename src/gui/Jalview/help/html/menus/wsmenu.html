@@ -1,0 +1,56 @@
+<html>
+<head><title>Web Service Menu</title></head>
+
+<body>
+<p><strong>Web Service Menu</strong></p>
+<ul>
+  <li><strong>Fetch DB References</strong><br>
+  <em>This will use any of the database services that Jalview is aware 
+  of (e.g. DAS sequence servers and the WSDBFetch service provided by the EBI)
+   to verify the sequence and retrieve all database cross references and PDB ids
+   associated with all or just the selected sequences in the alignment.</em><br>
+  </li>
+  </ul>
+    </strong> <em>Selecting one of the following menu items starts a remote service 
+  on compute facilities at the University of Dundee. You need a continuous network 
+  connection in order to use these services through Jalview. </em> </p>
+  <ul>
+  <li><strong>Alignment</strong> 
+    <ul>
+      <li><strong>ClustalW Multiple Sequence Alignment</strong><br>
+        <em> Submits all, or just the currently selected sequences for alignment 
+        with clustal W.</em></li>
+      <li><strong>ClustalW Multiple Sequence Alignment Realign</strong><br>
+        <em> Submits the alignment or currently selected region for re-alignment 
+        with clustal W. Use this if you have added some new sequences to an existing 
+        alignment.</em></li>
+      <li><strong>MAFFT Multiple Sequence Alignment</strong><br>
+        <em>Submits all, or just the currently selected region for alignment with 
+        MAFFT. </em> </li>
+      <li><strong>Muscle Multiple Protein Sequence Alignment</strong><br>
+        <em> Submits all, or just the currently selected sequences for alignment 
+        using Muscle. Do not use this if you are working with nucleic acid sequences.</em></li>
+    </ul>
+  </li>
+  <li><strong>Secondary Structure Prediction</strong> 
+    <ul>
+      <li><strong>JPred Secondary Structure Prediction</strong><br>
+        <em>Secondary structure prediction by network consensus. The behaviour 
+        of this calculation depends on the current selection: </em></li>
+      <li><em>If nothing is selected, and the displayed sequences appear to be 
+        aligned, then a JNet prediction will be run for the first sequence in 
+        the alignment, using the current alignment. Otherwise the first sequence 
+        will be submitted for prediction. </em></li>
+      <li><em>If just one sequence (or a region on one sequence) has been selected, 
+        it will be submitted to the automatic JNet prediction server for homolog 
+        detection and prediction. </em></li>
+      <li><em>If a set of sequences are selected, and they appear to be aligned, 
+        then the alignment will be used for a Jnet prediction on the <strong>first</strong> 
+        sequence in the set (that is, the one that appears first in the alignment 
+        window). </em> </li>
+    </ul>
+  </li>
+</ul>
+<p><strong> </strong></p>
+</body>
+</html>

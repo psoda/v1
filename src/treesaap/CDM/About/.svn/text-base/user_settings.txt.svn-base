@@ -1,0 +1,17 @@
+[ CDM User Input Values ]
+
+[ Calculations ]
+1.	autoTransBias	true	[ Whether CDM determines the transition bias ]
+2.	transitionBias	0.0	[ The user-specified transition bias, autoTransBias must be false ]
+3.	deriveTS4	false	[ How CDM determines ts4 - either it derives it or it uses a set of equations ]
+4.	fixedTransBias	false	[ Whether to fix the transbias of CDM at one value, or to recalculate it for each window ]
+
+[ Sliding-Window Output File ]
+5.	gScore	true	[ Whether to output G-Scores to file ]
+6.	gfScore	true	[ Whether to output GF-Scores to file ]
+7.	tsTv	true	[ Whether to output ts:tv ratios to file ]
+8.	transbias	true	[ Whether to output the transition bias to file ]
+9.	observed	true	[ Whether to output observed substitutions to file ]
+10.	observedFrequency	true	[ Whether to output observed frequencies to file ]
+11.	expected	true	[ Whether to output expected substitutions to file ]
+12.	expectedFrequency	true	[ Whether to output expected frequencies to file ]

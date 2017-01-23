@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/opensvn/psoda/!svn/ver/873/test/mds
+END
+MDS.goal
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/873/test/mds/MDS.goal
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/opensvn/psoda/!svn/ver/711/test/mds/test.pl
+END
+MDS.nex
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/opensvn/psoda/!svn/ver/729/test/mds/MDS.nex
+END
+MDS.tre
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/opensvn/psoda/!svn/ver/711/test/mds/MDS.tre
+END

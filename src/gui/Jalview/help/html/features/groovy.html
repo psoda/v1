@@ -1,0 +1,50 @@
+<html>
+<head><title>Groovy Shell</title></head>
+<body>
+<p><strong>The Groovy Shell</strong></p>
+<p><a href="http://groovy.codehaus.org/">Groovy</a> is an &quot;<em>agile and dynamic 
+language for the Java platform</em>&quot;. The groovy scripting language makes it 
+extremely easy to programmatically interact with Java programs, in much the same 
+way that Javascript is used to generate and interact with applets and other 
+objects on the page.</p>
+<p><strong><em>Getting Groovy...</em></strong><br>
+Jalview Groovy support is only possible if the core groovy 
+jars which include the GroovyShell are present on the CLASSPATH 
+when Jalview is started.</p><p>The jars are obtained from the 
+<em>embedded</em> directory within the <a 
+href="http://dist.codehaus.org/groovy/distributions">groovy 
+distribution</a>. The easiest way of adding them to the 
+Jalview classpath is to download and build jalview from 
+it's source distribution, and then add the groovy-all-*.jar 
+to the lib directory whose path is given in the java.ext.dirs property.</p>
+<p><strong>Opening Jalview's Groovy Console</strong><br>If groovy is available, then the 
+<strong>Tools&#8594;Groovy Console...</strong> menu entry will be available 
+from the Jalview Desktop's drop-down menu. Selecting this will open the
+<a href="http://groovy.codehaus.org/Groovy+Console">Groovy Console</a> which 
+allows you to interactively execute Groovy scripts within the Jalview run-time environment.</p>
+<p><strong>Executing groovy scripts on Jalview startup</strong><br>
+The -groovy &lt;script&gt; option on the <a href="commandline.html"/>
+Jalview command line</a> will execute the contents of 
+&lt;script&gt;. &lt;script&gt; may be a file, or alternatively if it is &quot;STDIN&quot; 
+then the standard input will be used.</p>
+<p><strong>Access to Jalview's functions from Groovy Scripts</strong><br>
+There is as yet no properly defined scripting interface to Jalview, but all the
+public methods of the jalview class hierarchy can be called from Groovy scripts. 
+The access point for this is the <strong>Jalview</strong> object defined in
+the groovy environent which corresponds to the <pre>jalview.gui.Desktop</pre> object which
+manages all the Jalview windows.</p>  
+Here's an example to get you started:<br>
+<ul><li>Getting the title, alignment and first sequence from the current alignFrame<br>
+<pre>
+def alf = Jalview.getAlignframes();
+print alf[0].getTitle();
+def alignment = alf[0].viewport.alignment;
+def seq = alignment.getSequenceAt(0);
+</pre>
+</li>
+</ul>
+</p>
+
+<p>&nbsp;</p>
+</body>
+</html>

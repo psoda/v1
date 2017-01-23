@@ -1,0 +1,42 @@
+#NEXUS
+
+BEGIN PSODA;
+  loaddata file = "../../test/align/align-simple.nex";
+  print "Testing pass-by-reference\n";
+
+  begin myCommand(alias* = 10 alias2* = 20 alias3* = 40 alias4* = "");
+    alias = 5;
+    alias2 = 7;
+    alias3 = 10;
+    alias4 = align();
+  end;
+
+  var myVar = 10;
+  var myVar2 = 89;
+  var myVar3 = 78;
+  print "Before myVar: " . myVar . endl;
+  print "Before myVar2: " . myVar2 . endl;
+  print "Before myVar3: " . myVar3 . endl;
+  print;
+
+  myCommand;
+  print "After(no params) myVar: " . myVar . endl;
+  print "After(no params) myVar2: " . myVar2 . endl;
+  print "After(no params) myVar3: " . myVar3 . endl;
+  print;
+
+  var var4 = -1;
+  myCommand alias3 = myVar3 alias = myVar;
+  print "After(3 and 1) myVar: " . myVar . endl;
+  print "After(3 and 1) myVar2: " . myVar2 . endl;
+  print "After(3 and 1) myVar3: " . myVar3 . endl;
+  print "After(3 and 1) var4: " . var4 . endl;
+  print;
+
+  myCommand alias2 = myVar2, alias4 = var4;
+  print "After(2 and 4) myVar: " . myVar . endl;
+  print "After(2 and 4) myVar2: " . myVar2 . endl;
+  print "After(2 and 4) myVar3: " . myVar3 . endl;
+  print "After(2 and 4) var4: " . var4 . endl;
+
+END;  

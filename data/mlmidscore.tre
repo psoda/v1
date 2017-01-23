@@ -1,0 +1,26 @@
+#NEXUS 
+Begin trees; 
+	Translate
+		1 Nicotiana,
+		2 Galphimia,
+		3 Oenothera,
+		4 Victoria,
+		5 Cypirapea,
+		6 Barclaya,
+		7 Petunia,
+		8 Lycopersi,
+		9 Convolvul,
+		10 Ipomoea,
+		11 Borago,
+		12 Heliotrop,
+		13 Hydrophyl,
+		14 Eriodicty,
+		15 Digitalis,
+		16 Buddleja,
+		17 Callitric,
+		18 Jasminum,
+		19 Adoxa,
+		20 Lamiumpur
+		;
+tree PAUP_3 = [&U] ((1,(((((2,(3,((4,6),5))),19),(((11,12),(13,14)),(((15,17),18),(16,20)))),(9,10)),8)),7);
+End;

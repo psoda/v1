@@ -1,0 +1,124 @@
+## GetTrees Completed Successfully
+Tree 1:
+     /----Nicotiana
+     |----Galphimia
+/----|
+|    |----Oenothera
+|    |----Victoria
+|    \----Cypirapea
+\---------Barclaya
+Tree 2:
+          /----Nicotiana
+     /----|
+     |    \----Galphimia
+/----|
+|    |    /----Oenothera
+|    \----|
+|         \----Victoria
+|    /---------Cypirapea
+\----|
+     \---------Barclaya
+Tree 3:
+                    /----Nicotiana
+               /----|
+               |    \----Galphimia
+          /----|
+          |    \---------Oenothera
+     /----|
+     |    \--------------Victoria
+/----|
+|    \-------------------Cypirapea
+\------------------------Barclaya
+Tree 4:
+          /----Nicotiana
+     /----|
+     |    \----Galphimia
+     |---------Oenothera
+/----|
+|    |---------Victoria
+|    \---------Cypirapea
+\--------------Barclaya
+Tree 5:
+          /----Nicotiana
+     /----|
+     |    |----Galphimia
+     |    \----Oenothera
+/----|
+|    |---------Victoria
+|    \---------Cypirapea
+\--------------Barclaya
+Tree 6:
+          /---------Nicotiana
+     /----|
+     |    |    /----Galphimia
+     |    \----|
+     |         \----Oenothera
+/----|
+|    |--------------Victoria
+|    \--------------Cypirapea
+\-------------------Barclaya
+Tree 7:
+          /----------Nicotiana
+     /----| <- A
+     |    \----------Galphimia
+/----|
+|    |    /----------Oenothera
+|    \----| <- C
+|         |    /-----Victoria
+|         \----| <- B
+|              \-----Cypirapea
+\--------------------Barclaya
+Tree 8:
+          /------------------Nicotiana
+     /----| <- UnresolvedNode
+     |    |------------------Galphimia
+     |    \------------------Oenothera
+/----|
+|    |    /------------------Victoria
+|    \----|
+|         \------------------Cypirapea
+\----------------------------Barclaya
+Tree 9:
+               /- 1.000 -Nicotiana
+          /----|
+          |    \- 2.000 -Galphimia
+     /----|
+     |    \------ 3.000 -Oenothera
+/----|
+|    |----------- 4.000 -Victoria
+|    \----------- 5.000 -Cypirapea
+\---------------- 6.000 -Barclaya
+Tree 10:
+               /----Nicotiana
+     /- 1.000 -|
+     |         \----Galphimia
+/----|
+|    |         /----Oenothera
+|    \- 2.000 -|
+|              |----Victoria
+|              \----Cypirapea
+\----------- 3.000 -Barclaya
+Tree 11:
+     /-------------------Nicotiana
+/----|
+|    |         /---------Galphimia
+|    |- 1.000 -|
+|    |         |    /----Oenothera
+|    |         \----|
+|    |              \----Victoria
+|    \-------------------Cypirapea
+\------------------------Barclaya
+Tree 12:
+     /--------------------- 1.000 -Nicotiana
+/----|
+|    |                   /- 2.000 -Galphimia
+|    |         /- 3.000 -|
+|    |         |         \- 4.000 -Oenothera
+|    \- 5.000 -|
+|              \----------- 6.000 -Victoria
+|         /---------------- 7.000 -Cypirapea
+\- 8.000 -|
+          \---------------- 9.000 -Barclaya
+## ShowTrees Completed Successfully
+
+Done. (at "ShowTrees.nex" Line 21:1--21:5)

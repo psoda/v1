@@ -1,0 +1,31 @@
+<html>
+<head><title>Amino Acid Properties</title>
+</head>
+<body><div align="center">
+<h1>Amino Acid Properties</h1>
+  <img src="properties.gif">
+  <br>
+  <table width="295" border="1" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="291"><pre><font size="4" face="Courier New, Courier, mono"><strong>ILVCAGMFYWHKREQDNSTPBZX-</strong>
+XXXXXXXXXXX&middot;·&middot;&middot;&middot;&middot;&middot;X&middot;&middot;&middot;XX Hydrophobic
+&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XXXXXXXXXX&middot;XXXXX Polar
+&middot;&middot;XXXX&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XXXXX&middot;&middot;XX Small
+&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;X&middot;&middot;XX Proline
+&middot;&middot;&middot;&middot;XX&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;X&middot;&middot;&middot;&middot;XX Tiny
+XXX&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XX Aliphatic
+&middot;&middot;&middot;&middot;&middot;&middot;&middot;XXXX&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XX Aromatic
+&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XXX&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XX Positive
+&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;X&middot;X&middot;&middot;&middot;&middot;&middot;&middot;XX Negative
+&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;&middot;XXXX&middot;X&middot;&middot;&middot;&middot;&middot;&middot;XX Charged</font></pre></td>
+    </tr>
+  </table>
+  </div>
+<p><br>
+   From Livingstone, C. D. and Barton, G. J. (1993), <br>
+  "Protein Sequence Alignments: A Strategy for the Hierarchical Analysis of Residue
+  Conservation", Comp. Appl. Bio. Sci., 9, 745-756. </p>
+  <br>
+</div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#NEXUS
+BEGIN PSODA;
+loaddata file = "../test/align/align-simple.nex";
+
+i = 0;
+myRef = align();
+while (i < 10)
+  myRef = align();
+  usedata name = myRef;
+  i++;
+endwhile;
+
+END;

@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel
+END
+BinarySequence.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/BinarySequence.class
+END
+Alignment.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/Alignment.class
+END
+SequenceI.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SequenceI.class
+END
+SearchResults.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SearchResults.class
+END
+PDBEntry.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/PDBEntry.class
+END
+BinaryNode.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/BinaryNode.class
+END
+Mapping.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/Mapping.class
+END
+ColumnSelection.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/ColumnSelection.class
+END
+DBRefEntry.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/DBRefEntry.class
+END
+HiddenSequences.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/HiddenSequences.class
+END
+Sequence.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/Sequence.class
+END
+SearchResults$Match.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SearchResults$Match.class
+END
+FeatureProperties.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/FeatureProperties.class
+END
+GraphLine.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/GraphLine.class
+END
+AlignmentAnnotation.class
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/AlignmentAnnotation.class
+END
+SequenceNode.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SequenceNode.class
+END
+CigarBase.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/CigarBase.class
+END
+SequencePoint.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SequencePoint.class
+END
+ProvenanceEntry.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/ProvenanceEntry.class
+END
+UniprotEntry.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/UniprotEntry.class
+END
+SequenceFeature.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SequenceFeature.class
+END
+CigarArray.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/CigarArray.class
+END
+SequenceGroup.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SequenceGroup.class
+END
+AlignmentI.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/AlignmentI.class
+END
+UniprotSequence.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/UniprotSequence.class
+END
+CigarCigar.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/CigarCigar.class
+END
+SeqCigar.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/SeqCigar.class
+END
+CigarSimple.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/CigarSimple.class
+END
+Provenance.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/Provenance.class
+END
+UniprotFile.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/UniprotFile.class
+END
+AlignedCodonFrame.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/AlignedCodonFrame.class
+END
+UniprotProteinName.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/UniprotProteinName.class
+END
+DBRefSource.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/DBRefSource.class
+END
+AlignmentView.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/AlignmentView.class
+END
+AlignmentOrder.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/AlignmentOrder.class
+END
+Annotation.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/datamodel/Annotation.class
+END

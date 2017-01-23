@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes
+END
+ScoreMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ScoreMatrix.java
+END
+ColourSchemeI.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ColourSchemeI.java
+END
+TurnColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/TurnColourScheme.java
+END
+ZappoColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ZappoColourScheme.java
+END
+StrandColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/StrandColourScheme.java
+END
+NucleotideColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/NucleotideColourScheme.java
+END
+ClustalxColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ClustalxColourScheme.java
+END
+ResidueColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ResidueColourScheme.java
+END
+AnnotationColourGradient.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/AnnotationColourGradient.java
+END
+ResidueProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ResidueProperties.java
+END
+Consensus.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/Consensus.java
+END
+HelixColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/HelixColourScheme.java
+END
+Blosum62ColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/Blosum62ColourScheme.java
+END
+HydrophobicColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/HydrophobicColourScheme.java
+END
+BuriedColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/BuriedColourScheme.java
+END
+TaylorColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/TaylorColourScheme.java
+END
+ScoreColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ScoreColourScheme.java
+END
+PIDColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/PIDColourScheme.java
+END
+UserColourScheme.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/UserColourScheme.java
+END
+ColourSchemeProperty.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/schemes/ColourSchemeProperty.java
+END

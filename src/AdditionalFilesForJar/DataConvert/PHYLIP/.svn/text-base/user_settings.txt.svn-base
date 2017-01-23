@@ -1,0 +1,9 @@
+[ PHYLIP User Input Values ]
+
+[ READER ]
+1.	hard_return	true	[ There is a hard return between name and sequence data.  If false, spaces are not allowed in name ]
+
+[ WRITER ]
+2.	interleaveSize	60	[ The size of interleave chunks to break data into, 0 puts whole sequence on one line ]	
+
+

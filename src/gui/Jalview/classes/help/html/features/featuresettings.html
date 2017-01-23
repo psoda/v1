@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Sequence Feature Settings Dialog Box</title>
+</head>
+<body>
+<p><strong>Sequence Feature Settings Dialog Box</strong></p>
+<p>Select <strong>View&#8594;Feature Settings...</strong> menu entry in
+an alignment window to open the feature settings dialog box, which
+allows you to precisely control the presence and appearance of
+sequence features for the current alignment.</p>
+<center>
+  <img src="featureSettings.gif" width="351" height="350"> <br>
+  Sequence Feature
+  Settings for the Jalview Application</img></center>
+<p>The top section of the dialog box lists all the sequence feature
+  groups, along with a tickbox for each that controls whether its
+  features are displayed. The table in the middle lists all the
+  features in the currently selected groups, along with their display
+  colour and whether they are currently being displayed (only the
+  ticked features and groups are displayed). <strong><em>You can change the
+  colour used for a feature in the associated alignment by clicking on
+  its colour box.</em></strong></p>
+<p><strong>Transparency and Feature Ordering</strong></p><p>
+  It is important to realise that sequence features are often not
+  distinct and often overlap (for example, a metal binding site
+  feature may be attached to one position along a stretch of sequence
+  marked with a secondary structure feature).</p>
+<p>The ordering of the sequence features in the dialog box list is the
+  order used by jalview for rendering sequence features. A feature at
+  the bottom of the list is rendered <em>below</em> a feature higher
+  up in the list.<br><em><strong>You can change the order of a feature
+  by dragging it up and down the list with the
+  mouse</strong></em>.</p>
+<p>The <strong><em>Optimise order</em></strong> button (currently only available in the application) will re-order the feature render ordering based on the average length of each feature type.</p>
+<p>
+  The <strong><em>transparency slider setting</em></strong> (currently only available
+  in the application version) controls the visibility of features
+  rendered below other features. Reducing the transparency will mean
+  that features at the top of the list can obscure features lower
+  down, and increasing it allows the user to 'see through' the upper
+  layers of a set of features.</p>
+<p><strong><em>You can save all features, with their current colours and visibility 
+  in a Jalview format file. </em></strong>
+</p>
+</body>
+</html>

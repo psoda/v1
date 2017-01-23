@@ -1,0 +1,5 @@
+./configure --enable-profile --disable-shared
+cd src
+make clean
+make
+valgrind --tool=memcheck --leak-check=yes ./psoda ../data/zillamid.nex

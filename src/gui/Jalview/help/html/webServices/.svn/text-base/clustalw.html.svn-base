@@ -1,0 +1,28 @@
+<html>
+<head><title>ClustalW Alignment</title></head>
+<body>
+<p><strong>ClustalW Alignments</strong></p>
+<p>ClustalW is a program for multiple sequence alignment. It works
+with both DNA and protein sequences, and can also perform profile
+profile alignments to align two or more multiple sequence
+alignments.</p>
+<p>
+Thompson, J.D., Higgins, D.G. and Gibson, T.J. (1994) <br>
+CLUSTAL W: improving the sensitivity of progressive multiple
+sequence alignment through sequence weighting, position specific gap
+penalties and weight matrix choice.<br>
+<em>Nucleic Acids Research</em> <strong>22</strong> 4673-4680
+</p>
+<p>There are two versions of this alignment function, which will operate
+on the selected region, if any, or the whole sequence set:</p>
+<ul>
+  <li><strong>Web Service&#8594;Alignment&#8594;ClustalW Multiple Sequence Alignment</strong><br>
+    Aligns using the clustalW program, ignoring any gaps in the submitted sequence 
+    set. </li>
+  <li><strong>Web Service&#8594;Alignment&#8594;ClustalW Mulitple Sequence Alignment 
+    Realign </strong><br>
+    Submits the sequences with existing gaps to clustalW, which will preserve 
+    existing gaps and re-align those regions which are not optimal. </li>
+</ul>
+</body>
+</html>

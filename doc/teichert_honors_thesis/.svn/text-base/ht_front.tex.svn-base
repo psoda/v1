@@ -1,0 +1,21 @@
+\documentclass[12pt, oneside]{book}
+\linespread{1.6}
+\raggedright
+\usepackage{tocloft}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{float}
+\newcommand{\ras}[1]{\renewcommand{\arraystretch}{#1}}
+\parindent .4in
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\setlength\topmargin{0in}
+\setlength\textheight{8.5in}
+\setlength\evensidemargin{0in}
+\setlength\oddsidemargin{.5in}
+\setlength\textwidth{6in}
+\pagestyle{plain}
+\newfloat{code}{h}{cod}
+\floatname{code}{Sample}
+\input{ht_content}

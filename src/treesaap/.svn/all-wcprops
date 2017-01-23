@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/opensvn/psoda/!svn/ver/739/src/treesaap
+END
+.classpath
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/605/src/treesaap/.classpath
+END
+.project
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/605/src/treesaap/.project
+END
+run.bat
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/opensvn/psoda/!svn/ver/605/src/treesaap/run.bat
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/605/src/treesaap/Makefile
+END

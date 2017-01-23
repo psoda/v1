@@ -1,0 +1,175 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap/paml4/examples
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+MouseLemurs
+dir
+
+horai.trees
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+d8767ce97d9ecfa88e1bd374516db920
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+mtprim9.nuc
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+0fef1a9b1ab2f6011668e15638f32878
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+horai.nuc
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+5815e7b3bfb069f22c1bdfe801fd6416
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+TipDate
+dir
+
+DatingSoftBound
+dir
+
+lysozyme
+dir
+
+dNdSGene1.nuc
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+ba3136e642d213403936e2d4600b311e
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+CladeModelC
+dir
+
+mtCDNAape
+dir
+
+abglobin.aa
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+7bcc25a94a599d0f1274ffc300d6cbd9
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+abglobin.trees
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+1ded5097985dad8df1d2034b2549d4c1
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+lysin
+dir
+
+HIVNSsites
+dir
+
+YN00abglobin.result
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+3dc244dd48823e3215e74ba029a81a89
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+abglobin.nuc
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+f09be27b2c211e56d8fb995f8eb506ed
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+mtCDNA
+dir
+
+README.txt
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+31f0e1a4b7b0eb53976209eb25c9cd5c
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+9s.trees
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+8837e8a002bd36e1f4800d018d6142ba
+2008-08-19T16:42:26.660001Z
+605
+clement
+

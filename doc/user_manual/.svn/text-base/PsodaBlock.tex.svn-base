@@ -1,0 +1,79 @@
+\input{commands/Align}
+
+\input{commands/BackupRepository}
+\input{commands/BandB}
+\input{commands/BayesSearch}
+
+\input{commands/ConTree}
+
+\input{commands/Graph}
+
+\input{commands/Bootstrap}
+  %BreakInstr.cpp\
+\input{commands/CheckParsimony}
+  %CombineRepositoriesInstr.cpp\
+
+  \input{commands/ConstructAncestorStates}
+  %DSetInstr.cpp\
+  \input{commands/Decrement}  
+  \input{commands/DeleteData}
+  \input{commands/DeleteTree}
+  %EmptyInstr.cpp\
+  \input{commands/Execute}
+  \input{commands/Export} 
+  %GetBestScoreFunction.cpp\
+  %GetNumCharsFunction.cpp\
+  
+ \input{commands/GetTrees}
+  
+  %GetWeightsLengthFunction.cpp\
+ \input{commands/HSearch}
+  \input{commands/Help}  
+  \input{commands/Increment}
+ % \input{commands/Interative} 
+  \input{commands/LBSTest}
+    %\input{commands/LScores}
+  %LSetInstr.cpp\
+ \input{commands/LimitsFunction}
+  \input{commands/LoadData}
+  %LogInstr.cpp\
+  %NeighborTestInstr.cpp\
+  \input{commands/MRP}
+%\input{commands/NJ}
+%\input{commands/PScores}
+%\input{commands/PercentIdentity}
+  \input{commands/Print}
+  %PrintMatrixInstr.cpp\
+  %QuitInstr.cpp\
+\input{commands/RAxMLSearch}
+  %RSearchInstr.cpp\
+  \input{commands/RandomFunction}
+    %RandomMorphInstr.cpp\
+    
+  \input{commands/Return}
+  %SRandomInstr.cpp\
+%\input{commands/SSAlign}
+\input{commands/SaveTrees}
+\input{commands/Set}
+  %\input{commands/ShowTrees}
+  \input{commands/Source}
+    %StackTraceInstr.cpp\
+  \input{commands/StoreTrees}
+  \input{commands/StringLengthFunction}
+  \input{commands/SubStringFunction}
+   \input{commands/SumOfPairs}
+  %TimeFunction.cpp\
+  \input{commands/TreeDist}
+  %TreeInfoInstr.cpp\
+  \input{commands/Update}
+ \input{commands/UPGMA}
+ \input{commands/UseData} 
+ \input{commands/UserDefinedCommand}
+  \input{commands/UseTree}
+  \input{commands/WeightsData} 
+  \input{commands/Weights}
+  \input{commands/WhileLoop} 
+  %DeclareVarInstr.cpp\
+  %WeightsResetInstr.cpp\ *
+  %DisplayInstr.cpp\
+  %TreeDistInstr.cpp

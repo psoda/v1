@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/seqfetcher
+END
+DbSourceProxy.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/seqfetcher/DbSourceProxy.class
+END
+ASequenceFetcher.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/seqfetcher/ASequenceFetcher.class
+END
+DbSourceProxyImpl.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/seqfetcher/DbSourceProxyImpl.class
+END

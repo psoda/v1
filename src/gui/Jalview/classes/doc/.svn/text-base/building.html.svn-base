@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Building Jalview from Source</title>
+</head>
+<body>
+<h1>Building Jalview from Source</h1>
+<P>
+<p>
+You will need the following (hopefully):<br>
+<ul>
+<li>Java development kit (we used JDK1.4SE but JDK1.5 will work too,
+and maybe even jikes).
+<li>Ant (we think 1.5.4 is quite sufficient to use the simple build
+file supplied).
+</ul>
+With any luck, after setting your paths and JAVA_HOME correctly, you
+just need to change to the Jalview directory and run ant (this works
+from JBuilder and eclipse too).
+<pre>
+   ant
+</pre>
+
+</p>
+<p><strong>Building a webstart version of jalview</strong></p>
+Jalview depends on several libraries contained in the libs directory
+of the distribution.  In order to access them, they must all be signed
+jars - using the same jarsigner key as jalview itself. There is a
+build target in ant to make the signed jar files in a directory called
+dist. But first you need to make your own key:
+<p><strong>Making your own key</strong></p>
+
+<p>The ant 'makefulldist' target assumes that a keystore exists in a
+directory 'keys'. To make a key accessible using the default settings
+in the build.xml file then make the keys directory and add the
+jarsigner key with the following :
+</p>
+<pre>
+mkdir keys
+keytool -genkey -keystore keys/.keystore -keypass alignmentisfun
+-storepass alignmentisfun -alias jalview
+ (you will have to answer some personal questions here)
+ant makedist
+ (should eventually generate a Jalview.jnlp file
+  in ./dist along with a set of signed jars using the jalview
+  key)
+</pre>
+
+<p>
+
+<p>
+<address>
+<a href="mailto:help@jalview.org">Jalview development team</a>
+</address>
+</body>
+</html>

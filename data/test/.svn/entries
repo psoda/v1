@@ -1,0 +1,112 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/data/test
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-21T03:47:53.090271Z
+615
+adamteic
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+userdefinedcommands
+dir
+
+realnumbers
+dir
+
+integers
+dir
+
+expressions
+dir
+
+testmisc.nex
+file
+
+
+
+
+2017-01-23T03:56:07.000000Z
+c0b22f0ebb7b65c3d7139182f029f92f
+2008-08-21T03:47:53.090271Z
+615
+adamteic
+
+conditionals
+dir
+
+casting
+dir
+
+builtincommands
+dir
+
+strings
+dir
+
+assert.nex
+file
+
+
+
+
+2017-01-23T03:56:07.000000Z
+c7c279b23c01762f8e5083e853de64bb
+2008-07-09T18:20:04.957032Z
+540
+adamteic
+
+loops
+dir
+
+booleans
+dir
+
+testref.nex
+file
+
+
+
+
+2017-01-23T03:56:07.000000Z
+c539c24af291ce6670754216128111f7
+2008-07-15T00:36:41.479575Z
+554
+adamteic
+
+includes
+dir
+
+test.nex
+file
+
+
+
+
+2017-01-23T03:56:07.000000Z
+e2b188b4c5e386abce11a9ae997a037c
+2008-07-16T15:57:06.691788Z
+555
+adamteic
+
+scope
+dir
+

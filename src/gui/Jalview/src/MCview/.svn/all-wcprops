@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/Atom.java
+END
+Residue.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/Residue.java
+END
+PDBCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/PDBCanvas.java
+END
+Zsort.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/Zsort.java
+END
+Bond.java
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/Bond.java
+END
+MCMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/MCMatrix.java
+END
+PDBfile.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/PDBfile.java
+END
+AppletPDBCanvas.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/AppletPDBCanvas.java
+END
+PDBViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/PDBViewer.java
+END
+PDBChain.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/PDBChain.java
+END
+AppletPDBViewer.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/MCview/AppletPDBViewer.java
+END

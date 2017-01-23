@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/opensvn/psoda/!svn/ver/716/test/align
+END
+align-fasta.nex
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/716/test/align/align-fasta.nex
+END
+align-test.nex
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/716/test/align/align-test.nex
+END
+standardsChecker.pl
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/492/test/align/standardsChecker.pl
+END
+align-codon.nex
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/716/test/align/align-codon.nex
+END
+align-refdata.nex
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/716/test/align/align-refdata.nex
+END
+align-simple.expected.afa
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/428/test/align/align-simple.expected.afa
+END
+50HIV.fasta
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/715/test/align/50HIV.fasta
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/715/test/align/test.pl
+END
+align-simple.nex
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/716/test/align/align-simple.nex
+END

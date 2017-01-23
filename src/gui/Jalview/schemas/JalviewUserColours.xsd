@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 rel. 3 U (http://www.altova.com) by lj (jl) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="www.jalview.org/colours">
+	<xs:complexType name="JalviewUserColours">
+		<xs:sequence>
+			<xs:element name="colour" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:attribute name="Name" type="xs:string"/>
+					<xs:attribute name="RGB" type="xs:string" use="required"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+		<xs:attribute name="schemeName" type="xs:string" use="optional"/>
+	</xs:complexType>
+</xs:schema>

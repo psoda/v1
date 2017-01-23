@@ -1,0 +1,33 @@
+<html>
+<head><title>Percentage Identity Colour Scheme</title>
+<style type="text/css">
+<!--
+td {
+	text-align: center;
+}
+-->
+</style>
+</head>
+
+<body>
+<p><em>PID Colours</em><br>
+  <br>
+  The PID option colours the residues (boxes and/or text) according to the percentage
+  of the residues in each column that agree with the consensus sequence. Only
+  the residues that agree with the consensus residue for each column are coloured.</p>
+<table width="200" border="1">
+  <tr>
+    <td bgcolor="#6464FF">&gt; 80 %</td>
+  </tr>
+  <tr>
+    <td bgcolor="#9999FF">&gt; 60 %</td>
+  </tr>
+  <tr>
+    <td bgcolor="#CCCCFF">&gt; 40%</td>
+  </tr>
+  <tr>
+    <td>&lt; 40%</td>
+  </tr>
+</table>
+</body>
+</html>

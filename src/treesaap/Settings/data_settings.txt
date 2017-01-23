@@ -1,0 +1,7 @@
+[ Data User Input Values ]
+
+1.	geneticCodePath	"./treesaap/Data/GENETIC_CODES/"	[ Specified path to the genetic code files ]
+2.	propertyPath	"./treesaap/Data/PROTEIN_PROPERTIES/"	[ Specified path to the amino acid property files ]
+3.	criticalValuePath "./treesaap/Data/CRITICAL_VALUES/"	[ Specified path to the critical values files ]
+
+

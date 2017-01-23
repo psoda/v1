@@ -1,0 +1,13 @@
+\section{RAxMLSearch}
+
+The RAxMLSearch runs the program RAxML to perform a rapid maximum likelihood based phylogenetic search.
+
+\subsection{Options}
+\begin{description}
+\item[raxargs] = -f -t -\# 1
+\end{description}
+
+\subsection{Option Description}
+\begin{description}
+\item[raxargs] The arguments to be passed the the RAxML program
+\end{description}

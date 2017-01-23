@@ -1,0 +1,52 @@
+#NEXUS
+BEGIN PAUP;
+  $maxTrees = 5;
+
+  set maxTrees = $maxTrees;
+
+  $numSearches = 10;
+
+  print "Default Search Style = " . searchStyle . endl;
+
+  $numSearches = 5;
+  $mVal1 = 3;
+  $mVal2 = 1;
+  $min = 105;
+
+  print endl . "$numSearches = " . $numSearches . endl;
+  print "$mVal1 = " . $mVal1 . endl;
+  print "$mVal2 = " . $mVal2 . endl . endl;
+
+  $i = 0;
+
+  while ($i <= $numSearches && $min > 103)
+
+    print $i . ":\t";
+
+    if ($i % 2 == 0)
+      print "Even\t";
+    else
+      print "Odd\t";
+    endif;
+
+    if ($i > $mVal1)
+      print "Greater Than mVal1 (" . $mVal1 . ")" . endl;
+    elsif ($i > $mVal2)
+      print "Greater Than mVal2 (" . $mVal2 . ")" . endl;
+    else
+      print "Less than both mVal" . endl;
+    endif;
+	
+    print "\t\tmin = " . $min . "\n";
+    $i++;
+    $min++;
+    print "\t\tmin = " . $min . "\n";
+    $min--;
+
+    [hsearch iterations = 1;]
+
+  endwhile;
+
+  print endl . "Done." . endl;
+
+end;

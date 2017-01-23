@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/opensvn/psoda/!svn/ver/876/src/gui/Jalview
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/LICENSE
+END
+ChangeLog
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/ChangeLog
+END
+JalviewApplet.jpx
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/JalviewApplet.jpx
+END
+JalviewX.jpx
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/JalviewX.jpx
+END
+jalview-jalopy.xml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/jalview-jalopy.xml
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/README
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/build.xml
+END

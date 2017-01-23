@@ -1,0 +1,158 @@
+
+What are commands?
+	[some verbal expl]
+
+	Syntax:
+		Like Paup.
+		Always end in semicolon.
+
+		hsearch;
+		hsearch nreps=5 start=stepwise;
+
+		Both of these statements call the hsearch command.  The latter of the two also passes two parameters.
+		[some verbal expl of what paramters are]
+
+		have diagram indicating "command_name parameter_list;" parts.
+		Note on diagram: Whitespace is required between the command_name and the paramter_list, as well as between parameters in the parameter_list.  It is optional around the equals sign between parameter_names and parameter_values.
+
+		Other optional PsodaScript command syntaxes:
+			To increase code clarity, you may optionally use parentheses and/or commas with parameter lists.
+			Parentheses can be used to wrap a parameter list; when parentheses are used, whitespace between the command_name and the paramter_list is no longer required.
+			
+			Parentheses with no paramters:
+				hsearch();
+				hsearch ();
+				       ^-----whitespace optional here
+
+			With one paramter:
+				hsearch(nreps=5);
+				hsearch (nreps=5);
+				hsearch ( nreps = 5 );
+
+			With more than one parameter:
+				hsearch(nreps=5 start=stepwise);
+				hsearch (nreps=5 start=stepwise);
+						^---------------------whitespace still required here.
+				NOTE: in this case, whitespace between parameters is still required, whereas it is optional between the command_name and the parameter_list.
+
+			Commas can be used to separate parameters in a parameter_list; when using commas, whitespace between paramters is no longer required.
+
+			Commas with paramters lists:
+				hsearch nreps=5,start=stepwise;
+				hsearch nreps=5, start=stepwise;
+				       ^	^-----------------------whitespace optional here
+				       |_____whitespace still required here.
+				hsearch nreps=5,start=stepwise swap=TBR; (!!!!!!You can also mix using commas and whitespace to delimit parameters in a parameter_list)
+
+			Examples of combining commas and parentheses:
+				hsearch(nreps=5,start=stepwise);
+				hsearch(nreps=5, start=stepwise);
+				hsearch (nreps=5,start=stepwise);
+				hsearch (nreps = 5, start = stepwise);
+				hsearch ( nreps=5 , start=stepwise );
+
+Notes on Passing Command Parameters:
+	1) Each command defines default values for every parameter that it recognizes. Leaving out a command paramter, therefore, causes the command to use its default value.  Thus, you can call each command without any parameters and it will still run (with the exception of "get").
+	2) On the other hand, listing a parameter name without a value effectively passes the value, "yes". This overrides the parameter's normal default value. Thus, "quit warntosave;" is equivalent to "quit warntosave=yes;".
+	3) Passing a paramter that is unrecognized by a command elicits a warning from the interpreter; the interpreter still runs the program, but ignores the unrecognized parameter.
+	4) Commands that share the same parameter may have different default values for that same parameter.
+
+Changing Command Parameter Defaults:
+
+	Using the set command:
+		The set command is used to make changes to command parameter defaults---that is, to override the original defaults given by the commands themselves.
+		The set command may be used to change 0 or more parameter defaults on 1 or all commands that recognize the given parameter(s).
+
+		set;
+		set{hsearch};
+		The default for a set command without any parameters is to do nothing.
+
+		set{hsearch} nreps=5;
+		Applies only to the given command's parameter defaults.
+		Changes the default values for the given parameters to the specified values.
+		In this case it sets the default for nreps to 5 for the hsearch command.
+		Note: "*command" instead of "command" to prevent naming conflict with possible user-defined parameters or future built-in parameters that happen to be named "command".  Anyone have a better suggestion to fix this problem than using a *?
+
+		set nreps=5;
+		Same as the above except, applies to all commands that recognize the given parameter(s).
+		In this case it changes the default for nreps to 5 for all commands that use the nreps parameter.
+
+	Using reset command:
+		The reset command is used to undo changes made to command parameter defaults---that is, to return parameter defaults back to what they were before the set command was used to change them.
+		The set command may be used to reset 0 or more parameter defaults on 1 or all commands that recogize the given parameter(s).
+
+		reset;
+		reset{hsearch};
+		Does nothing (default).
+
+		reset{hsearch} nreps;
+		reset{hsearch} nreps=yes;
+		Applies only to the given command's parameter defaults.
+		Resets the defaults for the given parameters to their initial value.
+		In this case it resets nreps back to the inital default given by the hsearch command.
+
+		reset nreps;
+		reset nreps=yes;
+		Same as the above except, applies to all commands that recognize the given parameter(s).
+		In this case it resets nreps back to the initial command-specific default for each command.
+
+		Right hand side of nreps=<value> must be "yes" or "no" or left off.  Left off, of course, defaults to "yes".
+
+Accessing Command Parameter Defaults:
+
+	Using the get command:
+		The get command returns the value of the given parameter's default for the given command.  Thus, for the get command you must specify 1 command and 1 parameter, no more no less.
+
+		get{hsearch} nreps;
+		Returns the default value that the hsearch command will use next time it is run without an nreps argument being passed to it.
+
+(It seems that using get to access defaults at the beginning of a user-defined command and storing the value in a variable and later using set to put it back at the end of the command would allow scripters to avoid creating side affects; we could make a mechansim to more easily facilitate this, if we decided to)
+
+
+Variables
+	creating variables:
+		 x = 5;  <--- If x already exists in current scope, it is updated to have the value of 5; otherwise, a new variable (x) is created in the current scope
+		 var x = 5; <--- A new variable (x) is created explicitly in the current scope
+		 (Maybe we shouldn't allow "variable shadowing" (which comes from using var to explicitly create the variable in the current scope)---Java doesn't allow it)
+
+User Defined Commands
+      
+      Syntax:
+
+      Key words (like "begin") are case-insensitive
+
+
+      begin myCommand (param1=5, param2=10);
+      begin myCommand(param1 = 5, param2 = 10);
+      begin myCommand (param1 = 5 param2 = 10);
+
+      begin myCommand param1 = 5 param2 = 10;
+
+
+      end myCommand;
+
+Passing by value vs. passing by reference
+
+      begin myRatchet (percent_to_skew=45, range=15, best_score=*, counter=*|0);
+
+
+      end myCommand;
+
+
+
+
+*---------------------------------
+
+  Accomodate for floating point numbers.
+    --Change Integer class to Number class and store data as float instead of int, but be able to return either
+
+  Use "elseif" syntax.
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+#NEXUS
+BEGIN PSODA;
+
+  source file="test_int_add.nex";
+[
+  source file="test_int_substract.nex";
+  source file="test_int_multiply.nex";
+  source file="test_int_divide.nex";
+  source file="test_int_mod.nex";
+  source file="test_int_negative.nex";
+  source file="test_int_mixed.nex";
+]
+
+END;

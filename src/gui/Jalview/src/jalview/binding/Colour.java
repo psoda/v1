@@ -1,0 +1,194 @@
+/*
+ * Jalview - A Sequence Alignment Editor and Viewer (Version 2.4)
+ * Copyright (C) 2008 AM Waterhouse, J Procter, G Barton, M Clamp, S Searle
+ * 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ * 
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ * 
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA
+ */
+package jalview.binding;
+
+// ---------------------------------/
+// - Imported classes and packages -/
+// ---------------------------------/
+
+import org.exolab.castor.xml.Marshaller;
+import org.exolab.castor.xml.Unmarshaller;
+
+/**
+ * Class Colour.
+ * 
+ * @version $Revision: 1.11.2.2 $ $Date: 2008/08/29 11:08:43 $
+ */
+public class Colour implements java.io.Serializable
+{
+
+  // --------------------------/
+  // - Class/Member Variables -/
+  // --------------------------/
+
+  /**
+   * Field _name.
+   */
+  private java.lang.String _name;
+
+  /**
+   * Field _RGB.
+   */
+  private java.lang.String _RGB;
+
+  // ----------------/
+  // - Constructors -/
+  // ----------------/
+
+  public Colour()
+  {
+    super();
+  }
+
+  // -----------/
+  // - Methods -/
+  // -----------/
+
+  /**
+   * Returns the value of field 'name'.
+   * 
+   * @return the value of field 'Name'.
+   */
+  public java.lang.String getName()
+  {
+    return this._name;
+  }
+
+  /**
+   * Returns the value of field 'RGB'.
+   * 
+   * @return the value of field 'RGB'.
+   */
+  public java.lang.String getRGB()
+  {
+    return this._RGB;
+  }
+
+  /**
+   * Method isValid.
+   * 
+   * @return true if this object is valid according to the schema
+   */
+  public boolean isValid()
+  {
+    try
+    {
+      validate();
+    } catch (org.exolab.castor.xml.ValidationException vex)
+    {
+      return false;
+    }
+    return true;
+  }
+
+  /**
+   * 
+   * 
+   * @param out
+   * @throws org.exolab.castor.xml.MarshalException
+   *                 if object is null or if any SAXException is thrown during
+   *                 marshaling
+   * @throws org.exolab.castor.xml.ValidationException
+   *                 if this object is an invalid instance according to the
+   *                 schema
+   */
+  public void marshal(final java.io.Writer out)
+          throws org.exolab.castor.xml.MarshalException,
+          org.exolab.castor.xml.ValidationException
+  {
+    Marshaller.marshal(this, out);
+  }
+
+  /**
+   * 
+   * 
+   * @param handler
+   * @throws java.io.IOException
+   *                 if an IOException occurs during marshaling
+   * @throws org.exolab.castor.xml.ValidationException
+   *                 if this object is an invalid instance according to the
+   *                 schema
+   * @throws org.exolab.castor.xml.MarshalException
+   *                 if object is null or if any SAXException is thrown during
+   *                 marshaling
+   */
+  public void marshal(final org.xml.sax.ContentHandler handler)
+          throws java.io.IOException,
+          org.exolab.castor.xml.MarshalException,
+          org.exolab.castor.xml.ValidationException
+  {
+    Marshaller.marshal(this, handler);
+  }
+
+  /**
+   * Sets the value of field 'name'.
+   * 
+   * @param name
+   *                the value of field 'name'.
+   */
+  public void setName(final java.lang.String name)
+  {
+    this._name = name;
+  }
+
+  /**
+   * Sets the value of field 'RGB'.
+   * 
+   * @param RGB
+   *                the value of field 'RGB'.
+   */
+  public void setRGB(final java.lang.String RGB)
+  {
+    this._RGB = RGB;
+  }
+
+  /**
+   * Method unmarshal.
+   * 
+   * @param reader
+   * @throws org.exolab.castor.xml.MarshalException
+   *                 if object is null or if any SAXException is thrown during
+   *                 marshaling
+   * @throws org.exolab.castor.xml.ValidationException
+   *                 if this object is an invalid instance according to the
+   *                 schema
+   * @return the unmarshaled jalview.binding.Colour
+   */
+  public static jalview.binding.Colour unmarshal(final java.io.Reader reader)
+          throws org.exolab.castor.xml.MarshalException,
+          org.exolab.castor.xml.ValidationException
+  {
+    return (jalview.binding.Colour) Unmarshaller.unmarshal(
+            jalview.binding.Colour.class, reader);
+  }
+
+  /**
+   * 
+   * 
+   * @throws org.exolab.castor.xml.ValidationException
+   *                 if this object is an invalid instance according to the
+   *                 schema
+   */
+  public void validate() throws org.exolab.castor.xml.ValidationException
+  {
+    org.exolab.castor.xml.Validator validator = new org.exolab.castor.xml.Validator();
+    validator.validate(this);
+  }
+
+}

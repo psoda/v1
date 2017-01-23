@@ -1,0 +1,51 @@
+<html>
+<head><title>PDB Viewing</title></head>
+<body>
+<p><strong>Viewing PDB Structures</strong></p>
+<p>Jalview can view protein structures associated with a sequence via the <strong>&quot;Structure&#8594;View 
+  PDB entry:&quot;</strong> entries from a sequence's <a
+  href="../menus/popupMenu.html">pop-up menu</a>. This will open an
+  interactive display of the structure in a new window, or prompt you
+  to associate the sequence with an existing view of the selected
+  structure. See the <a href="jmol.html">Jmol PDB viewer</a> help page
+  for more information about the display.
+</p>
+<p>To associate PDB files with a sequence, right click on a sequence ID and select 
+  &quot;Structure<strong>&#8594;</strong> Associate Structure with Sequence&quot;, 
+  and one of the submenus:</p>
+<ul>
+  <li>From File - You can load a PDB file from the local machine or network and 
+    associate it with the selected sequence. PDB files associated in this way 
+    will also be saved in the <a href="jalarchive.html">Jalview Archive file</a>. <br>
+  </li>
+  <li>Enter PDB Id - Jalview will use WSDBFetch, provided by the EBI, to fetch 
+    the PDB file with the entered Id.<br>
+  </li>
+  <li>Discover PDB Ids - Jalview uses WSDBFetch, provided by the EBI, to discover 
+    PDB ids for all the sequences in the alignment which have valid Uniprot names 
+    / accession ids. </li>
+</ul>
+<p><strong>Importing PDB Entries or files in PDB format</strong><br>
+You can retrieve sequences from the PDB using the <a
+  href="seqfetch.html">Sequence Fetcher</a>. Any sequences retrieved with this 
+  service are automatically associated with their source database entry. For PDB 
+  sequences, simply select PDB as the database and enter your known PDB id (appended 
+  with ':' and a chain code, if desired).
+<br>Jalview will also read PDB files directly. Simply load in the file
+as you would an alignment file. The sequences of any peptide chains
+will be extracted from the file and viewed in the alignment window.
+<br><em>Note for jalview applet users: due to the applet security
+constraints, PDB Files can currently only be imported by cut and paste
+of the PDB file text into the text box opened by the 'From File' entry
+of the structure menu.</p>
+<p><strong>Viewing the PDB Residue Numbering</strong><br>
+Sequences which have PDB entry or PDB file associations are annotated
+with sequence features from a group named with the associated PDB
+accession number or file name. Each feature gives the corresponding
+PDB Residue Number for each mapped residue in the seuqence. The
+display of these features is controlled through the
+<strong>&quot;View&#8594;Sequence Features&quot;</strong> menu item
+and the <a href="featuresettings.html">Feature Settings dialog
+box</a>.</p> 
+</body>
+</html>

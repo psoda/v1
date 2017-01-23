@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources
+END
+EmblSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/EmblSource.java
+END
+Uniprot.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/Uniprot.java
+END
+DasSequenceSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/DasSequenceSource.java
+END
+EmblXmlSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/EmblXmlSource.java
+END
+Pfam.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/Pfam.java
+END
+PfamSeed.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/PfamSeed.java
+END
+GeneDbSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/GeneDbSource.java
+END
+Pdb.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/Pdb.java
+END
+PfamFull.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/PfamFull.java
+END
+EmblCdsSouce.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/EmblCdsSouce.java
+END
+UnprotName.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/UnprotName.java
+END
+EbiFileRetrievedProxy.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/jalview/ws/dbsources/EbiFileRetrievedProxy.java
+END

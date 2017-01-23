@@ -1,0 +1,82 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/help
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+help.hs
+file
+
+
+
+
+2017-01-23T03:54:59.000000Z
+169a79ad112025dd052348a5c0aa1d9b
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+helpTOC.html
+file
+
+
+
+
+2017-01-23T03:54:59.000000Z
+6392e611cfcdad0e3fe990d324bcc16a
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+html
+dir
+
+help.jhm
+file
+
+
+
+
+2017-01-23T03:54:59.000000Z
+952e83392992d596b7a0427d7461bd4a
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+icons
+dir
+
+helpTOC.xml
+file
+
+
+
+
+2017-01-23T03:54:59.000000Z
+65bd37b02c98a92032c6bdf780c32f0c
+2008-12-19T21:34:51.583063Z
+753
+clement
+

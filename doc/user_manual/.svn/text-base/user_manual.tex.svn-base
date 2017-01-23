@@ -1,0 +1,15 @@
+\documentclass{book}
+
+\title{PSODA Users' Manual}
+
+\author{Computational Sciences Laboratory \\ Brigham Young University}
+
+\begin{document}
+\maketitle
+
+\part{Nexus Input Files}
+\chapter{The Preamble: DATA and TREES Blocks}
+\chapter{The PSODA Block}
+\input{PsodaBlock} 
+
+\end{document}

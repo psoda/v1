@@ -1,0 +1,210 @@
+#NEXUS
+BEGIN PSODA;
+
+  source file="assert.nex";
+
+  print "Testing syntax ... ";
+
+  [ A variable can be defined just by assigning a value to it: ]
+  var1 = 50;
+  assert (statement = "var1 == 50");
+  assert (statement = "var1 != 45");
+
+  $myString = "This is my string";
+  assert (statement = "$myString != \"\"");
+  assert (statement = "$myString != \"$myString\"");
+  assert (statement = "$myString == \"This is my string\"");
+
+  myBool = true;
+  assert (statement = "myBool == true");
+  assert (statement = "myBool != false");
+
+  myDouble = 4.5;
+  assert (statement = "myDouble == 4.5");
+  assert (statement = "myDouble != 4.0");
+
+  mySecondDouble = 4.0;
+  assert (statement = "mySecondDouble == 4.0");
+  assert (statement = "mySecondDouble == 4");
+  assert (statement = "mySecondDouble != 4.01");
+
+  [ Any of the following should be valid ways to call a command ]
+  subString string=$myString first=5 length=7;
+  subString(string=$myString first=5 length=7);
+  subString (string=$myString first=5 length=7);
+  subString(string=$myString, first=5, length=7);
+  subString(string=$myString,first=5,length=7);
+  subString (string=$myString, first=5, length=7);
+  subString string=$myString,first=5,length=7;
+  subString string=$myString, first=5, length=7;
+  subString;
+  subString();
+  substring string=$myString first = 5;
+
+  $correctAnswer = "is my s";
+
+  [ Any of these should be valid ways to call a function ]
+  if    ($correctAnswer !=    subString(string=$myString first=5 length=7)     )return "Error with command1";
+  elsif ($correctAnswer !=    subString(string=$myString, first=5, length=7)   )return "Error with command2";
+  elsif ($correctAnswer !=    subString(string=$myString,first=5,length=7)     )return "Error with command3";
+  elsif ($correctAnswer !=    subString (string=$myString, first=5, length=7)  )return "Error with command4";
+  elsif ($correctAnswer !=    substring(string=$myString first=5 length=7)     )return "Error with command5";
+  elsif ($correctAnswer !=    substring(string=$myString, first=5, length=7)   )return "Error with command6";
+  elsif ($correctAnswer !=    substring(string=$myString,first=5,length=7)     )return "Error with command7";
+  elsif ($correctAnswer !=    substring (string=$myString, first=5, length=7)  )return "Error with command8";
+  elsif ("" !=                substring()                                      )return "Error with command9";
+  elsif ("" !=                subString()                                      )return "Error with command10";
+  endif;
+
+  begin runif min = -1, max = 1;
+    maxInt = limits (bound = "max", type = "int");
+    randNum = random (max = maxInt);
+    span = double(max) - min;
+    returnVal = double(randNum) / maxInt * span + min;
+    return returnVal;
+  end;
+
+  begin getNewAverage curAvg = 0, n0 = 0, datum = 0;
+    if (!n0)
+      return datum;
+    else
+      return curAvg + double(datum - curAvg) / (n0 + 1);
+    endif;
+  end;
+
+  begin abs (num = 0);
+    if (num < 0)
+      return -num;
+    else
+      return num;
+    endif;
+  end;
+
+  begin avg data = "";
+    $inputLength = stringLength(string = data);
+    $iOfLastNewline = -1;
+    $i = 0;
+    $curAvg = 0;
+    $sawNum = false;
+    $n = 0;
+    while ($i < $inputLength)
+      [check to see if the next char is a newline]
+      $foundNewline = false;
+      $lastCharOfString = false;
+      $numLength = 0;
+      if (subString(string = data, first = $i, length = 1) == "\n")
+          $numLength = $i - $iOfLastNewline - 1;
+          $foundNewline = true;
+      else
+          $sawNum = true;
+          if ($i == ($inputLength - 1))
+            $numLength = $i - $iOfLastNewline;
+            $lastCharOfString = true;
+          endif;
+      endif;
+      if (($foundNewline || $lastCharOfString) && $sawNum)
+        [ get the number ]
+        $thisNumString = subString(string = data, first = $iOfLastNewline + 1, length = $numLength);
+        $thisNum = double($thisNumString);
+        $curAvg = getNewAverage(curAvg = $curAvg, n0 = $n, datum = $thisNum);
+        $sawNum = false;
+        $n++;
+      endif;
+      if ($foundNewline)
+        $iOfLastNewline = $i;
+      endif;
+      $i++;
+    endwhile;
+    return $curAvg;
+  end;
+
+  begin rnorm n = 1, mean = 0;
+    $numDraws = n;
+    $mean = mean;
+    $numSamplesPerGroup = 10;
+    $i = 0;
+    $draws = "";
+    $actualMean = 0;
+    while ($i < $numDraws)
+      $j = 0;
+      $sum = 0;
+      $meanOfGroup = 0;
+      while ($j < $numSamplesPerGroup)
+        $newDatum = runif(min = (mean - $numSamplesPerGroup), max = (mean + $numSamplesPerGroup));
+        $meanOfGroup = getNewAverage(curAvg = $meanOfGroup, n0 = $j, datum = $newDatum);
+        $j++;
+      endwhile;
+      $actualMean = getNewAverage(curAvg = $actualMean, n0 = $i, datum = $meanOfGroup);
+      $draws = $draws . $meanOfGroup;
+      $i++;      
+      if ($i < $numDraws)
+        $draws = $draws . "\n";
+      endif;
+    endwhile;
+    return $draws;
+  end;
+
+  $n = 100;
+  $i = 1;
+  $actualMean = 0;
+  while ($i <= $n)
+    $actualMean = getNewAverage(curAvg = $actualMean, n0 = $i - 1, datum = $i);
+    $i++;
+  endwhile;
+  if ($actualMean != double($n + 1) / 2)
+    return "Bad averaging\n";
+  endif;
+
+  $ndata = rnorm (n = 10, mean = 0);
+
+  $avg = avg(data = $ndata);
+  if (abs(num = $avg) > 2)
+    return "Normal data too far from mean\n";
+  endif;
+
+  [ Declaring a command should accept the same syntax ]
+  begin rnorm1;
+    random;
+  end;
+
+  [ Pass by reference ]
+
+  begin incrementCounterOnceMore(counter&, originalValueReturn& = 0);
+    originalValueReturn = counter;
+    counter++;
+  end;
+
+  begin incrementCounter(counter&, originalValueReturn& = 0);
+    originalValueReturn = counter;
+    counter++;
+    incrementCounterOnceMore(counter = counter);
+  end;
+
+  $startVal = 45;
+  $passingByRefVar = $startVal;
+  assert (statement = "$passingByRefVar == $startVal");
+  $originalReturn = 0;
+  incrementCounter(counter = $passingByRefVar, originalValueReturn = $originalReturn);
+  assert (statement = "$passingByRefVar == $startVal + 2");
+  assert (statement = "$originalReturn == $startVal");
+  incrementCounter(counter = $passingByRefVar);
+  assert (statement = "$passingByRefVar == $startVal + 4");
+  assert (statement = "$originalReturn == $startVal");
+
+  [Inline pass by reference]
+  begin* inlineIncrement(counter&, originalValueReturn& = 0);
+    originalValueReturn = counter;
+    counter++;
+  end;
+
+  $startVal2 = 25;
+  $passingByRefVar2 = $startVal2;
+  assert (statement = "$passingByRefVar2 == $startVal2");
+  $originalReturn2 = 0;
+  inlineIncrement(counter = $passingByRefVar2, originalValueReturn = $originalReturn2);
+  assert (statement = "$passingByRefVar2 == $startVal2 + 1");
+  assert (statement = "$originalReturn2 == $startVal2");
+
+  print ( "\t\t\t\t\t...PASSED\n");
+
+END;

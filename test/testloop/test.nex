@@ -1,0 +1,16 @@
+#NEXUS
+BEGIN PSODA;
+
+
+begin countDown();
+  if (x >= 0)
+    print x . endl;
+    countDown x = x - 1;
+  endif;
+end;
+
+set x = 10;
+countDown x = 10;
+
+quit;
+end;

@@ -1,0 +1,12 @@
+6 10 U L
+Nicotiana  GTTGACAATT
+Galphimia  ATGCAGGGGT
+Oenothera  TTTCCCGGGA
+Victoria   GTAGTAGTAG
+Cypirapea  ATGCAATGAC
+Barclaya   AATTGGCCAA
+1
+((((Victoria:52.21101,Barclaya:3.02084):0.00006,
+Cypirapea:0.00006):0.55555,Galphimia:0.00006):2.72176,
+(Oenothera:4.01006,Nicotiana:0.00006):1.3);
+

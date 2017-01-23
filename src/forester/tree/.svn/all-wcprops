@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/opensvn/psoda/!svn/ver/593/src/forester/tree
+END
+TreeHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/98/src/forester/tree/TreeHelper.java
+END
+Tree.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/98/src/forester/tree/Tree.java
+END
+PreorderTreeIterator.class
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/opensvn/psoda/!svn/ver/593/src/forester/tree/PreorderTreeIterator.class
+END
+StackItem.class
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/593/src/forester/tree/StackItem.class
+END
+Node.class
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/593/src/forester/tree/Node.class
+END
+PostorderTreeIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/98/src/forester/tree/PostorderTreeIterator.java
+END
+PreorderTreeIterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/opensvn/psoda/!svn/ver/98/src/forester/tree/PreorderTreeIterator.java
+END
+Iterator.class
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/593/src/forester/tree/Iterator.class
+END
+Branch.class
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/593/src/forester/tree/Branch.class
+END
+TreeHelper.class
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/593/src/forester/tree/TreeHelper.class
+END
+Tree.class
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/593/src/forester/tree/Tree.class
+END
+StackItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/98/src/forester/tree/StackItem.java
+END
+Node.java
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/98/src/forester/tree/Node.java
+END
+Iterator.java
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/98/src/forester/tree/Iterator.java
+END
+Branch.java
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/98/src/forester/tree/Branch.java
+END

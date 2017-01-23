@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0/src
+END
+fann_train.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fann_train.c
+END
+Makefile.in
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/908/src/fann-2.0.0/src/Makefile.in
+END
+fann.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fann.c
+END
+fixedfann.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fixedfann.c
+END
+fann_cascade.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fann_cascade.c
+END
+COPYING
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/COPYING
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/Makefile.am
+END
+fann_train_data.c
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fann_train_data.c
+END
+floatfann.c
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/floatfann.c
+END
+fann_io.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fann_io.c
+END
+fann_error.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/fann_error.c
+END
+doublefann.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/src/doublefann.c
+END

@@ -1,0 +1,20 @@
+#NEXUS
+BEGIN PAUP;
+
+  print ( "Running tests...\n\n");
+  source file="testmisc.nex";
+  source file="builtincommands/test.nex";
+  source file="userdefinedcommands/test.nex";
+  source file="includes/test.nex";
+  source file="expressions/test.nex";
+  source file="loops/test.nex";
+  source file="conditionals/test.nex";
+  source file="scope/test.nex";
+  source file="realnumbers/test.nex";
+  source file="booleans/test.nex";
+  source file="strings/test.nex";
+  source file="integers/test.nex";
+  source file="casting/test.nex";
+  return "\"Passed All Tests!!\"\n";
+
+END;

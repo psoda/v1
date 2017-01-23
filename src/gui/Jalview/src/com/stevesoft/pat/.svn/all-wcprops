@@ -1,0 +1,467 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat
+END
+patInt.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/patInt.java
+END
+RightRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RightRule.java
+END
+Skip.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Skip.java
+END
+End.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/End.java
+END
+Bracket.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Bracket.java
+END
+Rthings.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Rthings.java
+END
+oneChar.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/oneChar.java
+END
+LeftRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/LeftRule.java
+END
+NonDirFileRegex.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/NonDirFileRegex.java
+END
+PopRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/PopRule.java
+END
+OrMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/OrMark.java
+END
+StringRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/StringRule.java
+END
+Skipped.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Skipped.java
+END
+Multi_stage2.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Multi_stage2.java
+END
+RegOpt.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegOpt.java
+END
+DotMulti.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/DotMulti.java
+END
+NullRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/NullRule.java
+END
+Transformer.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Transformer.java
+END
+ReplaceRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/ReplaceRule.java
+END
+Ctrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Ctrl.java
+END
+SubMark.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/SubMark.java
+END
+RegexTokenizer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegexTokenizer.java
+END
+BasicStringBufferLike.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/BasicStringBufferLike.java
+END
+DirFileRegex.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/DirFileRegex.java
+END
+Regex.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Regex.java
+END
+FileRegex.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/FileRegex.java
+END
+CustomEndpoint.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/CustomEndpoint.java
+END
+Prop.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Prop.java
+END
+patInf.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/patInf.java
+END
+RegSyntax.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegSyntax.java
+END
+Validator.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Validator.java
+END
+WantMoreTextReplaceRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/WantMoreTextReplaceRule.java
+END
+Any.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Any.java
+END
+lookAhead.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/lookAhead.java
+END
+TransPat.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/TransPat.java
+END
+Replacer.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Replacer.java
+END
+parsePerl.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/parsePerl.java
+END
+RegSyntaxError.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegSyntaxError.java
+END
+NotImplementedError.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/NotImplementedError.java
+END
+AmpersandRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/AmpersandRule.java
+END
+StringBufferLike.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/StringBufferLike.java
+END
+BackG.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/BackG.java
+END
+SpecialRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/SpecialRule.java
+END
+FastMulti.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/FastMulti.java
+END
+Custom.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Custom.java
+END
+NoPattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/NoPattern.java
+END
+StringLike.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/StringLike.java
+END
+Pthings.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Pthings.java
+END
+Pattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Pattern.java
+END
+ChangeRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/ChangeRule.java
+END
+Or.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Or.java
+END
+CaseMgr.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/CaseMgr.java
+END
+BackRefRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/BackRefRule.java
+END
+RegRes.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegRes.java
+END
+PatternSub.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/PatternSub.java
+END
+Skip2.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Skip2.java
+END
+StrPos.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/StrPos.java
+END
+Multi.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Multi.java
+END
+RBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RBuffer.java
+END
+Range.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Range.java
+END
+Group.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Group.java
+END
+Start.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Start.java
+END
+RegexReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegexReader.java
+END
+Bits.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Bits.java
+END
+UniValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/UniValidator.java
+END
+CodeRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/CodeRule.java
+END
+RuleHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RuleHolder.java
+END
+Backup.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Backup.java
+END
+RegexWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/RegexWriter.java
+END
+PushRule.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/PushRule.java
+END
+NullPattern.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/NullPattern.java
+END
+BackMatch.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/BackMatch.java
+END
+Boundary.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/Boundary.java
+END
+PartialBuffer.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/PartialBuffer.java
+END
+FastBracket.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/FastBracket.java
+END
+SkipBMH.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/SkipBMH.java
+END
+MultiMin.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/src/com/stevesoft/pat/MultiMin.java
+END

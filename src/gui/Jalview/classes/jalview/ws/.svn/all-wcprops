@@ -1,0 +1,203 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws
+END
+DasSequenceFeatureFetcher$FetchDBRefs.class
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/DasSequenceFeatureFetcher$FetchDBRefs.class
+END
+SeqSearchWSClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSClient.class
+END
+WSClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/WSClient.class
+END
+SeqSearchWSThread$SeqSearchWSJob.class
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSThread$SeqSearchWSJob.class
+END
+JPredClient$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/JPredClient$1.class
+END
+MsaWSClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSClient.class
+END
+WSThread$WSJob.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/WSThread$WSJob.class
+END
+Discoverer$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/Discoverer$1.class
+END
+MsaWSThread$MsaWSJob.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSThread$MsaWSJob.class
+END
+JPredThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/JPredThread.class
+END
+WSThread$JobStateSummary.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/WSThread$JobStateSummary.class
+END
+SequenceFetcher.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SequenceFetcher.class
+END
+SeqSearchWSClient$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSClient$1.class
+END
+DasSequenceFeatureFetcher.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/DasSequenceFeatureFetcher.class
+END
+SeqSearchWSClient$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSClient$2.class
+END
+MsaWSClient$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSClient$1.class
+END
+MsaWSClient$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSClient$2.class
+END
+SeqSearchWSThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSThread.class
+END
+JPredThread$JPredJob.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/JPredThread$JPredJob.class
+END
+JPredThread$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/JPredThread$1.class
+END
+WSThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/WSThread.class
+END
+MsaWSThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSThread.class
+END
+JPredThread$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/JPredThread$2.class
+END
+DBRefFetcher.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/DBRefFetcher.class
+END
+WSClientI.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/WSClientI.class
+END
+DasSequenceFeatureFetcher$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/DasSequenceFeatureFetcher$1.class
+END
+DasSequenceFeatureFetcher$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/DasSequenceFeatureFetcher$2.class
+END
+JPredClient.class
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/JPredClient.class
+END
+Discoverer.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/Discoverer.class
+END
+SeqSearchWSThread$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSThread$1.class
+END
+SeqSearchWSThread$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/SeqSearchWSThread$2.class
+END
+MsaWSThread$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSThread$1.class
+END
+MsaWSThread$2.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/ws/MsaWSThread$2.class
+END

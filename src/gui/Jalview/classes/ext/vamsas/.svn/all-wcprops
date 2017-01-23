@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas
+END
+SeqSearchServiceSoapBindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/SeqSearchServiceSoapBindingStub.class
+END
+ServiceHandle.class
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/ServiceHandle.class
+END
+MuscleWSSoapBindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/MuscleWSSoapBindingStub.class
+END
+SeqSearchServiceService.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/SeqSearchServiceService.class
+END
+JpredSoapBindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/JpredSoapBindingStub.class
+END
+IRegistry.class
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/IRegistry.class
+END
+SeqSearchServiceLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/SeqSearchServiceLocator.class
+END
+MuscleWSService.class
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/MuscleWSService.class
+END
+JpredService.class
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/JpredService.class
+END
+IRegistryServiceLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/IRegistryServiceLocator.class
+END
+SeqSearchI.class
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/SeqSearchI.class
+END
+ServiceHandles.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/ServiceHandles.class
+END
+MuscleWS.class
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/MuscleWS.class
+END
+IRegistryService.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/IRegistryService.class
+END
+Jpred.class
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/Jpred.class
+END
+RegistryServiceSoapBindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/RegistryServiceSoapBindingStub.class
+END
+MuscleWSServiceLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/MuscleWSServiceLocator.class
+END
+JpredServiceLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/ext/vamsas/JpredServiceLocator.class
+END

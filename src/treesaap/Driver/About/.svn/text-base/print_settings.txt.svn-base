@@ -1,0 +1,41 @@
+[ PrintOut User Input Values ]
+
+[ Parser Print Options ]
+1.	treeHeader	true	[ Whether to print the tree header to file ]
+2.	treeTaxa	true	[ Whether to print the tree's taxa to file ]
+3.	ancestralTree	true	[ Whether to print the tree's ancestral data to file ]
+4.	treeNodes	true	[ Whether to print the tree's nodes to file ]
+
+[ Parser Files to print ]
+5.	writeTree	true	[ Whether to print the tree file with the options above ]
+6.	writeTCSTree	true	[ Whether to print the tcs tree file ]
+
+[ Data Files to print ]
+7.	writeGeneticCodes	false	[ Whether to print the geneticCode file ]
+8.	writeProperties	false	[ Whether to print the Properties file ]
+9.	writeZScores	false	[ Whether to print the ZScores file ]
+10.	writeGFScores	false	[ Whether to print the GFScores file ]
+11.	writePathways	false	[ Whether to print the Pathways file ]
+
+[ Substs Files to print ]
+12.	writeSynonymous	true	[ Whether to print the Synonymous Substitution file ]
+13.	writeNonsynonymous	true	[ Whether to print the Nonsynonymous Substitution file ]
+14.	writeStop	true	[ Whether to print the Stop Codons file ]
+15.	writeAmbiguous	true	[ Whether to print the Ambiguous Codons file ]
+
+[ Evpthwy Files to print ]
+16.	categoryTotalsFolder	false	[ Whether to print all the individual category totals to a folder ]
+17.	categoryTotalsFile	true	[ Whether to print the category totals file ]
+18.	significantByZScore	true	[ Whether to print significantByZScore file ]
+19.	significantByGScore	true	[ Whether to print significantByGScore file ]
+20.	significantByGFScore	true	[ Whether to print significantByGFScore file ]
+21.	significantBySubs	true	[ Whether to print significantBySubstitution file ]
+22.	significantByCodon	true	[ Whether to print significantByCodon file ]
+23.	slidingCatTotals	true	[ Whether to print sliding Category Totals file ]
+	
+[ CDM Files to print ]
+24.	cdmResults	true	[ Whether to print the CDM results file ]
+25.	slidingWindowTotal	true	[ Whether to print the sliding window totals file ]
+26.	slidingWindowFolder	false	[ Whether to print all the individual cdm totals to a folder ]
+
+

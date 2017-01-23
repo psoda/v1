@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks
+END
+benchmark.sh
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/benchmark.sh
+END
+benchmarks.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/benchmarks.pdf
+END
+performance.cc
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/performance.cc
+END
+two-spirals.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/two-spirals.c
+END
+gnuplot
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/gnuplot
+END
+quality_fixed.c
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/quality_fixed.c
+END
+ctimer.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/ctimer.h
+END
+parity.c
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/parity.c
+END
+quality.cc
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/quality.cc
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/.cvsignore
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/README
+END
+shuffle.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/benchmarks/shuffle.c
+END

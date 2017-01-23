@@ -1,0 +1,163 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap/Data
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-12-11T19:22:24.353167Z
+739
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+GeneticCodeBean.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+3ae1646182ccd66ec9565eb6dc4d6f3a
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+ProteinBean.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+cefba6b540a159f844e641c837cbb01f
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+DataStub.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+654aab36c7a14db716a3eade21140460
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+Data.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+85d1fbabf873e2644985968777a2d696
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+GeneticCodeControl.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+593345940ce01fbd034ef3e6ccf88089
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+SECONDARY_STRUCTURES
+dir
+
+GENETIC_CODES
+dir
+
+PROTEIN_PROPERTIES
+dir
+
+TableBean.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+ffa2da054e34b602d937b8046008fd8e
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+CriticalValueBean.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+129982c5ad35e098d5c16479ea4cb7a7
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+ProteinControl.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+1c6231e295e876fde02e35a5d2a813ef
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+DataUsageBean.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+d90c4bfdf56da04b76245804a45668d6
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+CriticalValueControl.java
+file
+
+
+
+
+2017-01-23T03:55:31.000000Z
+ac53ed05fcbaf89f04dca084344d7992
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+CRITICAL_VALUES
+dir
+
+About
+dir
+

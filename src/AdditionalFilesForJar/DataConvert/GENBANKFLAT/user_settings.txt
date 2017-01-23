@@ -1,0 +1,1 @@
+[ GENBANKFLATXML User Input Values ]

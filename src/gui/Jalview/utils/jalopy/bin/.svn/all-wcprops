@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/utils/jalopy/bin
+END
+lcp.bat
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/utils/jalopy/bin/lcp.bat
+END
+preferences.bat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/utils/jalopy/bin/preferences.bat
+END
+preferences.sh
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/opensvn/psoda/!svn/ver/753/src/gui/Jalview/utils/jalopy/bin/preferences.sh
+END

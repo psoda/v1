@@ -1,0 +1,55 @@
+#NEXUS
+BEGIN PSODA;
+
+  print ( "Testing nested order of operations (+-%/*) ...");
+
+  result =      (3 + 4 * 7 / 3 - 8) * 2 % 3 + 34 - (45 / (7 - 3 * 2));
+  if (result != (3 + 4 * 7 / 3 - 8) * 2 % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 1\n";
+  endif;
+  if (result != (3 +   28  / 3 - 8) * 2 % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 2\n";
+  endif;
+  if (result != (3 +     9     - 8) * 2 % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 3\n";
+  endif;
+  if (result != (    12        - 8) * 2 % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 4\n";
+  endif;
+  if (result != (         4       ) * 2 % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 5\n";
+  endif;
+  if (result !=           4         * 2 % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 6\n";
+  endif;
+  if (result !=              8          % 3 + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 7\n";
+  endif;
+  if (result !=                2            + 34 - (45 / (7 - 3 * 2)))
+    return "Bad math 8\n";
+  endif;
+  if (result !=                      36          - (45 / (7 - 3 * 2)))
+    return "Bad math 9\n";
+  endif;
+  if (result !=                      36          - (45 / (7 -   6  )))
+    return "Bad math 10\n";
+  endif;
+  if (result !=                      36          - (45 / (    1    )))
+    return "Bad math 11\n";
+  endif;
+  if (result !=                      36          - (45 /      1     ))
+    return "Bad math 12\n";
+  endif;
+  if (result !=                      36          - (       45       ))
+    return "Bad math 13\n";
+  endif;
+  if (result !=                      36          -         45        )
+    return "Bad math 14\n";
+  endif;
+  if (result !=                                -9                    )
+    return "Bad math 15\n";
+  endif;
+
+  print ( "\t\t...PASSED\n");
+
+END;

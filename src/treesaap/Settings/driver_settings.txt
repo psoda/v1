@@ -1,0 +1,10 @@
+[ Driver User Input Values ]
+
+1.	geneticCode	Universal	[ The Genetic Code used by Driver ]
+2.	moveTempFiles	true	[ Move the Baseml Temp Files ]
+3.	moveRSTFile	true	[ Move the RST file ]
+4.	resultsDirectory	"./treesaap/Output/"	[ The Results Directory ]
+5.	logFile	""	[ The location of the log file ]
+6.	createTreeFolder	true	[ Whether to create a tree folder or not ]
+
+

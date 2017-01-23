@@ -1,0 +1,18 @@
+\section{ConTree}
+
+The ConTree instruction builds a consensus tree from the trees in the current tree repository.
+
+\subsection{Options}
+\begin{description}
+\item[strict] = true
+\item[majrule] = false
+\item[percent] = 100
+\end{description}
+
+\subsection{Option Descriptions}
+
+\begin{description}
+\item[strict] Equivalent to setting percent = 100
+\item[majrule]  Equivalent to setting percent = 50
+\item[percent] The percentage of trees that must have a branch for it to be included in the consensus tree.
+\end{description}

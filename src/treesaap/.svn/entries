@@ -1,0 +1,133 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-12-11T19:22:24.353167Z
+739
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Substs
+dir
+
+.project
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+21da90c10c056d55eae145fe0d1d5473
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+CommandLine
+dir
+
+Weka
+dir
+
+Objects
+dir
+
+Block
+dir
+
+Driver
+dir
+
+GraphicInterface
+dir
+
+Tree
+dir
+
+Output
+dir
+
+Settings
+dir
+
+.classpath
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+9ad1b0a216b8d09b1a499f231453cd14
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+CDM
+dir
+
+BASEML
+dir
+
+clad
+dir
+
+Run
+dir
+
+Evpthwy
+dir
+
+Data
+dir
+
+run.bat
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+4ab7b4fc216212dce2fd5759190f8510
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+SampleData
+dir
+
+GeneralDNAFileParser
+dir
+
+paml4
+dir
+
+Makefile
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+60df0cea008ad8c66d25b3f63d0394ce
+2008-08-19T16:42:26.660001Z
+605
+clement
+

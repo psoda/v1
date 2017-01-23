@@ -1,0 +1,56 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap/Substs/About
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Substs.doc
+file
+
+
+
+
+2017-01-23T03:55:29.000000Z
+9de12146b051d732de37a5d1c9eabab0
+2008-08-19T16:42:26.660001Z
+605
+clement
+has-props
+
+Source Code
+dir
+
+user_settings.txt
+file
+
+
+
+
+2017-01-23T03:55:29.000000Z
+f75fc2f876efc354258ae2f7197298d9
+2008-08-19T16:42:26.660001Z
+605
+clement
+

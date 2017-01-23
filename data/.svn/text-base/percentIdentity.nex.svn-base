@@ -1,0 +1,21 @@
+#NEXUS
+
+begin data;
+	format datatype=proteins ;
+
+sequences
+
+>t00001
+lqdaewywgdisreevneklrdtadgtflvrdastkmhgdytltlrkggnnklikifhrdgkygfsdpltfnsvvelinhyrneslaqynpkldvkll
+>t00002
+hrtqlwfhgrisreesqrligqqglvdglflvresqrnpqgfvlslchlqkvkhylilpseeegrlyfsmddgqtrftdllqlvefhqlnrgilpcllrhc
+>t00003
+lwqegiiygymgrqevndalqnqdpgtfiirfsernpgqfgiayigvemparikhylvqpndtaaakktfpdflsehsqfvnllqwtkdtngaprflklhkdtalgsfapkrtapvpvggx
+>t00004
+lwndgcimgfiskererallkdqqpgtfllrfsessregaitftwversqnggepdfhavepytkkelsavtfpdiirnykvmaaenipenplkylypnidkdhafgkyysrgxikte
+;
+end;
+
+BEGIN PAUP;
+	percentIdentity;
+end;

@@ -1,0 +1,31 @@
+#NEXUS
+BEGIN PAUP;
+
+print "Seed of 45:\n";
+
+$i = 0;
+
+srandom seed = 45;
+
+$myVar = 0;
+
+while ($i < 10)
+  $myVar = random(max = 100);
+  print $myVar . endl;
+  $i++;
+endWhile;
+
+print "\n";
+
+print "Seeded by clock:\n";
+
+$i = 0;
+
+srandom;
+while ($i < $myVar)
+  $myVar = random(max = 100);
+  print $myVar . endl;
+  $i++;
+endWhile;
+
+end;

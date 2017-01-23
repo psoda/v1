@@ -1,0 +1,96 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/fann-2.0.0/python
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-03-10T21:29:52.202091Z
+797
+snell
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+build.bat
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+c3f03e0ae5221df2461fcc508b4fb83f
+2009-03-10T21:29:52.202091Z
+797
+snell
+has-props
+
+INSTALL
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+30c67dee54b4243e034d28134ce8cbc8
+2009-03-10T21:29:52.202091Z
+797
+snell
+
+setup.py
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+5213daf72764e2952e0dc88e875a85b9
+2009-03-10T21:29:52.202091Z
+797
+snell
+has-props
+
+pyfann
+dir
+
+Makefile
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+6174a29d99af54746d7ca0162aaa207f
+2009-03-10T21:29:52.202091Z
+797
+snell
+
+README
+file
+
+
+
+
+2017-01-23T03:55:26.000000Z
+decaad0758977bfb349f81a815586054
+2009-03-10T21:29:52.202091Z
+797
+snell
+
+examples
+dir
+

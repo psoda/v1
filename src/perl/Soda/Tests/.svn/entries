@@ -1,0 +1,40 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/perl/Soda/Tests
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-03-25T23:06:52.824795Z
+405
+hyrum
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Regres.pm
+file
+
+
+
+
+2017-01-23T03:55:19.000000Z
+64320f3fbcf286c4e9e87ac8d13ac615
+2006-09-12T22:12:53.403456Z
+1
+hyrum
+

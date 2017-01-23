@@ -1,0 +1,62 @@
+#NEXUS
+BEGIN PSODA;
+
+  begin testSetMax(numiterations = 10, maxtotest = 10);
+    i = 0;
+    sum = 0;
+    while (i < numiterations)
+      thisRandomNum = random();
+      if (thisRandomNum >= maxtotest)
+        return "Test Set (max) Failed: " . thisRandomNum . " >= " . maxtotest;
+      endif;
+      sum = sum + thisRandomNum;
+      i++;
+    endwhile;
+    if (sum < double(maxtotest) / 10)
+      return "Test Set (max) Failed: " . sum;
+    endif;
+  end;
+
+  set max = 1;
+
+  print ( "Testing set command ...");
+
+  numiterations = 10;
+
+  testval = 10000;
+  set{random} max = testval;
+  returnval = testSetMax(numiterations = numiterations, maxtotest = testval);
+  if (returnval)
+    return returnval;
+  endif;
+
+  set{random} max = testval max = 1;
+  returnval = testSetMax(numiterations = numiterations, maxtotest = testval);
+  if (!returnval)
+    return "Test set failed because this should have failed\n";
+  endif;
+
+  testval = 2;
+  set{random} max = testval;
+  returnval = testSetMax(numiterations = numiterations, maxtotest = testval);
+  if (returnval)
+    return returnval;
+  endif;
+
+  testval = 200;
+  set max = testval;
+  returnval = testSetMax(numiterations = numiterations, maxtotest = testval);
+  if (returnval)
+    return returnval;
+  endif;
+
+  testval = 2;
+  set max = testval;
+  returnval = testSetMax(numiterations = numiterations, maxtotest = testval);
+  if (returnval)
+    return returnval;
+  endif;
+
+  print ( "\t\t\t\t\t...PASSED\n");
+
+END;

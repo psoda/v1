@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/opensvn/psoda/!svn/ver/873/test/consense
+END
+consensus.goal
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/873/test/consense/consensus.goal
+END
+consensus.nex
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/861/test/consense/consensus.nex
+END
+consensus.tre
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/opensvn/psoda/!svn/ver/403/test/consense/consensus.tre
+END
+test.pl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/714/test/consense/test.pl
+END

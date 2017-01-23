@@ -1,0 +1,40 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/src/jalview/ws/ebi
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+EBIFetchClient.java
+file
+
+
+
+
+2017-01-23T03:54:55.000000Z
+7c515b2bf56647fe2defeea1856273f7
+2008-12-19T21:34:51.583063Z
+753
+clement
+

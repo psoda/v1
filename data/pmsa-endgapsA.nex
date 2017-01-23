@@ -1,0 +1,18 @@
+#NEXUS
+
+begin data;
+	format datatype=dna ;
+
+sequences
+
+>Test1
+CGTACGTACG
+>Test2
+ACGT
+;
+end;
+
+BEGIN PAUP;
+	align( endgaps="no" submat="../matrices/IUB" outfile="pmsa-endgapsA.afa" output="fasta");
+end;
+

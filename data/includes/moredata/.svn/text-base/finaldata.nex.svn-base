@@ -1,0 +1,6 @@
+#NEXUS
+BEGIN PSODA;
+
+  loaddata file = "evenmoredata/zilla.nex";
+
+END;

@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes
+END
+AnnotationColourGradient.class
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/AnnotationColourGradient.class
+END
+ResidueProperties.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ResidueProperties.class
+END
+Consensus.class
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/Consensus.class
+END
+HelixColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/HelixColourScheme.class
+END
+Blosum62ColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/Blosum62ColourScheme.class
+END
+HydrophobicColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/HydrophobicColourScheme.class
+END
+BuriedColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/BuriedColourScheme.class
+END
+TaylorColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/TaylorColourScheme.class
+END
+ScoreColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ScoreColourScheme.class
+END
+PIDColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/PIDColourScheme.class
+END
+UserColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/UserColourScheme.class
+END
+ColourSchemeProperty.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ColourSchemeProperty.class
+END
+ScoreMatrix.class
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ScoreMatrix.class
+END
+ColourSchemeI.class
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ColourSchemeI.class
+END
+TurnColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/TurnColourScheme.class
+END
+ZappoColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ZappoColourScheme.class
+END
+NucleotideColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/NucleotideColourScheme.class
+END
+ConsensusColour.class
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ConsensusColour.class
+END
+StrandColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/StrandColourScheme.class
+END
+ClustalxColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ClustalxColourScheme.class
+END
+ResidueColourScheme.class
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/jalview/schemes/ResidueColourScheme.class
+END

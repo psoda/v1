@@ -1,0 +1,22 @@
+<html>
+<head><title>User Defined Colours</title></head>
+<body>
+<p><em>User Defined Colours</em></p>
+<p><img src="userDefined.gif" width="719" height="368"> </p>
+<p>You may define any number of new colour schemes, each with a unique name. <br>
+  <br>
+  Each of the residues in a new colour scheme may be assigned a new user defined 
+  colour. <br>
+  <br>
+  Click &quot;Apply&quot; or &quot;OK&quot; to set your new colours on the active 
+  alignment window. </p>
+<p>Click &quot;Cancel&quot; to undo your changes if you pressed the &quot;Apply&quot; 
+  button. <br>
+  <br>
+  If you save your colour scheme with a unique name the colour scheme name will 
+  be added to the &quot;Colour&quot; menu on each new alignment window.<br>
+  <br>
+  Any saved colour schemes will be automatically loaded the next time you use 
+  Jalview.</p>
+</body>
+</html>

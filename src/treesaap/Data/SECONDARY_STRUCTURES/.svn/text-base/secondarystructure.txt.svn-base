@@ -1,0 +1,1256 @@
+cp0: Beta-structure_tendencies
+cp1: Coil_tendencies
+
+Sigmoid Node 0
+    Inputs    Weights
+    Threshold    -0.4751845531872712
+    Node 8    -2.6806144618751713
+    Node 9    -2.288213474700986
+    Node 10    0.9734195951820438
+    Node 11    -2.1250829944497163
+    Node 12    -3.0526375227713958
+    Node 13    1.4259917359465444
+    Node 14    -2.216813707256268
+    Node 15    1.2087979147758228
+    Node 16    -3.3452103742652395
+    Node 17    -1.7345044422859497
+    Node 18    1.7195954779240006
+    Node 19    -0.9545516088524432
+    Node 20    -1.952684060081803
+    Node 21    1.2371115599247562
+    Node 22    1.9308315809737822
+    Node 23    -2.4826331823861834
+    Node 24    -2.7748415046926436
+    Node 25    -1.4185604080482426
+    Node 26    -1.9106506409205386
+    Node 27    0.5297869900323682
+    Node 28    -2.2656239155924416
+    Node 29    -1.8336455273463483
+    Node 30    -2.7239772860581155
+Sigmoid Node 1
+    Inputs    Weights
+    Threshold    -2.065790802160338
+    Node 8    2.4413371394458734
+    Node 9    1.8851207708437274
+    Node 10    0.4662680084025872
+    Node 11    2.3999997486908073
+    Node 12    -0.7710224125001774
+    Node 13    -0.1243460228695607
+    Node 14    -0.5752220124453292
+    Node 15    -0.6689005450205449
+    Node 16    -3.8881832988024825
+    Node 17    0.9577066389300288
+    Node 18    -1.5562024121617362
+    Node 19    -1.421697170898553
+    Node 20    -1.9379950728690798
+    Node 21    -1.2236904743066137
+    Node 22    -1.9565039381560232
+    Node 23    2.2308369654756772
+    Node 24    -0.6262504383658112
+    Node 25    -1.2895286532499757
+    Node 26    1.1931744646624727
+    Node 27    -1.238075486396311
+    Node 28    -1.8543898350793506
+    Node 29    -0.18785060903793863
+    Node 30    -1.847178935419026
+Sigmoid Node 2
+    Inputs    Weights
+    Threshold    -1.448615201859955
+    Node 8    0.31845782912294407
+    Node 9    0.07704777339898025
+    Node 10    -1.079244986559183
+    Node 11    -0.24747613052601503
+    Node 12    -0.9190312597235858
+    Node 13    -0.9474665096721153
+    Node 14    1.7800250401790025
+    Node 15    -1.3061619278008212
+    Node 16    3.145937414321128
+    Node 17    0.7255928034351048
+    Node 18    -1.053331073590501
+    Node 19    -0.16106580326290829
+    Node 20    0.2405704421530081
+    Node 21    -1.0497678151774212
+    Node 22    -0.7358283286804068
+    Node 23    -0.904310472151423
+    Node 24    0.04963393376196866
+    Node 25    0.605527053421208
+    Node 26    0.6840685404584275
+    Node 27    0.2813785554385227
+    Node 28    3.0418789454754833
+    Node 29    2.338301419866895
+    Node 30    2.4869535479661167
+Sigmoid Node 3
+    Inputs    Weights
+    Threshold    -2.706178385499137
+    Node 8    -0.6534986981906885
+    Node 9    0.0014305931863407304
+    Node 10    -0.3488577638361151
+    Node 11    -1.3670518619635215
+    Node 12    0.741488871643319
+    Node 13    -0.680656745686331
+    Node 14    -2.5390049749824195
+    Node 15    -1.196298590497364
+    Node 16    1.6943734820438687
+    Node 17    -0.8065590160061263
+    Node 18    -1.1884587453135902
+    Node 19    -0.0163253213438112
+    Node 20    0.8050576720475524
+    Node 21    0.07859188550126842
+    Node 22    -0.9827392198564875
+    Node 23    -1.1779682458962104
+    Node 24    -0.7899500500211829
+    Node 25    -0.20618469258959227
+    Node 26    0.31590731069129263
+    Node 27    -0.05558366835735924
+    Node 28    -1.186063001194388
+    Node 29    -1.9934340752731876
+    Node 30    -2.6947164883079457
+Sigmoid Node 4
+    Inputs    Weights
+    Threshold    -2.2305472849356813
+    Node 8    -0.6733965664449658
+    Node 9    0.4815195675436699
+    Node 10    -0.7994708438763185
+    Node 11    -0.7047864804718335
+    Node 12    0.4799037710763878
+    Node 13    -0.48556410578147596
+    Node 14    -0.05964285290396656
+    Node 15    -0.655754724806732
+    Node 16    -1.6217961094225442
+    Node 17    0.18972883291367854
+    Node 18    -0.7877358003514802
+    Node 19    -0.06292191520487225
+    Node 20    0.21291916816301698
+    Node 21    -0.5023713147989052
+    Node 22    -0.7181580356664958
+    Node 23    -0.25894383422354267
+    Node 24    -0.22359951712462242
+    Node 25    0.5291638359142794
+    Node 26    0.030959111697977805
+    Node 27    -0.0440443377811496
+    Node 28    -1.0181350108557474
+    Node 29    -0.4091616000705939
+    Node 30    0.38402663472019544
+Sigmoid Node 5
+    Inputs    Weights
+    Threshold    -1.8578202310597776
+    Node 8    -0.7627601148727083
+    Node 9    -0.4279878190039155
+    Node 10    -0.6730887266413438
+    Node 11    -0.3435349593845092
+    Node 12    1.6373228928346426
+    Node 13    -0.3949554574571437
+    Node 14    -0.7777771878242979
+    Node 15    -0.02854397482826756
+    Node 16    -1.8199049676879266
+    Node 17    -0.15934010083630634
+    Node 18    -1.027548008086531
+    Node 19    1.3840952448972665
+    Node 20    0.46674960348328914
+    Node 21    -0.28293969007082587
+    Node 22    -0.28568689609195935
+    Node 23    -0.008815073836088634
+    Node 24    1.8580534058213467
+    Node 25    0.0669679824988064
+    Node 26    0.14209599553213229
+    Node 27    -0.7906653941084381
+    Node 28    -1.0210660229320643
+    Node 29    -1.017662224297473
+    Node 30    -3.170289864202677
+Sigmoid Node 6
+    Inputs    Weights
+    Threshold    -4.225098514004976
+    Node 8    -0.4999106033314424
+    Node 9    0.24665342937845533
+    Node 10    -0.7967779726288758
+    Node 11    0.7636345888323771
+    Node 12    -5.088010469423304
+    Node 13    -1.306486593925703
+    Node 14    2.133272903595473
+    Node 15    -6.804635589172184
+    Node 16    -2.658121352101715
+    Node 17    -2.3350796071627733
+    Node 18    -2.1051433642931134
+    Node 19    -0.9364092370132878
+    Node 20    -0.06978107308794451
+    Node 21    -2.982725360996018
+    Node 22    -1.8838355481411384
+    Node 23    0.7215090847794828
+    Node 24    -1.481329303214126
+    Node 25    0.394968867528262
+    Node 26    0.10425691459936698
+    Node 27    0.9070870839135925
+    Node 28    -0.3090820128372479
+    Node 29    -0.7515275500684101
+    Node 30    -1.4380340217756253
+Sigmoid Node 7
+    Inputs    Weights
+    Threshold    -3.8611865205824394
+    Node 8    1.208903370553568
+    Node 9    -0.8289296242497844
+    Node 10    -0.7272948966072386
+    Node 11    0.027772451238571146
+    Node 12    2.0761309482608534
+    Node 13    0.2768598617833315
+    Node 14    -1.455511097663978
+    Node 15    -1.8278644879289185
+    Node 16    -2.5617786929420268
+    Node 17    -1.4311019417301292
+    Node 18    -3.5020528608366153
+    Node 19    -1.7435532110972984
+    Node 20    -0.07749974936708087
+    Node 21    -1.5128083629013078
+    Node 22    -1.8166140150134407
+    Node 23    1.0838235239354754
+    Node 24    -2.1269487959640836
+    Node 25    -0.8355910784230839
+    Node 26    0.37212856553741025
+    Node 27    -1.9135109496228857
+    Node 28    -2.73491771571615
+    Node 29    -2.6818879635434243
+    Node 30    -3.492279679073332
+Sigmoid Node 8
+    Inputs    Weights
+    Threshold    -9.917220703896593
+    Attrib aa0cp0    -8.672319625114648
+    Attrib aa1cp0    -21.484916209839948
+    Attrib aa2cp0    2.4380950250974824
+    Attrib aa3cp0    -7.837404163942947
+    Attrib aa4cp0    39.90149962322337
+    Attrib aa5cp0    12.459245930413466
+    Attrib aa6cp0    31.75437783034226
+    Attrib aa7cp0    6.088601738570966
+    Attrib aa8cp0    6.958483612663814
+    Attrib aa9cp0    14.386094957092434
+    Attrib aa10cp0    -7.216487902259598
+    Attrib aa11cp0    12.627456811471536
+    Attrib aa12cp0    11.100358878963085
+    Attrib aa0cp1    6.013471733933401
+    Attrib aa1cp1    18.336860378513805
+    Attrib aa2cp1    11.432917928696407
+    Attrib aa3cp1    3.392592933883839
+    Attrib aa4cp1    -61.207882104514475
+    Attrib aa5cp1    0.37393184679109603
+    Attrib aa6cp1    -36.47234434732365
+    Attrib aa7cp1    12.094360614602397
+    Attrib aa8cp1    23.558661409358653
+    Attrib aa9cp1    25.858146742543312
+    Attrib aa10cp1    22.967420646868618
+    Attrib aa11cp1    13.522795303592483
+    Attrib aa12cp1    20.558961674618775
+    Attrib aa0Present    -5.961852407453524
+    Attrib aa1Present    -15.220442910101955
+    Attrib aa2Present    3.8594428700972325
+    Attrib aa3Present    -5.864263523613522
+    Attrib aa4Present    -13.125945562946622
+    Attrib aa5Present    -8.897565702054036
+    Attrib aa6Present    0.043329276329384395
+    Attrib aa7Present    -13.628866278616062
+    Attrib aa8Present    -8.052360185000214
+    Attrib aa9Present    -16.546575673542115
+    Attrib aa10Present    -6.179433164508995
+    Attrib aa11Present    -7.782416805980475
+    Attrib aa12Present    -3.0999152649521955
+Sigmoid Node 9
+    Inputs    Weights
+    Threshold    -13.432899795972988
+    Attrib aa0cp0    -19.22023955858327
+    Attrib aa1cp0    -10.014447416505154
+    Attrib aa2cp0    -23.503176800288312
+    Attrib aa3cp0    -10.922196707055745
+    Attrib aa4cp0    8.584246206040547
+    Attrib aa5cp0    -6.594839963809445
+    Attrib aa6cp0    1.5573846044520143
+    Attrib aa7cp0    71.29143448516886
+    Attrib aa8cp0    8.778295336752366
+    Attrib aa9cp0    35.695828313783444
+    Attrib aa10cp0    -13.482208038149297
+    Attrib aa11cp0    -6.912749890391873
+    Attrib aa12cp0    2.0581687912694338
+    Attrib aa0cp1    -17.151897558088944
+    Attrib aa1cp1    -3.2387808477289304
+    Attrib aa2cp1    -4.192977096052297
+    Attrib aa3cp1    14.016431204641645
+    Attrib aa4cp1    22.476848045679642
+    Attrib aa5cp1    -5.6603094439410455
+    Attrib aa6cp1    -5.29743792993537
+    Attrib aa7cp1    -4.119072416474021
+    Attrib aa8cp1    23.55502806275711
+    Attrib aa9cp1    -52.44569339064424
+    Attrib aa10cp1    16.109129637111554
+    Attrib aa11cp1    1.6521157577771923
+    Attrib aa12cp1    30.61702201113078
+    Attrib aa0Present    -28.286364055731475
+    Attrib aa1Present    -15.787511717229554
+    Attrib aa2Present    -17.6880425429522
+    Attrib aa3Present    -5.440723421505472
+    Attrib aa4Present    7.791983310661343
+    Attrib aa5Present    -14.550886434245633
+    Attrib aa6Present    0.0032028440693801924
+    Attrib aa7Present    -13.57573684875547
+    Attrib aa8Present    -8.262582196437661
+    Attrib aa9Present    -9.585946118650911
+    Attrib aa10Present    -2.5535074214047335
+    Attrib aa11Present    -1.3887074574642166
+    Attrib aa12Present    5.802581613831674
+Sigmoid Node 10
+    Inputs    Weights
+    Threshold    -24.081145057323866
+    Attrib aa0cp0    -17.927300790288697
+    Attrib aa1cp0    -20.013679756586882
+    Attrib aa2cp0    -10.158487054478119
+    Attrib aa3cp0    -22.42391300054088
+    Attrib aa4cp0    16.437665848942938
+    Attrib aa5cp0    15.202447745122472
+    Attrib aa6cp0    2.2388463326816246
+    Attrib aa7cp0    0.18088054519358157
+    Attrib aa8cp0    -0.5345504485834914
+    Attrib aa9cp0    17.51140923912903
+    Attrib aa10cp0    10.402856948354385
+    Attrib aa11cp0    -13.248024557615423
+    Attrib aa12cp0    1.5913657984754752
+    Attrib aa0cp1    -6.681749126796903
+    Attrib aa1cp1    -2.40873999705946
+    Attrib aa2cp1    3.7704321685490214
+    Attrib aa3cp1    0.6033493677240912
+    Attrib aa4cp1    -8.448608353015059
+    Attrib aa5cp1    -21.05514791731811
+    Attrib aa6cp1    -32.6322752362271
+    Attrib aa7cp1    -37.80426005338712
+    Attrib aa8cp1    -51.58748950363589
+    Attrib aa9cp1    -30.95580806805551
+    Attrib aa10cp1    -37.16929705032929
+    Attrib aa11cp1    -23.25153672158864
+    Attrib aa12cp1    1.427013007723268
+    Attrib aa0Present    -1.1494263547618142
+    Attrib aa1Present    -15.01506321770471
+    Attrib aa2Present    11.818676078508256
+    Attrib aa3Present    -6.486230334739471
+    Attrib aa4Present    -10.164922838697255
+    Attrib aa5Present    -20.001306975262054
+    Attrib aa6Present    0.044641155648616676
+    Attrib aa7Present    -8.484805595147735
+    Attrib aa8Present    -6.942765907683799
+    Attrib aa9Present    -22.951372472529908
+    Attrib aa10Present    -2.0107434898001078
+    Attrib aa11Present    8.651344508470041
+    Attrib aa12Present    -2.000668331759561
+Sigmoid Node 11
+    Inputs    Weights
+    Threshold    -13.895819362020095
+    Attrib aa0cp0    -1.7956646269110281
+    Attrib aa1cp0    -15.6173825184663
+    Attrib aa2cp0    -12.009045194319455
+    Attrib aa3cp0    -6.944926953949463
+    Attrib aa4cp0    -7.042843153613081
+    Attrib aa5cp0    17.18441436816609
+    Attrib aa6cp0    32.3918974043729
+    Attrib aa7cp0    44.289709878556344
+    Attrib aa8cp0    40.82157969829196
+    Attrib aa9cp0    -13.56024501725757
+    Attrib aa10cp0    -3.871744095041506
+    Attrib aa11cp0    -17.991709363792097
+    Attrib aa12cp0    5.685480110400614
+    Attrib aa0cp1    -18.763307544835836
+    Attrib aa1cp1    -11.335460478909477
+    Attrib aa2cp1    13.397213552623016
+    Attrib aa3cp1    33.38371912072699
+    Attrib aa4cp1    35.769459815361415
+    Attrib aa5cp1    -4.951755420602835
+    Attrib aa6cp1    -25.707556105102512
+    Attrib aa7cp1    -3.5315601329525887
+    Attrib aa8cp1    2.388148208577507
+    Attrib aa9cp1    35.04866255815425
+    Attrib aa10cp1    1.8818636277873377
+    Attrib aa11cp1    11.782406742583353
+    Attrib aa12cp1    22.79279045274982
+    Attrib aa0Present    -18.827733137728757
+    Attrib aa1Present    -2.7357911339597334
+    Attrib aa2Present    -9.52875634864215
+    Attrib aa3Present    -0.7442223835415781
+    Attrib aa4Present    -22.31243726936407
+    Attrib aa5Present    -13.585199271658324
+    Attrib aa6Present    0.003826688468159853
+    Attrib aa7Present    -13.722136131098317
+    Attrib aa8Present    4.306602270346921
+    Attrib aa9Present    -5.738530078923415
+    Attrib aa10Present    -3.21304250708399
+    Attrib aa11Present    -1.2141137840849205
+    Attrib aa12Present    -2.6097149491850216
+Sigmoid Node 12
+    Inputs    Weights
+    Threshold    -14.36623083475956
+    Attrib aa0cp0    4.717437077261735
+    Attrib aa1cp0    -6.5704816688538
+    Attrib aa2cp0    -6.822126440194413
+    Attrib aa3cp0    16.097281301236595
+    Attrib aa4cp0    -9.793982728448984
+    Attrib aa5cp0    -27.091196538607072
+    Attrib aa6cp0    -25.004354080380317
+    Attrib aa7cp0    -23.83818279123036
+    Attrib aa8cp0    -3.5161350259861996
+    Attrib aa9cp0    21.325736164790317
+    Attrib aa10cp0    35.35009550568827
+    Attrib aa11cp0    23.27797364717419
+    Attrib aa12cp0    22.734459836116653
+    Attrib aa0cp1    -14.230898671731435
+    Attrib aa1cp1    -18.863942773402233
+    Attrib aa2cp1    -5.0733405429076885
+    Attrib aa3cp1    -32.1605064778161
+    Attrib aa4cp1    -8.153565892513537
+    Attrib aa5cp1    11.709860560961621
+    Attrib aa6cp1    19.323988256415582
+    Attrib aa7cp1    24.317730762763716
+    Attrib aa8cp1    2.488721121125326
+    Attrib aa9cp1    3.8660884468320744
+    Attrib aa10cp1    -10.083448570094234
+    Attrib aa11cp1    -1.4797123868247792
+    Attrib aa12cp1    24.19291180635542
+    Attrib aa0Present    6.125417815887123
+    Attrib aa1Present    -13.101178362158477
+    Attrib aa2Present    -9.412500542619568
+    Attrib aa3Present    -2.5533819177110137
+    Attrib aa4Present    -10.009577649184282
+    Attrib aa5Present    -9.951554005644438
+    Attrib aa6Present    0.01950508341028903
+    Attrib aa7Present    -8.477645332333521
+    Attrib aa8Present    -17.227435925805214
+    Attrib aa9Present    4.9654127434448085
+    Attrib aa10Present    -22.30488763018962
+    Attrib aa11Present    -17.69861078786379
+    Attrib aa12Present    1.137729471263871
+Sigmoid Node 13
+    Inputs    Weights
+    Threshold    -9.766038221676059
+    Attrib aa0cp0    21.446345464662755
+    Attrib aa1cp0    -21.779228733990454
+    Attrib aa2cp0    0.7279721858928444
+    Attrib aa3cp0    13.425424349889413
+    Attrib aa4cp0    -19.638639902417285
+    Attrib aa5cp0    -10.784636113407673
+    Attrib aa6cp0    3.0638889769388284
+    Attrib aa7cp0    20.302552257658743
+    Attrib aa8cp0    30.145599809809287
+    Attrib aa9cp0    16.961346824768317
+    Attrib aa10cp0    23.15532887147665
+    Attrib aa11cp0    -2.1802078981729047
+    Attrib aa12cp0    11.407284469405091
+    Attrib aa0cp1    15.489300983072129
+    Attrib aa1cp1    3.6987487682375444
+    Attrib aa2cp1    -12.196191443362533
+    Attrib aa3cp1    -33.977718123742875
+    Attrib aa4cp1    -40.577859159392666
+    Attrib aa5cp1    -43.54621034410097
+    Attrib aa6cp1    -40.07839750448485
+    Attrib aa7cp1    -36.74031730127393
+    Attrib aa8cp1    14.835100454663031
+    Attrib aa9cp1    -2.22984006845368
+    Attrib aa10cp1    12.903552656457393
+    Attrib aa11cp1    -9.85022473068543
+    Attrib aa12cp1    5.307676146943545
+    Attrib aa0Present    -6.413440446391958
+    Attrib aa1Present    -10.503081198327452
+    Attrib aa2Present    -19.08755803250534
+    Attrib aa3Present    -28.001859636832112
+    Attrib aa4Present    -14.878235489410237
+    Attrib aa5Present    -9.356561643523769
+    Attrib aa6Present    4.220766128697137E-4
+    Attrib aa7Present    2.5251482501420552
+    Attrib aa8Present    -4.697937344627792
+    Attrib aa9Present    -1.7165198027318587
+    Attrib aa10Present    24.84145994058926
+    Attrib aa11Present    -16.256647557770698
+    Attrib aa12Present    17.090194715915906
+Sigmoid Node 14
+    Inputs    Weights
+    Threshold    8.035788629142274
+    Attrib aa0cp0    -21.653391050612598
+    Attrib aa1cp0    12.733098324274843
+    Attrib aa2cp0    -22.903243190538056
+    Attrib aa3cp0    21.592995814656163
+    Attrib aa4cp0    -22.57145373525168
+    Attrib aa5cp0    21.20737493292847
+    Attrib aa6cp0    4.234927196178728
+    Attrib aa7cp0    -13.093396059814333
+    Attrib aa8cp0    -46.65952912512112
+    Attrib aa9cp0    -7.71700553655805
+    Attrib aa10cp0    1.3583451388968044
+    Attrib aa11cp0    45.83537174373008
+    Attrib aa12cp0    8.512511100130125
+    Attrib aa0cp1    -9.106868338445402
+    Attrib aa1cp1    1.4204148501106157
+    Attrib aa2cp1    0.9033294275061925
+    Attrib aa3cp1    9.365396273625947
+    Attrib aa4cp1    -8.668576867527909
+    Attrib aa5cp1    1.6774959804719327
+    Attrib aa6cp1    0.07174915891303801
+    Attrib aa7cp1    -11.065201196541931
+    Attrib aa8cp1    27.93011792773887
+    Attrib aa9cp1    2.616500978037803
+    Attrib aa10cp1    -12.176115086335226
+    Attrib aa11cp1    12.997570097003651
+    Attrib aa12cp1    -14.57013038675317
+    Attrib aa0Present    -7.278387267147967
+    Attrib aa1Present    1.3931337908450359
+    Attrib aa2Present    -0.042952203886911615
+    Attrib aa3Present    -8.637487083368214
+    Attrib aa4Present    -14.193325221663748
+    Attrib aa5Present    -17.980104577408557
+    Attrib aa6Present    0.022307788307952478
+    Attrib aa7Present    -14.453664804652869
+    Attrib aa8Present    -37.68609802731695
+    Attrib aa9Present    0.010779538336597104
+    Attrib aa10Present    -5.535268497358791
+    Attrib aa11Present    -6.099916678968427
+    Attrib aa12Present    -9.673419689808057
+Sigmoid Node 15
+    Inputs    Weights
+    Threshold    -17.393083442253083
+    Attrib aa0cp0    -17.373201730493122
+    Attrib aa1cp0    8.20110869135667
+    Attrib aa2cp0    19.598963346285505
+    Attrib aa3cp0    0.6772641160453438
+    Attrib aa4cp0    0.23416867838067945
+    Attrib aa5cp0    31.124831906403738
+    Attrib aa6cp0    19.040740163491144
+    Attrib aa7cp0    7.59510086938046
+    Attrib aa8cp0    21.35624908495345
+    Attrib aa9cp0    28.893986219475963
+    Attrib aa10cp0    6.963290480207057
+    Attrib aa11cp0    34.30848287406754
+    Attrib aa12cp0    29.093434170564194
+    Attrib aa0cp1    -40.72052818394193
+    Attrib aa1cp1    -38.895835041277536
+    Attrib aa2cp1    -11.042859652315299
+    Attrib aa3cp1    -11.849274334603175
+    Attrib aa4cp1    -36.84350437901396
+    Attrib aa5cp1    -13.094562263585553
+    Attrib aa6cp1    -0.1537822596348087
+    Attrib aa7cp1    -1.7138304501594597
+    Attrib aa8cp1    -6.788179964447438
+    Attrib aa9cp1    13.287666697066204
+    Attrib aa10cp1    1.7246848746743306
+    Attrib aa11cp1    4.431813319718158
+    Attrib aa12cp1    30.86636508157807
+    Attrib aa0Present    6.169707717009683
+    Attrib aa1Present    1.0738577226437565
+    Attrib aa2Present    -2.545432312588236
+    Attrib aa3Present    -3.4995279479538084
+    Attrib aa4Present    -8.45968038256046
+    Attrib aa5Present    -10.708517696007586
+    Attrib aa6Present    0.016309135578345832
+    Attrib aa7Present    -17.44652343571962
+    Attrib aa8Present    -2.0464113084676994
+    Attrib aa9Present    -8.699108566741387
+    Attrib aa10Present    -11.061014482597605
+    Attrib aa11Present    1.0545271084091168
+    Attrib aa12Present    -18.965348361125574
+Sigmoid Node 16
+    Inputs    Weights
+    Threshold    32.73275052255644
+    Attrib aa0cp0    -2.488251975313873
+    Attrib aa1cp0    -15.848674857609081
+    Attrib aa2cp0    -25.32554413020587
+    Attrib aa3cp0    -29.84225923494293
+    Attrib aa4cp0    -12.100980683569539
+    Attrib aa5cp0    -8.326806223199613
+    Attrib aa6cp0    -10.014895038019109
+    Attrib aa7cp0    0.04818114493459611
+    Attrib aa8cp0    2.401994766012782
+    Attrib aa9cp0    -15.142902491153071
+    Attrib aa10cp0    8.377288876693552
+    Attrib aa11cp0    3.2006927698406336
+    Attrib aa12cp0    13.167615351477991
+    Attrib aa0cp1    -11.173039341511847
+    Attrib aa1cp1    -26.365882869830752
+    Attrib aa2cp1    3.469814144973703
+    Attrib aa3cp1    4.718555839383337
+    Attrib aa4cp1    -2.6644284758254666
+    Attrib aa5cp1    -5.836380692234383
+    Attrib aa6cp1    -7.945185555906001
+    Attrib aa7cp1    -4.50216424407013
+    Attrib aa8cp1    -5.67494279617907
+    Attrib aa9cp1    7.113184716655512
+    Attrib aa10cp1    -11.312610743788793
+    Attrib aa11cp1    -6.600250866075874
+    Attrib aa12cp1    4.845613523179668
+    Attrib aa0Present    -1.2833780669328474
+    Attrib aa1Present    -1.097186817778465
+    Attrib aa2Present    -9.110479885212964
+    Attrib aa3Present    -9.925705150884408
+    Attrib aa4Present    -36.697444186840144
+    Attrib aa5Present    -8.462233080641637
+    Attrib aa6Present    -0.03898169648117522
+    Attrib aa7Present    -26.75072629293426
+    Attrib aa8Present    -15.293359894978172
+    Attrib aa9Present    -14.772190738515551
+    Attrib aa10Present    8.90166182301215
+    Attrib aa11Present    -10.438078736624874
+    Attrib aa12Present    -14.618265628629725
+Sigmoid Node 17
+    Inputs    Weights
+    Threshold    -2.107222035943605
+    Attrib aa0cp0    -16.20133769710074
+    Attrib aa1cp0    -18.042990090117442
+    Attrib aa2cp0    0.0364626897028876
+    Attrib aa3cp0    17.59220085450656
+    Attrib aa4cp0    -4.533254294833305
+    Attrib aa5cp0    50.5222504654431
+    Attrib aa6cp0    -29.3279299092634
+    Attrib aa7cp0    18.45540256284747
+    Attrib aa8cp0    -24.99990474971566
+    Attrib aa9cp0    19.71173784753366
+    Attrib aa10cp0    54.03717059128101
+    Attrib aa11cp0    -24.419468458879287
+    Attrib aa12cp0    31.159909316393474
+    Attrib aa0cp1    14.362453170473472
+    Attrib aa1cp1    18.167069731611996
+    Attrib aa2cp1    7.405301298496608
+    Attrib aa3cp1    -5.987319078135907
+    Attrib aa4cp1    7.822527848892422
+    Attrib aa5cp1    -5.9940282279113175
+    Attrib aa6cp1    38.28213015113001
+    Attrib aa7cp1    -24.03865074234442
+    Attrib aa8cp1    31.560963197022804
+    Attrib aa9cp1    30.94129770669078
+    Attrib aa10cp1    20.36721157158688
+    Attrib aa11cp1    -5.445722656677909
+    Attrib aa12cp1    18.751940979476387
+    Attrib aa0Present    -6.282394470023576
+    Attrib aa1Present    -4.4940231728101
+    Attrib aa2Present    -7.9615501872414205
+    Attrib aa3Present    13.332450888443796
+    Attrib aa4Present    -10.490332395347194
+    Attrib aa5Present    -5.610630427950533
+    Attrib aa6Present    0.03310590125629109
+    Attrib aa7Present    -15.635806683735455
+    Attrib aa8Present    -16.44855463109477
+    Attrib aa9Present    1.8832015183068351
+    Attrib aa10Present    6.555177017883395
+    Attrib aa11Present    -7.658162150433454
+    Attrib aa12Present    -4.739395143192709
+Sigmoid Node 18
+    Inputs    Weights
+    Threshold    -19.279989272859158
+    Attrib aa0cp0    1.7448207538392144
+    Attrib aa1cp0    9.159500805518656
+    Attrib aa2cp0    31.689487458973787
+    Attrib aa3cp0    -0.9157518832430286
+    Attrib aa4cp0    -23.081409547748965
+    Attrib aa5cp0    27.062414613033276
+    Attrib aa6cp0    19.02674875764135
+    Attrib aa7cp0    -30.5962794078814
+    Attrib aa8cp0    -14.998470612470689
+    Attrib aa9cp0    12.613016440212313
+    Attrib aa10cp0    -11.074380724660578
+    Attrib aa11cp0    -5.90825033587984
+    Attrib aa12cp0    -8.033783036364948
+    Attrib aa0cp1    -0.41672682077839424
+    Attrib aa1cp1    7.3887270211421505
+    Attrib aa2cp1    -10.97767962320709
+    Attrib aa3cp1    -18.908852088921172
+    Attrib aa4cp1    -16.93817173744833
+    Attrib aa5cp1    -5.085945033083214
+    Attrib aa6cp1    -21.583744846053538
+    Attrib aa7cp1    -29.984040243670545
+    Attrib aa8cp1    -22.51057692658123
+    Attrib aa9cp1    -28.691151333449096
+    Attrib aa10cp1    -14.314145479360842
+    Attrib aa11cp1    7.116588035920077
+    Attrib aa12cp1    -22.001934632854468
+    Attrib aa0Present    3.730593433113422
+    Attrib aa1Present    -3.6679672341611376
+    Attrib aa2Present    -14.227338873573398
+    Attrib aa3Present    -16.08821925180509
+    Attrib aa4Present    -26.36037005490704
+    Attrib aa5Present    -18.832505409648526
+    Attrib aa6Present    0.004835542470264895
+    Attrib aa7Present    -1.6922024996392528
+    Attrib aa8Present    -23.829558814113724
+    Attrib aa9Present    -21.098757407272746
+    Attrib aa10Present    1.945590049998148
+    Attrib aa11Present    -3.1807660319144717
+    Attrib aa12Present    7.411962434821136
+Sigmoid Node 19
+    Inputs    Weights
+    Threshold    -11.267586937962228
+    Attrib aa0cp0    -4.323166507368566
+    Attrib aa1cp0    -5.479792444740024
+    Attrib aa2cp0    4.99738865651833
+    Attrib aa3cp0    -7.594028602175996
+    Attrib aa4cp0    -21.36465425675624
+    Attrib aa5cp0    -36.47004608065365
+    Attrib aa6cp0    9.362174099774666
+    Attrib aa7cp0    3.8083226539806234
+    Attrib aa8cp0    -11.930201972728065
+    Attrib aa9cp0    17.070772323397144
+    Attrib aa10cp0    -2.2634165488904885
+    Attrib aa11cp0    -25.65678323562859
+    Attrib aa12cp0    13.551721814763743
+    Attrib aa0cp1    8.83861992502847
+    Attrib aa1cp1    -4.497809426337981
+    Attrib aa2cp1    -7.121191656504487
+    Attrib aa3cp1    3.013062739743076
+    Attrib aa4cp1    -1.2958328746686734
+    Attrib aa5cp1    -15.886612238924993
+    Attrib aa6cp1    69.76380109181574
+    Attrib aa7cp1    -15.291498900520114
+    Attrib aa8cp1    -2.6729602547220357
+    Attrib aa9cp1    5.81950117746353
+    Attrib aa10cp1    0.11318438852156337
+    Attrib aa11cp1    -5.4834922597483615
+    Attrib aa12cp1    -3.984554890486409
+    Attrib aa0Present    2.037136211906345
+    Attrib aa1Present    0.5389437580640926
+    Attrib aa2Present    0.2561851427710242
+    Attrib aa3Present    2.807935595309474
+    Attrib aa4Present    -17.384328795903166
+    Attrib aa5Present    -14.322180539306967
+    Attrib aa6Present    0.020554449603067113
+    Attrib aa7Present    -12.25042250926405
+    Attrib aa8Present    -7.292635979221804
+    Attrib aa9Present    -16.939464006550413
+    Attrib aa10Present    -3.718817007771142
+    Attrib aa11Present    -16.000822568084917
+    Attrib aa12Present    11.928105219755308
+Sigmoid Node 20
+    Inputs    Weights
+    Threshold    1.75140261920254
+    Attrib aa0cp0    -7.855085683510107
+    Attrib aa1cp0    -0.5734989290577378
+    Attrib aa2cp0    2.247190293679524
+    Attrib aa3cp0    -1.7178418035334633
+    Attrib aa4cp0    -18.08610525908548
+    Attrib aa5cp0    -22.001891493260477
+    Attrib aa6cp0    -13.923063141553337
+    Attrib aa7cp0    -7.652271676734585
+    Attrib aa8cp0    -2.7836321748548554
+    Attrib aa9cp0    -60.94636843291799
+    Attrib aa10cp0    -4.757802544518344
+    Attrib aa11cp0    -30.65502848138409
+    Attrib aa12cp0    14.904804385060809
+    Attrib aa0cp1    7.339365916269002
+    Attrib aa1cp1    8.221118846937012
+    Attrib aa2cp1    20.86440534762249
+    Attrib aa3cp1    1.4276705851205291
+    Attrib aa4cp1    37.50897196517848
+    Attrib aa5cp1    15.456880457654181
+    Attrib aa6cp1    23.133948904553733
+    Attrib aa7cp1    17.05535819289605
+    Attrib aa8cp1    5.518142905702597
+    Attrib aa9cp1    33.673136132291994
+    Attrib aa10cp1    -7.063135368974608
+    Attrib aa11cp1    8.8860455399532
+    Attrib aa12cp1    21.710126194724083
+    Attrib aa0Present    0.696160918928766
+    Attrib aa1Present    -1.487430289464732
+    Attrib aa2Present    -1.8105418184447315
+    Attrib aa3Present    -26.527250251631934
+    Attrib aa4Present    0.7298506139818749
+    Attrib aa5Present    -2.5415634504479017
+    Attrib aa6Present    0.01827792633281375
+    Attrib aa7Present    0.8446255514402308
+    Attrib aa8Present    6.745765868578382
+    Attrib aa9Present    1.3734140816471545
+    Attrib aa10Present    -18.137562099555474
+    Attrib aa11Present    7.248214856213607
+    Attrib aa12Present    -16.493987822183485
+Sigmoid Node 21
+    Inputs    Weights
+    Threshold    -24.532212514052972
+    Attrib aa0cp0    1.9210695358551078
+    Attrib aa1cp0    20.15748636185874
+    Attrib aa2cp0    -23.91974380238087
+    Attrib aa3cp0    -14.046232187706075
+    Attrib aa4cp0    25.120891769190496
+    Attrib aa5cp0    -21.362361607300052
+    Attrib aa6cp0    -50.54045746330084
+    Attrib aa7cp0    -11.026392976461102
+    Attrib aa8cp0    -1.696474760810893
+    Attrib aa9cp0    -6.17832652422349
+    Attrib aa10cp0    -18.9978963067492
+    Attrib aa11cp0    4.816512910248478
+    Attrib aa12cp0    17.998476573630462
+    Attrib aa0cp1    -11.96033127045946
+    Attrib aa1cp1    -9.159120373013337
+    Attrib aa2cp1    -1.1329386802651862
+    Attrib aa3cp1    -19.352171440283367
+    Attrib aa4cp1    -2.0355072400185596
+    Attrib aa5cp1    -18.60050817011128
+    Attrib aa6cp1    -18.6553031211478
+    Attrib aa7cp1    -31.34035481732185
+    Attrib aa8cp1    -44.00259078222882
+    Attrib aa9cp1    -16.4210060975798
+    Attrib aa10cp1    -23.09256836224853
+    Attrib aa11cp1    -18.15418949074948
+    Attrib aa12cp1    -14.847795197387255
+    Attrib aa0Present    -0.2662846820119899
+    Attrib aa1Present    3.137366916826978
+    Attrib aa2Present    -6.7989446499177495
+    Attrib aa3Present    -14.833148768763945
+    Attrib aa4Present    -31.329187448195864
+    Attrib aa5Present    -7.827821291530371
+    Attrib aa6Present    -0.03124004611666208
+    Attrib aa7Present    -18.184237222138133
+    Attrib aa8Present    -6.9663644936584515
+    Attrib aa9Present    0.17146547444936017
+    Attrib aa10Present    2.7788662549187064
+    Attrib aa11Present    -12.693485635359174
+    Attrib aa12Present    -5.629118341790082
+Sigmoid Node 22
+    Inputs    Weights
+    Threshold    -19.84002458256969
+    Attrib aa0cp0    19.137055021747557
+    Attrib aa1cp0    -22.406884485289705
+    Attrib aa2cp0    -17.27131313640135
+    Attrib aa3cp0    34.3660206699708
+    Attrib aa4cp0    -20.49606092979221
+    Attrib aa5cp0    -49.45081232168466
+    Attrib aa6cp0    25.027794510430468
+    Attrib aa7cp0    -12.61582280672276
+    Attrib aa8cp0    -10.63584943529886
+    Attrib aa9cp0    -27.089104865807773
+    Attrib aa10cp0    2.4751617197807776
+    Attrib aa11cp0    4.445607975010777
+    Attrib aa12cp0    -3.528004021082815
+    Attrib aa0cp1    -1.9762135307939404
+    Attrib aa1cp1    -13.798616189718656
+    Attrib aa2cp1    -10.3330130996753
+    Attrib aa3cp1    7.699697214409214
+    Attrib aa4cp1    -10.274117958919161
+    Attrib aa5cp1    -15.326221727511543
+    Attrib aa6cp1    1.692407662461123
+    Attrib aa7cp1    -32.52063204932566
+    Attrib aa8cp1    -8.755967640510699
+    Attrib aa9cp1    -25.321155991409817
+    Attrib aa10cp1    -33.74292793886453
+    Attrib aa11cp1    -20.99689552191891
+    Attrib aa12cp1    8.651743855426556
+    Attrib aa0Present    6.571099375815903
+    Attrib aa1Present    -4.584978321634142
+    Attrib aa2Present    2.9372871313202915
+    Attrib aa3Present    -20.087354456334925
+    Attrib aa4Present    -23.650284871557414
+    Attrib aa5Present    -12.783713526983064
+    Attrib aa6Present    0.03513459191749321
+    Attrib aa7Present    -16.394095232208706
+    Attrib aa8Present    2.0863357807608565
+    Attrib aa9Present    -6.494865347116243
+    Attrib aa10Present    -22.199702498032426
+    Attrib aa11Present    3.855281395982454
+    Attrib aa12Present    -12.181736390863422
+Sigmoid Node 23
+    Inputs    Weights
+    Threshold    -18.928924443187597
+    Attrib aa0cp0    -17.628131400232135
+    Attrib aa1cp0    20.615592389973564
+    Attrib aa2cp0    16.281127487050018
+    Attrib aa3cp0    36.45571042290524
+    Attrib aa4cp0    12.04178424415061
+    Attrib aa5cp0    30.4499963421205
+    Attrib aa6cp0    23.17798006498193
+    Attrib aa7cp0    -3.46951125760758
+    Attrib aa8cp0    9.143841545419276
+    Attrib aa9cp0    -3.7250001037298497
+    Attrib aa10cp0    -3.569142760043452
+    Attrib aa11cp0    7.9103329483153955
+    Attrib aa12cp0    -1.5488214666884494
+    Attrib aa0cp1    9.239319838724722
+    Attrib aa1cp1    7.934212216887916
+    Attrib aa2cp1    5.880954219810759
+    Attrib aa3cp1    -54.54009540777553
+    Attrib aa4cp1    8.647037141292998
+    Attrib aa5cp1    -24.940183137657748
+    Attrib aa6cp1    19.283224586179365
+    Attrib aa7cp1    7.135391655134969
+    Attrib aa8cp1    2.6884857037054477
+    Attrib aa9cp1    28.18935621977034
+    Attrib aa10cp1    20.661286537096835
+    Attrib aa11cp1    26.221496860980434
+    Attrib aa12cp1    11.854352454358466
+    Attrib aa0Present    -12.762658103826896
+    Attrib aa1Present    3.6852736052691144
+    Attrib aa2Present    -7.79338423033156
+    Attrib aa3Present    6.839396777846897
+    Attrib aa4Present    -12.228833899540632
+    Attrib aa5Present    -14.900625890129065
+    Attrib aa6Present    0.03596108709838648
+    Attrib aa7Present    -14.122142562685246
+    Attrib aa8Present    -10.109021105320625
+    Attrib aa9Present    -12.11591667441614
+    Attrib aa10Present    6.450870330926364
+    Attrib aa11Present    3.2368678387801193
+    Attrib aa12Present    -17.63471980897805
+Sigmoid Node 24
+    Inputs    Weights
+    Threshold    2.8843344671592317
+    Attrib aa0cp0    -0.22882047737773012
+    Attrib aa1cp0    -3.1907461037643694
+    Attrib aa2cp0    -5.595616871930318
+    Attrib aa3cp0    8.85529443570239
+    Attrib aa4cp0    31.699353438288917
+    Attrib aa5cp0    18.98276607872624
+    Attrib aa6cp0    -17.411922945105925
+    Attrib aa7cp0    -22.168640841155064
+    Attrib aa8cp0    1.8582520076657407
+    Attrib aa9cp0    -15.67799384407289
+    Attrib aa10cp0    26.663745561738093
+    Attrib aa11cp0    -2.093196336046142
+    Attrib aa12cp0    -13.733367429191125
+    Attrib aa0cp1    -10.26551645563327
+    Attrib aa1cp1    -6.10488570967712
+    Attrib aa2cp1    -11.460302506333269
+    Attrib aa3cp1    10.64907300487424
+    Attrib aa4cp1    -18.687455518442267
+    Attrib aa5cp1    7.349461757804313
+    Attrib aa6cp1    23.755863650252135
+    Attrib aa7cp1    49.30960890924774
+    Attrib aa8cp1    2.643108762156861
+    Attrib aa9cp1    -5.388671842194191
+    Attrib aa10cp1    -13.25622750200382
+    Attrib aa11cp1    -17.197396586852836
+    Attrib aa12cp1    -4.009892019932571
+    Attrib aa0Present    -11.01335721993729
+    Attrib aa1Present    0.8887118717012933
+    Attrib aa2Present    -5.51079206992758
+    Attrib aa3Present    1.1712815783282555
+    Attrib aa4Present    -31.398054606232392
+    Attrib aa5Present    0.6102679262042366
+    Attrib aa6Present    -0.017222371422190484
+    Attrib aa7Present    -4.462350851103513
+    Attrib aa8Present    -4.554542551310116
+    Attrib aa9Present    -25.075890455487365
+    Attrib aa10Present    -11.744914175086945
+    Attrib aa11Present    -13.104334189860923
+    Attrib aa12Present    -3.741040630708835
+Sigmoid Node 25
+    Inputs    Weights
+    Threshold    6.147054912547733
+    Attrib aa0cp0    12.728785415112029
+    Attrib aa1cp0    -1.0001919806653412
+    Attrib aa2cp0    12.811257361605701
+    Attrib aa3cp0    -0.8882948812219035
+    Attrib aa4cp0    -0.6736598620784431
+    Attrib aa5cp0    -3.6165619675675367
+    Attrib aa6cp0    -7.53411373260958
+    Attrib aa7cp0    2.0478057066891493
+    Attrib aa8cp0    2.0633934314909776
+    Attrib aa9cp0    26.034495812834333
+    Attrib aa10cp0    -41.643933170944685
+    Attrib aa11cp0    24.179147195269028
+    Attrib aa12cp0    -22.955989215427497
+    Attrib aa0cp1    -17.048275911933683
+    Attrib aa1cp1    -7.826120578699488
+    Attrib aa2cp1    -12.672419568952792
+    Attrib aa3cp1    16.99407496632939
+    Attrib aa4cp1    3.46563520044594
+    Attrib aa5cp1    46.080312080685474
+    Attrib aa6cp1    28.197060406587788
+    Attrib aa7cp1    39.131267693453495
+    Attrib aa8cp1    41.11519476018913
+    Attrib aa9cp1    11.780009317589583
+    Attrib aa10cp1    31.587016291954132
+    Attrib aa11cp1    0.3834199180994274
+    Attrib aa12cp1    9.012943597287432
+    Attrib aa0Present    -3.1132519721390186
+    Attrib aa1Present    -15.780145630843702
+    Attrib aa2Present    2.8383064262699818
+    Attrib aa3Present    -1.4622454064316988
+    Attrib aa4Present    3.190519672632308
+    Attrib aa5Present    1.6287321323441732
+    Attrib aa6Present    0.04274836966561617
+    Attrib aa7Present    -3.2741859640526445
+    Attrib aa8Present    -16.289203380967482
+    Attrib aa9Present    -3.0313306270864335
+    Attrib aa10Present    -1.8253518214077955
+    Attrib aa11Present    1.1422795978523275
+    Attrib aa12Present    -7.770367716604606
+Sigmoid Node 26
+    Inputs    Weights
+    Threshold    -6.094916251255542
+    Attrib aa0cp0    2.875995877383776
+    Attrib aa1cp0    -17.299168633065182
+    Attrib aa2cp0    -9.758292682883035
+    Attrib aa3cp0    -8.794540888049047
+    Attrib aa4cp0    -21.161493611499488
+    Attrib aa5cp0    -22.847072473096883
+    Attrib aa6cp0    24.467224428827297
+    Attrib aa7cp0    -10.839503016808107
+    Attrib aa8cp0    68.0199293625028
+    Attrib aa9cp0    22.498404136095076
+    Attrib aa10cp0    34.55738537477122
+    Attrib aa11cp0    10.539527773883075
+    Attrib aa12cp0    -17.65095437675588
+    Attrib aa0cp1    5.298592039751934
+    Attrib aa1cp1    -9.340410277335803
+    Attrib aa2cp1    -15.061344330091021
+    Attrib aa3cp1    -6.5665101875101834
+    Attrib aa4cp1    -9.630409518387433
+    Attrib aa5cp1    1.6151645246689634
+    Attrib aa6cp1    1.2636648289106778
+    Attrib aa7cp1    -9.78540325202286
+    Attrib aa8cp1    -23.0694749559259
+    Attrib aa9cp1    8.886756759006428
+    Attrib aa10cp1    -3.3998709002378265
+    Attrib aa11cp1    18.732497393248796
+    Attrib aa12cp1    18.39744316564186
+    Attrib aa0Present    -7.749677582018915
+    Attrib aa1Present    -0.2776182126180637
+    Attrib aa2Present    -13.938154980845804
+    Attrib aa3Present    5.048350286132546
+    Attrib aa4Present    -15.05032453349004
+    Attrib aa5Present    -9.931926583970744
+    Attrib aa6Present    -3.7427451419959346E-4
+    Attrib aa7Present    -13.655190788156649
+    Attrib aa8Present    -12.766562157750554
+    Attrib aa9Present    -21.107821572769666
+    Attrib aa10Present    -16.628723490338455
+    Attrib aa11Present    4.89602445175924
+    Attrib aa12Present    1.4169396387936914
+Sigmoid Node 27
+    Inputs    Weights
+    Threshold    -1.9457821458157163
+    Attrib aa0cp0    -43.898812334897904
+    Attrib aa1cp0    -14.631292424364993
+    Attrib aa2cp0    -10.67893408639259
+    Attrib aa3cp0    -24.000112357420015
+    Attrib aa4cp0    -22.128321163603434
+    Attrib aa5cp0    -6.212957145662907
+    Attrib aa6cp0    -26.236442734010975
+    Attrib aa7cp0    -39.92034266175629
+    Attrib aa8cp0    -32.31551232680162
+    Attrib aa9cp0    5.931416830374851
+    Attrib aa10cp0    19.741431259245694
+    Attrib aa11cp0    -27.912211141180983
+    Attrib aa12cp0    -12.474719286363431
+    Attrib aa0cp1    -10.68155127260247
+    Attrib aa1cp1    -3.703540813637254
+    Attrib aa2cp1    -11.141880556917013
+    Attrib aa3cp1    4.983028751047272
+    Attrib aa4cp1    8.22632331382116
+    Attrib aa5cp1    -12.519266760537544
+    Attrib aa6cp1    1.0395681384225348
+    Attrib aa7cp1    -17.62219630589281
+    Attrib aa8cp1    -7.354553677323961
+    Attrib aa9cp1    -0.6132215788694839
+    Attrib aa10cp1    -22.241444942949474
+    Attrib aa11cp1    -32.48863091475235
+    Attrib aa12cp1    -6.590758157655464
+    Attrib aa0Present    -10.726245597361059
+    Attrib aa1Present    9.048506003988722
+    Attrib aa2Present    -0.361826413872466
+    Attrib aa3Present    -22.48894664023559
+    Attrib aa4Present    -3.48266932435586
+    Attrib aa5Present    -8.25047478310924
+    Attrib aa6Present    -7.556392982569285E-4
+    Attrib aa7Present    -5.730036347394729
+    Attrib aa8Present    -16.552695791108565
+    Attrib aa9Present    -5.540576672442104
+    Attrib aa10Present    -18.976045333624413
+    Attrib aa11Present    -0.4418368744472983
+    Attrib aa12Present    -2.8534136598863507
+Sigmoid Node 28
+    Inputs    Weights
+    Threshold    -8.562980847005777
+    Attrib aa0cp0    23.509647783547095
+    Attrib aa1cp0    -7.527295434229718
+    Attrib aa2cp0    27.720390314404135
+    Attrib aa3cp0    -28.158580276940565
+    Attrib aa4cp0    16.224289148777622
+    Attrib aa5cp0    14.771084862105837
+    Attrib aa6cp0    -8.487385777152637
+    Attrib aa7cp0    -17.874707467825857
+    Attrib aa8cp0    -13.52058017717199
+    Attrib aa9cp0    -31.387729542004685
+    Attrib aa10cp0    15.409602767701417
+    Attrib aa11cp0    -8.490859933667819
+    Attrib aa12cp0    -14.07689800386022
+    Attrib aa0cp1    -4.268173207086509
+    Attrib aa1cp1    -18.516953546692278
+    Attrib aa2cp1    -2.5219773361444813
+    Attrib aa3cp1    -19.194172490768267
+    Attrib aa4cp1    12.155443265396357
+    Attrib aa5cp1    -3.998966630471475
+    Attrib aa6cp1    3.586604613710022
+    Attrib aa7cp1    -52.724316376119255
+    Attrib aa8cp1    5.538175162317494
+    Attrib aa9cp1    -13.622495664393966
+    Attrib aa10cp1    9.945999595164434
+    Attrib aa11cp1    1.818476039332608
+    Attrib aa12cp1    6.335827615018645
+    Attrib aa0Present    -15.573721498556765
+    Attrib aa1Present    -15.989913781261928
+    Attrib aa2Present    -16.70849026688564
+    Attrib aa3Present    -14.106213556168733
+    Attrib aa4Present    -21.705614558571888
+    Attrib aa5Present    -12.3412957165298
+    Attrib aa6Present    -0.044631665319725435
+    Attrib aa7Present    -11.531896050217409
+    Attrib aa8Present    8.478059871052746
+    Attrib aa9Present    -5.020762155721371
+    Attrib aa10Present    6.294470882588148
+    Attrib aa11Present    0.19195749549796937
+    Attrib aa12Present    -23.429886378189615
+Sigmoid Node 29
+    Inputs    Weights
+    Threshold    -2.0114432997427234
+    Attrib aa0cp0    13.238642373094288
+    Attrib aa1cp0    30.087774755115714
+    Attrib aa2cp0    5.899023745563355
+    Attrib aa3cp0    20.541307693755986
+    Attrib aa4cp0    -12.742823132621648
+    Attrib aa5cp0    14.03449427756348
+    Attrib aa6cp0    22.1338706412326
+    Attrib aa7cp0    -22.01710694278089
+    Attrib aa8cp0    -3.132251057689879
+    Attrib aa9cp0    6.495596882843429
+    Attrib aa10cp0    -23.137477360956634
+    Attrib aa11cp0    24.718525517939238
+    Attrib aa12cp0    -4.702896264373995
+    Attrib aa0cp1    1.1830800735594642
+    Attrib aa1cp1    -15.564383383548119
+    Attrib aa2cp1    19.21389363043487
+    Attrib aa3cp1    -6.620627683568114
+    Attrib aa4cp1    -34.90295524382492
+    Attrib aa5cp1    27.30696987886406
+    Attrib aa6cp1    -1.4878421378399191
+    Attrib aa7cp1    -7.5040693549697055
+    Attrib aa8cp1    -39.62866546532163
+    Attrib aa9cp1    16.057735631762963
+    Attrib aa10cp1    3.6533215394289913
+    Attrib aa11cp1    21.63587302265581
+    Attrib aa12cp1    -7.252602593170936
+    Attrib aa0Present    -9.961802002534297
+    Attrib aa1Present    -6.8666510431029275
+    Attrib aa2Present    -12.429443793606753
+    Attrib aa3Present    5.888498132618459
+    Attrib aa4Present    -17.01163025270099
+    Attrib aa5Present    -37.31071606931826
+    Attrib aa6Present    0.023378716497051755
+    Attrib aa7Present    -11.296140018177306
+    Attrib aa8Present    -17.885274531386166
+    Attrib aa9Present    -0.28745479806598645
+    Attrib aa10Present    -3.794622519764216
+    Attrib aa11Present    -1.6189308920896093
+    Attrib aa12Present    -2.97797113215134
+Sigmoid Node 30
+    Inputs    Weights
+    Threshold    -10.891007680970878
+    Attrib aa0cp0    -5.936969067748985
+    Attrib aa1cp0    -3.1605797528056456
+    Attrib aa2cp0    3.010640627547617
+    Attrib aa3cp0    2.2554298326689595
+    Attrib aa4cp0    1.9934299071269013
+    Attrib aa5cp0    -0.7249119982860311
+    Attrib aa6cp0    -4.129772006705974
+    Attrib aa7cp0    -99.29398850628401
+    Attrib aa8cp0    -9.391316197528166
+    Attrib aa9cp0    -5.427311265499591
+    Attrib aa10cp0    4.530640569664216
+    Attrib aa11cp0    -2.7215360944253204
+    Attrib aa12cp0    1.2239669269656748
+    Attrib aa0cp1    -3.1401598961813306
+    Attrib aa1cp1    -2.6912565450223993
+    Attrib aa2cp1    2.8478157122031487
+    Attrib aa3cp1    -11.005977684107426
+    Attrib aa4cp1    2.912863551252243
+    Attrib aa5cp1    3.182171751034218
+    Attrib aa6cp1    4.0358064890392935
+    Attrib aa7cp1    55.472711265386835
+    Attrib aa8cp1    8.349199871085085
+    Attrib aa9cp1    2.510601555285269
+    Attrib aa10cp1    5.267289511628216
+    Attrib aa11cp1    -0.06850475882790524
+    Attrib aa12cp1    -0.7979638391921107
+    Attrib aa0Present    16.941386106940783
+    Attrib aa1Present    -1.0229940052231812
+    Attrib aa2Present    -22.683010195012475
+    Attrib aa3Present    -5.416270694147425
+    Attrib aa4Present    -2.0421688860045646
+    Attrib aa5Present    -18.396953200308808
+    Attrib aa6Present    0.04828448877255913
+    Attrib aa7Present    -12.241968907167191
+    Attrib aa8Present    -9.988864735531742
+    Attrib aa9Present    -8.132190108212722
+    Attrib aa10Present    -12.146830137420867
+    Attrib aa11Present    -21.748264796614027
+    Attrib aa12Present    -7.6534897453628385
+Class H
+    Input
+    Node 0
+Class E
+    Input
+    Node 1
+Class C
+    Input
+    Node 2
+Class G
+    Input
+    Node 3
+Class S
+    Input
+    Node 4
+Class T
+    Input
+    Node 5
+Class B
+    Input
+    Node 6
+Class I
+    Input
+    Node 7
+
+
+Time taken to build model: 9185.42 seconds
+Time taken to test model on training data: 17.66 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances      135527               55.9687 %
+Incorrectly Classified Instances    106621               44.0313 %
+Kappa statistic                          0.3649
+Mean absolute error                      0.1459
+Root mean squared error                  0.2725
+Relative absolute error                 77.3452 %
+Root relative squared error             88.7088 %
+Total Number of Instances           242148     
+
+
+=== Confusion Matrix ===
+
+     a     b     c     d     e     f     g     h   <-- classified as
+ 89097  3216  5870     5    11  2028     0     0 |     a = H
+ 10747 13982  4157     0     8  1168     0     0 |     b = E
+ 12754  3552 25012     1    18  3328     0     0 |     c = C
+  5513   642  3346   174     0   929     0     0 |     d = G
+  8283  1657  9311     0    26  2382     0     0 |     e = S
+ 12076  1927  7772     0    23  7236     0     0 |     f = T
+  1007   332  1018     0     8   211     0     0 |     g = B
+  1529   723   624     0    11   434     0     0 |     h = I
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances      131829               54.4415 %
+Incorrectly Classified Instances    110319               45.5585 %
+Kappa statistic                          0.3455
+Mean absolute error                      0.1468
+Root mean squared error                  0.2745
+Relative absolute error                 77.7858 %
+Root relative squared error             89.3896 %
+Total Number of Instances           242148     
+
+
+=== Confusion Matrix ===
+
+     a     b     c     d     e     f     g     h   <-- classified as
+ 87607  3947  5749    29   433  2461     0     1 |     a = H
+ 10574 13384  4524    29   276  1260     4    11 |     b = E
+ 12820  3941 23355    27   838  3673     4     7 |     c = C
+  5696   656  2441   172   281  1357     0     1 |     d = G
+  8225  1896  7791    21   887  2831     2     6 |     e = S
+ 12654  2056  7277    42   635  6368     1     1 |     f = T
+  1000   442   799     2   106   208    19     0 |     g = B
+  1527   695   689     0    73   300     0    37 |     h = I
+

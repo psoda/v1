@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/opensvn/psoda/!svn/ver/405/src/perl/scripts
+END
+daTest2.pl
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/opensvn/psoda/!svn/ver/1/src/perl/scripts/daTest2.pl
+END
+regres.pl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/1/src/perl/scripts/regres.pl
+END
+daTest.pl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/1/src/perl/scripts/daTest.pl
+END

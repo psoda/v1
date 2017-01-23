@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/909/src/parsers/newickParser
+END
+NewickParser.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/908/src/parsers/newickParser/NewickParser.hpp
+END
+NewickTreeParser.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/opensvn/psoda/!svn/ver/710/src/parsers/newickParser/NewickTreeParser.h
+END
+SConscript
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/1/src/parsers/newickParser/SConscript
+END
+Makefile.am
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/opensvn/psoda/!svn/ver/270/src/parsers/newickParser/Makefile.am
+END
+NewickLexicalAnalyzer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/opensvn/psoda/!svn/ver/909/src/parsers/newickParser/NewickLexicalAnalyzer.cpp
+END
+NewickParser.yy
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/710/src/parsers/newickParser/NewickParser.yy
+END
+NewickLexicalAnalyzer.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/909/src/parsers/newickParser/NewickLexicalAnalyzer.h
+END
+NewickLexicalAnalyzer.ll
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/opensvn/psoda/!svn/ver/909/src/parsers/newickParser/NewickLexicalAnalyzer.ll
+END
+NewickParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/opensvn/psoda/!svn/ver/908/src/parsers/newickParser/NewickParser.cpp
+END
+NewickTreeParser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/opensvn/psoda/!svn/ver/909/src/parsers/newickParser/NewickTreeParser.cpp
+END

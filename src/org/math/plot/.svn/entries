@@ -1,0 +1,224 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/org/math/plot
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-11-28T17:40:04.196969Z
+896
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+render
+dir
+
+components
+dir
+
+ParametersPanel.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+e069044f63a3a6ee49aa4f2e1e88ccdf
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+Plot2DPanel.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+06dc4a66564a00c1509e8bd5d312146c
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+plotObjects
+dir
+
+Plot3DPanel.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+2c0436d6770f599229adf6e2c5df8ae9
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+FrameView.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+a95b76c423a93aa09d19b83bc8f0b368
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+DataPanel.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+28cdafcf8ce6eedf3e1fc0da300d2ae9
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+MatrixTablePanel.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+e8ad124e568362a283cf7d0b8d96dd59
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+utils
+dir
+
+plots
+dir
+
+PlotPanel.class
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+16337229606d1c21d67d0d0158780b50
+2009-11-28T17:40:04.196969Z
+896
+clement
+has-props
+
+ParametersPanel.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+692ad21d768f22d94d06a992e34a3033
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+Plot2DPanel.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+42828cf8615b1cb463ff87b7be5b13b0
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+FrameView.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+276db3d92ae2fdb649ad7170c894c91e
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+Plot3DPanel.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+adc54ebe23d9e206faedce6b978e4f48
+2009-11-28T17:40:04.196969Z
+896
+clement
+
+DataPanel.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+bec31b00444c9015fd3a0d48ee8d5819
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+icons
+dir
+
+canvas
+dir
+
+MatrixTablePanel.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+834d51b334e8cf0de8277676dd7f52c4
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+PlotPanel.java
+file
+
+
+
+
+2017-01-23T03:55:25.000000Z
+0c064b09e70bb0505f7ddd1814d28322
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+

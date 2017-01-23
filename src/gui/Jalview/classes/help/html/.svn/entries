@@ -1,0 +1,140 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/gui/Jalview/classes/help/html
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+webServices
+dir
+
+calculations
+dir
+
+editing
+dir
+
+menus
+dir
+
+jalviewjnlp.html
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+a615a3ecb11af550bc3b65093c039973
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+vamsas
+dir
+
+misc
+dir
+
+whatsNew.html
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+844986433c7fb972b7b1506301f3430c
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+releases.html
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+e961e21fc56159fc69880aa48d002a1a
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+io
+dir
+
+align.jpg
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+eceb4956a4cedf7e5f7dd6efd42f380a
+2008-12-19T21:34:51.583063Z
+753
+clement
+has-props
+
+index.html
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+f8601f3f780009b1d49335c37c8e4b49
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+memory.html
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+abeddc96e3fd59a0fcbaf8791a7a750e
+2008-12-19T21:34:51.583063Z
+753
+clement
+
+colourSchemes
+dir
+
+features
+dir
+
+keys.html
+file
+
+
+
+
+2017-01-23T03:55:12.000000Z
+adf66725f7bfee60d05cd3d4ad4e7eb9
+2008-12-19T21:34:51.583063Z
+753
+clement
+

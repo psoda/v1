@@ -1,0 +1,40 @@
+#!/usr/bin/python
+
+import SodaSconsUtil
+import os
+import shutil
+
+Import ( 'env', 'soda' )
+
+EXCLUSIONS      = []
+LIBRARY_NAME    = soda['NEWICKPARSER_LIB_NAME']
+
+SOURCELIST      = SodaSconsUtil.listCPPFilesWithExcludes ( ".", EXCLUSIONS )
+
+INCLUDEFILELIST = SodaSconsUtil.listIncludeFiles ( "." )
+LIBS            = soda['NEWICKPARSER_LIB_DEPENDENCIES']
+
+NEWICK_FLEX_TARGET       = 'NewickLexicalAnalyzer.cpp'
+NEWICK_BISON_TARGET      = 'NewickParser.cpp'
+
+if NEWICK_FLEX_TARGET not in SOURCELIST:
+  SOURCELIST += [ NEWICK_FLEX_TARGET ]
+if NEWICK_BISON_TARGET not in SOURCELIST:
+  SOURCELIST      += [ NEWICK_BISON_TARGET ]
+
+env['YACCFLAGS'] = "-d"
+
+env.CXXFile( target = NEWICK_FLEX_TARGET, source = 'NewickLexicalAnalyzer.ll' )
+env.CXXFile( target = NEWICK_BISON_TARGET, source = 'NewickParser.yy' )
+
+
+Depends('NewickParser.hpp','NewickParser.yy')
+Depends('NewickLexicalAnalyzer.ll','NewickParser.hpp')
+# Some versions of bison on OS X don't do the right thing
+try:
+  shutil.copy( "NewickParser.cpp.h", "NewickParser.hpp" )
+except:
+  pass
+  
+env.SharedLibrary ( target = LIBRARY_NAME, source = SOURCELIST, LIBS = LIBS )
+

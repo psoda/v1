@@ -1,0 +1,27 @@
+#NEXUS
+begin trees;
+Translate
+1 Nicotiana,
+
+2 Galphimia,
+
+3 Oenothera,
+
+4 Victoria,
+
+5 Cypirapea,
+
+6 Barclaya
+;
+
+tree unresolved = [&U]  (1,2,3,4,5,6);
+tree star = [&U] ((1,2),(3,4),(4,5));
+tree ladder = [&U] ((((1,2),3),4),5,6);
+tree tworesolved = [&U] ((1,2),3,4,5,6);
+tree threeresolved = [&U] ((1,2,3),4,5,6);
+tree threeresolved2 = [&U] ((1,(2,3)),4,5,6);
+tree labeled = [&U] ((1,2)A,(3,(4,5)B)C,6);
+tree longlabel = [&U] ((1,2,3)UnresolvedNode,(4,5),6);
+tree leafbranchlengths = [&U] (((1:1,2:2),3:3),4:4,5:5,6:6);
+tree interiorlengths = [&U] ((1,2):1,(3,4,5):2,6:3);
+end;

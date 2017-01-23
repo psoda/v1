@@ -1,0 +1,4 @@
+Log of Changes made to Jalview 2 by Daniel Wilcox to integrate it into PSODA
+
+28 Nov 2008: Commented out large portion of the Main function in src/jalview/bin/Jalview.java to remove the loading sequence that opens up all sorts of windows
+

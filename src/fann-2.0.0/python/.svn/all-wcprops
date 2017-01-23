@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python
+END
+build.bat
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/build.bat
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/INSTALL
+END
+setup.py
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/setup.py
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/Makefile
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/797/src/fann-2.0.0/python/README
+END

@@ -1,0 +1,9 @@
+File: basic.nex
+../../src/psoda basic.nex > basic.out
+diff -bd basic.expected.out basic.out
+
+ERROR: cmd "diff -bd basic.expected.out basic.out" failed (output = 2d1
+< ## HSearch Completed Successfully
+4d2
+< ## PScores Completed Successfully
+)  at test.pl line 46.

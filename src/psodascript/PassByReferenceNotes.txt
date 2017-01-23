@@ -1,0 +1,210 @@
+#include "CommandNode.h"
+#include "ReferenceEnvironment.h"
+#include "PsodaPrinter.h"
+#include "Interpreter.h"
+#include "UndefinedVariableException.h"
+#include "StringLiteral.h"
+#include "IntLiteral.h"
+#include "Data.h"
+#include "LiteralExpression.h"
+#include "PsodaCommand.h"
+
+using namespace std;
+
+CommandNode::CommandNode() : ProgramGraphNode() {
+  //  readOnlyEnv.extendEnv(&paramsEnv);
+}
+
+CommandNode::~CommandNode() {
+  return;
+}
+
+void CommandNode::setCommandName(string newCommandName) {
+  commandName = newCommandName;
+}
+
+string CommandNode::getCommandName() const {
+  return commandName;
+}
+
+void CommandNode::execute(Environment* baseEnv) {
+  Literal* myReturn;
+  execute(baseEnv, myReturn);
+}
+
+void CommandNode::validate() {
+  if (getCommand() == NULL) {
+    //print an warning if the command wasn't found
+    PsodaPrinter::getInstance()->write("Warning (%s): Command not found (\"%s\"); command will be skipped\n", getLocation().toString().c_str(), commandName.c_str());
+  }
+}
+
+/*
+Environment* CommandNode::getBodyEnv(Environment* baseEnv, PsodaCommand* command) {
+  paramsEnv.clear();
+  return &readOnlyEnv;
+}
+*/
+
+
+PsodaCommand* CommandNode::getCommand() const {
+  PsodaCommand* thisCommand = Interpreter::getInstance()->getFunction(StringLiteral::toLowerCase(commandName));
+  return thisCommand;
+}
+
+void CommandNode::execute(Environment* baseEnv, Literal*& returnVal) {
+  PsodaCommand* thisCommand = getCommand();
+  if (thisCommand == NULL) {
+    //print an error if the command wasn't found
+    PsodaPrinter::getInstance()->write("Warning (%s): Command not found (\"%s\"); skipping command\n", getLocation().toString().c_str(), commandName.c_str());
+    return;
+  }
+
+  //  Environment* varEnv = (Environment*)((Data&)baseEnv->lookup("*env")).getData();
+  Environment paramsEnv;
+  ReadOnlyEnvironment readOnlyEnv;
+  //  ReferenceEnvironment referencesEnv;
+
+  //evaluate the params before changing the scope
+  map<string, Expression*>::const_iterator paramsItr = params.begin();
+  map<string, Expression*>::const_iterator paramsEnd = params.end();
+
+  /*
+  set<string>& referencedParams = thisCommand->getReferences();
+  set<string>::const_iterator refItr = referencedParams.begin();
+  set<string>::const_iterator refEnd = referencedParams.end();
+  for (; refItr != refEnd; refItr++) {
+    map<string, Expression*>::const_iterator paramsFind = params.find(*refItr);
+    string paramName = paramsFind->first;
+    Expression* thisValueExpr = paramsFind->second;
+    string passedInVar = thisValueExpr->toString();
+    StringLiteral varRef("*");
+    //    paramsEnv.set(paramName, &varRef);
+    referencesEnv.setReference(paramName, passedInVar, baseEnv);
+    //    printf("Found reference from %s to %s\n", paramName.c_str(), passedInVar.c_str());
+  }
+  */
+
+  for (; paramsItr != paramsEnd; paramsItr++) {
+    string paramName = paramsItr->first;
+    Expression* thisValueExpr = paramsItr->second;
+    //    if (referencedParams.find(paramName) == referencedParams.end()) {
+    // otherwise, add the param to the environment
+    Literal* lit = thisValueExpr->evaluate(baseEnv);
+    paramsEnv.set(paramName, lit);
+    //    }
+  }
+
+  /*
+  set<string>::const_iterator refsItr = referencedParams.begin();
+  set<string>::const_iterator refsEnd = referencedParams.end();
+  for (; refsItr != refsEnd; refsItr++) {
+    map<string, Expression*>::const_iterator aliasItr = params.find(*refsItr);
+    if (aliasItr != params.end()) {
+      referencesEnv.setReference(aliasItr->second->toString(), aliasItr->first, baseEnv);
+    } else {
+      printf("Didn\'t find the reference %s\n", refsItr->c_str());
+    }
+  }
+  */
+
+  // Extend the parameter results env with the defaults for the command
+  paramsEnv.extendEnv(thisCommand->getDefaultEnvironment());
+
+  // Put a read only top on so that nothing can be changed from the parameter values down
+  readOnlyEnv.extendEnv(&paramsEnv);
+
+  
+  // Put the reference environment on top so that they can be changed
+  //  referencesEnv.extendEnv(&readOnlyEnv);
+
+  paramsEnv.set("*env", new Data(baseEnv));
+
+  Interpreter::getInstance()->setCurrentEnv(&referencesEnv);
+  thisCommand->execute(&referencesEnv, returnVal);
+}
+
+/*
+void CommandNode::passParams() const {
+  Interpreter::getInstance()->setParameters(params);
+  Interpreter::getInstance()->setDefaults(defaults);
+}
+*/
+
+string CommandNode::paramsString() const {
+  map<string, Expression*>::const_iterator paramsItr = params.begin();
+  map<string, Expression*>::const_iterator paramsEnd = params.end();
+  string returnString = " (";
+  bool isFirst = true;
+  set<string>& referencedParams = getCommand()->getReferences();
+  while (paramsItr != paramsEnd) {
+    if (isFirst) {
+      isFirst = false;
+    } else {
+      returnString += ", ";
+    }
+
+    returnString += paramsItr->first;
+
+    if (paramsItr->second != 0) {
+      returnString += " = ";
+      Expression* thisValueExpr = paramsItr->second;
+      returnString += thisValueExpr->toString();
+    }
+    paramsItr++;
+  }
+  returnString += ")";
+  return returnString;
+}
+
+void CommandNode::setParamName(string name) {
+  lastAddedParamName = name;
+}
+
+void CommandNode::unsetParam(string name) {
+  string lowerCaseName = StringLiteral::toLowerCase(name);
+  Expression* thisVal = params[lowerCaseName];
+  if (thisVal) {
+    delete thisVal;
+  }
+  params.erase(lowerCaseName);
+}
+
+bool CommandNode::paramIsSet(string name) const {
+  return (params.find(name) != params.end());
+}
+
+void CommandNode::setParamValue(string value) {
+  setParameter(lastAddedParamName, value);
+}
+
+void CommandNode::setParamValue(Expression* value) {
+  setParameter(lastAddedParamName, value);
+}
+
+void CommandNode::setParameter(string name, string value) {
+  setParameter(name, new StringLiteral(value));
+}
+
+void CommandNode::setParameter(string name, int value) {
+  setParameter(name, new IntLiteral(value));
+}
+
+void CommandNode::setParameter(string name, Literal* value) {
+  setParameter(name, new LiteralExpression(value));
+}
+
+void CommandNode::setParameter(string name, Expression* value) {
+  string lowerCaseName = StringLiteral::toLowerCase(name);
+  if (params.find(lowerCaseName) != params.end()) {
+    delete params[lowerCaseName];
+    params[lowerCaseName] = NULL;
+  }
+  params[lowerCaseName] = value;
+}
+
+string CommandNode::toString() const {
+  string returnString = commandName;
+  returnString += paramsString();
+  return returnString;
+}

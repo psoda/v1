@@ -1,0 +1,82 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/DataConvert
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2009-07-08T14:07:16.140207Z
+842
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Components
+dir
+
+GENBANKXML
+dir
+
+TCS
+dir
+
+Objects
+dir
+
+GraphicInterface
+dir
+
+FASTA
+dir
+
+XML
+dir
+
+NEXUS
+dir
+
+help_file.txt
+file
+
+
+
+
+2017-01-23T03:55:21.000000Z
+0de4d81a69d5a9a3e9f18276bc27c8bd
+2007-05-10T20:56:54.578798Z
+175
+mebbert
+
+PHYLIP
+dir
+
+CLUSTAL
+dir
+
+RST
+dir
+
+MEGA
+dir
+
+DataConvert
+dir
+
+GENBANKFLAT
+dir
+

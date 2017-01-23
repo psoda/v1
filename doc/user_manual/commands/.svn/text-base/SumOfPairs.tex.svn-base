@@ -1,0 +1,17 @@
+\section{SumOfPairs}
+
+Sum of Pairs Instruction
+
+\subsection{Options}
+\begin{description}
+\item[prog] = default
+\item[gapopen] = " "
+\item[gapext] = " "
+\item[endgap] = yes
+\item[submata] = " " 
+\item[submatb] = " " 
+\item[submatl] = " " 
+\item[guidetree] = " "
+\item[outfile] = ssalinment.afa
+\item[output] = fasta
+\end{description}

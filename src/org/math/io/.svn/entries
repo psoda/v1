@@ -1,0 +1,115 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/org/math/io
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-11T20:45:01.459692Z
+593
+adamteic
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+ClipBoardPrintable.java
+file
+
+
+
+
+2017-01-23T03:55:24.000000Z
+964d708c6b1f2c1fdd4660bdbe8f6a13
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+FilePrintable.java
+file
+
+
+
+
+2017-01-23T03:55:24.000000Z
+7dfc355c871f8c00d203e9cb7c7acd04
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+files
+dir
+
+ClipBoardPrintable.class
+file
+
+
+
+
+2017-01-23T03:55:24.000000Z
+51e906a7e54cb5bc0aec2cfe56cec66e
+2008-08-11T20:45:01.459692Z
+593
+adamteic
+has-props
+
+FilePrintable.class
+file
+
+
+
+
+2017-01-23T03:55:24.000000Z
+056d696363c7b91b9f59c51b40e40d2f
+2008-08-11T20:45:01.459692Z
+593
+adamteic
+has-props
+
+StringPrintable.java
+file
+
+
+
+
+2017-01-23T03:55:24.000000Z
+08fb2ec8090dd6ff1bbcf672b0087455
+2007-03-13T19:06:43.859944Z
+98
+mebbert
+
+stream
+dir
+
+StringPrintable.class
+file
+
+
+
+
+2017-01-23T03:55:24.000000Z
+8de0bc5045629754ca08bc9f301a6342
+2008-08-11T20:45:01.459692Z
+593
+adamteic
+has-props
+
+littleendian
+dir
+
+parser
+dir
+

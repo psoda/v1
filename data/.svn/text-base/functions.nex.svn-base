@@ -1,0 +1,62 @@
+#NEXUS
+BEGIN PSODA;
+
+begin recursiveSum(from = 0, to = 10);
+  returnVal = "-";
+  if (from > to)
+
+  elsif (from == to)
+    returnVal = from;
+  else
+    newSum = recursiveSum(from = from + 1, to = to);
+    returnVal = (from + newSum);
+  endif;
+  return returnVal;
+end;
+
+begin printTopNumbers;
+  $range = 5;
+  print "   \\TO\t|";
+  $j = 0;
+  while ($j < $range)
+    print "\t" . $j;
+    $j++;
+  endWhile;
+  print endl;
+end;
+
+begin printTopLine;
+  $range = 5;
+  $j = 0;
+  while ($j < $range)
+    print "\t--";
+    $j++;
+  endWhile;
+  print endl;
+end;
+
+begin printRows;
+  $range = 5;
+  $i = 0;
+  while ($i < $range)
+    print $i . "\t|";
+    $j = 0;
+    while ($j < $range)
+      print "\t" . recursiveSum(from = $i, to = $j);
+      $j++;
+    endWhile;
+    print endl;
+    $i++;
+  endWhile;
+end;
+
+
+$RANGE = 10;
+print "\nRecursive Sum...\n\n";
+printTopNumbers($range = $RANGE);
+print "FROM\\\t|\n";
+print "--\t|--";
+printTopLine($range = $RANGE);
+printRows($range = $RANGE);
+
+end;

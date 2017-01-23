@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/org/biojava/dasobert/das
+END
+DAS_Sequence_Handler.class
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/org/biojava/dasobert/das/DAS_Sequence_Handler.class
+END
+DAS_Feature_Handler.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/org/biojava/dasobert/das/DAS_Feature_Handler.class
+END
+SequenceThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/org/biojava/dasobert/das/SequenceThread.class
+END
+FeatureThread.class
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/org/biojava/dasobert/das/FeatureThread.class
+END
+DAS_FeatureRetrieve.class
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/opensvn/psoda/!svn/ver/870/src/gui/Jalview/classes/org/biojava/dasobert/das/DAS_FeatureRetrieve.class
+END

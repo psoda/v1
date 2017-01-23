@@ -1,0 +1,8 @@
+[ GeneralDNAFileParser User Input Values ]
+
+1.	allCaps	true	[ whether DNA data must be all capitals ]
+2.	evenHanded	0.5	[ determines percentage of ambiguous codons may be over valid codons ]
+3.	gdfpVerbose	7	[ the depth of debug data ]
+4.	DNAFileParserProgressWindow true	[ whether to display progress window for DNAFileParser ]
+
+

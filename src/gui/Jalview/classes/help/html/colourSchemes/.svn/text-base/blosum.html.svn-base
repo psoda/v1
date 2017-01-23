@@ -1,0 +1,20 @@
+<html>
+<head><title>Blosum Colour Scheme</title>
+<style type="text/css">
+<!--
+td {
+	text-align: center;
+}
+-->
+</style>
+</head>
+
+<body>
+
+<p><em>Blosum62</a></em> </p>
+<p>Gaps are coloured white. If a residue matches the consensus sequence residue
+  at that position it is coloured dark blue. If it does not match the consensus
+  residue but the 2 residues have a positive Blosum62 score, it is coloured light
+  blue.</p>
+</body>
+</html>

@@ -1,0 +1,38 @@
+#NEXUS
+BEGIN PSODA;
+$testVar = 0;
+$stackCounter = 0;
+
+begin recursiveSum;
+  print "**In recursiveSum\n";
+  print "From:\t" . $from . "\t To:\t" . $To . "\n";
+  return 1;
+end;
+
+begin printRows;
+  print "**In printRows\n";
+  $i = 3;
+  while ($i < $range)
+    print $i . "\t|";
+    $j = 6;
+    while ($j < $range)
+      print $i. endl;
+      print "(Before) From:\t" . $i . "\tTo:\t" . $j . endl;
+      print "\t" . recursiveSum($from = $i, $to = $j);
+      $j++;
+    endWhile;
+    print endl;
+    $i++;
+  endWhile;
+  $testVar++;
+end;
+
+
+$RANGE = 10;
+
+print "\nRecursive Sum...\n\n";
+printRows $range = $RANGE;
+test = test2;
+print test . endl;
+print "Test Var: " . $testVar . endl;
+end;

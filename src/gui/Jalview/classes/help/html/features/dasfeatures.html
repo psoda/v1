@@ -1,0 +1,46 @@
+<html>
+
+<head>
+<title>DAS Features</title>
+</head>
+
+<body>
+<p><strong>DAS Sequence Feature Retrieval</strong></p>
+<p>Jalview includes a client for retrieving sequence features via
+the <a href="http://www.biodas.org">Distributed Annotation System</a>.</p>
+<ol>
+	<li>Open the Feature Settings panel by selecting &quot;View -&gt;
+	Feature Settings...&quot;</li>
+	<li>Click on the &quot;<a href="dassettings.html">DAS Settings</a>&quot;
+	tabbed pane.</li>
+	<li>Select the sources to use for DAS feature retireval, then
+	click the &quot;Fetch DAS Features&quot; button.
+	<ul>
+		<li>Cancelling Feature Retrieval<br>
+		Press the <strong>Cancel Fetch</strong> button to immediately stop
+		feature retrieval. This will not remove any features already added to
+		the alignment, but will halt any outstanding DAS requests.<em>The
+		cancel fetch button is of particular use when one or more DAS
+		annotation servers are not responding!</em>
+	</ul>
+	</li>
+</ol>
+<p>If your DAS source selection contains sources which use Uniprot
+accession ids, you will be asked whether Jalview should find Uniprot
+Accession ids for the given sequence names. It is important to realise
+that many DAS sources only use Uniprot accession ids, rather than
+Swissprot/Uniprot sequence names.<br>
+The <a href="../webservices/dbreffetcher.html">database reference
+fetcher</a> documentation describes how Jalview discovers what database
+references are appropriate for the sequences in the alignment.
+<ul>
+	<li><em>Note</em><br>
+	Please remember to save your alignment if either the start/end
+	numbering, or the sequence IDs were updated during the ID 
+	retrieval process.</li>
+</ul>
+<p>&nbsp;
+<p><em>DAS support was introduced in Jalview Version 2.1.</em></p>
+<p>&nbsp;
+</body>
+</html>

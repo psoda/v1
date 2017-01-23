@@ -1,0 +1,3 @@
+#!/bin/bash
+cd src
+java -Xdock:name="PSODA" -jar psoda.jar

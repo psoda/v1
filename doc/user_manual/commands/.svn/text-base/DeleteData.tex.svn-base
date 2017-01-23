@@ -1,0 +1,19 @@
+\section{DeleteData}
+
+Delete Data Instruction
+
+\subsection{Options}
+\begin{description}
+\item[name] = *default
+\end{description}
+
+\subsection{Option Descriptions}
+\begin{description}
+
+\item[name] = *default
+	\begin{description}
+	\item[*default] = The name of the dataset to delete
+	\end{description}
+	
+	
+\end{description} 

@@ -1,0 +1,161 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/opensvn/psoda/!svn/ver/691/src/RAxML-7.0.4
+END
+globalVariables.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/globalVariables.h
+END
+axml.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/661/src/RAxML-7.0.4/axml.c
+END
+evaluateGeneric.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/evaluateGeneric.c
+END
+Makefile.PTHREADS.MAC
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/Makefile.PTHREADS.MAC
+END
+Makefile.PTHREADS
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/Makefile.PTHREADS
+END
+axml.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/axml.h
+END
+searchAlgo.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/searchAlgo.c
+END
+makenewzGeneric.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/makenewzGeneric.c
+END
+evaluatePartialGeneric.c
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/evaluatePartialGeneric.c
+END
+bipartitionList.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/bipartitionList.c
+END
+Makefile.MPI
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/Makefile.MPI
+END
+newviewGeneric.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/newviewGeneric.c
+END
+optimizeModel.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/optimizeModel.c
+END
+models.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/models.c
+END
+rev_functions.c
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/rev_functions.c
+END
+topologies.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/topologies.c
+END
+raxmlParsimony.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/raxmlParsimony.c
+END
+evaluateGenericVector.c
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/evaluateGenericVector.c
+END
+Makefile.gcc
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/Makefile.gcc
+END
+parsePartitions.c
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/parsePartitions.c
+END
+treeIO.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/treeIO.c
+END
+categorizeGeneric.c
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/categorizeGeneric.c
+END
+RAxML-Manual.7.0.4.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/RAxML-Manual.7.0.4.pdf
+END
+multiple.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/multiple.c
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/opensvn/psoda/!svn/ver/691/src/RAxML-7.0.4/Makefile
+END
+rapidBootstrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/opensvn/psoda/!svn/ver/591/src/RAxML-7.0.4/rapidBootstrap.c
+END

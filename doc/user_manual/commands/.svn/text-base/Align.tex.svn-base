@@ -1,0 +1,20 @@
+\section{Align}
+	The Align instruction takes an unaligned dataset and creates an aligned dataset.
+\subsection{Options}
+\begin{description}
+\item[name] 
+\item[prog] = default
+\item[gapopen]
+\item[gapext]
+\item[endgap] = yes
+\item[submat]
+\item[guidetree]
+\item[output] = fasta
+\item[outfile] = alignment.afa
+\item[gapdist] = 4
+\end{description}
+
+\subsection{Description of Options}
+\begin{description}
+\item[name] If a name is specified the resulting aligned dataset will be added the the dataset map with this name, otherwise it will be stored with a arbitrary unique identifier.
+\end{description}

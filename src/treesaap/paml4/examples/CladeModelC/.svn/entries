@@ -1,0 +1,60 @@
+8
+
+dir
+920
+http://dna.cs.byu.edu/opensvn/psoda/src/treesaap/paml4/examples/CladeModelC
+http://dna.cs.byu.edu/opensvn/psoda
+
+
+
+2008-08-19T16:42:26.660001Z
+605
+clement
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+a051cff1-481d-0410-a439-b7701b72b983
+
+Dataset1
+dir
+
+Dataset2
+dir
+
+CladeModelCnotes.doc
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+d3ff75d969471e00ecbf6e6b9cb3aea7
+2008-08-19T16:42:26.660001Z
+605
+clement
+has-props
+
+CladeModelCnotes.pdf
+file
+
+
+
+
+2017-01-23T03:55:33.000000Z
+5b1409de42d29760a66d9c4c6dda7758
+2008-08-19T16:42:26.660001Z
+605
+clement
+has-props
+

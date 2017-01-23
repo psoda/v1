@@ -1,0 +1,61 @@
+class PsodaProgram {
+  /*
+    The program must destroy all nodes in its destructor
+  */
+
+	Map<string, Functions*> functions;
+  LinkedList<PsodaElement*> progBody;
+
+	addElement(); //adds element to the element list as if completed (thus unmodifiable)
+  execute(Interpreter* interpreter); //call execute on each member of "program"
+  clear(); //clears out the current program
+
+  //general program block elements
+  stack<PsodaElement*> elements;  //stores any program element
+	beginElement(PsodaElement* newElement); //add element to top stack Element body if not empty; if empty add to progBody; then push ptr on stack
+	endElement(); //pop top element
+	currentElement(); //returns reference to top element on stack
+
+	beginFunction(PsodaElement* newElement); //add new funct to functions map; push on stack
+}
+
+class PsodaElement (PURE VIRTUAL) {
+  virtual execute(Interpreter* interpreter) = 0;
+}
+
+class PsodaInstruction (PURE VIRTUAL; INHERIT PsodaElement) {
+	map<string, string> params; //store instr params, loop and branching conditions, or function args
+  setParam(string name, string value);
+	private processParams(Interpreter* interpreter);
+  virtual execute(Interpreter* interpreter) = 0;
+}
+
+class PsodaConstruct (PURE VIRTUAL; INHERIT PsodaElement) {
+  virtual addElement(PsodaElement* newElement) = 0; //add newElement to "Body"
+  virtual execute(Interpreter* interpreter) = 0;
+}
+
+class <type>Instr (INHERIT PsodaInstruction) {
+  //implement execute(Interpreter* interpreter):  functionality of instruction (e.g. set, hsearch)
+}
+
+class WhileLoop (INHERIT PsodaConstruct){
+  PsodaProgram body;
+	string condition;
+
+	setCondition(string cond);
+  //implement execute(Interpreter* interpreter):  check condition (in map) and execute "loopBody" while still true
+}
+
+class IfElse (INHERIT PsodaConstruct) {
+  PsodaProgram ifBody;
+  PsodaProgram elseBody;
+	string condition;
+	private bool ifBodyDone;
+
+	setCondition(string cond);
+	beginElse(); //sets "ifBodyDone" to true
+	addElement(PsodaElement* newElement); //overloaded; check "ifBodyDone"
+  //implement execute(Interpreter* interpreter):  check condition (in map) and execute appropriate "<if/else>Body"
+}
+
